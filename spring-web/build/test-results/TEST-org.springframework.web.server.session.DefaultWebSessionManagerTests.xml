@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.session.DefaultWebSessionManagerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:12" hostname="Macbook-Air.local" time="0.078">
+  <properties/>
+  <testcase name="existingSession" classname="org.springframework.web.server.session.DefaultWebSessionManagerTests" time="0.066"/>
+  <testcase name="multipleSessionIds" classname="org.springframework.web.server.session.DefaultWebSessionManagerTests" time="0.002"/>
+  <testcase name="getSessionSaveWhenCreatedAndStartedThenSavesAndSetsId" classname="org.springframework.web.server.session.DefaultWebSessionManagerTests" time="0.006"/>
+  <testcase name="getSessionSaveWhenCreatedAndNotStartedThenNotSaved" classname="org.springframework.web.server.session.DefaultWebSessionManagerTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

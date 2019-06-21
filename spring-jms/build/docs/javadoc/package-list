@@ -1,0 +1,13 @@
+org.springframework.jms
+org.springframework.jms.annotation
+org.springframework.jms.config
+org.springframework.jms.connection
+org.springframework.jms.core
+org.springframework.jms.core.support
+org.springframework.jms.listener
+org.springframework.jms.listener.adapter
+org.springframework.jms.listener.endpoint
+org.springframework.jms.remoting
+org.springframework.jms.support
+org.springframework.jms.support.converter
+org.springframework.jms.support.destination

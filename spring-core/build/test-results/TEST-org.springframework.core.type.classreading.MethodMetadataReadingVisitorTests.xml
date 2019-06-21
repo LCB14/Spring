@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:48" hostname="Macbook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="getDeclaringClassReturnsDeclaringClass" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenMatchesDirectAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isFinalWhenFinalReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="isStatusWhenStaticReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAbstractWhenNotAbstractReturnsFalse" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="getReturnTypeReturnsReturnType" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isOverridableWhenOverridableReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="getAllAnnotationAttributesReturnsAllAttributes" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.002"/>
+  <testcase name="getAnnotationsReturnsDirectAnnotations" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getMethodNameReturnsMethodName" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="getAnnotationAttributesReturnsAttributes" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAbstractWhenAbstractReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.0"/>
+  <testcase name="isAnnotatedWhenMatchesMetaAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isFinalWhenNonFinalReturnsFalse" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isOverridableWhenNonOverridableReturnsFalse" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.001"/>
+  <testcase name="isStaticWhenNotStaticReturnsFalse" classname="org.springframework.core.type.classreading.MethodMetadataReadingVisitorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.CookieIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:27" hostname="Macbook-Air.local" time="0.078">
+  <properties/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2e92be03]]" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.015"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@79ba00]]" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.009"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7edca45f]]" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.041"/>
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@5691514e]]" classname="org.springframework.http.server.reactive.CookieIntegrationTests" time="0.013"/>
+  <system-out><![CDATA[19:46:27.548 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50002
+19:46:27.549 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:27.551 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.561 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50004
+19:46:27.561 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:27.564 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.578 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50006
+19:46:27.578 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:27.584 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.613 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50009
+19:46:27.613 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:27.615 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-7"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-7-50006"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-7-50006"]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-7-50006"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-7-50006"]
+]]></system-err>
+</testsuite>

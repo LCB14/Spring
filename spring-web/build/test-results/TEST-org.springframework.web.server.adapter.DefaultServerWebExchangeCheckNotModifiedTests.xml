@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" tests="42" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:05" hostname="Macbook-Air.local" time="0.06">
+  <properties/>
+  <testcase name="checkNotModifiedTimestamp[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.007"/>
+  <testcase name="checkNotModifiedInvalidIfNoneMatchHeader[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedWildcardIsIgnored[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedETagStrongWeak[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedETagAndModifiedTimestamp[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedMultipleETags[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedNon2xxStatus[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkModifiedTimestamp[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampConditionalPutConflict[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampConditionalPut[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkModifiedETagAndNotModifiedTimestamp[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedETagWeakStrong[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedHeaderAlreadySet[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkModifiedTimestampWithLengthPart[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkNotModifiedETagWithSeparatorChars[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkModifiedETag[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedETagAndTimestamp[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkModifiedUnpaddedETag[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedETag[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkNotModifiedUnpaddedETag[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampWithLengthPart[GET]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkNotModifiedTimestamp[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedInvalidIfNoneMatchHeader[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedWildcardIsIgnored[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedETagStrongWeak[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedETagAndModifiedTimestamp[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedMultipleETags[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedNon2xxStatus[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkModifiedTimestamp[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampConditionalPutConflict[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampConditionalPut[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkModifiedETagAndNotModifiedTimestamp[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedETagWeakStrong[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedHeaderAlreadySet[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkModifiedTimestampWithLengthPart[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkNotModifiedETagWithSeparatorChars[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkModifiedETag[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedETagAndTimestamp[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.002"/>
+  <testcase name="checkModifiedUnpaddedETag[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.0"/>
+  <testcase name="checkNotModifiedETag[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedUnpaddedETag[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.001"/>
+  <testcase name="checkNotModifiedTimestampWithLengthPart[HEAD]" classname="org.springframework.web.server.adapter.DefaultServerWebExchangeCheckNotModifiedTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

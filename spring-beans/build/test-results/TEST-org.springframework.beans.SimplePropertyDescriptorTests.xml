@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.SimplePropertyDescriptorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:37" hostname="Macbook-Air.local" time="0.02">
+  <properties/>
+  <testcase name="toStringOutput" classname="org.springframework.beans.SimplePropertyDescriptorTests" time="0.008"/>
+  <testcase name="indexedEquality" classname="org.springframework.beans.SimplePropertyDescriptorTests" time="0.003"/>
+  <testcase name="nonIndexedEquality" classname="org.springframework.beans.SimplePropertyDescriptorTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

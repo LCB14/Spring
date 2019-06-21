@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.annotation.AnnotationsScannerTests" tests="60" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:45" hostname="Macbook-Air.local" time="0.163">
+  <properties/>
+  <testcase name="directStrategyOnMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.01"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.008"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnMethodWithIgnorablesScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.011"/>
+  <testcase name="directStrategyOnMethodWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.003"/>
+  <testcase name="exhaustiveStrategyOnMethodWithMultipleCandidatesScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.008"/>
+  <testcase name="inheritedAnnotationsMethodOnMethodWhenHasSuperclassIgnoresInherited" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.007"/>
+  <testcase name="exhaustiveStrategyOnMethodWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="inheritedAnnotationsStrategyOnMethodHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.022"/>
+  <testcase name="exhaustiveStrategyOnClassWhenHasSuperclassScansSuperclass" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.005"/>
+  <testcase name="inheritedAnnotationsStrategyOnMethodWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnMethodHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="exhaustiveStrategyOnBridgedMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.021"/>
+  <testcase name="superclassStrategyOnMethodHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.004"/>
+  <testcase name="scanWhenProcessorReturnsFromDoWithAnnotationsExitsEarly" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="directStrategyOnClassWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="superclassStrategyOnClassScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="scanWhenProcessorReturnsFromDoWithAggregateExitsEarly" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.003"/>
+  <testcase name="directStrategyOnClassWhenHasInterfaceScansOnlyDirect" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.008"/>
+  <testcase name="directStrategyOnBridgeMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.005"/>
+  <testcase name="superclassStrategyOnClassWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="exhaustiveStrategyOnMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="inheritedAnnotationsStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="directStrategyOnMethodWhenHasInterfaceScansOnlyDirect" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="superclassStrategyOnMethodWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnClassWhenHasSuperclassScansOnlyDirect" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="exhaustiveStrategyOnMethodWhenHasSuperclassScansSuperclass" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnMethodWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnClassScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="superclassStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnClassHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassWhenHasAnnotationOnBothClassesIncudesOnlyOne" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.006"/>
+  <testcase name="exhaustiveStrategyOnMethodWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnClassWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnMethodWithGenericParameterNonOverrideScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassWhenHasSuperclassScansOnlyInherited" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnClassScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="superclassStrategyOnClassHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnClassWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnMethodWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnClassWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="superclassStrategyOnClassWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="dirextStrategyOnBridgedMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="directStrategyOnMethodWhenHasSuperclassScansOnlyDirect" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnMethodWithGenericParameterOverrideScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.002"/>
+  <testcase name="exhaustiveStrategyOnClassHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.016"/>
+  <testcase name="superclassStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="superclassStrategyOnMethodWhenHasSuperclassScansSuperclass" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="scanWhenProcessorHasFinishMethodUsesFinishResult" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.003"/>
+  <testcase name="superclassStrategyOnClassWhenHasSuperclassScansSuperclass" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="superclassStrategyOnMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="inheritedAnnotationsStrategyOnClassWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnBridgeMethodScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="superclassStrategyOnMethodWhenMultipleAnnotationsScansAnnotations" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="exhaustiveStrategyOnMethodHierarchyScansInCorrectOrder" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <testcase name="exhaustiveStrategyOnClassWhenHasInterfaceDoesNotIncludeInterfaces" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.0"/>
+  <testcase name="exhaustiveStrategyOnMethodWhenNotAnnoatedScansNone" classname="org.springframework.core.annotation.AnnotationsScannerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

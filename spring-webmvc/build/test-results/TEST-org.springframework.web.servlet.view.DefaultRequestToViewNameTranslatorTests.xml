@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:14" hostname="Macbook-Air.local" time="0.002">
+  <properties/>
+  <testcase name="testGetViewNameLeavesLeadingSlashIfSoConfigured" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithPrefix" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithSuffix" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithCustomSeparator" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNullPrefix" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNullSuffix" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithNoExtension" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithSemicolonContent" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testTrySetUrlPathHelperToNull" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameWithDefaultConfiguration" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.001"/>
+  <testcase name="testGetViewNameLeavesTrailingSlashIfSoConfigured" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <testcase name="testGetViewNameLeavesExtensionIfSoConfigured" classname="org.springframework.web.servlet.view.DefaultRequestToViewNameTranslatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

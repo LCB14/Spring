@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:59" hostname="Macbook-Air.local" time="0.036">
+  <properties/>
+  <testcase name="interceptorsPassedToSockJsRegistration" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.015"/>
+  <testcase name="interceptorsWithAllowedOrigins" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.014"/>
+  <testcase name="emptyAllowedOrigin" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.0"/>
+  <testcase name="interceptors" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.0"/>
+  <testcase name="handshakeHandler" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.0"/>
+  <testcase name="minimal" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.0"/>
+  <testcase name="handshakeHandlerPassedToSockJsRegistration" classname="org.springframework.web.socket.config.annotation.WebSocketHandlerRegistrationTests" time="0.005"/>
+  <system-out><![CDATA[19:50:59.804 [undertow-shutdown-0] ERROR o.x.listener - XNIO001007: A channel event listener threw an exception
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:590) ~[xnio-nio-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.0.21.Final.jar:2.0.21.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.0.21.Final.jar:2.0.21.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) [xnio-api-3.3.8.Final.jar:3.3.8.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1063) [undertow-core-2.0.21.Final.jar:2.0.21.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener$2.run(AbstractFramedChannel.java:1022) [undertow-core-2.0.21.Final.jar:2.0.21.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$1.run(AbstractFramedChannel.java:137) [undertow-core-2.0.21.Final.jar:2.0.21.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

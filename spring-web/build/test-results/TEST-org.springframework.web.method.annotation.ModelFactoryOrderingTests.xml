@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.method.annotation.ModelFactoryOrderingTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:18" hostname="Macbook-Air.local" time="1.222">
+  <properties/>
+  <testcase name="unresolvedDependency" classname="org.springframework.web.method.annotation.ModelFactoryOrderingTests" time="1.198"/>
+  <testcase name="treeDependency" classname="org.springframework.web.method.annotation.ModelFactoryOrderingTests" time="0.006"/>
+  <testcase name="straightLineDependency" classname="org.springframework.web.method.annotation.ModelFactoryOrderingTests" time="0.011"/>
+  <testcase name="InvertedTreeDependency" classname="org.springframework.web.method.annotation.ModelFactoryOrderingTests" time="0.006"/>
+  <system-out><![CDATA[19:46:19.670 [Test worker] DEBUG o.s.w.m.a.ModelFactoryOrderingTests -  >> getA >> getC2 >> getC1 >> getC4 >> getC3
+19:46:19.677 [Test worker] DEBUG o.s.w.m.a.ModelFactoryOrderingTests -  >> getA >> getB2 >> getC4 >> getC3 >> getB1 >> getC1 >> getC2
+19:46:19.688 [Test worker] DEBUG o.s.w.m.a.ModelFactoryOrderingTests -  >> getA >> getB1 >> getB2 >> getC1 >> getC2 >> getC3 >> getC4
+19:46:19.694 [Test worker] DEBUG o.s.w.m.a.ModelFactoryOrderingTests -  >> getC3 >> getC4 >> getB2 >> getC2 >> getC1 >> getB1 >> getA
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

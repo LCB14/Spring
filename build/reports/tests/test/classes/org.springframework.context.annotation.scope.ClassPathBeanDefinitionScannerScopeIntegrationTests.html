@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.context.annotation.scope.ClassPathBeanDefinitionScannerScopeIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.context.annotation.scope.ClassPathBeanDefinitionScannerScopeIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.context.annotation.scope.html">org.springframework.context.annotation.scope</a> &gt; ClassPathBeanDefinitionScannerScopeIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.718s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">requestScopeWithNoProxy</td>
+<td class="success">0.043s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">requestScopeWithProxiedInterfaces</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">requestScopeWithProxiedTargetClass</td>
+<td class="success">0.078s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sessionScopeWithNoProxy</td>
+<td class="success">0.240s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sessionScopeWithProxiedInterfaces</td>
+<td class="success">0.034s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">sessionScopeWithProxiedTargetClass</td>
+<td class="success">0.148s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singletonScopeIgnoresProxyInterfaces</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singletonScopeIgnoresProxyTargetClass</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">singletonScopeWithNoProxy</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:56:47.949 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:47.958 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:47.959 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:47.981 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:47.981 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:47.981 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:47.984 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2a9ebc9e
+20:56:48.017 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3ba08753]
+20:56:48.021 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.064 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.066 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.067 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.079 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.080 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.080 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.082 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7b3d3e76
+20:56:48.088 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@255e1e36]
+20:56:48.090 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.108 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.111 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.112 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.116 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.118 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.121 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.122 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5ee28d20
+20:56:48.123 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5c303985]
+20:56:48.125 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.138 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.143 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.144 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.158 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.158 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.159 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.159 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2f109d7e
+20:56:48.162 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5dafa07c]
+20:56:48.163 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.224 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.296 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.297 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.298 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.310 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.310 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.310 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.311 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@48286847
+20:56:48.313 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@43098779]
+20:56:48.313 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.318 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.326 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.365 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.366 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.367 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.376 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.377 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.378 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.378 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4065a107
+20:56:48.379 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@11fce275]
+20:56:48.380 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.381 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.383 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.415 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.419 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.421 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.428 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.430 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.430 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.431 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@d1d7473
+20:56:48.437 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@5a944b78]
+20:56:48.437 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.442 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.444 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.459 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.465 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.467 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.477 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.478 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.478 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.478 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@73516da2
+20:56:48.480 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@7d806414]
+20:56:48.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.490 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.492 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+20:56:48.505 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.507 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.511 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.515 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$RequestScopedTestBean.class]
+20:56:48.517 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SessionScopedTestBean.class]
+20:56:48.519 [Test worker] DEBUG o.s.c.a.ClassPathBeanDefinitionScanner - Identified candidate component class: file [/Users/lichangbao/github/spring_study/build/classes/java/test/org/springframework/context/annotation/scope/ClassPathBeanDefinitionScannerScopeIntegrationTests$SingletonScopedTestBean.class]
+20:56:48.520 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5faddcfc
+20:56:48.525 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@3e9ba220]
+20:56:48.526 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'request'
+20:56:48.528 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'session'
+20:56:48.528 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singleton'
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 20:56:53</p>
+</div>
+</div>
+</body>
+</html>

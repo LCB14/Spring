@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:14" hostname="Macbook-Air.local" time="0.049">
+  <properties/>
+  <testcase name="keepExistingContentType" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" time="0.042"/>
+  <testcase name="freeMarkerViewResolver" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" time="0.002"/>
+  <testcase name="noFreeMarkerConfig" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" time="0.002"/>
+  <testcase name="validTemplateName" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" time="0.002"/>
+  <testcase name="noTemplateName" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerViewTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

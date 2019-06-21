@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:52" hostname="Macbook-Air.local" time="0.501">
+  <properties/>
+  <testcase name="sendBufferSizeExceeded" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.032"/>
+  <testcase name="sendTimeLimitExceeded" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.203"/>
+  <testcase name="sendAfterBlockedSend" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.053"/>
+  <testcase name="overflowStrategyDrop" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.001"/>
+  <testcase name="send" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.003"/>
+  <testcase name="closeStatusChangesToSessionNotReliable" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.204"/>
+  <testcase name="closeStatusNormal" classname="org.springframework.web.socket.handler.ConcurrentWebSocketSessionDecoratorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

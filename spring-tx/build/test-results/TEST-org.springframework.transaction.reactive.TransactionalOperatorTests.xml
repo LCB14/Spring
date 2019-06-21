@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.reactive.TransactionalOperatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:47" hostname="Macbook-Air.local" time="0.225">
+  <properties/>
+  <testcase name="commitWithFlux" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.21"/>
+  <testcase name="commitWithMono" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.006"/>
+  <testcase name="rollbackWithFlux" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.006"/>
+  <testcase name="rollbackWithMono" classname="org.springframework.transaction.reactive.TransactionalOperatorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

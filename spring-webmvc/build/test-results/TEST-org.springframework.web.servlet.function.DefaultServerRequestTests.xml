@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.DefaultServerRequestTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:10" hostname="Macbook-Air.local" time="0.02">
+  <properties/>
+  <testcase name="bodyUnacceptable" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="principal" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.002"/>
+  <testcase name="absentQueryParam" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="header" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.003"/>
+  <testcase name="uriBuilder" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.002"/>
+  <testcase name="method" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="params" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="uri" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="attribute" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="bodyParameterizedTypeReference" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.007"/>
+  <testcase name="pathVariableNotFound" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="cookies" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="emptyQueryParam" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="bodyClass" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="pathVariables" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <testcase name="pathVariable" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.001"/>
+  <testcase name="session" classname="org.springframework.web.servlet.function.DefaultServerRequestTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

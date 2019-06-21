@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.config.MethodLocatingFactoryBeanTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:50" hostname="Macbook-Air.local" time="0.011">
+  <properties/>
+  <testcase name="testWhenTargetBeanClassCannotBeResolved" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.002"/>
+  <testcase name="testWithNullTargetMethodName" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.001"/>
+  <testcase name="testGetObjectType" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.0"/>
+  <testcase name="testWithNullTargetBeanName" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.001"/>
+  <testcase name="testIsSingleton" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.0"/>
+  <testcase name="testWhereMethodCannotBeResolved" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.004"/>
+  <testcase name="testSunnyDayPath" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.001"/>
+  <testcase name="testWithEmptyTargetBeanName" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.001"/>
+  <testcase name="testWithEmptyTargetMethodName" classname="org.springframework.aop.config.MethodLocatingFactoryBeanTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

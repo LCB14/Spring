@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:54" hostname="Macbook-Air.local" time="0.063">
+  <properties/>
+  <testcase name="minimalRegistration" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.032"/>
+  <testcase name="sameOrigin" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.005"/>
+  <testcase name="handshakeHandlerAndInterceptorWithAllowedOrigins" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.004"/>
+  <testcase name="allowedOrigins" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.001"/>
+  <testcase name="handshakeHandlerInterceptorWithSockJsServiceAndAllowedOrigins" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.005"/>
+  <testcase name="allowedOriginsWithSockJsService" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.007"/>
+  <testcase name="handshakeHandlerAndInterceptor" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.001"/>
+  <testcase name="disableCorsWithSockJsService" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.004"/>
+  <testcase name="handshakeHandlerInterceptorWithSockJsService" classname="org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistrationTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

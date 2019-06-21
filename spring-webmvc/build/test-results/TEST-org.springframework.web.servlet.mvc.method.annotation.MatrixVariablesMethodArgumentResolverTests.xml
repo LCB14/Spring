@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:49" hostname="Macbook-Air.local" time="0.029">
+  <properties/>
+  <testcase name="resolveArgumentNoMatch" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.016"/>
+  <testcase name="resolveArgumentPathVariable" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveArgumentRequired" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="resolveArgumentMultipleMatches" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveArgumentDefaultValue" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveArgument" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.servlet.mvc.method.annotation.MatrixVariablesMethodArgumentResolverTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

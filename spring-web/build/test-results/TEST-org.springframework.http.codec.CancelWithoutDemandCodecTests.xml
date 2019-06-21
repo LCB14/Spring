@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.CancelWithoutDemandCodecTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:25" hostname="Macbook-Air.local" time="0.099">
+  <properties/>
+  <testcase name="cancelWithSse" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.019"/>
+  <testcase name="cancelWithProtobufEncoder" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.005"/>
+  <testcase name="cancelWithMultipartContent" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.044"/>
+  <testcase name="cancelWithEncoderHttpMessageWriterAndSingleValue" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.003"/>
+  <testcase name="cancelWithJackson" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.003"/>
+  <testcase name="cancelWithJaxb2" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.012"/>
+  <testcase name="cancelWithProtobufDecoder" classname="org.springframework.http.codec.CancelWithoutDemandCodecTests" time="0.012"/>
+  <system-out><![CDATA[19:46:25.206 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [part1, part2] (content masked)
+19:46:25.209 [Test worker] DEBUG o.s.w.HttpLogging - Writing "foo"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

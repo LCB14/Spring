@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.access.MBeanClientInterceptorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:40" hostname="Macbook-Air.local" time="1.429">
+  <properties/>
+  <testcase name="testSetReadOnlyAttribute" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.147"/>
+  <testcase name="testInvokeUnexposedMethodWithException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.004"/>
+  <testcase name="testSetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.014"/>
+  <testcase name="testTestLazyConnectionToRemote" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="1.246"/>
+  <testcase name="testDifferentProxiesSameClass" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testSetAttributeValueWithIOException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.003"/>
+  <testcase name="testGetAttributeValue" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testInvokeNoArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testProxyClassIsDifferent" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.001"/>
+  <testcase name="testInvokeArgs" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testSetAttributeValueWithCheckedException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.002"/>
+  <testcase name="testSetAttributeValueWithRuntimeException" classname="org.springframework.jmx.access.MBeanClientInterceptorTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:40:41 PM ClientCommunicatorAdmin restart
+WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+Jun 21, 2019 7:40:42 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Jun 21, 2019 7:40:42 PM ClientCommunicatorAdmin restart
+WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+]]></system-err>
+</testsuite>

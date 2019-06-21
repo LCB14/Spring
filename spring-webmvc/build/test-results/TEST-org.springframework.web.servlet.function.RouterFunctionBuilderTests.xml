@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.RouterFunctionBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:10" hostname="Macbook-Air.local" time="0.034">
+  <properties/>
+  <testcase name="resources" classname="org.springframework.web.servlet.function.RouterFunctionBuilderTests" time="0.008"/>
+  <testcase name="filters" classname="org.springframework.web.servlet.function.RouterFunctionBuilderTests" time="0.012"/>
+  <testcase name="nest" classname="org.springframework.web.servlet.function.RouterFunctionBuilderTests" time="0.007"/>
+  <testcase name="route" classname="org.springframework.web.servlet.function.RouterFunctionBuilderTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

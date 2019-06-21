@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:21" hostname="Macbook-Air.local" time="0.619">
+  <properties/>
+  <testcase name="unknownFeature" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="xmlMapper" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.002"/>
+  <testcase name="wellKnownModules" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.542"/>
+  <testcase name="propertyNamingStrategy" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.003"/>
+  <testcase name="simpleDateFormatStringSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.003"/>
+  <testcase name="setNotEmptySerializationInclusion" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="setNotNullSerializationInclusion" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="localeSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="factory" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="mixIns" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.002"/>
+  <testcase name="serializerByType" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.002"/>
+  <testcase name="filters" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.015"/>
+  <testcase name="propertiesShortcut" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="defaultProperties" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="xmlMapperAndCustomFactory" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="dateTimeFormatSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="overrideWellKnownModuleWithModule" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.017"/>
+  <testcase name="customizeWellKnownModulesWithSerializer" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.002"/>
+  <testcase name="cbor" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="mixIn" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="smile" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="completeSetup" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="wrongTimeZoneStringSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="defaultUseWrapper" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.01"/>
+  <testcase name="booleanSetters" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="customizeWellKnownModulesWithModule" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.004"/>
+  <testcase name="modulesToInstallByInstance" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="createXmlMapper" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="modules" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="timeZoneStringSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="deserializerByType" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="customizeWellKnownModulesWithModuleClass" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="timeZoneSetter" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="modulesToInstallByClass" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.0"/>
+  <testcase name="visibility" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.002"/>
+  <testcase name="setNotDefaultSerializationInclusion" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <testcase name="registerMultipleModulesWithNullTypeId" classname="org.springframework.http.converter.json.Jackson2ObjectMapperBuilderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

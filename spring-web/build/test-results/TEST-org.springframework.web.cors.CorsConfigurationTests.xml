@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.cors.CorsConfigurationTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:13" hostname="Macbook-Air.local" time="0.007">
+  <properties/>
+  <testcase name="combineWithNull" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="checkHeadersNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="setNullValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="asteriskWildCardOnSetExposedHeaders" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="checkMethodNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithAsteriskWildCard" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithDuplicatedElements" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkOriginAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="checkHeadersAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combineWithNullProperties" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="setValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkOriginNotAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="combine" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="asteriskWildCardOnAddExposedHeader" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="changePermitDefaultValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <testcase name="combineWithDefaultPermitValues" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.0"/>
+  <testcase name="checkMethodAllowed" classname="org.springframework.web.cors.CorsConfigurationTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

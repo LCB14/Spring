@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.BridgeMethodResolverTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:47" hostname="Macbook-Air.local" time="0.095">
+  <properties/>
+  <testcase name="testFindBridgedMethodInHierarchy" classname="org.springframework.core.BridgeMethodResolverTests" time="0.064"/>
+  <testcase name="testFindBridgedMethodFromParent" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testOnAllMethods" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testWithGenericParameter" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testWithDoubleBoundParameterizedOnInstantiate" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testDoubleParameterization" classname="org.springframework.core.BridgeMethodResolverTests" time="0.002"/>
+  <testcase name="testFindBridgedVarargMethod" classname="org.springframework.core.BridgeMethodResolverTests" time="0.006"/>
+  <testcase name="testInterfaceHierarchy" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testIsBridgeMethodFor" classname="org.springframework.core.BridgeMethodResolverTests" time="0.004"/>
+  <testcase name="testClassHierarchy" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testFindBridgedMethod" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testSPR2583" classname="org.springframework.core.BridgeMethodResolverTests" time="0.002"/>
+  <testcase name="testSPR2603" classname="org.springframework.core.BridgeMethodResolverTests" time="0.002"/>
+  <testcase name="testSPR2648" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testSPR2763" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testSPR3041" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testSPR3173" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testSPR3304" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testSPR3324" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testSPR3357" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testSPR3485" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testSPR3534" classname="org.springframework.core.BridgeMethodResolverTests" time="0.001"/>
+  <testcase name="testFindBridgedMethodFromMultipleBridges" classname="org.springframework.core.BridgeMethodResolverTests" time="0.0"/>
+  <testcase name="testWithSingleBoundParameterizedOnInstantiate" classname="org.springframework.core.BridgeMethodResolverTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

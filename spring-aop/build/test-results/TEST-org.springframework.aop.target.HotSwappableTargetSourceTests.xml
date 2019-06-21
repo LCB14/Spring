@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.target.HotSwappableTargetSourceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:05" hostname="Macbook-Air.local" time="0.095">
+  <properties/>
+  <testcase name="testRejectsSwapToNull" classname="org.springframework.aop.target.HotSwappableTargetSourceTests" time="0.045"/>
+  <testcase name="testBasicFunctionality" classname="org.springframework.aop.target.HotSwappableTargetSourceTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.springframework.aop.target.HotSwappableTargetSourceTests" time="0.031"/>
+  <testcase name="testValidSwaps" classname="org.springframework.aop.target.HotSwappableTargetSourceTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

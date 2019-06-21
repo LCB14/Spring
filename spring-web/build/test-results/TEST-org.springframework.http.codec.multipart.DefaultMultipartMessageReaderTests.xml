@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:26" hostname="Macbook-Air.local" time="0.504">
+  <properties/>
+  <testcase name="partNoEndBoundary[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.009"/>
+  <testcase name="chrome[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.056"/>
+  <testcase name="safari[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.036"/>
+  <testcase name="firefox[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.038"/>
+  <testcase name="partNoHeader[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.004"/>
+  <testcase name="canRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <testcase name="partNoEndBoundary[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.002"/>
+  <testcase name="chrome[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.014"/>
+  <testcase name="safari[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.013"/>
+  <testcase name="firefox[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.015"/>
+  <testcase name="partNoHeader[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.001"/>
+  <testcase name="canRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <testcase name="partNoEndBoundary[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.003"/>
+  <testcase name="chrome[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.068"/>
+  <testcase name="safari[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.038"/>
+  <testcase name="firefox[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.041"/>
+  <testcase name="partNoHeader[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.003"/>
+  <testcase name="canRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <testcase name="partNoEndBoundary[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.005"/>
+  <testcase name="chrome[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.031"/>
+  <testcase name="safari[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.03"/>
+  <testcase name="firefox[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.042"/>
+  <testcase name="partNoHeader[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.004"/>
+  <testcase name="canRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <testcase name="partNoEndBoundary[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.002"/>
+  <testcase name="chrome[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.008"/>
+  <testcase name="safari[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.006"/>
+  <testcase name="firefox[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.007"/>
+  <testcase name="partNoHeader[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.002"/>
+  <testcase name="canRead[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <testcase name="partNoEndBoundary[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.001"/>
+  <testcase name="chrome[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.006"/>
+  <testcase name="safari[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.005"/>
+  <testcase name="firefox[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.006"/>
+  <testcase name="partNoHeader[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.001"/>
+  <testcase name="canRead[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.http.codec.multipart.DefaultMultipartMessageReaderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:49" hostname="Macbook-Air.local" time="1.61">
+  <properties/>
+  <testcase name="checkResourceExists" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="1.518"/>
+  <testcase name="render" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.061"/>
+  <testcase name="noFreeMarkerConfig" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.002"/>
+  <testcase name="noTemplateName" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.002"/>
+  <testcase name="subscribeWithoutDemand" classname="org.springframework.web.reactive.result.view.freemarker.FreeMarkerViewTests" time="0.027"/>
+  <system-out><![CDATA[19:46:50.307 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+19:46:50.575 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+19:46:50.576 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerView - [1a1d3a1f] View [FreeMarkerView], model {hello=hi FreeMarker}
+19:46:50.587 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerView - [1a1d3a1f] Rendering [test.ftl]
+19:46:50.636 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+19:46:50.638 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+19:46:50.640 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerConfigurer - File system access not preferred: using SpringTemplateLoader
+19:46:50.652 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerView - [4b722f48] View [FreeMarkerView], model {hello=hi FreeMarker}
+19:46:50.653 [Test worker] DEBUG o.s.w.r.r.v.f.FreeMarkerView - [4b722f48] Rendering [test.ftl]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

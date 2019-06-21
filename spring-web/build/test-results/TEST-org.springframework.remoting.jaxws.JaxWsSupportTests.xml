@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.remoting.jaxws.JaxWsSupportTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:58" hostname="Macbook-Air.local" time="2.528">
+  <properties/>
+  <testcase name="testJaxWsPortAccessWithFeature" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="2.346"/>
+  <testcase name="testJaxWsPortAccess" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="0.182"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[六月 21, 2019 7:46:00 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.create(BindingContextFactory.java:134)
+	at com.sun.xml.internal.ws.message.jaxb.JAXBMessage.create(JAXBMessage.java:152)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAP11Fault(SOAPFaultBuilder.java:424)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:201)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:189)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:411)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+六月 21, 2019 7:46:00 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.create(BindingContextFactory.java:134)
+	at com.sun.xml.internal.ws.message.jaxb.JAXBMessage.create(JAXBMessage.java:152)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAP11Fault(SOAPFaultBuilder.java:424)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:201)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:189)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:411)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+六月 21, 2019 7:46:01 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.create(BindingContextFactory.java:134)
+	at com.sun.xml.internal.ws.message.jaxb.JAXBMessage.create(JAXBMessage.java:152)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAP11Fault(SOAPFaultBuilder.java:424)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:201)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:189)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:411)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+六月 21, 2019 7:46:01 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
+	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.create(BindingContextFactory.java:134)
+	at com.sun.xml.internal.ws.message.jaxb.JAXBMessage.create(JAXBMessage.java:152)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAP11Fault(SOAPFaultBuilder.java:424)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:201)
+	at com.sun.xml.internal.ws.fault.SOAPFaultBuilder.createSOAPFaultMessage(SOAPFaultBuilder.java:189)
+	at com.sun.xml.internal.ws.server.WSEndpointImpl$2.process(WSEndpointImpl.java:411)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit.handle(HttpAdapter.java:706)
+	at com.sun.xml.internal.ws.transport.http.HttpAdapter.handle(HttpAdapter.java:260)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handleExchange(WSHttpHandler.java:98)
+	at com.sun.xml.internal.ws.transport.http.server.WSHttpHandler.handle(WSHttpHandler.java:82)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.AuthFilter.doFilter(AuthFilter.java:83)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:82)
+	at sun.net.httpserver.ServerImpl$Exchange$LinkHandler.handle(ServerImpl.java:675)
+	at com.sun.net.httpserver.Filter$Chain.doFilter(Filter.java:79)
+	at sun.net.httpserver.ServerImpl$Exchange.run(ServerImpl.java:647)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:37" hostname="Macbook-Air.local" time="0.001">
+  <properties/>
+  <testcase name="singleValue" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="arrayWithExtraParameter" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="noValues" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="plainArray" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="multipleValues" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="multipleNullValues" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <testcase name="singleNullValue" classname="org.springframework.cache.interceptor.SimpleKeyGeneratorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

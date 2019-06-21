@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.cache.MethodLevelDirtiesContextTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:48" hostname="Macbook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="test01" classname="org.springframework.test.context.cache.MethodLevelDirtiesContextTests" time="0.001"/>
+  <testcase name="test02_dirtyContextBeforeTestMethod" classname="org.springframework.test.context.cache.MethodLevelDirtiesContextTests" time="0.006"/>
+  <testcase name="test03_dirtyContextAfterTestMethod" classname="org.springframework.test.context.cache.MethodLevelDirtiesContextTests" time="0.001"/>
+  <testcase name="test04" classname="org.springframework.test.context.cache.MethodLevelDirtiesContextTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

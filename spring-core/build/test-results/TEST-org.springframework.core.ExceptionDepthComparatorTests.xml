@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.ExceptionDepthComparatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:32" hostname="Macbook-Air.local" time="0.093">
+  <properties/>
+  <testcase name="sameDepthBeforeTarget" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.086"/>
+  <testcase name="highestDepthBeforeNoDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.002"/>
+  <testcase name="noDepthBeforeTarget" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="highestDepthBeforeLowestDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
+  <testcase name="lowestDepthBeforeHighestDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="targetBeforeLowestDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="targetBeforeSameDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <testcase name="noDepthBeforeHighestDepth" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.001"/>
+  <testcase name="lowestDepthBeforeTarget" classname="org.springframework.core.ExceptionDepthComparatorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:47" hostname="Macbook-Air.local" time="0.055">
+  <properties/>
+  <testcase name="getMappingOverridesConsumesFromTypeLevelAnnotation" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.01"/>
+  <testcase name="patchMapping" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.005"/>
+  <testcase name="resolveRequestMappingViaComposedAnnotation" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.007"/>
+  <testcase name="useSuffixPatternMatch" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="consumesWithOptionalRequestBody" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.016"/>
+  <testcase name="useRegisteredSuffixPatternMatch" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="deleteMapping" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <testcase name="pathPrefix" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.005"/>
+  <testcase name="useRegisteredSuffixPatternMatchInitialization" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.007"/>
+  <testcase name="putMapping" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <testcase name="resolveEmbeddedValuesInPatterns" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="postMapping" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <testcase name="getMapping" classname="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

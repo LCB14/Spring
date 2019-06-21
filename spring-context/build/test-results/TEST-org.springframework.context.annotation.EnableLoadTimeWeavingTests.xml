@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.EnableLoadTimeWeavingTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:05" hostname="Macbook-Air.local" time="0.142">
+  <properties/>
+  <testcase name="enableLTW_withAjWeavingAutodetect" classname="org.springframework.context.annotation.EnableLoadTimeWeavingTests" time="0.037"/>
+  <testcase name="enableLTW_withAjWeavingEnabled" classname="org.springframework.context.annotation.EnableLoadTimeWeavingTests" time="0.049"/>
+  <testcase name="control" classname="org.springframework.context.annotation.EnableLoadTimeWeavingTests" time="0.048"/>
+  <testcase name="enableLTW_withAjWeavingDisabled" classname="org.springframework.context.annotation.EnableLoadTimeWeavingTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

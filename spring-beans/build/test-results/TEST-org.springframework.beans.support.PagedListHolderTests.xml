@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.support.PagedListHolderTests" tests="1" skipped="1" failures="0" errors="0" timestamp="2019-06-21T11:39:27" hostname="Macbook-Air.local" time="0.001">
+  <properties/>
+  <testcase name="testPagedListHolder" classname="org.springframework.beans.support.PagedListHolderTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.annotation.CglibProxyControllerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:36" hostname="Macbook-Air.local" time="1.673">
+  <properties/>
+  <testcase name="methodLevel" classname="org.springframework.web.servlet.mvc.annotation.CglibProxyControllerTests" time="1.487"/>
+  <testcase name="typeLevel" classname="org.springframework.web.servlet.mvc.annotation.CglibProxyControllerTests" time="0.09"/>
+  <testcase name="typeAndMethodLevel" classname="org.springframework.web.servlet.mvc.annotation.CglibProxyControllerTests" time="0.096"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

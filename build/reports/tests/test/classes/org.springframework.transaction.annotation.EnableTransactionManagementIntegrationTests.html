@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.transaction.annotation.html">org.springframework.transaction.annotation</a> &gt; EnableTransactionManagementIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.886s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">apcEscalation</td>
+<td class="success">0.683s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">explicitTxManager</td>
+<td class="success">0.162s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">implicitTxManager</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryIsClassBasedTxProxy</td>
+<td class="success">0.155s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryIsNotTxProxy</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryIsTxProxy_withCustomTxManagerName</td>
+<td class="success">1.466s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryIsTxProxy_withDefaultTxManagerName</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryIsTxProxy_withNonConventionalTxManagerName_fallsBackToByTypeLookup</td>
+<td class="success">0.127s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">repositoryUsesAspectJAdviceMode</td>
+<td class="success">0.056s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:56:44.895 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@23556743
+20:56:44.895 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:44.939 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:44.940 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:44.948 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:44.971 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:44.977 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:44.978 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:44.979 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:44.991 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.Config'
+20:56:44.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:45.003 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:45.010 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:45.011 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:45.019 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.CustomTxManagerNameConfig'
+20:56:45.022 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:45.043 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+20:56:45.099 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+20:56:45.115 [Test worker] DEBUG o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:56:45.115 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:46.264 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+20:56:46.274 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'txManager' via factory method to bean named 'dataSource'
+20:56:46.339 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$JdbcFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:46.340 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:46.340 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [org.hsqldb.jdbc.JDBCConnection@66ab88ac] for JDBC transaction
+20:56:46.345 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [org.hsqldb.jdbc.JDBCConnection@66ab88ac] to manual commit
+20:56:46.346 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+20:56:46.346 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [org.hsqldb.jdbc.JDBCConnection@66ab88ac]
+20:56:46.347 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [org.hsqldb.jdbc.JDBCConnection@66ab88ac] after transaction
+20:56:46.358 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@b49df0e
+20:56:46.360 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:46.397 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:46.398 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:46.399 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:46.406 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:46.408 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:46.408 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:46.409 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:46.411 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.ExplicitTxManagerConfig'
+20:56:46.413 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:46.414 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:46.428 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager1'
+20:56:46.445 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:46.446 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:46.461 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager2'
+20:56:46.468 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:46.483 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$DummyFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:46.483 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+20:56:46.524 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@36115b68
+20:56:46.525 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:46.803 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 4 bean definitions from class path resource [org/springframework/transaction/annotation/enable-caching.xml]
+20:56:46.822 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:46.823 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:46.825 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:46.827 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:46.828 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:46.828 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:46.829 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:46.837 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.EnableTxAndCachingConfig'
+20:56:46.839 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:46.840 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:46.845 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.config.internalCacheAdvisor'
+20:56:46.848 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.annotation.AnnotationCacheOperationSource#0'
+20:56:46.972 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:46.978 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:46.991 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+20:56:47.009 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.012 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'cacheManager'
+20:56:47.030 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.cache.interceptor.CacheInterceptor#0'
+20:56:47.198 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2f58fdbd
+20:56:47.199 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.230 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:47.230 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:47.231 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:47.236 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:47.237 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:47.237 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:47.238 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:47.243 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.Config'
+20:56:47.245 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:47.246 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:47.249 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:47.256 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:47.263 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.NonConventionalTxManagerNameConfig'
+20:56:47.264 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.266 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+20:56:47.273 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+20:56:47.273 [Test worker] DEBUG o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:56:47.274 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.285 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+20:56:47.286 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'txManager' via factory method to bean named 'dataSource'
+20:56:47.304 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$JdbcFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:47.313 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.314 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [org.hsqldb.jdbc.JDBCConnection@7bcd1b10] for JDBC transaction
+20:56:47.314 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [org.hsqldb.jdbc.JDBCConnection@7bcd1b10] to manual commit
+20:56:47.315 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+20:56:47.318 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [org.hsqldb.jdbc.JDBCConnection@7bcd1b10]
+20:56:47.319 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [org.hsqldb.jdbc.JDBCConnection@7bcd1b10] after transaction
+20:56:47.327 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@21a7e407
+20:56:47.328 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.364 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:47.368 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:47.375 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:47.376 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:47.377 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:47.378 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:47.379 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:47.389 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.Config'
+20:56:47.391 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:47.392 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:47.395 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:47.396 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:47.398 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.DefaultTxManagerNameConfig'
+20:56:47.403 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.404 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+20:56:47.404 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+20:56:47.404 [Test worker] DEBUG o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:56:47.405 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.408 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+20:56:47.409 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionManager' via factory method to bean named 'dataSource'
+20:56:47.426 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$JdbcFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:47.427 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.427 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [org.hsqldb.jdbc.JDBCConnection@7d102787] for JDBC transaction
+20:56:47.427 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [org.hsqldb.jdbc.JDBCConnection@7d102787] to manual commit
+20:56:47.428 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+20:56:47.428 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [org.hsqldb.jdbc.JDBCConnection@7d102787]
+20:56:47.429 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [org.hsqldb.jdbc.JDBCConnection@7d102787] after transaction
+20:56:47.438 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@a41128f
+20:56:47.439 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.474 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:47.474 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:47.475 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:47.478 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:47.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:47.481 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:47.486 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:47.499 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.ImplicitTxManagerConfig'
+20:56:47.501 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:47.503 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:47.513 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:47.514 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:47.521 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'txManager'
+20:56:47.530 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.533 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$DummyFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:47.535 [Test worker] DEBUG o.s.t.t.CallCountingTransactionManager - Initiating transaction commit
+20:56:47.563 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6215395
+20:56:47.563 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.576 [Test worker] WARN  o.s.c.a.AnnotationConfigApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$AspectJTxConfig]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/transaction/aspectj/AspectJJtaTransactionManagementConfiguration.class] cannot be opened because it does not exist
+20:56:47.598 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7fa64e01
+20:56:47.599 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.606 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:47.606 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:47.608 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:47.609 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:47.610 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:47.610 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.Config'
+20:56:47.611 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.612 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+20:56:47.612 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+20:56:47.612 [Test worker] DEBUG o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:56:47.613 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.628 [Test worker] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7997083b
+20:56:47.628 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+20:56:47.660 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+20:56:47.663 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+20:56:47.663 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+20:56:47.664 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+20:56:47.667 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+20:56:47.668 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+20:56:47.672 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:47.679 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.Config'
+20:56:47.682 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+20:56:47.683 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration'
+20:56:47.685 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionAttributeSource'
+20:56:47.686 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionInterceptor'
+20:56:47.692 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableTransactionManagementIntegrationTests.ProxyTargetClassTxConfig'
+20:56:47.694 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'fooRepository'
+20:56:47.695 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+20:56:47.696 [Test worker] INFO  o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+20:56:47.696 [Test worker] DEBUG o.s.j.d.DataSourceUtils - Fetching JDBC Connection from DataSource
+20:56:47.697 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.721 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'transactionManager'
+20:56:47.722 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'transactionManager' via factory method to bean named 'dataSource'
+20:56:47.736 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Creating new transaction with name [org.springframework.transaction.annotation.EnableTransactionManagementIntegrationTests$JdbcFooRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+20:56:47.737 [Test worker] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:hsqldb:mem:testdb]
+20:56:47.737 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Acquired Connection [org.hsqldb.jdbc.JDBCConnection@27496da7] for JDBC transaction
+20:56:47.737 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Switching JDBC Connection [org.hsqldb.jdbc.JDBCConnection@27496da7] to manual commit
+20:56:47.772 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Initiating transaction commit
+20:56:47.772 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Committing JDBC transaction on Connection [org.hsqldb.jdbc.JDBCConnection@27496da7]
+20:56:47.774 [Test worker] DEBUG o.s.j.d.DataSourceTransactionManager - Releasing JDBC Connection [org.hsqldb.jdbc.JDBCConnection@27496da7] after transaction
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 20:56:53</p>
+</div>
+</div>
+</body>
+</html>

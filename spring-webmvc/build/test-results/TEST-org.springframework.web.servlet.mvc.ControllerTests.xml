@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.ControllerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:39" hostname="Macbook-Air.local" time="0.102">
+  <properties/>
+  <testcase name="servletWrappingController" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.01"/>
+  <testcase name="parameterizableViewController" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.001"/>
+  <testcase name="servletWrappingControllerWithBeanName" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.0"/>
+  <testcase name="servletForwardingControllerWithInclude" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.087"/>
+  <testcase name="servletForwardingControllerWithBeanName" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.001"/>
+  <testcase name="servletForwardingController" classname="org.springframework.web.servlet.mvc.ControllerTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

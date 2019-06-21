@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:46" hostname="Macbook-Air.local" time="0.175">
+  <properties/>
+  <testcase name="testOnlyTargetClassIsExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.05"/>
+  <testcase name="testComponentScan" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.029"/>
+  <testcase name="testPackagePrivateClassExtensionCanBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.017"/>
+  <testcase name="testPackagePrivateExtensionCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.011"/>
+  <testcase name="testLazyNaming" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.018"/>
+  <testcase name="testLazyAssembling" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.022"/>
+  <testcase name="testPlaceholderBased" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.016"/>
+  <testcase name="testPackagePrivateImplementationCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

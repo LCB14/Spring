@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jca.cci.EisOperationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:52" hostname="Macbook-Air.local" time="0.05">
+  <properties/>
+  <testcase name="testSimpleRecordOperationWithInputOutputRecord" classname="org.springframework.jca.cci.EisOperationTests" time="0.008"/>
+  <testcase name="testMappingRecordOperationWithOutputRecordCreator" classname="org.springframework.jca.cci.EisOperationTests" time="0.035"/>
+  <testcase name="testSimpleRecordOperation" classname="org.springframework.jca.cci.EisOperationTests" time="0.002"/>
+  <testcase name="testSimpleRecordOperationWithExplicitOutputRecord" classname="org.springframework.jca.cci.EisOperationTests" time="0.002"/>
+  <testcase name="testMappingRecordOperation" classname="org.springframework.jca.cci.EisOperationTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

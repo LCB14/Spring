@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.buffer.DataBufferTests" tests="210" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:38" hostname="Macbook-Air.local" time="0.141">
+  <properties/>
+  <testcase name="emptyAsByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullCharset[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="spr16351[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityHighReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeIsoString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionSmallerThanReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="expand[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="capacityLessThanZero[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBufferIndexLength[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="dataBufferContainsByteBufferChanges[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="byteBufferContainsDataBufferChanges[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="outputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="getByte[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="slice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionGreaterThanCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="readPositionSmallerThanZero[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityLowReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="inputStreamReleaseOnClose[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8String[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="retainedSlice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeEmptyString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="readPositionGreaterThanWritePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeNullString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeMultipleUtf8String[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="increaseCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="indexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="emptyAsByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeNullCharset[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="spr16351[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityHighReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.024"/>
+  <testcase name="writeIsoString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionSmallerThanReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="capacityLessThanZero[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBufferIndexLength[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="dataBufferContainsByteBufferChanges[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteBufferContainsDataBufferChanges[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="getByte[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="join[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="slice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writePositionGreaterThanCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionSmallerThanZero[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityLowReadPosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStreamReleaseOnClose[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8String[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="retainedSlice[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeEmptyString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionGreaterThanWritePosition[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeNullString[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeMultipleUtf8String[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="increaseCapacity[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="emptyAsByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeNullCharset[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="spr16351[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="decreaseCapacityHighReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="writeIsoString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writePositionSmallerThanReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="expand[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="capacityLessThanZero[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="asByteBufferIndexLength[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="dataBufferContainsByteBufferChanges[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="byteBufferContainsDataBufferChanges[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="inputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="outputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="getByte[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="slice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionGreaterThanCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="readPositionSmallerThanZero[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityLowReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStreamReleaseOnClose[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeUtf8String[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="retainedSlice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="writeEmptyString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionGreaterThanWritePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeMultipleUtf8String[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="increaseCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="emptyAsByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.003"/>
+  <testcase name="writeNullCharset[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="spr16351[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityHighReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeIsoString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionSmallerThanReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="capacityLessThanZero[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBufferIndexLength[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="dataBufferContainsByteBufferChanges[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteBufferContainsDataBufferChanges[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="lastIndexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="outputStream[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="getByte[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="join[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="slice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionGreaterThanCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionSmallerThanZero[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="decreaseCapacityLowReadPosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStreamReleaseOnClose[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8String[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="asByteBuffer[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="retainedSlice[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeEmptyString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="readPositionGreaterThanWritePosition[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeNullString[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeMultipleUtf8String[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="increaseCapacity[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeAndRead[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="indexOf[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="emptyAsByteBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullCharset[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="spr16351[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.01"/>
+  <testcase name="decreaseCapacityHighReadPosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeIsoString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionSmallerThanReadPosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="capacityLessThanZero[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBufferIndexLength[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="dataBufferContainsByteBufferChanges[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteBufferContainsDataBufferChanges[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="getByte[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="join[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.002"/>
+  <testcase name="slice[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeDataBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writePositionGreaterThanCapacity[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionSmallerThanZero[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="decreaseCapacityLowReadPosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStreamReleaseOnClose[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8String[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="retainedSlice[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeEmptyString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionGreaterThanWritePosition[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullString[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeMultipleUtf8String[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="increaseCapacity[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="indexOf[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="emptyAsByteBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullCharset[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="spr16351[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityHighReadPosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeIsoString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writePositionSmallerThanReadPosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="expand[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="capacityLessThanZero[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeByteBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBufferIndexLength[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="dataBufferContainsByteBufferChanges[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteBufferContainsDataBufferChanges[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="lastIndexOf[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8StringOutGrowsCapacity[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="inputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="outputStream[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="getByte[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="join[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="slice[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeDataBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writePositionGreaterThanCapacity[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionSmallerThanZero[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="decreaseCapacityLowReadPosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="inputStreamReleaseOnClose[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeUtf8String[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="asByteBuffer[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="retainedSlice[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeEmptyString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="readPositionGreaterThanWritePosition[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeNullString[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="writeMultipleUtf8String[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="increaseCapacity[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="byteCountsAndPositions[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <testcase name="writeAndRead[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.001"/>
+  <testcase name="indexOf[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.core.io.buffer.DataBufferTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

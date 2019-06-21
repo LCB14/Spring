@@ -1,0 +1,7 @@
+org.springframework.oxm
+org.springframework.oxm.config
+org.springframework.oxm.jaxb
+org.springframework.oxm.jibx
+org.springframework.oxm.mime
+org.springframework.oxm.support
+org.springframework.oxm.xstream

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.support.ChannelInterceptorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:25" hostname="Macbook-Air.local" time="0.019">
+  <properties/>
+  <testcase name="preSendInterceptorReturningModifiedMessage" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.007"/>
+  <testcase name="afterCompletionWithSendException" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.001"/>
+  <testcase name="postSendInterceptorMessageWasSent" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.003"/>
+  <testcase name="postSendInterceptorMessageWasNotSent" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.003"/>
+  <testcase name="preSendInterceptorReturningNull" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.004"/>
+  <testcase name="afterCompletionWithPreSendException" classname="org.springframework.messaging.support.ChannelInterceptorTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

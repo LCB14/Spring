@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.sockjs.support.SockJsServiceTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:51:05" hostname="Macbook-Air.local" time="0.131">
+  <properties/>
+  <testcase name="handleIframeRequest" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="handleInfoGetWithOrigin" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.003"/>
+  <testcase name="handleInfoGet" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="handleInfoOptionsWithAllowedOrigin" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.003"/>
+  <testcase name="handleInfoGetWildflyNPE" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.11"/>
+  <testcase name="handleEmptyContentType" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="handleInfoOptionsWithForbiddenOrigin" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="handleInfoOptionsWithOriginAndCorsHeadersDisabled" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.002"/>
+  <testcase name="handleIframeRequestNotModified" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.0"/>
+  <testcase name="handleRawWebSocketRequest" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="validateRequest" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.004"/>
+  <testcase name="handleInfoOptions" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <testcase name="handleInfoGetCorsFilter" classname="org.springframework.web.socket.sockjs.support.SockJsServiceTests" time="0.001"/>
+  <system-out><![CDATA[19:51:05.404 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Origin header value 'http://mydomain2.com' not allowed.
+19:51:05.521 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Origin header value 'https://mydomain2.com' not allowed.
+19:51:05.522 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Origin header value 'https://mydomain2.com' not allowed.
+19:51:05.524 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Origin header value 'https://mydomain2.com' not allowed.
+19:51:05.527 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '//' - required to have 3 path segments
+19:51:05.527 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '///' - required to have 3 path segments
+19:51:05.528 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '/other' - required to have 3 path segments
+19:51:05.528 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '//service/websocket' - required to have 3 path segments
+19:51:05.529 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '/server//websocket' - required to have 3 path segments
+19:51:05.529 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Invalid SockJS path '/server/session/' - required to have 3 path segments
+19:51:05.529 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Either server or session contains a "." which is not allowed by SockJS protocol.
+19:51:05.530 [Test worker] WARN  o.s.w.s.s.s.SockJsServiceTests$TestSockJsService - Either server or session contains a "." which is not allowed by SockJS protocol.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

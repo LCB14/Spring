@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.StompClientSupportTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:51" hostname="Macbook-Air.local" time="0.003">
+  <properties/>
+  <testcase name="defaultHeartbeatValue" classname="org.springframework.messaging.simp.stomp.StompClientSupportTests" time="0.0"/>
+  <testcase name="defaultHeartbeatValidation" classname="org.springframework.messaging.simp.stomp.StompClientSupportTests" time="0.001"/>
+  <testcase name="processConnectHeadersDefault" classname="org.springframework.messaging.simp.stomp.StompClientSupportTests" time="0.0"/>
+  <testcase name="processConnectHeadersWithExplicitHeartbeat" classname="org.springframework.messaging.simp.stomp.StompClientSupportTests" time="0.0"/>
+  <testcase name="isDefaultHeartbeatEnabled" classname="org.springframework.messaging.simp.stomp.StompClientSupportTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

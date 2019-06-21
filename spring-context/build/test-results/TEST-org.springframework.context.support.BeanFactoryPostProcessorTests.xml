@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.BeanFactoryPostProcessorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:08" hostname="Macbook-Air.local" time="0.036">
+  <properties/>
+  <testcase name="testDefinedBeanFactoryPostProcessor" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.003"/>
+  <testcase name="testBeanFactoryPostProcessorWithInnerBeanAsApplicationListener" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.01"/>
+  <testcase name="testRegisteredBeanFactoryPostProcessor" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.0"/>
+  <testcase name="testMultipleDefinedBeanFactoryPostProcessors" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.003"/>
+  <testcase name="testBeanFactoryPostProcessorNotExecutedByBeanFactory" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.0"/>
+  <testcase name="testBeanDefinitionRegistryPostProcessor" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.007"/>
+  <testcase name="testBeanFactoryPostProcessorAsApplicationListener" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.003"/>
+  <testcase name="testBeanDefinitionRegistryPostProcessorRegisteringAnother" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.004"/>
+  <testcase name="testPrioritizedBeanDefinitionRegistryPostProcessorRegisteringAnother" classname="org.springframework.context.support.BeanFactoryPostProcessorTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:38" hostname="Macbook-Air.local" time="0.026">
+  <properties/>
+  <testcase name="getFixedRateTasks" classname="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" time="0.008"/>
+  <testcase name="getCronTasks" classname="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" time="0.009"/>
+  <testcase name="getFixedDelayTasks" classname="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" time="0.0"/>
+  <testcase name="getTriggerTasks" classname="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" time="0.008"/>
+  <testcase name="emptyTaskLists" classname="org.springframework.scheduling.config.ScheduledTaskRegistrarTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

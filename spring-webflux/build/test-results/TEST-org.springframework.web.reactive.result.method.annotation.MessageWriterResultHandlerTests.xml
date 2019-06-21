@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:28" hostname="Macbook-Air.local" time="0.267">
+  <properties/>
+  <testcase name="useDefaultContentType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.09"/>
+  <testcase name="jacksonTypeWithSubTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.02"/>
+  <testcase name="voidReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.095"/>
+  <testcase name="jacksonTypeOfListElement" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.044"/>
+  <testcase name="jacksonTypeWithSubType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.008"/>
+  <testcase name="useDefaultCharset" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.006"/>
+  <testcase name="unsupportedReturnType" classname="org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests" time="0.004"/>
+  <system-out><![CDATA[19:47:28.996 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - Using 'application/octet-stream' given [*/*] and supported [application/octet-stream, */*, application/json, application/*+json]
+19:47:28.997 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [579560b5] 0..1 [org.springframework.core.io.Resource]
+19:47:29.021 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - [579560b5] Resource associated with 'image/png'
+19:47:29.028 [Test worker] DEBUG o.s.c.c.ResourceEncoder - [579560b5] Writing [class path resource [org/springframework/web/reactive/result/method/annotation/logo.png]]
+19:47:29.079 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json, application/*+json]
+19:47:29.079 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [1c40b714] 0..1 [java.util.List<org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable>]
+19:47:29.080 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1c40b714] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBea (truncated)...]
+19:47:29.192 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json, application/*+json]
+19:47:29.192 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [495f4e58] 0..1 [java.util.List<org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$ParentClass>]
+19:47:29.192 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [495f4e58] Encoding [[org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Foo@1b467 (truncated)...]
+19:47:29.233 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json, application/*+json]
+19:47:29.233 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [5cbaa069] 0..1 [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$Identifiable]
+19:47:29.235 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [5cbaa069] Encoding [org.springframework.web.reactive.result.method.annotation.MessageWriterResultHandlerTests$SimpleBean (truncated)...]
+19:47:29.241 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - Using 'application/json' given [*/*] and supported [application/json]
+19:47:29.241 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [7dd0975d] 0..1 [java.lang.String]
+19:47:29.241 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [7dd0975d] Writing "foo"
+19:47:29.246 [Test worker] DEBUG o.s.w.r.r.m.a.MessageWriterResultHandlerTests$1 - [3a57e12b] No match for [*/*], supported: []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

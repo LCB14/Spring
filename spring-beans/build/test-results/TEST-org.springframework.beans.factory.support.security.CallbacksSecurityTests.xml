@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.support.security.CallbacksSecurityTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:36" hostname="Macbook-Air.local" time="0.263">
+  <properties/>
+  <testcase name="testSecuritySanity" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.035"/>
+  <testcase name="testSpringDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.016"/>
+  <testcase name="testCustomFactoryType" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.017"/>
+  <testcase name="testTrustedFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.015"/>
+  <testcase name="testCustomStaticFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.018"/>
+  <testcase name="testCustomInstanceFactoryMethod" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.012"/>
+  <testcase name="testSpringInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.013"/>
+  <testcase name="testContainerPrivileges" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.012"/>
+  <testcase name="testPropertyInjection" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.021"/>
+  <testcase name="testCustomFactoryObject" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.009"/>
+  <testcase name="testCustomDestroyBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.017"/>
+  <testcase name="testCustomInitBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.008"/>
+  <testcase name="testTrustedExecution" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.049"/>
+  <testcase name="testInitSecurityAwarePrototypeBean" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.01"/>
+  <testcase name="testConstructor" classname="org.springframework.beans.factory.support.security.CallbacksSecurityTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

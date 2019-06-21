@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.GenericTypeResolverTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:35" hostname="Macbook-Air.local" time="0.097">
+  <properties/>
+  <testcase name="nullIfNotResolvable" classname="org.springframework.core.GenericTypeResolverTests" time="0.008"/>
+  <testcase name="simpleCollectionSuperclassType" classname="org.springframework.core.GenericTypeResolverTests" time="0.054"/>
+  <testcase name="getGenericsOnArrayFromReturnCannotBeResolved" classname="org.springframework.core.GenericTypeResolverTests" time="0.004"/>
+  <testcase name="simpleCollectionInterfaceType" classname="org.springframework.core.GenericTypeResolverTests" time="0.01"/>
+  <testcase name="getRawMapTypeCannotBeResolved" classname="org.springframework.core.GenericTypeResolverTests" time="0.001"/>
+  <testcase name="simpleSuperclassType" classname="org.springframework.core.GenericTypeResolverTests" time="0.001"/>
+  <testcase name="getGenericsOnArrayFromParamCannotBeResolved" classname="org.springframework.core.GenericTypeResolverTests" time="0.0"/>
+  <testcase name="getGenericsCannotBeResolved" classname="org.springframework.core.GenericTypeResolverTests" time="0.0"/>
+  <testcase name="testBoundParameterizedType" classname="org.springframework.core.GenericTypeResolverTests" time="0.001"/>
+  <testcase name="methodReturnTypes" classname="org.springframework.core.GenericTypeResolverTests" time="0.002"/>
+  <testcase name="testGetTypeVariableMap" classname="org.springframework.core.GenericTypeResolverTests" time="0.009"/>
+  <testcase name="testResolveType" classname="org.springframework.core.GenericTypeResolverTests" time="0.004"/>
+  <testcase name="resolveIncompleteTypeVariables" classname="org.springframework.core.GenericTypeResolverTests" time="0.001"/>
+  <testcase name="simpleInterfaceType" classname="org.springframework.core.GenericTypeResolverTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

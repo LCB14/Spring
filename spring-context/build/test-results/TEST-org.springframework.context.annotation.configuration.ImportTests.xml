@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.ImportTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:56" hostname="Macbook-Air.local" time="0.217">
+  <properties/>
+  <testcase name="testImportNonConfigurationAnnotationClass" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.016"/>
+  <testcase name="testProcessImportsWithAsm" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.014"/>
+  <testcase name="testImportAnnotationWithMultipleArgumentsResultingInOverriddenBeanDefinition" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.019"/>
+  <testcase name="testImportAnnotationWithMultipleArguments" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.029"/>
+  <testcase name="testImportAnnotationWithThreeLevelRecursion" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.037"/>
+  <testcase name="testProcessImportsWithExplicitOverridingBefore" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.027"/>
+  <testcase name="testImportAnnotationOnInnerClasses" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.017"/>
+  <testcase name="reproSpr9023" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.009"/>
+  <testcase name="testProcessImportsWithDoubleImports" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.018"/>
+  <testcase name="testProcessImports" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.003"/>
+  <testcase name="testProcessImportsWithExplicitOverridingAfter" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.003"/>
+  <testcase name="testImportAnnotationWithTwoLevelRecursion" classname="org.springframework.context.annotation.configuration.ImportTests" time="0.019"/>
+  <system-out><![CDATA[org.springframework.beans.factory.support.DefaultListableBeanFactory@2ac0600: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,config-b,config-a]; root of factory hierarchy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

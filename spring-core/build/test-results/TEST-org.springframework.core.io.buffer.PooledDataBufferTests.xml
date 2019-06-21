@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.buffer.PooledDataBufferTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:38" hostname="Macbook-Air.local" time="0.016">
+  <properties/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.003"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.0"/>
+  <testcase name="retainAndRelease[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.007"/>
+  <testcase name="tooManyReleases[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.core.io.buffer.PooledDataBufferTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

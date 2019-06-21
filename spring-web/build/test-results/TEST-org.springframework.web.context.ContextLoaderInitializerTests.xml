@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.context.ContextLoaderInitializerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:01" hostname="Macbook-Air.local" time="0.122">
+  <properties/>
+  <testcase name="register" classname="org.springframework.web.context.ContextLoaderInitializerTests" time="0.122"/>
+  <system-out><![CDATA[19:46:01.301 [Test worker] INFO  o.s.w.c.ContextLoaderInitializerTests$MyMockServletContext - Initializing Spring root WebApplicationContext
+19:46:01.301 [Test worker] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization started
+19:46:01.333 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+19:46:01.386 [Test worker] INFO  o.s.w.c.ContextLoader - Root WebApplicationContext initialized in 84 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

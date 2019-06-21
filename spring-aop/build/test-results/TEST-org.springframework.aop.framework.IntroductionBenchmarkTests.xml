@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.IntroductionBenchmarkTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:03" hostname="Macbook-Air.local" time="0.255">
+  <properties/>
+  <testcase name="timeManyInvocations" classname="org.springframework.aop.framework.IntroductionBenchmarkTests" time="0.255"/>
+  <system-out><![CDATA[StopWatch '': running time (millis) = 233
+-----------------------------------------
+ms     %     Task name
+-----------------------------------------
+00127  055%  100000 invocations on proxy, not hitting introduction
+00106  045%  100000 invocations on proxy, hitting introduction
+00000  000%  100000 invocations on target
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

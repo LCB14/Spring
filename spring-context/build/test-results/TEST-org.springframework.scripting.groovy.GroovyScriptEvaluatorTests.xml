@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:26" hostname="Macbook-Air.local" time="0.153">
+  <properties/>
+  <testcase name="testGroovyScriptWithArguments" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.056"/>
+  <testcase name="testGroovyScriptWithImportCustomizer" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.019"/>
+  <testcase name="testGroovyScriptFromFileUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.021"/>
+  <testcase name="testGroovyScriptWithArgumentsUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.013"/>
+  <testcase name="testGroovyScriptFromFile" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.009"/>
+  <testcase name="testGroovyScriptFromStringUsingJsr223" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.021"/>
+  <testcase name="testGroovyScriptWithCompilerConfiguration" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.008"/>
+  <testcase name="testGroovyScriptFromString" classname="org.springframework.scripting.groovy.GroovyScriptEvaluatorTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

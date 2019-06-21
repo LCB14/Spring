@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.validation.ValidationUtilsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:59" hostname="Macbook-Air.local" time="0.015">
+  <properties/>
+  <testcase name="testValidationUtilsNull" classname="org.springframework.validation.ValidationUtilsTests" time="0.007"/>
+  <testcase name="testValidationUtilsEmptyOrWhitespaceVariants" classname="org.springframework.validation.ValidationUtilsTests" time="0.001"/>
+  <testcase name="testValidationUtilsEmptyVariants" classname="org.springframework.validation.ValidationUtilsTests" time="0.0"/>
+  <testcase name="testValidationUtilsEmpty" classname="org.springframework.validation.ValidationUtilsTests" time="0.0"/>
+  <testcase name="testInvokeValidatorWithNullValidator" classname="org.springframework.validation.ValidationUtilsTests" time="0.0"/>
+  <testcase name="testInvokeValidatorSunnyDay" classname="org.springframework.validation.ValidationUtilsTests" time="0.001"/>
+  <testcase name="testInvokeValidatorWithNullErrors" classname="org.springframework.validation.ValidationUtilsTests" time="0.0"/>
+  <testcase name="testValidationUtilsSunnyDay" classname="org.springframework.validation.ValidationUtilsTests" time="0.001"/>
+  <testcase name="testValidationUtilsEmptyOrWhitespace" classname="org.springframework.validation.ValidationUtilsTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

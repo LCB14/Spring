@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.config.HandlersBeanDefinitionParserTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:51:02" hostname="Macbook-Air.local" time="0.181">
+  <properties/>
+  <testcase name="sockJs" classname="org.springframework.web.socket.config.HandlersBeanDefinitionParserTests" time="0.052"/>
+  <testcase name="webSocketHandlersAttributes" classname="org.springframework.web.socket.config.HandlersBeanDefinitionParserTests" time="0.044"/>
+  <testcase name="sockJsAttributes" classname="org.springframework.web.socket.config.HandlersBeanDefinitionParserTests" time="0.047"/>
+  <testcase name="webSocketHandlers" classname="org.springframework.web.socket.config.HandlersBeanDefinitionParserTests" time="0.037"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

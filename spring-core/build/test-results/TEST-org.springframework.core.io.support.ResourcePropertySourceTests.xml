@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.io.support.ResourcePropertySourceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:37" hostname="Macbook-Air.local" time="0.034">
+  <properties/>
+  <testcase name="withLocationAndExplicitName" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.014"/>
+  <testcase name="withLocationAndGeneratedName" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <testcase name="withResourceHavingNoDescription" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <testcase name="withResourceAndGeneratedName" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.001"/>
+  <testcase name="xmlWithLocationAndGeneratedName" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.015"/>
+  <testcase name="withLocationAndGeneratedNameAndExplicitClassLoader" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <testcase name="withLocationAndExplicitNameAndExplicitClassLoader" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <testcase name="withResourceAndExplicitName" classname="org.springframework.core.io.support.ResourcePropertySourceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:49" hostname="Macbook-Air.local" time="0.033">
+  <properties/>
+  <testcase name="testValidPersistenceUnit" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.004"/>
+  <testcase name="testApplicationManagedEntityManagerWithJtaTransaction" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.005"/>
+  <testcase name="testApplicationManagedEntityManagerWithTransaction" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.003"/>
+  <testcase name="testRejectsMissingPersistenceUnitInfo" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.003"/>
+  <testcase name="testApplicationManagedEntityManagerWithoutTransaction" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.002"/>
+  <testcase name="testEntityManagerFactoryIsProxied" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.004"/>
+  <testcase name="testApplicationManagedEntityManagerWithTransactionAndCommitException" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.006"/>
+  <testcase name="testInvalidPersistenceUnitName" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.003"/>
+  <testcase name="testExceptionTranslationWithNoDialect" classname="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBeanTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

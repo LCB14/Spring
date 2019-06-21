@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.FilterTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:15" hostname="Macbook-Air.local" time="0.394">
+  <properties/>
+  <testcase name="filtersProcessRequest" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.059"/>
+  <testcase name="filterMappedBySuffix" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.058"/>
+  <testcase name="whenFiltersCompleteMvcProcessesRequest" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.048"/>
+  <testcase name="filterWrapsRequestResponseAndPerformsAsyncDispatch" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.077"/>
+  <testcase name="filterWrapsRequestResponse" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.049"/>
+  <testcase name="filterWithExactMapping" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.055"/>
+  <testcase name="filterSkipped" classname="org.springframework.test.web.servlet.samples.standalone.FilterTests" time="0.046"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:18" hostname="Macbook-Air.local" time="0.175">
+  <properties/>
+  <testcase name="testStatusInt" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" time="0.041"/>
+  <testcase name="testReasonEqualTo" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" time="0.041"/>
+  <testcase name="testHttpStatus" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" time="0.029"/>
+  <testcase name="testMatcher" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" time="0.03"/>
+  <testcase name="testReasonMatcher" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.StatusAssertionTests" time="0.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

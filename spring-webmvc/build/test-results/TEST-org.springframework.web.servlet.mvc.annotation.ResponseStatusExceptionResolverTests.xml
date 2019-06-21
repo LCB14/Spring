@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:38" hostname="Macbook-Air.local" time="0.064">
+  <properties/>
+  <testcase name="statusCodeAndReason" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.038"/>
+  <testcase name="statusCodeAndReasonMessage" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.004"/>
+  <testcase name="responseStatusExceptionWithReason" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.003"/>
+  <testcase name="responseStatusException" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <testcase name="statusCode" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.001"/>
+  <testcase name="statusCodeFromComposedResponseStatus" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.006"/>
+  <testcase name="nestedException" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.009"/>
+  <testcase name="notAnnotated" classname="org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests" time="0.0"/>
+  <system-out><![CDATA[19:49:38.426 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonException]
+19:49:38.455 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException]
+19:49:38.459 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "The reason"]
+19:49:38.462 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST]
+19:49:38.463 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeException]
+19:49:38.470 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeFromComposedResponseStatusException]
+19:49:38.478 [Test worker] WARN  o.s.w.s.m.a.ResponseStatusExceptionResolver - Resolved [org.springframework.beans.TypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'org.springframework.tests.sample.beans.ITestBean'; nested exception is org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolverTests$StatusCodeAndReasonMessageException]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

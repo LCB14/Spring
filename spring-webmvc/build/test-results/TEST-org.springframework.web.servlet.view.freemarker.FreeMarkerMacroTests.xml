@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:14" hostname="Macbook-Air.local" time="0.759">
+  <properties/>
+  <testcase name="testMessageArgsWithDefaultMessage" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.261"/>
+  <testcase name="testMessageArgs" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.028"/>
+  <testcase name="testAge" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.025"/>
+  <testcase name="testUrl" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.036"/>
+  <testcase name="testForm1" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.076"/>
+  <testcase name="testForm2" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.019"/>
+  <testcase name="testForm3" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.02"/>
+  <testcase name="testForm4" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.016"/>
+  <testcase name="testForm9" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.014"/>
+  <testcase name="testTheme" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.015"/>
+  <testcase name="testName" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.012"/>
+  <testcase name="testExposeSpringMacroHelpers" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.008"/>
+  <testcase name="testUrlParams" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.018"/>
+  <testcase name="testDefaultTheme" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.021"/>
+  <testcase name="testThemeArgsWithDefaultMessage" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.016"/>
+  <testcase name="testMessage" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.013"/>
+  <testcase name="testSpringMacroRequestContextAttributeUsed" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.002"/>
+  <testcase name="testThemeArgs" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.015"/>
+  <testcase name="testForm10" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.016"/>
+  <testcase name="testForm11" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.021"/>
+  <testcase name="testForm12" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.014"/>
+  <testcase name="testForm13" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.014"/>
+  <testcase name="testForm15" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.014"/>
+  <testcase name="testForm16" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.016"/>
+  <testcase name="testForm17" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.016"/>
+  <testcase name="testForm18" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.014"/>
+  <testcase name="testDefaultMessage" classname="org.springframework.web.servlet.view.freemarker.FreeMarkerMacroTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

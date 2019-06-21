@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.server.standard.SpringConfiguratorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:51:03" hostname="Macbook-Air.local" time="0.182">
+  <properties/>
+  <testcase name="getEndpointSingletonByComponentName" classname="org.springframework.web.socket.server.standard.SpringConfiguratorTests" time="0.114"/>
+  <testcase name="getEndpointSingletonByType" classname="org.springframework.web.socket.server.standard.SpringConfiguratorTests" time="0.037"/>
+  <testcase name="getEndpointPerConnection" classname="org.springframework.web.socket.server.standard.SpringConfiguratorTests" time="0.031"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.RedirectTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:14" hostname="Macbook-Air.local" time="0.433">
+  <properties/>
+  <testcase name="saveSpecial" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.187"/>
+  <testcase name="saveSpecialWithErrors" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.105"/>
+  <testcase name="save" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.043"/>
+  <testcase name="saveWithErrors" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.053"/>
+  <testcase name="getPerson" classname="org.springframework.test.web.servlet.samples.standalone.RedirectTests" time="0.045"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.htmlunit.webdriver.WebConnectionHtmlUnitDriverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:25" hostname="Macbook-Air.local" time="0.26">
+  <properties/>
+  <testcase name="setWebConnection" classname="org.springframework.test.web.servlet.htmlunit.webdriver.WebConnectionHtmlUnitDriverTests" time="0.155"/>
+  <testcase name="setWebConnectionToNull" classname="org.springframework.test.web.servlet.htmlunit.webdriver.WebConnectionHtmlUnitDriverTests" time="0.017"/>
+  <testcase name="getWebConnectionDefaultNotNull" classname="org.springframework.test.web.servlet.htmlunit.webdriver.WebConnectionHtmlUnitDriverTests" time="0.087"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

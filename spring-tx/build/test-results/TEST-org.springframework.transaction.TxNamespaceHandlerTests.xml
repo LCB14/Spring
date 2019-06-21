@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.TxNamespaceHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:50" hostname="Macbook-Air.local" time="0.177">
+  <properties/>
+  <testcase name="rollbackRules" classname="org.springframework.transaction.TxNamespaceHandlerTests" time="0.086"/>
+  <testcase name="invokeTransactional" classname="org.springframework.transaction.TxNamespaceHandlerTests" time="0.047"/>
+  <testcase name="isProxy" classname="org.springframework.transaction.TxNamespaceHandlerTests" time="0.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

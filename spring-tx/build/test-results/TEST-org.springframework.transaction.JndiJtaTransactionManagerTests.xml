@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.JndiJtaTransactionManagerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:50" hostname="Macbook-Air.local" time="0.026">
+  <properties/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookupsAndNoTmFound" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.008"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookups1" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookups2" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.001"/>
+  <testcase name="jtaTransactionManagerWithDefaultJndiLookupsAndNoUtFound" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.002"/>
+  <testcase name="jtaTransactionManagerWithNotCacheUserTransaction" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.008"/>
+  <testcase name="jtaTransactionManagerWithCustomJndiLookups" classname="org.springframework.transaction.JndiJtaTransactionManagerTests" time="0.004"/>
+  <system-out><![CDATA[19:45:50.349 [Test worker] WARN  o.s.t.j.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+19:45:50.360 [Test worker] WARN  o.s.t.j.JtaTransactionManager - No JTA TransactionManager found: transaction suspension not available
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

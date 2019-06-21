@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.xml.XmlEventDecoderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:25" hostname="Macbook-Air.local" time="0.161">
+  <properties/>
+  <testcase name="decodeErrorAalto" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.138"/>
+  <testcase name="toXMLEventsNonAalto" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.018"/>
+  <testcase name="decodeErrorNonAalto" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.001"/>
+  <testcase name="toXMLEventsAalto" classname="org.springframework.http.codec.xml.XmlEventDecoderTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

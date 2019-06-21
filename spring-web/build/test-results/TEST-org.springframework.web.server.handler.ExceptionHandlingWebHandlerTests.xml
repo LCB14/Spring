@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:04" hostname="Macbook-Air.local" time="0.511">
+  <properties/>
+  <testcase name="unresolvedException" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.454"/>
+  <testcase name="handleErrorSignal" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.011"/>
+  <testcase name="handleErrorSignalWithMultipleHttpErrorHandlers" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.0"/>
+  <testcase name="unresolvedExceptionWithWebHttpHandlerAdapter" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.045"/>
+  <testcase name="thrownExceptionBecomesErrorSignal" classname="org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests" time="0.001"/>
+  <system-out><![CDATA[19:46:04.711 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2f03f76f] HTTP GET ""
+19:46:04.718 [Test worker] ERROR o.s.w.s.a.HttpWebHandlerAdapter - [2f03f76f] 500 Server Error for HTTP GET ""
+java.lang.IllegalStateException: boo
+	at org.springframework.web.server.handler.ExceptionHandlingWebHandlerTests.<init>(ExceptionHandlingWebHandlerTests.java:41) ~[test/:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_144]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_144]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_144]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_144]
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:250) ~[junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:260) ~[junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner$2.runReflectiveCall(BlockJUnit4ClassRunner.java:309) ~[junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:306) ~[junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:365) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:330) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:78) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:328) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:65) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:412) [junit-4.13-beta-3.jar:4.13-beta-3]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.0.jar:5.0]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.0.jar:5.0]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.0.jar:5.0]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-5.0.jar:5.0]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.0.jar:5.0]
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.0.jar:5.0]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.0.jar:5.0]
+	at sun.reflect.GeneratedMethodAccessor47.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.0.jar:5.0]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.0.jar:5.0]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.0.jar:5.0]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	|_ checkpoint ⇢ HTTP GET "" [ExceptionHandlingWebHandler]
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

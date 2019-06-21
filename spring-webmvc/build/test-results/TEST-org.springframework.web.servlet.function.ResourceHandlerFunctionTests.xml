@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.ResourceHandlerFunctionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:10" hostname="Macbook-Air.local" time="0.081">
+  <properties/>
+  <testcase name="options" classname="org.springframework.web.servlet.function.ResourceHandlerFunctionTests" time="0.052"/>
+  <testcase name="get" classname="org.springframework.web.servlet.function.ResourceHandlerFunctionTests" time="0.026"/>
+  <testcase name="head" classname="org.springframework.web.servlet.function.ResourceHandlerFunctionTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

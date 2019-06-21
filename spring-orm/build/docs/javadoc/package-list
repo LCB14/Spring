@@ -1,0 +1,7 @@
+org.springframework.orm
+org.springframework.orm.hibernate5
+org.springframework.orm.hibernate5.support
+org.springframework.orm.jpa
+org.springframework.orm.jpa.persistenceunit
+org.springframework.orm.jpa.support
+org.springframework.orm.jpa.vendor

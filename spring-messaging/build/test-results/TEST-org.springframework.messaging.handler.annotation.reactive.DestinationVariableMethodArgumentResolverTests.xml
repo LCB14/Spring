@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.handler.annotation.reactive.DestinationVariableMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:40" hostname="Macbook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="resolveArgumentNotFound" classname="org.springframework.messaging.handler.annotation.reactive.DestinationVariableMethodArgumentResolverTests" time="0.005"/>
+  <testcase name="resolveArgument" classname="org.springframework.messaging.handler.annotation.reactive.DestinationVariableMethodArgumentResolverTests" time="0.006"/>
+  <testcase name="supportsParameter" classname="org.springframework.messaging.handler.annotation.reactive.DestinationVariableMethodArgumentResolverTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2019-06-21T11:40:08" hostname="Macbook-Air.local" time="0.021">
+  <properties/>
+  <testcase name="testPropertyPlaceholderConfigurerWithSystemPropertyInLocation" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.003"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithMultiLevelCircularReference" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.003"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithSystemPropertiesInLocation" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.005"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithNestedCircularReference" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.002"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithNestedUnresolvableReference" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.002"/>
+  <testcase name="testPropertyPlaceholderConfigurerWithAutowireByType" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPropertyPlaceholderConfigurerWithUnresolvableSystemPropertiesInLocation" classname="org.springframework.context.support.PropertyResourceConfigurerIntegrationTests" time="0.003"/>
+  <system-out><![CDATA[19:40:08.624 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: class path resource [Users/lichangbao/github/spring_study/spring-context/test] cannot be opened because it does not exist
+19:40:08.626 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'tb1' defined in null: Circular placeholder reference 'var' in property definitions; nested exception is java.lang.IllegalArgumentException: Circular placeholder reference 'var' in property definitions
+19:40:08.630 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: class path resource [Users/lichangbao/github/spring_study/spring-context/test//Users/lichangbao/github/spring_study/spring-context] cannot be opened because it does not exist
+19:40:08.634 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'tb1' defined in null: Circular placeholder reference 'm' in property definitions; nested exception is java.lang.IllegalArgumentException: Circular placeholder reference 'm' in property definitions
+19:40:08.636 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'tb1' defined in null: Could not resolve placeholder 'm2' in value "${m2}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'm2' in value "${m2}"
+19:40:08.641 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanInitializationException: Could not load properties; nested exception is java.io.FileNotFoundException: class path resource [${myprop}/test/${myprop}] cannot be opened because it does not exist
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

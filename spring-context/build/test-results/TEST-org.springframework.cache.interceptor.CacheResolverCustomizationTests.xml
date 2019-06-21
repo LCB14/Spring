@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.interceptor.CacheResolverCustomizationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:37" hostname="Macbook-Air.local" time="0.106">
+  <properties/>
+  <testcase name="customCacheResolver" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.043"/>
+  <testcase name="runtimeResolution" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.009"/>
+  <testcase name="namedResolution" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.01"/>
+  <testcase name="noCustomization" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.009"/>
+  <testcase name="customCacheManager" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.009"/>
+  <testcase name="noCacheResolved" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.01"/>
+  <testcase name="unknownCacheResolver" classname="org.springframework.cache.interceptor.CacheResolverCustomizationTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

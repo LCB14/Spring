@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:24" hostname="Macbook-Air.local" time="0.484">
+  <properties/>
+  <testcase name="handleWithErrorSignal" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.046"/>
+  <testcase name="voidReturnValueFromExceptionHandler" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.023"/>
+  <testcase name="handleWithThrownException" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.019"/>
+  <testcase name="echoAsync" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.056"/>
+  <testcase name="echo" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.017"/>
+  <testcase name="echoChannel" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.13"/>
+  <testcase name="voidReturnValue" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.021"/>
+  <testcase name="fireAndForget" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.065"/>
+  <testcase name="noMatchingRoute" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.02"/>
+  <testcase name="echoStream" classname="org.springframework.messaging.rsocket.RSocketClientToServerIntegrationTests" time="0.086"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[org.springframework.messaging.MessageDeliveryException: No handler for destination 'invalid'
+	at org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler.handleNoMatch(RSocketMessageHandler.java:162)
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.getHandlerMethod(AbstractMethodMessageHandler.java:444)
+	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:416)
+	at org.springframework.messaging.rsocket.annotation.support.MessagingRSocket.lambda$handleAndReply$5(MessagingRSocket.java:179)
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44)
+	at reactor.core.publisher.MonoDoFinally.subscribe(MonoDoFinally.java:47)
+	at reactor.core.publisher.MonoIgnoreElement.subscribe(MonoIgnoreElement.java:34)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3850)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:207)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:80)
+	at reactor.core.publisher.MonoNext.subscribe(MonoNext.java:40)
+	at io.rsocket.RSocketResponder.handleRequestResponse(RSocketResponder.java:401)
+	at io.rsocket.RSocketResponder.handleFrame(RSocketResponder.java:307)
+	at reactor.core.publisher.LambdaSubscriber.onNext(LambdaSubscriber.java:130)
+	at reactor.core.publisher.MonoFlatMapMany$FlatMapManyInner.onNext(MonoFlatMapMany.java:238)
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drainRegular(FluxGroupBy.java:554)
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.drain(FluxGroupBy.java:630)
+	at reactor.core.publisher.FluxGroupBy$UnicastGroupedFlux.onNext(FluxGroupBy.java:670)
+	at reactor.core.publisher.FluxGroupBy$GroupByMain.onNext(FluxGroupBy.java:205)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114)
+	at reactor.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:206)
+	at reactor.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+	at reactor.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:335)
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:682)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:617)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:534)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+</testsuite>

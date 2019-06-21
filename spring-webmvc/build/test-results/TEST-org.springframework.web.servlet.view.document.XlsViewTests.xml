@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.view.document.XlsViewTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:15" hostname="Macbook-Air.local" time="5.956">
+  <properties/>
+  <testcase name="testXls" classname="org.springframework.web.servlet.view.document.XlsViewTests" time="1.063"/>
+  <testcase name="testXlsxView" classname="org.springframework.web.servlet.view.document.XlsViewTests" time="2.416"/>
+  <testcase name="testXlsxStreamingView" classname="org.springframework.web.servlet.view.document.XlsViewTests" time="2.477"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

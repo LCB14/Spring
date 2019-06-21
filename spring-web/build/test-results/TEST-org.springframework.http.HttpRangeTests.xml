@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.HttpRangeTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:24" hostname="Macbook-Air.local" time="0.064">
+  <properties/>
+  <testcase name="suffixRange" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="byteRange" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="invalidFirstPosition" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="toResourceRegionIllegalLength" classname="org.springframework.http.HttpRangeTests" time="0.027"/>
+  <testcase name="byteRangeOfZeroLength" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="parseRanges" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="toResourceRegion" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="toResourceRegionInputStreamResource" classname="org.springframework.http.HttpRangeTests" time="0.03"/>
+  <testcase name="toResourceRegionExceptionLength" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="invalidSuffixLength" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="invalidLastLessThanFirst" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="parseRangesValidations" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="byteRangeWithoutLastPosition" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="toResourceRegionsValidations" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <testcase name="suffixRangeShorterThanRepresentation" classname="org.springframework.http.HttpRangeTests" time="0.0"/>
+  <testcase name="rangeToString" classname="org.springframework.http.HttpRangeTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

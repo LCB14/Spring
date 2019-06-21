@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.support.ApplicationContextLifecycleTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:08" hostname="Macbook-Air.local" time="0.066">
+  <properties/>
+  <testcase name="testStopOrder" classname="org.springframework.context.support.ApplicationContextLifecycleTests" time="0.036"/>
+  <testcase name="testBeansStop" classname="org.springframework.context.support.ApplicationContextLifecycleTests" time="0.009"/>
+  <testcase name="testBeansStart" classname="org.springframework.context.support.ApplicationContextLifecycleTests" time="0.01"/>
+  <testcase name="testStartOrder" classname="org.springframework.context.support.ApplicationContextLifecycleTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

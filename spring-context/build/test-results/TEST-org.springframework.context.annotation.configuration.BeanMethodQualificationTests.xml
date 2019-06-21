@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:58" hostname="Macbook-Air.local" time="0.203">
+  <properties/>
+  <testcase name="testCustomWithLazyResolution" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.061"/>
+  <testcase name="testCustomWithAttributeOverride" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.024"/>
+  <testcase name="testCustomWithEarlyResolution" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.01"/>
+  <testcase name="testBeanNamesForAnnotation" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.019"/>
+  <testcase name="testCustomWithAsm" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.008"/>
+  <testcase name="testScoped" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.02"/>
+  <testcase name="testStandard" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.008"/>
+  <testcase name="testScopedProxy" classname="org.springframework.context.annotation.configuration.BeanMethodQualificationTests" time="0.051"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

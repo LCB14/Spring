@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.support.JdkRegexpMethodPointcutTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:07" hostname="Macbook-Air.local" time="0.006">
+  <properties/>
+  <testcase name="testWildcardForOneClass" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.001"/>
+  <testcase name="testSpecificMatch" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.001"/>
+  <testcase name="testSerializationWithNoPatternSupplied" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.001"/>
+  <testcase name="testWildcard" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.0"/>
+  <testcase name="testNoPatternSupplied" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.0"/>
+  <testcase name="testWithExclusion" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.001"/>
+  <testcase name="testMatchesObjectClass" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.0"/>
+  <testcase name="testExactMatch" classname="org.springframework.aop.support.JdkRegexpMethodPointcutTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

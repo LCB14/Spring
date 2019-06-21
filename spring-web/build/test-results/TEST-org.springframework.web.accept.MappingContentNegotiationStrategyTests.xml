@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.accept.MappingContentNegotiationStrategyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:01" hostname="Macbook-Air.local" time="0.028">
+  <properties/>
+  <testcase name="resolveMediaTypesNoMatch" classname="org.springframework.web.accept.MappingContentNegotiationStrategyTests" time="0.026"/>
+  <testcase name="resolveMediaTypes" classname="org.springframework.web.accept.MappingContentNegotiationStrategyTests" time="0.002"/>
+  <testcase name="resolveMediaTypesHandleNoMatch" classname="org.springframework.web.accept.MappingContentNegotiationStrategyTests" time="0.0"/>
+  <testcase name="resolveMediaTypesNoKey" classname="org.springframework.web.accept.MappingContentNegotiationStrategyTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

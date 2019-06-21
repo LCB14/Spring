@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:21" hostname="Macbook-Air.local" time="0.128">
+  <properties/>
+  <testcase name="jsonView" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.042"/>
+  <testcase name="readWithXmlBomb" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.021"/>
+  <testcase name="readInvalidXml" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.002"/>
+  <testcase name="readWithExternalReference" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.004"/>
+  <testcase name="readValidXmlWithUnknownProperty" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.004"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.017"/>
+  <testcase name="read" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.01"/>
+  <testcase name="write" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.021"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.003"/>
+  <testcase name="customXmlMapper" classname="org.springframework.http.converter.xml.MappingJackson2XmlHttpMessageConverterTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

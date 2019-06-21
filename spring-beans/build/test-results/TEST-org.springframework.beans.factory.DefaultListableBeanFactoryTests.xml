@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.DefaultListableBeanFactoryTests" tests="166" skipped="11" failures="0" errors="0" timestamp="2019-06-21T11:39:30" hostname="Macbook-Air.local" time="1.204">
+  <properties/>
+  <testcase name="testCreateBeanWithDisposableBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testSingletonFactoryBeanIgnoredByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.009"/>
+  <testcase name="testPossibleMatches" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testAutowireWithUnsatisfiedConstructorDependency" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.072"/>
+  <testcase name="testByTypeLookupIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase name="testImplicitDependsOnCycle" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testCustomConverter" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testGetBeanByTypeFiltersOutNonAutowireCandidates" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testCircularReferenceThroughFactoryBeanAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testDestroyMethodOnInnerBeanAsPrototype" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.008"/>
+  <testcase name="testPrototypeFactoryBeanNotEagerlyCalled" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testGetTypeForAbstractFactoryBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testInvalidAutowireMode" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeCircleLeadsToException" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testExpressionInStringArray" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.604"/>
+  <testcase name="testBeanPostProcessorWithWrappedObjectAndDisposableBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testArrayReferenceByName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testArrayReferenceByType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypePrimaryHasPrecedenceOverPriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testArrayPropertyWithAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testCanReferenceParentBeanFromChildViaAlias" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testCircularReferenceThroughFactoryBeanTypeCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testReferenceByAutowire" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testRegisterExistingSingletonWithNameOverriding" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testAutowireBeanByTypeWithIdenticalPriorityCandidates" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.013"/>
+  <testcase name="testPrototypeCreationWithResolvedConstructorArgumentsIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPropertiesPopulationWithNullPrefix" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testBeanReferenceWithNewSyntax" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAliasChaining" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireBeanByTypeWithTwoPrimaryCandidates" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testNonStaticFactoryMethodFoundByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testArrayConstructorWithOptionalAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeFactoryBeanNotEagerlyCalledInCaseOfBeanClassName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireExistingBeanByTypeWithNoDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="populatedJavaUtilOptionalBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testGetBeanByTypeInstanceWithPrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.024"/>
+  <testcase name="testGetBeanNamesForTypeAfterFactoryBeanCreation" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testDoubleArrayConstructorWithAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeCreationIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testAutowireBeanByNameWithNoDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireWithSatisfiedConstructorDependency" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testBeanDefinitionWithInterface" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testHarmlessIgnorableRubbish" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testCircularReferenceThroughAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="getBeanProviderByTypeWithNullRequiredType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanByTypeWithDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testScopingBeanToUnregisteredScopeResultsInAnException" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testEmpty" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAliasCircle" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAvoidCircularReferenceThroughAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testPrototypeCreationWithPropertiesIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testApplyBeanPropertyValuesWithIncompleteDefinition" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testDependsOnCycle" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testConstructorDependencyWithUnresolvableClass" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testAutowireBeanByTypeWithTwoMatchesAndOnePrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testFieldSettingWithInstantiationAwarePostProcessorWithShortCircuit" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.011"/>
+  <testcase name="testConfigureBeanWithAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testRegistrationOfManySingletonsIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testAutowireBeanByTypePrimaryTakesPrecedenceOverPriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeStringCreatedRepeatedly" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.005"/>
+  <testcase name="testBeanDefinitionOverridingWithAlias" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testContainsBeanReturnsTrueEvenForAbstractBeanDefinition" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testStaticFactoryMethodFoundByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeCreationWithDependencyCheckIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testPrototypeWithArrayConversionForFactoryMethod" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.006"/>
+  <testcase name="testUnresolvedReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanNamesForTypeBeforeFactoryBeanCreation" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testPrototypeCreationWithResolvedPropertiesIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testRegistrationOfManyBeanDefinitionsIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testConfigureBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testNameAlreadyBound" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testFindTypeOfSingletonFactoryMethodOnBeanInstance" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testScopeInheritanceForChildBeanDefinitions" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireBeanWithFactoryBeanByTypeWithPrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testAutowireBeanByTypeWithTwoMatchesAndPriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testExplicitScopeInheritanceForChildBeanDefinitions" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testRegisterExistingSingletonWithReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testGetBeanByTypeInstanceFiltersOutNonAutowireCandidates" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testPropertiesWithDotsInKey" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypeInstanceWithNoneFound" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testGetBeanWithArgsNotCreatedForFactoryBeanChecking" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.012"/>
+  <testcase name="testArrayReferenceByAutowire" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testCanEscapeBeanReferenceSyntax" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testNonInitializedFactoryBeanIgnoredByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testArrayPropertyWithOptionalAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testRegisterExistingSingletonWithAlreadyBound" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testDoubleArrayConstructorWithOptionalAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireWithNoDependencies" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.005"/>
+  <testcase name="testArrayConstructorWithAutowiring" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireExistingBeanByNameWithDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="getBeanByTypeWithNullRequiredType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototype" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testFieldSettingWithInstantiationAwarePostProcessorNoShortCircuit" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testSelfReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.005"/>
+  <testcase name="testSingletonLookupByNameIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testReferenceByName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testReferenceByType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testSmartInitFactory" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireExistingBeanByNameWithNoDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireExistingBeanByName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireExistingBeanByType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanByTypeWithTwoMatches" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testMapInjectionWithPriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypeWithMultiplePrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testGetBeanByTypeWithNoneFound" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPropertiesPopulationWithPrefix" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testBeanPostProcessorWithWrappedObjectAndCloseable" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.007"/>
+  <testcase name="testGetBeanByTypeWithPrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireBeanByName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanByType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testGetBeanByTypeInstanceWithAmbiguity" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.006"/>
+  <testcase name="testNonPublicEnum" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testInitializedFactoryBeanFoundByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testCustomTypeConverterWithBeanReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testCreateBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testFactoryBeanDidNotCreatePrototype" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireWithTwoMatchesForConstructorDependency" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testRegisterExistingSingletonWithAutowire" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="resolveNamedBeanByTypeWithNullRequiredType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testReregisterBeanDefinition" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testLazyInitFactory" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testExtensiveCircularReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.093"/>
+  <testcase name="testEmptyPropertiesPopulation" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="emptyJavaUtilOptionalBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testPrototypeFactoryBeanIgnoredByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanByNameWithDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testGetBeanByTypeInstanceDefinedInParent" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testBeanProviderSerialization" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.03"/>
+  <testcase name="testCustomEditor" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="resolveEmbeddedValue" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.04"/>
+  <testcase name="testBeanDefinitionWithAbstractClass" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testPrototypeCreationWithConstructorArgumentsIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testUnreferencedSingletonWasInstantiated" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testStaticPrototypeFactoryMethodFoundByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanByTypeWithNoDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testBeanDefinitionOverridingNotAllowed" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testAutowireWithSatisfiedJavaBeanDependency" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testLazyInitialization" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testFindTypeOfPrototypeFactoryMethodOnBeanInstance" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeExtendsPrototype" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypeWithAmbiguity" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testSimpleReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testApplyBeanPropertyValues" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testConstructorDependencyWithClassResolution" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetTypeWorksAfterParentChildMerging" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testCustomTypeConverter" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testBeanDefinitionRemoval" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testGetBeanByTypeInstanceWithMultiplePrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypeWithPriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetFactoryBeanByTypeWithPrimary" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testPrototypeWithArrayConversionForConstructor" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testGetBeanByTypeWithPriorityAndNullInstance" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testInitSecurityAwarePrototypeBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.015"/>
+  <testcase name="testSingletonLookupByTypeIsFastEnough" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetBeanByTypeDefinedInParent" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireConstructor" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.004"/>
+  <testcase name="testNonStaticPrototypeFactoryMethodFoundByNonEagerTypeMatching" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testGetBeanByTypeWithMultiplePriority" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testBeanPostProcessorWithWrappedObjectAndDestroyMethod" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testDestroyMethodOnInnerBean" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testCustomEditorWithBeanReference" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.003"/>
+  <testcase name="testLazyInitFlag" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testBeanDefinitionOverriding" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.0"/>
+  <testcase name="testAutowireExistingBeanByTypeWithDependencyCheck" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <testcase name="testAutowireBeanWithFactoryBeanByName" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.002"/>
+  <testcase name="testAutowireBeanWithFactoryBeanByType" classname="org.springframework.beans.factory.DefaultListableBeanFactoryTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

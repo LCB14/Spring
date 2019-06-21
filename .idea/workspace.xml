@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="spring.spring-aop" />
+      <module name="spring" />
+      <module name="spring.spring-beans" />
+      <module name="spring.spring-aop.test" />
+      <module name="spring.spring-beans.main" />
+      <module name="spring.spring-aop.main" />
+      <module name="spring.main" />
+      <module name="spring.spring-build-src" />
+      <module name="spring.spring-build-src.main" />
+      <module name="spring.spring-build-src.test" />
+      <module name="spring.spring-beans.test" />
+      <module name="spring.spring-context" />
+      <module name="spring.spring-context-indexer" />
+      <module name="spring.spring-context-support" />
+      <module name="spring.spring-context-indexer.test" />
+      <module name="spring.spring-context-indexer.main" />
+      <module name="spring.spring-context-support.main" />
+      <module name="spring.spring-core" />
+      <module name="spring.spring-context-support.test" />
+      <module name="spring.spring-context.main" />
+      <module name="spring.spring-core-coroutines" />
+      <module name="spring.spring-context.test" />
+      <module name="spring.spring-core-coroutines.main" />
+      <module name="spring.spring-core-coroutines.test" />
+      <module name="spring.spring-expression" />
+      <module name="spring.spring-expression.test" />
+      <module name="spring.spring-expression.main" />
+      <module name="spring.spring-core.test" />
+      <module name="spring.spring-core.main" />
+      <module name="spring.spring-framework-bom" />
+      <module name="spring.spring-framework-bom.main" />
+      <module name="spring.spring-framework-bom.test" />
+      <module name="spring.spring-jcl" />
+      <module name="spring.spring-instrument" />
+      <module name="spring.spring-instrument.main" />
+      <module name="spring.spring-jdbc" />
+      <module name="spring.spring-jcl.main" />
+      <module name="spring.spring-jcl.test" />
+      <module name="spring.spring-instrument.test" />
+      <module name="spring.spring-jdbc.main" />
+      <module name="spring.spring-jdbc.test" />
+      <module name="spring.spring-jms" />
+      <module name="spring.spring-messaging" />
+      <module name="spring.spring-jms.test" />
+      <module name="spring.spring-jms.main" />
+      <module name="spring.spring-orm" />
+      <module name="spring.spring-messaging.main" />
+      <module name="spring.spring-orm.main" />
+      <module name="spring.spring-messaging.test" />
+      <module name="spring.spring-oxm.main" />
+      <module name="spring.spring-oxm" />
+      <module name="spring.spring-orm.test" />
+      <module name="spring.spring-test" />
+      <module name="spring.spring-oxm.test" />
+      <module name="spring.spring-tx" />
+      <module name="spring.spring-test.main" />
+      <module name="spring.spring-tx.main" />
+      <module name="spring.spring-web" />
+      <module name="spring.spring-test.test" />
+      <module name="spring.spring-web.main" />
+      <module name="spring.spring-tx.test" />
+      <module name="spring.spring-webflux" />
+      <module name="spring.spring-web.test" />
+      <module name="spring.spring-webmvc" />
+      <module name="spring.spring-webflux.main" />
+      <module name="spring.spring-webflux.test" />
+      <module name="spring.spring-websocket" />
+      <module name="spring.spring-webmvc.main" />
+      <module name="spring.spring-webmvc.test" />
+      <module name="spring.spring-websocket.main" />
+      <module name="spring.test" />
+      <module name="spring.spring-websocket.test" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-aop/out/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/build/" />
+    <ignored path="$PROJECT_DIR$/spring-aspects/out/" />
+    <ignored path="$PROJECT_DIR$/spring-beans/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-beans/out/" />
+    <ignored path="$PROJECT_DIR$/buildSrc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-context/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-context/out/" />
+    <ignored path="$PROJECT_DIR$/spring-context-indexer/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-context-indexer/build/" />
+    <ignored path="$PROJECT_DIR$/spring-context-indexer/out/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/build/" />
+    <ignored path="$PROJECT_DIR$/spring-context-support/out/" />
+    <ignored path="$PROJECT_DIR$/spring-core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-core/out/" />
+    <ignored path="$PROJECT_DIR$/spring-core-coroutines/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-core-coroutines/out/" />
+    <ignored path="$PROJECT_DIR$/spring-expression/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-expression/out/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/build/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-bom/out/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-instrument/out/" />
+    <ignored path="$PROJECT_DIR$/spring-jcl/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-jcl/out/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/build/" />
+    <ignored path="$PROJECT_DIR$/spring-jdbc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/build/" />
+    <ignored path="$PROJECT_DIR$/spring-jms/out/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/build/" />
+    <ignored path="$PROJECT_DIR$/spring-messaging/out/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/build/" />
+    <ignored path="$PROJECT_DIR$/spring-orm/out/" />
+    <ignored path="$PROJECT_DIR$/spring-oxm/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-oxm/out/" />
+    <ignored path="$PROJECT_DIR$/spring-test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-test/build/" />
+    <ignored path="$PROJECT_DIR$/spring-test/out/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/build/" />
+    <ignored path="$PROJECT_DIR$/spring-tx/out/" />
+    <ignored path="$PROJECT_DIR$/spring-web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-web/build/" />
+    <ignored path="$PROJECT_DIR$/spring-web/out/" />
+    <ignored path="$PROJECT_DIR$/spring-webflux/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-webflux/build/" />
+    <ignored path="$PROJECT_DIR$/spring-webflux/out/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/build/" />
+    <ignored path="$PROJECT_DIR$/spring-webmvc/out/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/.gradle/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/build/" />
+    <ignored path="$PROJECT_DIR$/spring-websocket/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="" />
+      <created>1561116212145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561116212145</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32939634" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4820322" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="sbt" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout>
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="spring.spring-aspects.main" />
+    <module name="spring.spring-aspects.test" />
+    <module name="spring.spring-aspects" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

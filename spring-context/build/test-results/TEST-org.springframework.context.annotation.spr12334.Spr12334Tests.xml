@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.spr12334.Spr12334Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:01" hostname="Macbook-Air.local" time="0.008">
+  <properties/>
+  <testcase name="shouldNotScanTwice" classname="org.springframework.context.annotation.spr12334.Spr12334Tests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

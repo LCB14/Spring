@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.PathResourceLookupFunctionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:56" hostname="Macbook-Air.local" time="0.076">
+  <properties/>
+  <testcase name="subPath" classname="org.springframework.web.reactive.function.server.PathResourceLookupFunctionTests" time="0.024"/>
+  <testcase name="normal" classname="org.springframework.web.reactive.function.server.PathResourceLookupFunctionTests" time="0.014"/>
+  <testcase name="composeResourceLookupFunction" classname="org.springframework.web.reactive.function.server.PathResourceLookupFunctionTests" time="0.015"/>
+  <testcase name="notFound" classname="org.springframework.web.reactive.function.server.PathResourceLookupFunctionTests" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

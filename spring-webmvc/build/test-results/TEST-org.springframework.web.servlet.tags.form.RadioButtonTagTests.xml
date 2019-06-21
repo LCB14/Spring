@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.form.RadioButtonTagTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:12" hostname="Macbook-Air.local" time="0.07">
+  <properties/>
+  <testcase name="collectionOfPets" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.008"/>
+  <testcase name="withCheckedObjectValueAndEditor" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.009"/>
+  <testcase name="withCheckedObjectValue" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.006"/>
+  <testcase name="withUncheckedValue" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.007"/>
+  <testcase name="dynamicTypeAttribute" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.007"/>
+  <testcase name="collectionOfPetsNotSelected" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.007"/>
+  <testcase name="withUncheckedObjectValue" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.005"/>
+  <testcase name="withCheckedValueAndDynamicAttributes" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.005"/>
+  <testcase name="collectionOfPetsWithEditor" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.008"/>
+  <testcase name="withCheckedValue" classname="org.springframework.web.servlet.tags.form.RadioButtonTagTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

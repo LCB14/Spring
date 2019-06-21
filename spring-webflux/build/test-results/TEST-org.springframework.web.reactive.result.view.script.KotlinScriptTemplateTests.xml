@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:59" hostname="Macbook-Air.local" time="11.207">
+  <properties/>
+  <testcase name="renderTemplateWithFrenchLocale" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="9.717"/>
+  <testcase name="renderTemplateWithoutRenderFunction" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="0.379"/>
+  <testcase name="renderTemplateWithEnglishLocale" classname="org.springframework.web.reactive.result.view.script.KotlinScriptTemplateTests" time="1.111"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

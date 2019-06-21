@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:52" hostname="Macbook-Air.local" time="0.055">
+  <properties/>
+  <testcase name="testBeansAreProxiedOnStaticMatch" classname="org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests" time="0.025"/>
+  <testcase name="testBeansThatDoNotMatchBasedSolelyOnRuntimeTypeAreNotProxied" classname="org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests" time="0.017"/>
+  <testcase name="testBeansThatDoNotMatchBasedOnOtherTestAreProxied" classname="org.springframework.aop.aspectj.SubtypeSensitiveMatchingTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

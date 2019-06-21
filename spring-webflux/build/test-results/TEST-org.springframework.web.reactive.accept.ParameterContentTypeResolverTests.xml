@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:50" hostname="Macbook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="noMatchForKey" classname="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" time="0.001"/>
+  <testcase name="resolveKeyThroughMediaTypeFactory" classname="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" time="0.001"/>
+  <testcase name="noKey" classname="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" time="0.001"/>
+  <testcase name="resolveKeyFromRegistrations" classname="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" time="0.001"/>
+  <testcase name="resolveKeyIsCaseInsensitive" classname="org.springframework.web.reactive.accept.ParameterContentTypeResolverTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:12" hostname="Macbook-Air.local" time="0.023">
+  <properties/>
+  <testcase name="getURI" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.015"/>
+  <testcase name="getContentType" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.001"/>
+  <testcase name="getBodyViaRequestParameterWithRequestEncoding" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.004"/>
+  <testcase name="getBody" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.001"/>
+  <testcase name="getMethod" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.0"/>
+  <testcase name="getBodyViaRequestParameter" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.001"/>
+  <testcase name="getBodyWithWrappedRequest" classname="org.springframework.web.multipart.support.RequestPartServletServerHttpRequestTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

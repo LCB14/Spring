@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:13" hostname="Macbook-Air.local" time="0.017">
+  <properties/>
+  <testcase name="resolveWithBindingResultNotFound" classname="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" time="0.009"/>
+  <testcase name="supports" classname="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolveWithMonoOnBindingResultAndModelAttribute" classname="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" time="0.002"/>
+  <testcase name="resolve" classname="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveWithMono" classname="org.springframework.web.reactive.result.method.annotation.ErrorsMethodArgumentResolverTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

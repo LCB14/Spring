@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.method.annotation.RequestPartIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:50" hostname="Macbook-Air.local" time="1.775">
+  <properties/>
+  <testcase name="standardMultipartResolver" classname="org.springframework.web.servlet.mvc.method.annotation.RequestPartIntegrationTests" time="1.371"/>
+  <testcase name="standardMultipartResolverWithEncodedFileName" classname="org.springframework.web.servlet.mvc.method.annotation.RequestPartIntegrationTests" time="0.082"/>
+  <testcase name="commonsMultipartResolver" classname="org.springframework.web.servlet.mvc.method.annotation.RequestPartIntegrationTests" time="0.322"/>
+  <system-out><![CDATA[[LF_LINE_TERMINATION: https://tools.ietf.org/html/rfc2046#section-4.1.1]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

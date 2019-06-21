@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:02" hostname="Macbook-Air.local" time="0.098">
+  <properties/>
+  <testcase name="testLazyResourceInjectionWithConstructorAndCustomAnnotation" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.019"/>
+  <testcase name="testLazyOptionalResourceInjectionWithNonExistingTarget" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.009"/>
+  <testcase name="testLazyResourceInjectionWithField" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
+  <testcase name="testLazyResourceInjectionWithMethodLevelLazy" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.011"/>
+  <testcase name="testLazyResourceInjectionWithConstructor" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
+  <testcase name="testLazyResourceInjectionWithMethodAndCustomAnnotation" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.009"/>
+  <testcase name="testLazyResourceInjectionWithFieldAndCustomAnnotation" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testLazyResourceInjectionWithConstructorLevelLazy" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testLazyResourceInjectionWithNonExistingTarget" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testLazyResourceInjectionWithMethod" classname="org.springframework.context.annotation.LazyAutowiredAnnotationBeanPostProcessorTests" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

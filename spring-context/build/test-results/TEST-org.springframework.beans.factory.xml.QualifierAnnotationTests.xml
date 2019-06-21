@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.QualifierAnnotationTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:55" hostname="Macbook-Air.local" time="0.277">
+  <properties/>
+  <testcase name="testInterfaceWithOneQualifiedFactoryAndOneQualifiedBean" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.013"/>
+  <testcase name="testQualifiedByCustomValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.058"/>
+  <testcase name="testQualifiedByAlias" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.016"/>
+  <testcase name="testQualifiedByValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.02"/>
+  <testcase name="testQualifiedByAnnotation" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.017"/>
+  <testcase name="testNonQualifiedFieldFails" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.019"/>
+  <testcase name="testQualifiedByParameterName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.02"/>
+  <testcase name="testQualifiedByFieldName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.02"/>
+  <testcase name="testQualifiedByBeanName" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.015"/>
+  <testcase name="testQualifiedByAttributesFailsWithoutCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.023"/>
+  <testcase name="testQualifiedByAnnotationValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.017"/>
+  <testcase name="testQualifiedByParentValue" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.021"/>
+  <testcase name="testQualifiedByAttributesWithCustomQualifierRegistered" classname="org.springframework.beans.factory.xml.QualifierAnnotationTests" time="0.016"/>
+  <system-out><![CDATA[19:40:55.817 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testBean': Unsatisfied dependency expressed through field 'anonymous'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.beans.factory.xml.QualifierAnnotationTests$Person' available: expected single matching bean but found 6: larryBean,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$SpecialPerson#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#1,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#2,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#3
+19:40:55.896 [Test worker] WARN  o.s.c.s.StaticApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testBean': Unsatisfied dependency expressed through field 'moeSenior'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'org.springframework.beans.factory.xml.QualifierAnnotationTests$Person' available: expected single matching bean but found 6: larryBean,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$SpecialPerson#0,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#1,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#2,org.springframework.beans.factory.xml.QualifierAnnotationTests$Person#3
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

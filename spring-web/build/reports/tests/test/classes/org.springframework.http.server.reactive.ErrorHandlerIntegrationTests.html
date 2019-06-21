@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.http.server.reactive.ErrorHandlerIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.http.server.reactive.ErrorHandlerIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.http.server.reactive.html">org.springframework.http.server.reactive</a> &gt; ErrorHandlerIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.264s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>19:46:27.895 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50027/handling-error
+19:46:27.895 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:27.912 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50029/response-body-error
+19:46:27.912 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.915 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:27.925 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50031//
+19:46:27.925 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.928 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.937 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50033/handling-error
+19:46:27.937 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.942 [reactor-http-kqueue-4] ERROR r.n.h.s.HttpServerOperations - [id: 0x4f2f15aa, L:/127.0.0.1:50033 - R:/127.0.0.1:50034] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:85) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[main/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[main/:?]
+	at reactor.netty.http.server.HttpServerHandle.onStateChange(HttpServerHandle.java:63) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.tcp.TcpServerBind$ChildObserver.onStateChange(TcpServerBind.java:226) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:442) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:161) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.AbstractKQueueStreamChannel$KQueueStreamUnsafe.readReady(AbstractKQueueStreamChannel.java:544) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.readReady(AbstractKQueueChannel.java:366) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.KQueueEventLoop.processReady(KQueueEventLoop.java:181) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:259) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+19:46:27.945 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:27.952 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50035/response-body-error
+19:46:27.952 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.954 [reactor-http-kqueue-2] ERROR r.n.h.s.HttpServerOperations - [id: 0xa1aba635, L:/127.0.0.1:50035 - R:/127.0.0.1:50036] Error starting response. Replying error status
+java.lang.UnsupportedOperationException: null
+	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:85) ~[test/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[main/:?]
+	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:40) ~[main/:?]
+	at reactor.netty.http.server.HttpServerHandle.onStateChange(HttpServerHandle.java:63) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.tcp.TcpServerBind$ChildObserver.onStateChange(TcpServerBind.java:226) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.http.server.HttpServerOperations.onInboundNext(HttpServerOperations.java:442) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:91) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at reactor.netty.http.server.HttpTrafficHandler.channelRead(HttpTrafficHandler.java:161) [reactor-netty-0.9.0.M2.jar:0.9.0.M2]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:438) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:297) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:253) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1408) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:930) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.AbstractKQueueStreamChannel$KQueueStreamUnsafe.readReady(AbstractKQueueStreamChannel.java:544) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.AbstractKQueueChannel$AbstractKQueueUnsafe.readReady(AbstractKQueueChannel.java:366) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.KQueueEventLoop.processReady(KQueueEventLoop.java:181) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.channel.kqueue.KQueueEventLoop.run(KQueueEventLoop.java:259) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.36.Final.jar:4.1.36.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+19:46:27.956 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:27.963 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50037//
+19:46:27.963 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.966 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.986 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50039/handling-error
+19:46:27.987 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.994 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:28.037 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50042/response-body-error
+19:46:28.037 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:28.049 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:28.089 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50045//
+19:46:28.090 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:28.095 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:28.119 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50048/handling-error
+19:46:28.119 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:28.121 [XNIO-10 I/O-2] DEBUG o.s.w.HttpLogging - [1ad312cd] Setting HttpServerExchange status to 500 Server Error
+19:46:28.122 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:28.132 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50050/response-body-error
+19:46:28.133 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:28.136 [XNIO-11 I/O-2] DEBUG o.s.w.HttpLogging - [32078c81] Setting HttpServerExchange status to 500 Server Error
+19:46:28.137 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+19:46:28.147 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50052//
+19:46:28.147 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:28.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-nio-auto-10&quot;]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-nio-auto-11&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler [&quot;http-nio-auto-12&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
+Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+</div>
+</div>
+</body>
+</html>

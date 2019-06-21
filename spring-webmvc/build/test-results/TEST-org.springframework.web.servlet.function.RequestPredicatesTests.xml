@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.RequestPredicatesTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:10" hostname="Macbook-Air.local" time="0.018">
+  <properties/>
+  <testcase name="allMethods" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.008"/>
+  <testcase name="accept" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="method" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathPredicates" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="contentType" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="all" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="path" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="param" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="pathNoLeadingSlash" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathEncoded" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="headers" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <testcase name="methods" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.0"/>
+  <testcase name="pathExtension" classname="org.springframework.web.servlet.function.RequestPredicatesTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.jcache.interceptor.CachePutOperationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:25" hostname="Macbook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="simplePut" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.0"/>
+  <testcase name="fullPutConfig" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.001"/>
+  <testcase name="invokeWithWrongParameters" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.001"/>
+  <testcase name="multiCacheValues" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.001"/>
+  <testcase name="noCacheValue" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.001"/>
+  <testcase name="simple" classname="org.springframework.cache.jcache.interceptor.CachePutOperationTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

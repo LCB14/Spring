@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:50" hostname="Macbook-Air.local" time="0.011">
+  <properties/>
+  <testcase name="parameterResolverWithCustomParamName" classname="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" time="0.009"/>
+  <testcase name="parameterResolver" classname="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" time="0.0"/>
+  <testcase name="defaultSettings" classname="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" time="0.0"/>
+  <testcase name="resolver" classname="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" time="0.002"/>
+  <testcase name="fixedResolver" classname="org.springframework.web.reactive.accept.RequestedContentTypeResolverBuilderTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

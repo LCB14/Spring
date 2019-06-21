@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.result.XpathResultMatchersTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:07" hostname="Macbook-Air.local" time="0.143">
+  <properties/>
+  <testcase name="stringNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.058"/>
+  <testcase name="numberNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.005"/>
+  <testcase name="nodeNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.013"/>
+  <testcase name="exists" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.018"/>
+  <testcase name="doesNotExistNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.005"/>
+  <testcase name="booleanValue" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.006"/>
+  <testcase name="number" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.003"/>
+  <testcase name="string" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.003"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.004"/>
+  <testcase name="node" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.004"/>
+  <testcase name="nodeCountNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.008"/>
+  <testcase name="nodeCount" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.004"/>
+  <testcase name="existsNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.003"/>
+  <testcase name="booleanValueNoMatch" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.003"/>
+  <testcase name="stringEncodingDetection" classname="org.springframework.test.web.servlet.result.XpathResultMatchersTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

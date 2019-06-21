@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.target.ThreadLocalTargetSourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:04" hostname="Macbook-Air.local" time="0.107">
+  <properties/>
+  <testcase name="testUseDifferentManagedInstancesInSameThread" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.048"/>
+  <testcase name="testNewThreadHasOwnInstance" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.017"/>
+  <testcase name="testReuseDestroyedTarget" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.016"/>
+  <testcase name="testReuseInSameThread" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.014"/>
+  <testcase name="testCanGetStatsViaMixin" classname="org.springframework.aop.target.ThreadLocalTargetSourceTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

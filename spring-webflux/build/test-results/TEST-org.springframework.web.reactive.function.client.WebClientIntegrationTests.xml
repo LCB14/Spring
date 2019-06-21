@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientIntegrationTests" tests="52" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:02" hostname="Macbook-Air.local" time="0.594">
+  <properties/>
+  <testcase name="shouldApplyErrorHandlingFilter[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.026"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityList[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.015"/>
+  <testcase name="shouldReceiveResponseHeaders[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="shouldReceivePlainText[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="shouldReceive404Response[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.018"/>
+  <testcase name="shouldReceiveJsonAsTypeReferenceString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.016"/>
+  <testcase name="shouldReceiveNotFoundEntity[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="shouldReceiveJsonAsFluxPojo[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="shouldSendPojoAsJson[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.031"/>
+  <testcase name="shouldApplyExchangeFilter[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldSupportUnknownStatusCode[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldReceiveEmptyResponse[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldFailWithRelativeUrls[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.002"/>
+  <testcase name="shouldGetErrorSignalWhenRetrievingUnknownStatusCode[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.026"/>
+  <testcase name="shouldReceiveJsonAsPojo[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.012"/>
+  <testcase name="shouldGetErrorSignalOn404[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="shouldReceiveJsonAsFluxString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldSendCookies[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="shouldReceiveJsonAsString[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.015"/>
+  <testcase name="shouldApplyCustomStatusHandler[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="shouldGetErrorSignalOnEmptyErrorResponse[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldApplyCustomStatusHandlerParameterizedTypeReference[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldGetInternalServerErrorSignal[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="shouldSendLargeTextFile[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.051"/>
+  <testcase name="shouldReceivePlainTextFlux[webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@22ecea52]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.013"/>
+  <testcase name="shouldApplyErrorHandlingFilter[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.011"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityList[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="shouldReceiveResponseHeaders[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldReceivePlainText[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="shouldReceive404Response[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.004"/>
+  <testcase name="shouldReceiveJsonAsResponseEntityString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldReceiveJsonAsTypeReferenceString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldReceiveNotFoundEntity[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldReceiveJsonAsFluxPojo[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="shouldSendPojoAsJson[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.015"/>
+  <testcase name="shouldApplyExchangeFilter[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="shouldSupportUnknownStatusCode[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="shouldReceiveEmptyResponse[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="shouldFailWithRelativeUrls[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.001"/>
+  <testcase name="shouldGetErrorSignalWhenRetrievingUnknownStatusCode[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.008"/>
+  <testcase name="shouldReceiveJsonAsPojo[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldGetErrorSignalOn404[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="shouldReceiveJsonAsFluxString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.009"/>
+  <testcase name="shouldSendCookies[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.01"/>
+  <testcase name="shouldReceiveJsonAsString[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.006"/>
+  <testcase name="shouldApplyCustomStatusHandler[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldGetErrorSignalOnEmptyErrorResponse[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldApplyCustomStatusHandlerParameterizedTypeReference[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.005"/>
+  <testcase name="shouldGetInternalServerErrorSignal[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <testcase name="shouldSendLargeTextFile[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.048"/>
+  <testcase name="shouldReceivePlainTextFlux[webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@3fc65ed9]]" classname="org.springframework.web.reactive.function.client.WebClientIntegrationTests" time="0.007"/>
+  <system-out><![CDATA[19:49:02.826 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5db755c] HTTP GET http://localhost:51639/greeting?name=Spring
+19:49:02.833 [HttpClient@5bdea103-4430] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5db755c] Response 200 OK
+19:49:02.833 [HttpClient@5bdea103-4430] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5db755c] Cancel signal (to close connection)
+19:49:02.835 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7baecfbc] HTTP GET http://localhost:51639/greeting?name=Spring
+19:49:02.842 [HttpClient@5bdea103-4425] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7baecfbc] Response 200 OK
+19:49:02.844 [HttpClient@5bdea103-4425] DEBUG o.s.c.c.StringDecoder - [7baecfbc] Decoded "Hello Spring!"
+19:49:02.851 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [89e48af] HTTP GET http://localhost:51642/json
+19:49:02.856 [HttpClient@5bdea103-4426] DEBUG o.s.w.r.f.c.ExchangeFunctions - [89e48af] Response 200 OK
+19:49:02.857 [HttpClient@5bdea103-4426] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [89e48af] Decoded [Pojo[foo='foo1', bar='bar1']]
+19:49:02.857 [HttpClient@5bdea103-4426] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [89e48af] Decoded [Pojo[foo='foo2', bar='bar2']]
+19:49:02.863 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3ddc77e] HTTP GET http://localhost:51644/greeting?name=Spring
+19:49:02.869 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3ddc77e] Response 200 OK
+19:49:02.873 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78fc573f] HTTP GET http://localhost:51646/greeting?name=Spring
+19:49:02.879 [HttpClient@5bdea103-4428] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78fc573f] Response 200 OK
+19:49:02.881 [HttpClient@5bdea103-4428] DEBUG o.s.c.c.StringDecoder - [78fc573f] Decoded "Hello Spring!"
+19:49:02.884 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d639040] HTTP GET http://localhost:51648/greeting?name=Spring
+19:49:02.890 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1d639040] Response 404 NOT_FOUND
+19:49:02.894 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2edba822] HTTP GET http://localhost:51650/json
+19:49:02.906 [HttpClient@5bdea103-4428] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2edba822] Response 200 OK
+19:49:02.907 [HttpClient@5bdea103-4428] DEBUG o.s.c.c.StringDecoder - [2edba822] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:02.915 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fd963bc] HTTP GET http://localhost:51652/json
+19:49:02.920 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1fd963bc] Response 200 OK
+19:49:02.923 [HttpClient@5bdea103-4427] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [1fd963bc] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@628dfba]
+19:49:02.928 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1427ad29] HTTP GET http://localhost:51654/greeting?name=Spring
+19:49:02.934 [HttpClient@5bdea103-4428] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1427ad29] Response 404 NOT_FOUND
+19:49:02.935 [HttpClient@5bdea103-4428] DEBUG o.s.c.c.StringDecoder - [1427ad29] Decoded "Not Found"
+19:49:02.938 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [47699ca2] HTTP GET http://localhost:51656/pojos
+19:49:02.943 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [47699ca2] Response 200 OK
+19:49:02.944 [HttpClient@5bdea103-4427] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [47699ca2] Decoded [Pojo[foo='foo1', bar='bar1']]
+19:49:02.944 [HttpClient@5bdea103-4427] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [47699ca2] Decoded [Pojo[foo='foo2', bar='bar2']]
+19:49:02.951 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6266781a] HTTP POST http://localhost:51658/pojo/capitalize
+19:49:02.951 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [6266781a] Encoding [Pojo[foo='foofoo', bar='barbar']]
+19:49:02.975 [HttpClient@5bdea103-4428] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6266781a] Response 200 OK
+19:49:02.976 [HttpClient@5bdea103-4428] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [6266781a] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+19:49:02.980 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b39ea10] HTTP GET http://localhost:51660/greeting?name=Spring
+19:49:02.985 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6b39ea10] Response 200 OK
+19:49:02.986 [HttpClient@5bdea103-4427] DEBUG o.s.c.c.StringDecoder - [6b39ea10] Decoded "Hello Spring!"
+19:49:02.989 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70e1f917] HTTP GET http://localhost:51662/unknownPage
+19:49:02.995 [HttpClient@5bdea103-4428] DEBUG o.s.w.r.f.c.ExchangeFunctions - [70e1f917] Response 555
+19:49:02.998 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [47f761dc] HTTP GET http://localhost:51664/noContent
+19:49:03.003 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [47f761dc] Response 200 OK
+19:49:03.006 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [40cb0d81] HTTP GET /api/v4/groups/1
+19:49:03.009 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2ac53b2f] HTTP GET http://localhost:51667/unknownPage
+19:49:03.014 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2ac53b2f] Response 555
+19:49:03.036 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [20937716] HTTP GET http://localhost:51669/pojo
+19:49:03.041 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [20937716] Response 200 OK
+19:49:03.043 [HttpClient@5bdea103-4427] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [20937716] Decoded [Pojo[foo='foofoo', bar='barbar']]
+19:49:03.046 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3491bd52] HTTP GET http://localhost:51671/greeting?name=Spring
+19:49:03.053 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3491bd52] Response 404 NOT_FOUND
+19:49:03.059 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [79b14b57] HTTP GET http://localhost:51673/json
+19:49:03.064 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [79b14b57] Response 200 OK
+19:49:03.066 [HttpClient@5bdea103-4427] DEBUG o.s.c.c.StringDecoder - [79b14b57] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:03.069 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25b4e34e] HTTP GET http://localhost:51675/test
+19:49:03.077 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25b4e34e] Response 200 OK
+19:49:03.078 [HttpClient@5bdea103-4429] DEBUG o.s.c.c.StringDecoder - [25b4e34e] Decoded "test"
+19:49:03.081 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d4e99d] HTTP GET http://localhost:51677/json
+19:49:03.093 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4d4e99d] Response 200 OK
+19:49:03.094 [HttpClient@5bdea103-4427] DEBUG o.s.c.c.StringDecoder - [4d4e99d] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:03.097 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [45827a4f] HTTP GET http://localhost:51679/greeting?name=Spring
+19:49:03.101 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [45827a4f] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.105 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11292370] HTTP GET http://localhost:51681/greeting
+19:49:03.110 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [11292370] Response 404 NOT_FOUND
+19:49:03.114 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7e48b94b] HTTP GET http://localhost:51683/greeting?name=Spring
+19:49:03.119 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7e48b94b] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.123 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60c5fb77] HTTP GET http://localhost:51685/greeting?name=Spring
+19:49:03.128 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60c5fb77] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.139 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.141 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59558884] HTTP POST http://localhost:51687/
+19:49:03.144 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.146 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.147 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.148 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.149 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.149 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.149 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.149 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.151 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.152 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.153 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.153 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.153 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.153 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.154 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.154 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.154 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.154 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.154 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.155 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.156 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.157 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.158 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.159 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.160 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.161 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.162 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.163 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.164 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.165 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.166 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.167 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.167 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.167 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.167 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.167 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.168 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.169 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.170 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.171 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.172 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.173 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.174 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.175 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.175 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.175 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.175 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.175 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.176 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.177 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.177 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.177 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.177 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.177 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.178 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.178 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 4096 bytes
+19:49:03.178 [HttpClient@5bdea103-4432] DEBUG o.s.c.c.DataBufferEncoder - [59558884] Writing 2206 bytes
+19:49:03.180 [HttpClient@5bdea103-4429] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59558884] Response 200 OK
+19:49:03.185 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14b8798b] HTTP GET http://localhost:51689/greeting?name=Spring
+19:49:03.194 [HttpClient@5bdea103-4427] DEBUG o.s.w.r.f.c.ExchangeFunctions - [14b8798b] Response 200 OK
+19:49:03.195 [HttpClient@5bdea103-4427] DEBUG o.s.c.c.StringDecoder - [14b8798b] Decoded "Hello Spring!"
+19:49:03.198 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [608e2588] HTTP GET http://localhost:51691/greeting?name=Spring
+19:49:03.201 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [608e2588] Response 200 OK
+19:49:03.201 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [608e2588] Cancel signal (to close connection)
+19:49:03.202 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4ef8e649] HTTP GET http://localhost:51691/greeting?name=Spring
+19:49:03.205 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4ef8e649] Response 200 OK
+19:49:03.206 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [4ef8e649] Decoded "Hello Spring!"
+19:49:03.208 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cf99e73] HTTP GET http://localhost:51694/json
+19:49:03.212 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cf99e73] Response 200 OK
+19:49:03.212 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2cf99e73] Decoded [Pojo[foo='foo1', bar='bar1']]
+19:49:03.212 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2cf99e73] Decoded [Pojo[foo='foo2', bar='bar2']]
+19:49:03.215 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35598a2f] HTTP GET http://localhost:51696/greeting?name=Spring
+19:49:03.218 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [35598a2f] Response 200 OK
+19:49:03.220 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c5ec6ac] HTTP GET http://localhost:51698/greeting?name=Spring
+19:49:03.223 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c5ec6ac] Response 200 OK
+19:49:03.224 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [c5ec6ac] Decoded "Hello Spring!"
+19:49:03.226 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1e94c0fc] HTTP GET http://localhost:51700/greeting?name=Spring
+19:49:03.229 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1e94c0fc] Response 404 NOT_FOUND
+19:49:03.231 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e41a55e] HTTP GET http://localhost:51702/json
+19:49:03.233 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e41a55e] Response 200 OK
+19:49:03.234 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [2e41a55e] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:03.236 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [58f71252] HTTP GET http://localhost:51704/json
+19:49:03.238 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [58f71252] Response 200 OK
+19:49:03.239 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [58f71252] Decoded [org.springframework.web.reactive.function.client.WebClientIntegrationTests$ValueContainer@55190381]
+19:49:03.241 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cae6277] HTTP GET http://localhost:51706/greeting?name=Spring
+19:49:03.244 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cae6277] Response 404 NOT_FOUND
+19:49:03.245 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [2cae6277] Decoded "Not Found"
+19:49:03.247 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [491ea001] HTTP GET http://localhost:51708/pojos
+19:49:03.249 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [491ea001] Response 200 OK
+19:49:03.250 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [491ea001] Decoded [Pojo[foo='foo1', bar='bar1']]
+19:49:03.250 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [491ea001] Decoded [Pojo[foo='foo2', bar='bar2']]
+19:49:03.252 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2b4b17c7] HTTP POST http://localhost:51710/pojo/capitalize
+19:49:03.254 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [2b4b17c7] Encoding [Pojo[foo='foofoo', bar='barbar']]
+19:49:03.262 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2b4b17c7] Response 200 OK
+19:49:03.263 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [2b4b17c7] Decoded [Pojo[foo='FOOFOO', bar='BARBAR']]
+19:49:03.268 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6496e121] HTTP GET http://localhost:51712/greeting?name=Spring
+19:49:03.271 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6496e121] Response 200 OK
+19:49:03.271 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6496e121] Decoded "Hello Spring!"
+19:49:03.274 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2871e4dc] HTTP GET http://localhost:51714/unknownPage
+19:49:03.278 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2871e4dc] Response 555
+19:49:03.280 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [117f163] HTTP GET http://localhost:51716/noContent
+19:49:03.284 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [117f163] Response 200 OK
+19:49:03.286 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [44d80653] HTTP GET /api/v4/groups/1
+19:49:03.287 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [51e865d1] HTTP GET http://localhost:51719/unknownPage
+19:49:03.292 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [51e865d1] Response 555
+19:49:03.295 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c81663b] HTTP GET http://localhost:51721/pojo
+19:49:03.298 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7c81663b] Response 200 OK
+19:49:03.298 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [7c81663b] Decoded [Pojo[foo='foofoo', bar='barbar']]
+19:49:03.300 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [b6be1e7] HTTP GET http://localhost:51723/greeting?name=Spring
+19:49:03.304 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [b6be1e7] Response 404 NOT_FOUND
+19:49:03.310 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1775dbd4] HTTP GET http://localhost:51725/json
+19:49:03.313 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1775dbd4] Response 200 OK
+19:49:03.317 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [1775dbd4] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:03.319 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24d2a3dd] HTTP GET http://localhost:51727/test
+19:49:03.326 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [24d2a3dd] Response 200 OK
+19:49:03.327 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [24d2a3dd] Decoded "test"
+19:49:03.329 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bce7415] HTTP GET http://localhost:51729/json
+19:49:03.333 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6bce7415] Response 200 OK
+19:49:03.334 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6bce7415] Decoded "{"bar":"barbar","foo":"foofoo"}"
+19:49:03.336 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3a36f284] HTTP GET http://localhost:51731/greeting?name=Spring
+19:49:03.339 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3a36f284] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.341 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [155cdb79] HTTP GET http://localhost:51733/greeting
+19:49:03.343 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [155cdb79] Response 404 NOT_FOUND
+19:49:03.346 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [484be56f] HTTP GET http://localhost:51735/greeting?name=Spring
+19:49:03.349 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [484be56f] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.351 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [650bd096] HTTP GET http://localhost:51737/greeting?name=Spring
+19:49:03.354 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [650bd096] Response 500 INTERNAL_SERVER_ERROR
+19:49:03.360 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [13951ce9] HTTP POST http://localhost:51739/
+19:49:03.362 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.362 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.363 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.364 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.365 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.366 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.367 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.367 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.367 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.367 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.368 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.369 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.370 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-180] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.371 [Thread-528] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.388 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.389 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.395 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 4096 bytes
+19:49:03.396 [reactor-http-nio-2] DEBUG o.s.c.c.DataBufferEncoder - [13951ce9] Writing 2206 bytes
+19:49:03.403 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [13951ce9] Response 200 OK
+19:49:03.407 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [44037ee6] HTTP GET http://localhost:51741/greeting?name=Spring
+19:49:03.410 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [44037ee6] Response 200 OK
+19:49:03.412 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [44037ee6] Decoded "Hello Spring!"
+]]></system-out>
+  <system-err><![CDATA[六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51639] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51639] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51639] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51639] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51642] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51642] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51642] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51644] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51644] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51644] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51646] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51646] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51646] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51648] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51648] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51648] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51650] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51650] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51650] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51652] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51652] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51652] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51654] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51654] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51654] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51656] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51656] received request: GET /pojos HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51656] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51658] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51658] received request: POST /pojo/capitalize HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51658] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51660] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51660] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51660] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51662] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51662] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51662] done accepting connections: Socket closed
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51664] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51664] received request: GET /noContent HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51664] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51666] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51666] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51667] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51667] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51667] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51669] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51669] received request: GET /pojo HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51669] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51671] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51671] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51671] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51673] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51673] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51673] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51675] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51675] received request: GET /test HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51675] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51677] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51677] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51677] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51679] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51679] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51679] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51681] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51681] received request: GET /greeting HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51681] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51683] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51683] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51683] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51685] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51685] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51685] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51687] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51687] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51687] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51689] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51689] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51689] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51691] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51691] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51691] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51691] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51694] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51694] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51694] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51696] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51696] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51696] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51698] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51698] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51698] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51700] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51700] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51700] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51702] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51702] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51702] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51704] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51704] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51704] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51706] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51706] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51706] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51708] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51708] received request: GET /pojos HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51708] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51710] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51710] received request: POST /pojo/capitalize HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51710] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51712] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51712] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51712] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51714] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51714] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51714] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51716] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51716] received request: GET /noContent HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51716] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51718] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51718] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51719] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51719] received request: GET /unknownPage HTTP/1.1 and responded: HTTP/1.1 555 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51719] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51721] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51721] received request: GET /pojo HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51721] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51723] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51723] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51723] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51725] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51725] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51725] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51727] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51727] received request: GET /test HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51727] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51729] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51729] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51729] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51731] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51731] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51731] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51733] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51733] received request: GET /greeting HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51733] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51735] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51735] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51735] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51737] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51737] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51737] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51739] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51739] received request: POST / HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51739] done accepting connections: Socket closed
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51741] starting to accept connections
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51741] received request: GET /greeting?name=Spring HTTP/1.1 and responded: HTTP/1.1 200 OK
+六月 21, 2019 7:49:03 下午 okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+信息: MockWebServer[51741] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

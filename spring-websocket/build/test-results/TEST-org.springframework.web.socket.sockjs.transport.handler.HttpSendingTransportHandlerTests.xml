@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:51:04" hostname="Macbook-Air.local" time="0.062">
+  <properties/>
+  <testcase name="handleRequestXhrStreaming" classname="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" time="0.033"/>
+  <testcase name="eventSourceTransport" classname="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" time="0.007"/>
+  <testcase name="htmlFileTransport" classname="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" time="0.009"/>
+  <testcase name="frameFormats" classname="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" time="0.004"/>
+  <testcase name="handleRequestXhr" classname="org.springframework.web.socket.sockjs.transport.handler.HttpSendingTransportHandlerTests" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

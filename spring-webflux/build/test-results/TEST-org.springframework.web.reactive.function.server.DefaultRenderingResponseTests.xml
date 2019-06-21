@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:53" hostname="Macbook-Air.local" time="0.071">
+  <properties/>
+  <testcase name="notModifiedEtag" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.012"/>
+  <testcase name="create" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.0"/>
+  <testcase name="modelAttributes" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="render" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.035"/>
+  <testcase name="modelAttribute" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="modelAttributesConventions" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="notModifiedLastModified" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.002"/>
+  <testcase name="defaultContentType" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.015"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="cookies" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <testcase name="modelAttributeConventions" classname="org.springframework.web.reactive.function.server.DefaultRenderingResponseTests" time="0.001"/>
+  <system-out><![CDATA[19:48:53.119 [Test worker] DEBUG o.s.w.r.f.s.DefaultRenderingResponseTests$TestView - [1ac06d19] View [TestView], model {}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ImportVersusDirectRegistrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:00" hostname="Macbook-Air.local" time="0.025">
+  <properties/>
+  <testcase name="thingIsNotAvailableWhenOuterConfigurationIsRegisteredDirectly" classname="org.springframework.context.annotation.ImportVersusDirectRegistrationTests" time="0.005"/>
+  <testcase name="thingIsNotAvailableWhenOuterConfigurationIsImported" classname="org.springframework.context.annotation.ImportVersusDirectRegistrationTests" time="0.007"/>
+  <testcase name="thingIsNotAvailableWhenOuterConfigurationIsRegisteredWithClassName" classname="org.springframework.context.annotation.ImportVersusDirectRegistrationTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

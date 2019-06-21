@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:13" hostname="Macbook-Air.local" time="0.242">
+  <properties/>
+  <testcase name="resolveOptional" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.018"/>
+  <testcase name="resolveMonoParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.179"/>
+  <testcase name="resolve" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.01"/>
+  <testcase name="resolveNotRequired" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.011"/>
+  <testcase name="resolveWithName" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.01"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestAttributeMethodArgumentResolverTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

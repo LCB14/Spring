@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.RequestPredicatesTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:53" hostname="Macbook-Air.local" time="0.441">
+  <properties/>
+  <testcase name="allMethods" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.124"/>
+  <testcase name="accept" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.031"/>
+  <testcase name="method" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.025"/>
+  <testcase name="pathPredicates" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.014"/>
+  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.027"/>
+  <testcase name="queryParam" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.016"/>
+  <testcase name="all" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.014"/>
+  <testcase name="path" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.026"/>
+  <testcase name="pathNoLeadingSlash" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.014"/>
+  <testcase name="pathEncoded" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.028"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.032"/>
+  <testcase name="methods" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.038"/>
+  <testcase name="pathExtension" classname="org.springframework.web.reactive.function.server.RequestPredicatesTests" time="0.05"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

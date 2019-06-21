@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.multipart.commons.CommonsMultipartResolverTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:12" hostname="Macbook-Air.local" time="0.22">
+  <properties/>
+  <testcase name="withServletContextAndFilterWithCustomBeanName" classname="org.springframework.web.multipart.commons.CommonsMultipartResolverTests" time="0.113"/>
+  <testcase name="withApplicationContext" classname="org.springframework.web.multipart.commons.CommonsMultipartResolverTests" time="0.084"/>
+  <testcase name="withServletContextAndFilter" classname="org.springframework.web.multipart.commons.CommonsMultipartResolverTests" time="0.012"/>
+  <testcase name="withApplicationContextAndLazyResolution" classname="org.springframework.web.multipart.commons.CommonsMultipartResolverTests" time="0.011"/>
+  <system-out><![CDATA[19:46:12.630 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+19:46:12.710 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$3 - Filter 'filter' configured for use
+19:46:12.710 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+19:46:12.727 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.727 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.727 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+19:46:12.728 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+19:46:12.741 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$3 - Using MultipartResolver 'myMultipartResolver' for MultipartFilter
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+19:46:12.742 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+19:46:12.743 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+19:46:12.744 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.745 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.745 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+19:46:12.745 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+19:46:12.752 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.753 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.755 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartFile - Part 'field1',  filename 'field1.txt': transferred to [/Users/lichangbao/github/spring_study/spring-web/C:/transfer1]
+19:46:12.755 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartFile - Part 'field2',  filename 'field2.txt': transferred to [/Users/lichangbao/github/spring_study/spring-web/C:/transfer2]
+19:46:12.818 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.818 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+19:46:12.819 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+19:46:12.820 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.821 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.822 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.822 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.822 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+19:46:12.822 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+19:46:12.823 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.825 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.826 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Closing Root WebApplicationContext, started on Fri Jun 21 19:46:12 CST 2019
+19:46:12.827 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+19:46:12.831 [Test worker] DEBUG o.s.w.m.s.MultipartFilter - Filter 'filter' configured for use
+19:46:12.837 [Test worker] DEBUG o.s.w.m.s.MultipartFilter - Using MultipartResolver 'filterMultipartResolver' for MultipartFilter
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.838 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.839 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+19:46:12.839 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+19:46:12.839 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+19:46:12.840 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.840 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 5 bytes, filename='field1.txt'
+19:46:12.840 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 5 bytes, filename='field2.txt'
+19:46:12.840 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 5 bytes, filename='field2x.txt'
+19:46:12.841 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.842 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.842 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartFile - Part 'field1',  filename 'field1.txt': transferred to [/Users/lichangbao/github/spring_study/spring-web/C:/transfer1]
+19:46:12.842 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartFile - Part 'field2',  filename 'field2.txt': transferred to [/Users/lichangbao/github/spring_study/spring-web/C:/transfer2]
+19:46:12.844 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.844 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field1', filename 'field1.txt'
+19:46:12.844 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2', filename 'field2.txt'
+19:46:12.844 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Cleaning up part 'field2x', filename 'field2x.txt'
+19:46:12.845 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.845 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.845 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+19:46:12.845 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+19:46:12.846 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.846 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.847 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.847 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field1', size 0 bytes, filename=''
+19:46:12.847 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2', size 0 bytes, filename=''
+19:46:12.848 [Test worker] DEBUG o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Part 'field2x', size 0 bytes, filename=''
+19:46:12.848 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field3' with encoding 'enc': using platform default
+19:46:12.849 [Test worker] WARN  o.s.w.m.c.CommonsMultipartResolverTests$MockCommonsMultipartResolver - Could not decode multipart item 'field4' with encoding 'enc': using platform default
+19:46:12.850 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Closing Root WebApplicationContext, started on Fri Jun 21 19:46:12 CST 2019
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

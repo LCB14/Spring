@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.caffeine.CaffeineCacheManagerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:12" hostname="Macbook-Air.local" time="0.827">
+  <properties/>
+  <testcase name="changeCacheLoaderRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.728"/>
+  <testcase name="changeCacheSpecificationRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.089"/>
+  <testcase name="setCacheNameNullRestoreDynamicMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
+  <testcase name="testDynamicMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.001"/>
+  <testcase name="testStaticMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
+  <testcase name="changeCaffeineRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.001"/>
+  <testcase name="changeCaffeineSpecRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
+  <testcase name="cacheLoaderUseLoadingCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

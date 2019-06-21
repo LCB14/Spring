@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.groovy.GroovyClassLoadingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:20" hostname="Macbook-Air.local" time="0.022">
+  <properties/>
+  <testcase name="classLoading" classname="org.springframework.scripting.groovy.GroovyClassLoadingTests" time="0.022"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

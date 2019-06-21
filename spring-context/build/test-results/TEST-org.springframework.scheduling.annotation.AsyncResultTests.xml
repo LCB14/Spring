@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.AsyncResultTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:38" hostname="Macbook-Air.local" time="0.012">
+  <properties/>
+  <testcase name="asyncResultWithSeparateCallbacksAndValue" classname="org.springframework.scheduling.annotation.AsyncResultTests" time="0.003"/>
+  <testcase name="asyncResultWithCallbackAndValue" classname="org.springframework.scheduling.annotation.AsyncResultTests" time="0.003"/>
+  <testcase name="asyncResultWithCallbackAndException" classname="org.springframework.scheduling.annotation.AsyncResultTests" time="0.004"/>
+  <testcase name="asyncResultWithSeparateCallbacksAndException" classname="org.springframework.scheduling.annotation.AsyncResultTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.filter.FormContentFilterTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:13" hostname="Macbook-Air.local" time="0.051">
+  <properties/>
+  <testcase name="getParameterValuesFromQueryString" classname="org.springframework.web.filter.FormContentFilterTests" time="0.013"/>
+  <testcase name="getParameterValuesInvalidName" classname="org.springframework.web.filter.FormContentFilterTests" time="0.003"/>
+  <testcase name="getParameterValues" classname="org.springframework.web.filter.FormContentFilterTests" time="0.005"/>
+  <testcase name="getParameterMap" classname="org.springframework.web.filter.FormContentFilterTests" time="0.004"/>
+  <testcase name="getParameterValuesFromFormContent" classname="org.springframework.web.filter.FormContentFilterTests" time="0.003"/>
+  <testcase name="getParameterNullValue" classname="org.springframework.web.filter.FormContentFilterTests" time="0.003"/>
+  <testcase name="getParameterNames" classname="org.springframework.web.filter.FormContentFilterTests" time="0.003"/>
+  <testcase name="wrapFormEncodedOnly" classname="org.springframework.web.filter.FormContentFilterTests" time="0.002"/>
+  <testcase name="wrapPutPatchAndDeleteOnly" classname="org.springframework.web.filter.FormContentFilterTests" time="0.002"/>
+  <testcase name="getParameterFromQueryString" classname="org.springframework.web.filter.FormContentFilterTests" time="0.002"/>
+  <testcase name="invalidMediaType" classname="org.springframework.web.filter.FormContentFilterTests" time="0.003"/>
+  <testcase name="hiddenHttpMethodFilterFollowedByHttpPutFormContentFilter" classname="org.springframework.web.filter.FormContentFilterTests" time="0.002"/>
+  <testcase name="getParameter" classname="org.springframework.web.filter.FormContentFilterTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

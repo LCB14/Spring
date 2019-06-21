@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.aop.config.AopNamespaceHandlerScopeIntegrationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.aop.config.AopNamespaceHandlerScopeIntegrationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.aop.config.html">org.springframework.aop.config</a> &gt; AopNamespaceHandlerScopeIntegrationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.493s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testRequestScoping</td>
+<td class="success">0.158s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSessionScoping</td>
+<td class="success">1.075s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingletonScoping</td>
+<td class="success">0.260s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>20:56:51.813 [Test worker] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext
+20:56:51.885 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [org/springframework/aop/config/AopNamespaceHandlerScopeIntegrationTests-context.xml]
+20:56:51.892 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:51.900 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@140e03d3]
+20:56:51.910 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+20:56:51.990 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'advice'
+20:56:51.991 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'testBean'
+20:56:52.670 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scopedTarget.singletonScoped'
+20:56:52.792 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonScoped'
+20:56:52.827 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestScoped'
+20:56:52.871 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionScoped'
+20:56:52.891 [Test worker] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext
+20:56:52.945 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [org/springframework/aop/config/AopNamespaceHandlerScopeIntegrationTests-context.xml]
+20:56:52.947 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:52.952 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@300fcfc1]
+20:56:52.959 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+20:56:52.963 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'advice'
+20:56:52.963 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'testBean'
+20:56:52.977 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scopedTarget.singletonScoped'
+20:56:52.979 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonScoped'
+20:56:52.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestScoped'
+20:56:52.981 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionScoped'
+20:56:53.047 [Test worker] DEBUG o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext
+20:56:53.095 [Test worker] DEBUG o.s.b.f.x.XmlBeanDefinitionReader - Loaded 10 bean definitions from class path resource [org/springframework/aop/config/AopNamespaceHandlerScopeIntegrationTests-context.xml]
+20:56:53.096 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+20:56:53.098 [Test worker] DEBUG o.s.u.c.s.UiApplicationContextUtils - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@d5abb0c]
+20:56:53.099 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0'
+20:56:53.107 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'advice'
+20:56:53.108 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'testBean'
+20:56:53.113 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'scopedTarget.singletonScoped'
+20:56:53.114 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'singletonScoped'
+20:56:53.115 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestScoped'
+20:56:53.122 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionScoped'
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 20:56:53</p>
+</div>
+</div>
+</body>
+</html>

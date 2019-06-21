@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.ParameterizedTypeReferenceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:49" hostname="Macbook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="mapTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.004"/>
+  <testcase name="listTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <testcase name="stringTypeReference" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <testcase name="reflectiveTypeReferenceWithSpecificDeclaration" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <testcase name="reflectiveTypeReferenceWithGenericDeclaration" classname="org.springframework.core.ParameterizedTypeReferenceTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

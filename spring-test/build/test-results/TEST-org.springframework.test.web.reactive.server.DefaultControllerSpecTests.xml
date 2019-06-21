@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.DefaultControllerSpecTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:27" hostname="Macbook-Air.local" time="0.878">
+  <properties/>
+  <testcase name="controllerAdvice" classname="org.springframework.test.web.reactive.server.DefaultControllerSpecTests" time="0.524"/>
+  <testcase name="controllerAdviceWithClassArgument" classname="org.springframework.test.web.reactive.server.DefaultControllerSpecTests" time="0.134"/>
+  <testcase name="controller" classname="org.springframework.test.web.reactive.server.DefaultControllerSpecTests" time="0.111"/>
+  <testcase name="configurerConsumers" classname="org.springframework.test.web.reactive.server.DefaultControllerSpecTests" time="0.109"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

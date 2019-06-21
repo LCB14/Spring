@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.PropertyPlaceholderHelperTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:52" hostname="Macbook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="testRecurseInPlaceholder" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.001"/>
+  <testcase name="testUnresolvedPlaceholderIsIgnored" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.0"/>
+  <testcase name="testWithResolver" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.003"/>
+  <testcase name="testWithProperties" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.0"/>
+  <testcase name="testRecurseInProperty" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.0"/>
+  <testcase name="testWithMultipleProperties" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.001"/>
+  <testcase name="testUnresolvedPlaceholderAsError" classname="org.springframework.util.PropertyPlaceholderHelperTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

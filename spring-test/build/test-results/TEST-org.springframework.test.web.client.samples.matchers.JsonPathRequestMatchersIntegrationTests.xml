@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:35" hostname="Macbook-Air.local" time="0.094">
+  <properties/>
+  <testcase name="exists" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.008"/>
+  <testcase name="isBoolean" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.011"/>
+  <testcase name="isNumber" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.009"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.008"/>
+  <testcase name="isString" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.009"/>
+  <testcase name="value" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.008"/>
+  <testcase name="hamcrestMatchersWithParameterizedJsonPaths" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.012"/>
+  <testcase name="hamcrestMatchers" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.013"/>
+  <testcase name="isArray" classname="org.springframework.test.web.client.samples.matchers.JsonPathRequestMatchersIntegrationTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

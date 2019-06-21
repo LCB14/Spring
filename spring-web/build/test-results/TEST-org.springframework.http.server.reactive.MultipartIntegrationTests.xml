@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.MultipartIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:29" hostname="Macbook-Air.local" time="0.099">
+  <properties/>
+  <testcase name="getFormParts[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4d6b9258]]" classname="org.springframework.http.server.reactive.MultipartIntegrationTests" time="0.021"/>
+  <testcase name="getFormParts[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@d0cde74]]" classname="org.springframework.http.server.reactive.MultipartIntegrationTests" time="0.026"/>
+  <testcase name="getFormParts[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@29a6379c]]" classname="org.springframework.http.server.reactive.MultipartIntegrationTests" time="0.037"/>
+  <testcase name="getFormParts[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6e77ee67]]" classname="org.springframework.http.server.reactive.MultipartIntegrationTests" time="0.015"/>
+  <system-out><![CDATA[19:46:29.097 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50074/form-parts
+19:46:29.098 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:29.098 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[<class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:"text/plain"]>], barPart=[<bar,[]>]}] as "multipart/form-data"
+19:46:29.102 [qtp210311568-955] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44c33ad1] HTTP POST "/form-parts"
+19:46:29.105 [qtp210311568-955] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44c33ad1] Completed 200 OK
+19:46:29.105 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:29.118 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50076/form-parts
+19:46:29.118 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:29.119 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[<class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:"text/plain"]>], barPart=[<bar,[]>]}] as "multipart/form-data"
+19:46:29.124 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [79f2ae63] HTTP POST "/form-parts"
+19:46:29.132 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [79f2ae63] Completed 200 OK
+19:46:29.133 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:29.149 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50078/form-parts
+19:46:29.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:29.150 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[<class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:"text/plain"]>], barPart=[<bar,[]>]}] as "multipart/form-data"
+19:46:29.155 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5be9bc45] HTTP POST "/form-parts"
+19:46:29.157 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5be9bc45] Completed 200 OK
+19:46:29.158 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50081/form-parts
+19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[<class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:"text/plain"]>], barPart=[<bar,[]>]}] as "multipart/form-data"
+19:46:29.183 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [20b5097b] HTTP POST "/form-parts"
+19:46:29.184 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [20b5097b] Completed 200 OK
+19:46:29.185 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-15"]
+Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-15-50078"]
+Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-15-50078"]
+Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-15-50078"]
+Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-15-50078"]
+]]></system-err>
+</testsuite>

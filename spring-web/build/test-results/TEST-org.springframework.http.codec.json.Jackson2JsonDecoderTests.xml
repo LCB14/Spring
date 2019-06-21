@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.codec.json.Jackson2JsonDecoderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:25" hostname="Macbook-Air.local" time="0.041">
+  <properties/>
+  <testcase name="decode" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.01"/>
+  <testcase name="decodeWithNullLiteral" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="invalidData" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodableMimeTypesIsImmutable" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="canDecode" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.001"/>
+  <testcase name="noDefaultConstructor" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.008"/>
+  <testcase name="decodeEmptyArrayToFlux" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <testcase name="customDeserializer" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="canDecodeWithProvidedMimeType" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.0"/>
+  <testcase name="classLevelJsonView" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.003"/>
+  <testcase name="fieldLevelJsonView" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.002"/>
+  <testcase name="decodeToMono" classname="org.springframework.http.codec.json.Jackson2JsonDecoderTests" time="0.005"/>
+  <system-out><![CDATA[19:46:25.675 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+19:46:25.676 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f2', bar='b2']]
+19:46:25.677 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+19:46:25.678 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+19:46:25.680 [Test worker] DEBUG o.s.w.HttpLogging - Decoded []
+19:46:25.697 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [org.springframework.http.codec.json.Jackson2JsonDecoderTests$TestObject@3774e32c]
+19:46:25.701 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [org.springframework.http.codec.json.JacksonViewBean@32c90311]
+19:46:25.708 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [[Pojo[foo='f1', bar='b1'], Pojo[foo='f2', bar='b2']]]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

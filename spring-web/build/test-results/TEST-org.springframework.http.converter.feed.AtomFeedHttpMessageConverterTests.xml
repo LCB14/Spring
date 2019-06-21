@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:23" hostname="Macbook-Air.local" time="0.331">
+  <properties/>
+  <testcase name="writeOtherCharset" classname="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" time="0.225"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" time="0.0"/>
+  <testcase name="read" classname="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" time="0.087"/>
+  <testcase name="write" classname="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" time="0.018"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.feed.AtomFeedHttpMessageConverterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

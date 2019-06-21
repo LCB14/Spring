@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:35" hostname="Macbook-Air.local" time="0.832">
+  <properties/>
+  <testcase name="actualRequestWithCorsConfigurationProvider" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.822"/>
+  <testcase name="preflightRequestWithMappedCorsConfiguration" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.002"/>
+  <testcase name="actualRequestWithMappedCorsConfiguration" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.001"/>
+  <testcase name="preflightRequestWithoutCorsConfigurationProvider" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.0"/>
+  <testcase name="actualRequestWithoutCorsConfigurationProvider" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.001"/>
+  <testcase name="preflightRequestWithCorsConfigurationSource" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.003"/>
+  <testcase name="actualRequestWithCorsConfigurationSource" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.001"/>
+  <testcase name="preflightRequestWithCorsConfigurationProvider" classname="org.springframework.web.servlet.handler.CorsAbstractHandlerMappingTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

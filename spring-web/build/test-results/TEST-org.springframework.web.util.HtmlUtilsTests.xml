@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.util.HtmlUtilsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:03" hostname="Macbook-Air.local" time="0.019">
+  <properties/>
+  <testcase name="testDecodeFromHtmlCharacterSet" classname="org.springframework.web.util.HtmlUtilsTests" time="0.016"/>
+  <testcase name="testEncodeIntoHtmlCharacterSetFromUtf8" classname="org.springframework.web.util.HtmlUtilsTests" time="0.0"/>
+  <testcase name="testHtmlEscape" classname="org.springframework.web.util.HtmlUtilsTests" time="0.001"/>
+  <testcase name="testHtmlUnescape" classname="org.springframework.web.util.HtmlUtilsTests" time="0.0"/>
+  <testcase name="testEncodeIntoHtmlCharacterSet" classname="org.springframework.web.util.HtmlUtilsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

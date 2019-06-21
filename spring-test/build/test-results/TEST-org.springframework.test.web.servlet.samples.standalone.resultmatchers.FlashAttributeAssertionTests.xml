@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.FlashAttributeAssertionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:18" hostname="Macbook-Air.local" time="0.2">
+  <properties/>
+  <testcase name="testEqualTo" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.FlashAttributeAssertionTests" time="0.108"/>
+  <testcase name="testMatchers" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.FlashAttributeAssertionTests" time="0.055"/>
+  <testcase name="testExists" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.FlashAttributeAssertionTests" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.HeaderAssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:34" hostname="Macbook-Air.local" time="0.02">
+  <properties/>
+  <testcase name="valueEquals" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
+  <testcase name="cacheControl" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="expires" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
+  <testcase name="exists" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="contentTypeCompatibleWith" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueEqualsWithMultipleValues" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueMatcher" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.001"/>
+  <testcase name="valueMatches" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.002"/>
+  <testcase name="lastModified" classname="org.springframework.test.web.reactive.server.HeaderAssertionTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

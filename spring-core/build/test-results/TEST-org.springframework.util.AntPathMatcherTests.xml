@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.AntPathMatcherTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:50" hostname="Macbook-Air.local" time="0.741">
+  <properties/>
+  <testcase name="combineWithTwoFileExtensionPatterns" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="patternComparator" classname="org.springframework.util.AntPathMatcherTests" time="0.007"/>
+  <testcase name="creatingStringMatchersIfPatternPrefixCannotDetermineIfPathMatch" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="isPattern" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="extractUriTemplateVarsRegexQualifiers" classname="org.springframework.util.AntPathMatcherTests" time="0.004"/>
+  <testcase name="withMatchStart" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="uniqueDeliminator" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="extractPathWithinPattern" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="extractUriTemplateVarsRegexCapturingGroups" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="defaultCacheSetting" classname="org.springframework.util.AntPathMatcherTests" time="0.118"/>
+  <testcase name="extractUriTemplateVariables" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="match" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="caseInsensitive" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="patternComparatorSort" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="cachePatternsSetToTrue" classname="org.springframework.util.AntPathMatcherTests" time="0.598"/>
+  <testcase name="trimTokensOff" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="cachePatternsSetToFalse" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="combine" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="matchWithTrimTokensEnabled" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="preventCreatingStringMatchersIfPathDoesNotStartsWithPatternPrefix" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <testcase name="extractUriTemplateVariablesRegex" classname="org.springframework.util.AntPathMatcherTests" time="0.001"/>
+  <testcase name="extensionMappingWithDotPathSeparator" classname="org.springframework.util.AntPathMatcherTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

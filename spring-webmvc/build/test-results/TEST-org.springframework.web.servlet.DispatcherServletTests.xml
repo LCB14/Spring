@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.DispatcherServletTests" tests="50" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:07" hostname="Macbook-Air.local" time="3.021">
+  <properties/>
+  <testcase name="simpleMappingExceptionResolverWithDefaultErrorView" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.173"/>
+  <testcase name="headMethodWithNoBodyResponse" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.061"/>
+  <testcase name="throwExceptionIfNoHandlerFound" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.088"/>
+  <testcase name="publishEventsOff" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.052"/>
+  <testcase name="notDetectAllHandlerAdapters" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.038"/>
+  <testcase name="handlerNotMappedWithAutodetect" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.052"/>
+  <testcase name="modelAndViewDefiningException" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.041"/>
+  <testcase name="noCleanupAfterInclude" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.05"/>
+  <testcase name="handlerInterceptorAbort" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.038"/>
+  <testcase name="requestHandledEvent" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.031"/>
+  <testcase name="environmentOperations" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.043"/>
+  <testcase name="detectAllHandlerAdapters" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.051"/>
+  <testcase name="cleanupAfterIncludeWithRemove" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.061"/>
+  <testcase name="notDetectAllHandlerExceptionResolvers" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.062"/>
+  <testcase name="withNoViewNested" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.055"/>
+  <testcase name="detectHandlerMappingFromParent" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.062"/>
+  <testcase name="multipartResolutionFailed" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.043"/>
+  <testcase name="dispatcherServletContextRefresh" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.147"/>
+  <testcase name="headMethodWithExplicitHandling" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.038"/>
+  <testcase name="withNoViewAndSamePath" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.045"/>
+  <testcase name="notDetectAllHandlerMappings" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.051"/>
+  <testcase name="contextInitializers" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.104"/>
+  <testcase name="simpleMappingExceptionResolverWithAllHandlers1" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.058"/>
+  <testcase name="simpleMappingExceptionResolverWithAllHandlers2" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.052"/>
+  <testcase name="contextInitializerClasses" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.095"/>
+  <testcase name="unknownRequest" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.041"/>
+  <testcase name="simpleMappingExceptionResolverWithSpecificHandler1" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.034"/>
+  <testcase name="simpleMappingExceptionResolverWithSpecificHandler2" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.04"/>
+  <testcase name="themeChangeInterceptor1" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.046"/>
+  <testcase name="themeChangeInterceptor2" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.039"/>
+  <testcase name="anotherLocaleRequest" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.04"/>
+  <testcase name="cleanupAfterIncludeWithRestore" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.052"/>
+  <testcase name="notDetectAllViewResolvers" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.045"/>
+  <testcase name="parameterizableViewController" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.047"/>
+  <testcase name="existingMultipartRequest" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.044"/>
+  <testcase name="invalidRequest" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.05"/>
+  <testcase name="localeChangeInterceptor1" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.044"/>
+  <testcase name="localeChangeInterceptor2" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.043"/>
+  <testcase name="dispatcherServletRefresh" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.138"/>
+  <testcase name="handlerInterceptorSuppressesView" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.051"/>
+  <testcase name="configuredDispatcherServlets" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.044"/>
+  <testcase name="localeRequest" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.046"/>
+  <testcase name="servletHandlerAdapter" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.049"/>
+  <testcase name="noHandlerFoundExceptionMessage" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.043"/>
+  <testcase name="notAuthorized" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.056"/>
+  <testcase name="globalInitializerClasses" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.092"/>
+  <testcase name="mixedInitializerClasses" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.088"/>
+  <testcase name="allowedOptionsIncludesPatchMethod" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.165"/>
+  <testcase name="withNoView" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.048"/>
+  <testcase name="existingMultipartRequestButWrapped" classname="org.springframework.web.servlet.DispatcherServletTests" time="0.042"/>
+  <system-out><![CDATA[19:50:07.538 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /unknown
+19:50:07.539 [Test worker] WARN  o.s.w.s.PageNotFound - No handler found for GET /unknown
+19:50:07.539 [Test worker] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No handler found for GET /unknown]
+19:50:07.682 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /knownOnlyToParent.do
+19:50:07.773 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+19:50:07.996 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+19:50:08.500 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /unknown.do
+19:50:09.102 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /form.do
+19:50:09.288 [Test worker] WARN  o.s.w.s.PageNotFound - No mapping for GET /invalid.do
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

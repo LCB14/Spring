@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.tags.EvalTagTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:13" hostname="Macbook-Air.local" time="0.09">
+  <properties/>
+  <testcase name="printHtmlEscapedAttributeResult" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.025"/>
+  <testcase name="environmentAccess" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.018"/>
+  <testcase name="mapAccess" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.007"/>
+  <testcase name="printJavaScriptEscapedAttributeResult" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.007"/>
+  <testcase name="printScopedAttributeResult" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.004"/>
+  <testcase name="nestedPropertyWithAttributeName" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.006"/>
+  <testcase name="setFormattedScopedAttributeResult" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.005"/>
+  <testcase name="printNullAsEmptyString" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.005"/>
+  <testcase name="printFormattedScopedAttributeResult" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.006"/>
+  <testcase name="accessUsingBeanSyntax" classname="org.springframework.web.servlet.tags.EvalTagTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

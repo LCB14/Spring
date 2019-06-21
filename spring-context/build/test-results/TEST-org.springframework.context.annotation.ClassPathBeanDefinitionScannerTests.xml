@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:03" hostname="Macbook-Air.local" time="0.29">
+  <properties/>
+  <testcase name="testBeanNotAutowiredWithAnnotationConfigDisabled" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.011"/>
+  <testcase name="testMultipleScanCalls" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.049"/>
+  <testcase name="testAutowireCandidatePatternMatches" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.016"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndSameBeanTwice" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.011"/>
+  <testcase name="testMultipleBasePackagesWithDefaultsOnly" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.013"/>
+  <testcase name="testCustomAnnotationExcludeFilterAndDefaults" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.006"/>
+  <testcase name="testBeanAutowiredWithAnnotationConfigEnabled" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.018"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndNoPostProcessors" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.005"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndOverriddenEqualNamedBean" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.005"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndPrimaryLazyBean" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.022"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndSpecifiedBeanNameClash" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.01"/>
+  <testcase name="testCustomAssignableTypeExcludeFilterAndDefaults" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.006"/>
+  <testcase name="testDoubleScan" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.01"/>
+  <testcase name="testCustomAssignableTypeExcludeFilterAndDefaultsWithoutPostProcessors" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.01"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndDefaultBeanNameClash" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.01"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndPostProcessors" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.016"/>
+  <testcase name="testCustomIncludeFilterWithoutDefaultsAndNoPostProcessors" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.006"/>
+  <testcase name="testMultipleCustomExcludeFiltersAndDefaults" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.006"/>
+  <testcase name="testCustomIncludeFilterWithoutDefaultsButIncludingPostProcessors" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.005"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndOverridingBean" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.006"/>
+  <testcase name="testAutowireCandidatePatternDoesNotMatch" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.018"/>
+  <testcase name="testCustomIncludeFilterAndDefaults" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.008"/>
+  <testcase name="testCustomBeanNameGenerator" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.007"/>
+  <testcase name="testSimpleScanWithDefaultFiltersAndOverriddenCompatibleNamedBean" classname="org.springframework.context.annotation.ClassPathBeanDefinitionScannerTests" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

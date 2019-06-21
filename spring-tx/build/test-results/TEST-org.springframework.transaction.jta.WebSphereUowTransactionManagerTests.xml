@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:44" hostname="Macbook-Air.local" time="1.555">
+  <properties/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNotSupportedAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.796"/>
+  <testcase name="uowManagerAndUserTransactionFoundInJndi" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.645"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequiredAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.003"/>
+  <testcase name="newTransactionWithCommitUsingPropagationNested" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationSupportsAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequiresNewAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequired" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationSupportsAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="existingNonSpringTransaction" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.003"/>
+  <testcase name="newTransactionWithCommitException" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.016"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNotSupportedAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="existingTransactionWithSuspensionUsingPropagationRequiresNew" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.013"/>
+  <testcase name="newTransactionWithRollback" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.019"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNeverAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionWithRollbackOnly" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.004"/>
+  <testcase name="newTransactionWithCommitUsingPropagationNestedAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="propagationNestedFailsInCaseOfExistingTransaction" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.004"/>
+  <testcase name="existingTransactionWithSuspensionUsingPropagationNotSupported" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNotSupported" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="existingTransactionWithParticipationUsingPropagationSupports" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.007"/>
+  <testcase name="newTransactionWithCommitUsingPropagationNestedAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationSupports" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="existingTransactionWithParticipationUsingPropagationMandatory" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.0"/>
+  <testcase name="uowManagerFoundInJndi" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.003"/>
+  <testcase name="propagationNeverFailsInCaseOfExistingTransaction" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.004"/>
+  <testcase name="newTransactionWithCommitAndTimeout" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.003"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequiresNew" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="propagationMandatoryFailsInCaseOfNoExistingTransaction" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.004"/>
+  <testcase name="existingTransactionWithParticipationUsingPropagationRequired" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequiresNewAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="existingTransactionUsingPropagationNotSupported" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.007"/>
+  <testcase name="newTransactionWithCommitUsingPropagationRequiredAndSynchNever" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <testcase name="newTransactionSynchronizationUsingPropagationNeverAndSynchOnActual" classname="org.springframework.transaction.jta.WebSphereUowTransactionManagerTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

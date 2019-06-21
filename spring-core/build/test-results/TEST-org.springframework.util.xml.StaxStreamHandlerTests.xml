@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.xml.StaxStreamHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:52" hostname="Macbook-Air.local" time="0.025">
+  <properties/>
+  <testcase name="noNamespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.005"/>
+  <testcase name="noNamespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.008"/>
+  <testcase name="namespacePrefixes" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.006"/>
+  <testcase name="namespacePrefixesDom" classname="org.springframework.util.xml.StaxStreamHandlerTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

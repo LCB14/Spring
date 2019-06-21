@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.core.codec.ResourceRegionEncoderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:36" hostname="Macbook-Air.local" time="0.176">
+  <properties/>
+  <testcase name="shouldEncodeMultipleResourceRegionsFileResource" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.099"/>
+  <testcase name="cancelWithoutDemandForSingleResourceRegion" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.063"/>
+  <testcase name="canEncode" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.0"/>
+  <testcase name="shouldEncodeResourceRegionFileResource" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.002"/>
+  <testcase name="cancelWithoutDemandForMultipleResourceRegions" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.002"/>
+  <testcase name="nonExisting" classname="org.springframework.core.codec.ResourceRegionEncoderTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

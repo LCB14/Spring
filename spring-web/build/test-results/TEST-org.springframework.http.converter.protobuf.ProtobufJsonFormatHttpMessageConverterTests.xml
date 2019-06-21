@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:23" hostname="Macbook-Air.local" time="0.728">
+  <properties/>
+  <testcase name="getContentLength" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.66"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.0"/>
+  <testcase name="read" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.004"/>
+  <testcase name="write" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.001"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.001"/>
+  <testcase name="defaultContentType" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.0"/>
+  <testcase name="extensionRegistryInitialized" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.001"/>
+  <testcase name="extensionRegistryInitializer" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.059"/>
+  <testcase name="extensionRegistryInitializerNull" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.0"/>
+  <testcase name="readNoContentType" classname="org.springframework.http.converter.protobuf.ProtobufJsonFormatHttpMessageConverterTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

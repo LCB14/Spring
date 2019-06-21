@@ -1,0 +1,80 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>org.springframework.messaging.rsocket - spring-framework</title>
+<link rel="stylesheet" href="../../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">spring-framework</a>&nbsp;/&nbsp;<a href="./index.html">org.springframework.messaging.rsocket</a><br/>
+<br/>
+<h2>Package org.springframework.messaging.rsocket</h2>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="connect-and-await.html">connectAndAwait</a></p>
+</td>
+<td>
+<code><span class="keyword">suspend</span> <span class="keyword">fun </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html"><span class="identifier">Builder</span></a><span class="symbol">.</span><span class="identifier">connectAndAwait</span><span class="symbol">(</span><span class="identifier" id="org.springframework.messaging.rsocket$connectAndAwait(org.springframework.messaging.rsocket.RSocketRequester.Builder, io.rsocket.transport.ClientTransport)/transport">transport</span><span class="symbol">:</span>&nbsp;<span class="identifier">ClientTransport</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester.html"><span class="identifier">RSocketRequester</span></a></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html#connect(io.rsocket.transport.ClientTransport)">RSocketRequester.Builder.connect</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="connect-tcp-and-await.html">connectTcpAndAwait</a></p>
+</td>
+<td>
+<code><span class="keyword">suspend</span> <span class="keyword">fun </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html"><span class="identifier">Builder</span></a><span class="symbol">.</span><span class="identifier">connectTcpAndAwait</span><span class="symbol">(</span><span class="identifier" id="org.springframework.messaging.rsocket$connectTcpAndAwait(org.springframework.messaging.rsocket.RSocketRequester.Builder, kotlin.String, kotlin.Int)/host">host</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="org.springframework.messaging.rsocket$connectTcpAndAwait(org.springframework.messaging.rsocket.RSocketRequester.Builder, kotlin.String, kotlin.Int)/port">port</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester.html"><span class="identifier">RSocketRequester</span></a></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html#connectTcp(java.lang.String, int)">RSocketRequester.Builder.connectTcp</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="connect-web-socket-and-await.html">connectWebSocketAndAwait</a></p>
+</td>
+<td>
+<code><span class="keyword">suspend</span> <span class="keyword">fun </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html"><span class="identifier">Builder</span></a><span class="symbol">.</span><span class="identifier">connectWebSocketAndAwait</span><span class="symbol">(</span><span class="identifier" id="org.springframework.messaging.rsocket$connectWebSocketAndAwait(org.springframework.messaging.rsocket.RSocketRequester.Builder, java.net.URI)/uri">uri</span><span class="symbol">:</span>&nbsp;<a href="https://docs.oracle.com/javase/6/docs/api/java/net/URI.html"><span class="identifier">URI</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester.html"><span class="identifier">RSocketRequester</span></a></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/Builder.html#connectWebSocket(java.net.URI)">RSocketRequester.Builder.connectWebSocket</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="data-flow.html">dataFlow</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">&gt;</span> <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/RequestSpec.html"><span class="identifier">RequestSpec</span></a><span class="symbol">.</span><span class="identifier">dataFlow</span><span class="symbol">(</span><span class="identifier" id="org.springframework.messaging.rsocket$dataFlow(org.springframework.messaging.rsocket.RSocketRequester.RequestSpec, kotlinx.coroutines.flow.Flow((org.springframework.messaging.rsocket.dataFlow.T)))/data">data</span><span class="symbol">:</span>&nbsp;<a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/index.html"><span class="identifier">Flow</span></a><span class="symbol">&lt;</span><a href="data-flow.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html"><span class="identifier">ResponseSpec</span></a></code>
+<p>Kotlin <a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/index.html">Flow</a> variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/RequestSpec.html#data(java.lang.Object)">RSocketRequester.RequestSpec.data</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="retrieve-and-await.html">retrieveAndAwait</a></p>
+</td>
+<td>
+<code><span class="keyword">suspend</span> <span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">&gt;</span> <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html"><span class="identifier">ResponseSpec</span></a><span class="symbol">.</span><span class="identifier">retrieveAndAwait</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="retrieve-and-await.html#T"><span class="identifier">T</span></a></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html#retrieveMono(java.lang.Class<T>)">RSocketRequester.ResponseSpec.retrieveMono</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="retrieve-flow.html">retrieveFlow</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">&gt;</span> <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html"><span class="identifier">ResponseSpec</span></a><span class="symbol">.</span><span class="identifier">retrieveFlow</span><span class="symbol">(</span><span class="identifier" id="org.springframework.messaging.rsocket$retrieveFlow(org.springframework.messaging.rsocket.RSocketRequester.ResponseSpec, kotlin.Int)/batchSize">batchSize</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html"><span class="identifier">Int</span></a>&nbsp;<span class="symbol">=</span>&nbsp;1<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/index.html"><span class="identifier">Flow</span></a><span class="symbol">&lt;</span><a href="retrieve-flow.html#T"><span class="identifier">T</span></a><span class="symbol">&gt;</span></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html#retrieveFlux(java.lang.Class<T>)">RSocketRequester.ResponseSpec.retrieveFlux</a>.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="send-and-await.html">sendAndAwait</a></p>
+</td>
+<td>
+<code><span class="keyword">suspend</span> <span class="keyword">fun </span><a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html"><span class="identifier">ResponseSpec</span></a><span class="symbol">.</span><span class="identifier">sendAndAwait</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Coroutines variant of <a href="https://docs.spring.io/spring-framework/docs/5.2.0.BUILD-SNAPSHOT/javadoc-api/org/springframework/messaging/rsocket/RSocketRequester/ResponseSpec.html#send()">RSocketRequester.ResponseSpec.send</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

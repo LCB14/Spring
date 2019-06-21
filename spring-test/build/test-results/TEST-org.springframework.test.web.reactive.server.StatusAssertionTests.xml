@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.web.reactive.server.StatusAssertionTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:34" hostname="Macbook-Air.local" time="0.034">
+  <properties/>
+  <testcase name="isEqualTo" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.021"/>
+  <testcase name="reasonEquals" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.002"/>
+  <testcase name="statusSerius1xx" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSerius2xx" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="statusSerius3xx" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.0"/>
+  <testcase name="statusSerius4xx" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="statusSerius5xx" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.001"/>
+  <testcase name="matches" classname="org.springframework.test.web.reactive.server.StatusAssertionTests" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

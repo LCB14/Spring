@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scripting.groovy.GroovyAspectIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:26" hostname="Macbook-Air.local" time="0.202">
+  <properties/>
+  <testcase name="testJavaBean" classname="org.springframework.scripting.groovy.GroovyAspectIntegrationTests" time="0.04"/>
+  <testcase name="testGroovyBeanProxyTargetClass" classname="org.springframework.scripting.groovy.GroovyAspectIntegrationTests" time="0.082"/>
+  <testcase name="testGroovyBeanDynamic" classname="org.springframework.scripting.groovy.GroovyAspectIntegrationTests" time="0.04"/>
+  <testcase name="testGroovyBeanInterface" classname="org.springframework.scripting.groovy.GroovyAspectIntegrationTests" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:01" hostname="Macbook-Air.local" time="1.107">
+  <properties/>
+  <testcase name="bodyToMonoVoidWithoutContentType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.048"/>
+  <testcase name="onStatusWithBodyNotConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.016"/>
+  <testcase name="bodyToMonoVoid[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.006"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithBodyConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.012"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="bodyToMonoVoidWithoutContentType[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithBodyNotConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="bodyToMonoVoid[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.012"/>
+  <testcase name="onStatusWithBodyConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[NettyDataBufferFactory (UnpooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="bodyToMonoVoidWithoutContentType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.013"/>
+  <testcase name="onStatusWithBodyNotConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.067"/>
+  <testcase name="bodyToMonoVoid[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.068"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.066"/>
+  <testcase name="onStatusWithBodyConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.066"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.069"/>
+  <testcase name="bodyToMonoVoidWithoutContentType[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.068"/>
+  <testcase name="onStatusWithBodyNotConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.071"/>
+  <testcase name="bodyToMonoVoid[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.065"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.069"/>
+  <testcase name="onStatusWithBodyConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.066"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: false))]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.062"/>
+  <testcase name="bodyToMonoVoidWithoutContentType[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.025"/>
+  <testcase name="onStatusWithBodyNotConsumed[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.015"/>
+  <testcase name="bodyToMonoVoid[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.015"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.014"/>
+  <testcase name="onStatusWithBodyConsumed[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.021"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[DefaultDataBufferFactory (preferDirect=true)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="bodyToMonoVoidWithoutContentType[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.008"/>
+  <testcase name="onStatusWithBodyNotConsumed[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="bodyToMonoVoid[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.01"/>
+  <testcase name="onStatusWithMonoErrorAndBodyNotConsumed[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.011"/>
+  <testcase name="onStatusWithBodyConsumed[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.009"/>
+  <testcase name="onStatusWithMonoErrorAndBodyConsumed[DefaultDataBufferFactory (preferDirect=false)]" classname="org.springframework.web.reactive.function.client.WebClientDataBufferAllocatingTests" time="0.052"/>
+  <system-out><![CDATA[19:49:01.553 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [724c483e] HTTP GET http://localhost:51566/sample
+19:49:01.564 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [724c483e] Response 202 ACCEPTED
+19:49:01.583 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [aa20971] HTTP GET http://localhost:51569/json
+19:49:01.587 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [aa20971] Response 502 BAD_GATEWAY
+19:49:01.597 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [686cae6f] HTTP GET http://localhost:51571/json
+19:49:01.600 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [686cae6f] Response 201 CREATED
+19:49:01.604 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [36e90059] HTTP GET http://localhost:51573/json
+19:49:01.607 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [36e90059] Response 502 BAD_GATEWAY
+19:49:01.613 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ab6359d] HTTP GET http://localhost:51575/json
+19:49:01.618 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1ab6359d] Response 502 BAD_GATEWAY
+19:49:01.624 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6d7dca42] HTTP GET http://localhost:51577/json
+19:49:01.627 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6d7dca42] Response 502 BAD_GATEWAY
+19:49:01.632 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c25bbca] HTTP GET http://localhost:51579/sample
+19:49:01.636 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c25bbca] Response 202 ACCEPTED
+19:49:01.640 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1cb485f6] HTTP GET http://localhost:51581/json
+19:49:01.644 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1cb485f6] Response 502 BAD_GATEWAY
+19:49:01.648 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [72a145e9] HTTP GET http://localhost:51583/json
+19:49:01.654 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [72a145e9] Response 201 CREATED
+19:49:01.661 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [106059f2] HTTP GET http://localhost:51585/json
+19:49:01.665 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [106059f2] Response 502 BAD_GATEWAY
+19:49:01.671 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7065f5da] HTTP GET http://localhost:51587/json
+19:49:01.675 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7065f5da] Response 502 BAD_GATEWAY
+19:49:01.679 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5ff2a668] HTTP GET http://localhost:51589/json
+19:49:01.683 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5ff2a668] Response 502 BAD_GATEWAY
+19:49:01.688 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [205f7291] HTTP GET http://localhost:51591/sample
+19:49:01.692 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [205f7291] Response 202 ACCEPTED
+19:49:01.702 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [65f209b4] HTTP GET http://localhost:51593/json
+19:49:01.706 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [65f209b4] Response 502 BAD_GATEWAY
+19:49:01.769 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7dc0d3d2] HTTP GET http://localhost:51595/json
+19:49:01.774 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7dc0d3d2] Response 201 CREATED
+19:49:01.838 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64988aab] HTTP GET http://localhost:51597/json
+19:49:01.841 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [64988aab] Response 502 BAD_GATEWAY
+19:49:01.904 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2678282e] HTTP GET http://localhost:51599/json
+19:49:01.909 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2678282e] Response 502 BAD_GATEWAY
+19:49:01.970 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [352d0217] HTTP GET http://localhost:51601/json
+19:49:01.975 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [352d0217] Response 502 BAD_GATEWAY
+19:49:02.037 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25599eab] HTTP GET http://localhost:51603/sample
+19:49:02.045 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [25599eab] Response 202 ACCEPTED
+19:49:02.107 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [17b40c56] HTTP GET http://localhost:51605/json
+19:49:02.116 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [17b40c56] Response 502 BAD_GATEWAY
+19:49:02.180 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [736924ae] HTTP GET http://localhost:51607/json
+19:49:02.184 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [736924ae] Response 201 CREATED
+19:49:02.243 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [214b1b0b] HTTP GET http://localhost:51609/json
+19:49:02.250 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [214b1b0b] Response 502 BAD_GATEWAY
+19:49:02.311 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [301d5e46] HTTP GET http://localhost:51611/json
+19:49:02.316 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [301d5e46] Response 502 BAD_GATEWAY
+19:49:02.378 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7b0c9912] HTTP GET http://localhost:51613/json
+19:49:02.381 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7b0c9912] Response 502 BAD_GATEWAY
+19:49:02.442 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5037b289] HTTP GET http://localhost:51615/sample
+19:49:02.461 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5037b289] Response 202 ACCEPTED
+19:49:02.467 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [43615d50] HTTP GET http://localhost:51617/json
+19:49:02.474 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [43615d50] Response 502 BAD_GATEWAY
+19:49:02.481 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [282d1802] HTTP GET http://localhost:51619/json
+19:49:02.491 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [282d1802] Response 201 CREATED
+19:49:02.496 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e39c85e] HTTP GET http://localhost:51621/json
+19:49:02.501 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2e39c85e] Response 502 BAD_GATEWAY
+19:49:02.510 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c89ef9e] HTTP GET http://localhost:51623/json
+19:49:02.522 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [c89ef9e] Response 502 BAD_GATEWAY
+19:49:02.531 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16a352f8] HTTP GET http://localhost:51625/json
+19:49:02.537 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16a352f8] Response 502 BAD_GATEWAY
+19:49:02.541 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4bc255a6] HTTP GET http://localhost:51627/sample
+19:49:02.546 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4bc255a6] Response 202 ACCEPTED
+19:49:02.550 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59c89fc8] HTTP GET http://localhost:51629/json
+19:49:02.554 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [59c89fc8] Response 502 BAD_GATEWAY
+19:49:02.559 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [539372bf] HTTP GET http://localhost:51631/json
+19:49:02.564 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [539372bf] Response 201 CREATED
+19:49:02.569 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [706d45b4] HTTP GET http://localhost:51633/json
+19:49:02.575 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [706d45b4] Response 502 BAD_GATEWAY
+19:49:02.580 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cd527a3] HTTP GET http://localhost:51635/json
+19:49:02.583 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [2cd527a3] Response 502 BAD_GATEWAY
+19:49:02.630 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [d1b701] HTTP GET http://localhost:51637/json
+19:49:02.635 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [d1b701] Response 502 BAD_GATEWAY
+]]></system-out>
+  <system-err><![CDATA[六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51566] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51566] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51569] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51569] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51571] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51571] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51573] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51573] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51575] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51575] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51577] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51577] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51579] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51579] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51581] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51581] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51583] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51583] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51585] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51585] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51587] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51587] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51589] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51589] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51591] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51591] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51593] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51593] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51595] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51595] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51597] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51597] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51599] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51599] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51601] starting to accept connections
+六月 21, 2019 7:49:01 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51601] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51603] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51603] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51605] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51605] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51607] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51607] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51609] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51609] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51611] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51611] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51613] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51613] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51615] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51615] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51617] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51617] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51619] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51619] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51621] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51621] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51623] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51623] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51625] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51625] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51627] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51627] received request: GET /sample HTTP/1.1 and responded: HTTP/1.1 202 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51629] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51629] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51631] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51631] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 201 OK
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51633] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51633] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51635] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51635] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$3 execute
+信息: MockWebServer[51637] starting to accept connections
+六月 21, 2019 7:49:02 下午 okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+信息: MockWebServer[51637] received request: GET /json HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+]]></system-err>
+</testsuite>

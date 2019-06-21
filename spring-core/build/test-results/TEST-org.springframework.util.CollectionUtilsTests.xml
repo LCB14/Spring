@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.util.CollectionUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:53" hostname="Macbook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="testMergeArrayIntoCollection" classname="org.springframework.util.CollectionUtilsTests" time="0.001"/>
+  <testcase name="testContainsInstanceWithSameInstance" classname="org.springframework.util.CollectionUtilsTests" time="0.003"/>
+  <testcase name="testContainsInstanceWithInstancesThatAreEqualButDistinct" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testContainsAny" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testMergePrimitiveArrayIntoCollection" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testContains" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testContainsInstanceWithNullInstance" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testHasUniqueObject" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testMergePropertiesIntoMap" classname="org.springframework.util.CollectionUtilsTests" time="0.001"/>
+  <testcase name="testIsEmpty" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testFindFirstMatch" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <testcase name="testContainsInstanceWithNullCollection" classname="org.springframework.util.CollectionUtilsTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

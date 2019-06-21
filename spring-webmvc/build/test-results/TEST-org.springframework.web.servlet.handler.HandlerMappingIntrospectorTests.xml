@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:33" hostname="Macbook-Air.local" time="0.736">
+  <properties/>
+  <testcase name="getMatchableWhereHandlerMappingDoesNotImplementMatchableInterface" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.097"/>
+  <testcase name="getCorsConfigurationPreFlight" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.489"/>
+  <testcase name="detectHandlerMappings" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.011"/>
+  <testcase name="getMatchable" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.089"/>
+  <testcase name="detectHandlerMappingsOrdered" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.02"/>
+  <testcase name="getCorsConfigurationActual" classname="org.springframework.web.servlet.handler.HandlerMappingIntrospectorTests" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

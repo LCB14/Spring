@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.core.support.SqlLobValueTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:16" hostname="Macbook-Air.local" time="0.074">
+  <properties/>
+  <testcase name="testCorrectCleanup" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.045"/>
+  <testcase name="testOtherSqlType" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.001"/>
+  <testcase name="test1" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.002"/>
+  <testcase name="test2" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.001"/>
+  <testcase name="test3" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.012"/>
+  <testcase name="test4" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.002"/>
+  <testcase name="test5" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.006"/>
+  <testcase name="test6" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.001"/>
+  <testcase name="test7" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.001"/>
+  <testcase name="testOtherConstructors" classname="org.springframework.jdbc.core.support.SqlLobValueTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

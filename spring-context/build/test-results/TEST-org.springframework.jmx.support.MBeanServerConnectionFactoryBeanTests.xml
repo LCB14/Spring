@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:44" hostname="Macbook-Air.local" time="0.26">
+  <properties/>
+  <testcase name="testTestWithLazyConnection" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.141"/>
+  <testcase name="testWithNoServiceUrl" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.001"/>
+  <testcase name="testTestValidConnection" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.116"/>
+  <testcase name="testWithLazyConnectionAndNoAccess" classname="org.springframework.jmx.support.MBeanServerConnectionFactoryBeanTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:40:44 PM ClientCommunicatorAdmin restart
+WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+Jun 21, 2019 7:40:44 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Jun 21, 2019 7:40:44 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
+</testsuite>

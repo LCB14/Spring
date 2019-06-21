@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:51:09" hostname="Macbook-Air.local" time="1.1">
+  <properties/>
+  <testcase name="publishSubscribe" classname="org.springframework.web.socket.messaging.WebSocketStompClientIntegrationTests" time="1.1"/>
+  <system-out><![CDATA[19:51:10.168 [WebSocketClient-AsyncIO-1] ERROR o.s.w.s.m.WebSocketStompClientIntegrationTests - org.springframework.messaging.simp.stomp.ConnectionLostException: Connection closed
+]]></system-out>
+  <system-err><![CDATA[六月 21, 2019 7:51:09 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-nio-auto-11"]
+六月 21, 2019 7:51:09 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service [Tomcat]
+六月 21, 2019 7:51:09 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet engine: [Apache Tomcat/9.0.21]
+六月 21, 2019 7:51:09 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-11-52088"]
+六月 21, 2019 7:51:09 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring DispatcherServlet 'dispatcherServlet'
+六月 21, 2019 7:51:10 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcherServlet'
+六月 21, 2019 7:51:10 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-11-52088"]
+六月 21, 2019 7:51:10 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service [Tomcat]
+六月 21, 2019 7:51:10 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-11-52088"]
+]]></system-err>
+</testsuite>

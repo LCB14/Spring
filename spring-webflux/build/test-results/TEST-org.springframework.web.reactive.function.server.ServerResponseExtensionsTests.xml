@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:24" hostname="Macbook-Air.local" time="1.208">
+  <properties/>
+  <testcase name="renderAndAwait with a vararg parameter" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.671"/>
+  <testcase name="bodyAndAwait with object parameter" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.024"/>
+  <testcase name="renderAndAwait with a Map parameter" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.229"/>
+  <testcase name="bodyFlowAndAwait" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.163"/>
+  <testcase name="BodyBuilder#body with Publisher and reified type parameters" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.035"/>
+  <testcase name="BodyBuilder#sse" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.007"/>
+  <testcase name="BodyBuilder#xml" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.006"/>
+  <testcase name="await" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.055"/>
+  <testcase name="BodyBuilder#html" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.006"/>
+  <testcase name="BodyBuilder#json" classname="org.springframework.web.reactive.function.server.ServerResponseExtensionsTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

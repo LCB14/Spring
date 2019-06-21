@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cache.interceptor.CacheErrorHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:37" hostname="Macbook-Air.local" time="0.142">
+  <properties/>
+  <testcase name="clearFail" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.051"/>
+  <testcase name="evictFail" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.013"/>
+  <testcase name="getFailProperException" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.01"/>
+  <testcase name="putFail" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.01"/>
+  <testcase name="getFail" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.009"/>
+  <testcase name="getAndPutFail" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.012"/>
+  <testcase name="putFailProperException" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.013"/>
+  <testcase name="evictFailProperException" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.013"/>
+  <testcase name="clearFailProperException" classname="org.springframework.cache.interceptor.CacheErrorHandlerTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.DispatcherHandlerErrorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:43" hostname="Macbook-Air.local" time="1.446">
+  <properties/>
+  <testcase name="controllerReturnsMonoError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="1.161"/>
+  <testcase name="controllerThrowsException" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.039"/>
+  <testcase name="webExceptionHandler" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.048"/>
+  <testcase name="requestBodyError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.075"/>
+  <testcase name="responseBodyMessageConversionError" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.045"/>
+  <testcase name="unknownReturnType" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.035"/>
+  <testcase name="noHandler" classname="org.springframework.web.reactive.DispatcherHandlerErrorTests" time="0.042"/>
+  <system-out><![CDATA[19:46:43.460 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:43.808 [Test worker] WARN  o.s.h.c.j.Jackson2ObjectMapperBuilder - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+19:46:44.318 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.356 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [28358534] Mapped to org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController#errorSignal()
+19:46:44.382 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+19:46:44.383 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [28358534] 0..1 [java.lang.String]
+19:46:44.423 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.435 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.439 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [d87e6b7] Mapped to org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController#raiseException()
+19:46:44.460 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.472 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.515 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.528 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.534 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [1235b490] Mapped to org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController#requestBody(Publisher)
+19:46:44.546 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [1235b490] No Content-Type, using application/octet-stream
+19:46:44.547 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [1235b490] 0..N [java.lang.String]
+19:46:44.560 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8]
+19:46:44.560 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [1235b490] 0..1 [java.lang.String]
+19:46:44.584 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.596 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.606 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [4cbf6ae5] Mapped to org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController#requestBody(Publisher)
+19:46:44.607 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4cbf6ae5] No Content-Type, using application/octet-stream
+19:46:44.607 [Test worker] DEBUG o.s.w.r.r.m.a.RequestBodyMethodArgumentResolver - [4cbf6ae5] 0..N [java.lang.String]
+19:46:44.608 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseBodyResultHandler - [4cbf6ae5] No match for [application/json], supported: [text/plain;charset=UTF-8]
+19:46:44.627 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.638 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:46:44.642 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - [f162a85] Mapped to org.springframework.web.reactive.DispatcherHandlerErrorTests$TestController#unknownReturnType()
+19:46:44.666 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 4 mappings in 'handlerMapping'
+19:46:44.681 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

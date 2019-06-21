@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:53" hostname="Macbook-Air.local" time="0.754">
+  <properties/>
+  <testcase name="stompProtocolHandler" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.22"/>
+  <testcase name="handlerMapping" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.476"/>
+  <testcase name="errorHandler" classname="org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistryTests" time="0.057"/>
+  <system-out><![CDATA[19:50:54.371 [Test worker] WARN  o.s.w.HttpLogging - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

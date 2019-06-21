@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.util.DefaultUriTemplateHandlerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:03" hostname="Macbook-Air.local" time="0.134">
+  <properties/>
+  <testcase name="strictEncodingIsOffWithMap" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.118"/>
+  <testcase name="strictEncodingOnWithMap" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.002"/>
+  <testcase name="strictEncodingAndDefaultUriVariables" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.0"/>
+  <testcase name="strictEncodingOffWithArray" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.003"/>
+  <testcase name="baseUrlWithPath" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.001"/>
+  <testcase name="baseUrlWithoutPath" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.0"/>
+  <testcase name="parsePathIsOn" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.005"/>
+  <testcase name="parsePathIsOff" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.0"/>
+  <testcase name="strictEncodingOnWithArray" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.004"/>
+  <testcase name="defaultUriVariables" classname="org.springframework.web.util.DefaultUriTemplateHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.function.ServerRequestExtensionsTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:50:46" hostname="Macbook-Air.local" time="2.03">
+  <properties/>
+  <testcase name="contentTypeOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="1.197"/>
+  <testcase name="contentLengthOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.097"/>
+  <testcase name="attributeOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.052"/>
+  <testcase name="remoteAddressOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.139"/>
+  <testcase name="principalOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.127"/>
+  <testcase name="principalOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.011"/>
+  <testcase name="paramOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.014"/>
+  <testcase name="paramOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.012"/>
+  <testcase name="body" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.331"/>
+  <testcase name="contentTypeOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.01"/>
+  <testcase name="attributeOrNull with value" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.012"/>
+  <testcase name="contentLengthOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.009"/>
+  <testcase name="remoteAddressOrNull with null" classname="org.springframework.web.servlet.function.ServerRequestExtensionsTests" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

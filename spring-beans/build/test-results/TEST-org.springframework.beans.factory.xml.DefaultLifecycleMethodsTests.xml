@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:34" hostname="Macbook-Air.local" time="0.032">
+  <properties/>
+  <testcase name="childWithLifecycleMethodsDisabled" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.009"/>
+  <testcase name="lifecycleMethodsDisabled" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.003"/>
+  <testcase name="overrideDefaultLifecycleMethods" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.003"/>
+  <testcase name="childWithDefaultLifecycleMethods" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.004"/>
+  <testcase name="ignoreDefaultLifecycleMethods" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.007"/>
+  <testcase name="lifecycleMethodsInvoked" classname="org.springframework.beans.factory.xml.DefaultLifecycleMethodsTests" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

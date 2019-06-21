@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.jdbc.support.KeyHolderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:18" hostname="Macbook-Air.local" time="0.012">
+  <properties/>
+  <testcase name="singleKey" classname="org.springframework.jdbc.support.KeyHolderTests" time="0.0"/>
+  <testcase name="singleKeyNonNumeric" classname="org.springframework.jdbc.support.KeyHolderTests" time="0.001"/>
+  <testcase name="multipleKeys" classname="org.springframework.jdbc.support.KeyHolderTests" time="0.006"/>
+  <testcase name="multipleKeyRows" classname="org.springframework.jdbc.support.KeyHolderTests" time="0.004"/>
+  <testcase name="noKeyReturnedInMap" classname="org.springframework.jdbc.support.KeyHolderTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

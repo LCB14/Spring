@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" tests="4" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:46:27" hostname="Macbook-Air.local" time="0.087">
+  <properties/>
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@29fcd991]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@367b87ae]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.029"/>
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@410df0aa]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.021">
+    <skipped/>
+  </testcase>
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@227f9c8a]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.021"/>
+  <system-out><![CDATA[19:46:27.648 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50012
+19:46:27.649 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.657 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.670 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
+19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50016
+19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:27.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+19:46:27.708 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
+]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-auto-8"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-8-50014"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-8-50014"]
+Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-8-50014"]
+Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-8-50014"]
+]]></system-err>
+</testsuite>

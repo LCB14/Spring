@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.tests.AssumeTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:41:53" hostname="Macbook-Air.local" time="0.006">
+  <properties/>
+  <testcase name="assumeGroupWithBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.001"/>
+  <testcase name="assumeGroupWithNoMatchingActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase name="assumeGroupWithAllMinusBogusActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.001"/>
+  <testcase name="assumeGroupWithNoActiveTestGroups" classname="org.springframework.tests.AssumeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="assumeGroupWithMatchingActiveTestGroup" classname="org.springframework.tests.AssumeTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

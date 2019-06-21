@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:01" hostname="Macbook-Air.local" time="2.047">
+  <properties/>
+  <testcase name="testCorrectHandlerUsedForSubclass" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="2.014"/>
+  <testcase name="testCorrectHandlerUsed" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="0.025"/>
+  <testcase name="testNotInvoked" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="0.002"/>
+  <testcase name="testHandlerMethodThrowsException" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="0.003"/>
+  <testcase name="testNoHandlerMethods" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="0.002"/>
+  <testcase name="testNoHandlerMethodForThrowable" classname="org.springframework.aop.framework.adapter.ThrowsAdviceInterceptorTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

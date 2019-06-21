@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:42" hostname="Macbook-Air.local" time="0.305">
+  <properties/>
+  <testcase name="test1InitialState" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.28"/>
+  <testcase name="test2IncrementCount1" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.011"/>
+  <testcase name="test3IncrementCount2" classname="org.springframework.test.context.transaction.ejb.RollbackForRequiresNewEjbTxDaoTests" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

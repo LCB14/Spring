@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.client.AsyncRestTemplateIntegrationTests" tests="42" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:16" hostname="Macbook-Air.local" time="0.89">
+  <properties/>
+  <testcase name="postForEntityCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.303"/>
+  <testcase name="exchangeGet" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="postForLocationCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.021"/>
+  <testcase name="headForHeadersCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.02"/>
+  <testcase name="delete" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="notFoundCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="multipart" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.018"/>
+  <testcase name="getEntityCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="getNoContentTypeHeader" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="headForHeadersCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="getNotModified" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="serverErrorCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.008"/>
+  <testcase name="serverError" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="serverErrorCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="getEntityCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="headForHeaders" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.012"/>
+  <testcase name="getEntityFromCompletable" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="postForEntity" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="exchangeGetCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.019"/>
+  <testcase name="putCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="postForEntityCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="postForLocation" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="postForLocationCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="put" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="multipleFutureGets" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="deleteCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="exchangeGetCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="optionsForAllowCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.011"/>
+  <testcase name="getAndInterceptError" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.033"/>
+  <testcase name="getEntity" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="exchangePostCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="getNoResponse" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.016"/>
+  <testcase name="notFoundGet" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="optionsForAllow" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.01"/>
+  <testcase name="optionsForAllowCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="notFoundCallbackWithLambdas" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="getAndInterceptResponse" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.015"/>
+  <testcase name="identicalExceptionThroughGetAndCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.014"/>
+  <testcase name="exchangePost" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="getNoContent" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <testcase name="deleteCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.017"/>
+  <testcase name="exchangePostCallback" classname="org.springframework.web.client.AsyncRestTemplateIntegrationTests" time="0.013"/>
+  <system-out><![CDATA[19:46:16.786 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49908/post"
+19:46:16.790 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:16.790 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+19:46:16.901 [I/O dispatcher 1] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49908/post" resulted in 201 (OK)
+19:46:16.902 [I/O dispatcher 1] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:16.905 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49910/get"
+19:46:16.906 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:16.909 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49910/get" resulted in 200 (OK)
+19:46:16.909 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:16.918 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49912/post"
+19:46:16.918 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+19:46:16.929 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49912/post" resulted in 201 (OK)
+19:46:16.941 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous HEAD request for "http://localhost:49914/get"
+19:46:16.944 [I/O dispatcher 13] DEBUG o.s.w.c.AsyncRestTemplate - Async HEAD request for "http://localhost:49914/get" resulted in 200 (OK)
+19:46:16.963 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous DELETE request for "http://localhost:49916/delete"
+19:46:16.967 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async DELETE request for "http://localhost:49916/delete" resulted in 200 (OK)
+19:46:16.974 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49918/status/notfound"
+19:46:16.977 [Test worker] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49918/status/notfound" resulted in 404 (Client Error); invoking error handler
+19:46:16.983 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49920/multipart"
+19:46:16.984 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{name 1=[value 1], name 2=[value 2+1, value 2+2], logo=[class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+19:46:16.995 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49920/multipart" resulted in 200 (OK)
+19:46:17.001 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49922/get"
+19:46:17.001 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.004 [I/O dispatcher 29] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49922/get" resulted in 200 (OK)
+19:46:17.005 [I/O dispatcher 29] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.016 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49924/get/nocontenttype"
+19:46:17.017 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.021 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49924/get/nocontenttype" resulted in 200 (OK)
+19:46:17.021 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+19:46:17.028 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous HEAD request for "http://localhost:49926/get"
+19:46:17.032 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async HEAD request for "http://localhost:49926/get" resulted in 200 (OK)
+19:46:17.040 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49928/status/notmodified"
+19:46:17.040 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.043 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49928/status/notmodified" resulted in 304 (Redirection)
+19:46:17.049 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49930/status/server"
+19:46:17.052 [Test worker] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49930/status/server" resulted in 500 (Server Error); invoking error handler
+19:46:17.059 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49932/status/server"
+19:46:17.062 [Test worker] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49932/status/server" resulted in 500 (Server Error); invoking error handler
+19:46:17.069 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49934/status/server"
+19:46:17.073 [I/O dispatcher 53] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49934/status/server" resulted in 500 (Server Error); invoking error handler
+19:46:17.086 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49936/get"
+19:46:17.086 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.091 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49936/get" resulted in 200 (OK)
+19:46:17.091 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.100 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous HEAD request for "http://localhost:49938/get"
+19:46:17.103 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async HEAD request for "http://localhost:49938/get" resulted in 200 (OK)
+19:46:17.111 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49940/get"
+19:46:17.112 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.117 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49940/get" resulted in 200 (OK)
+19:46:17.117 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.124 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49942/post"
+19:46:17.124 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.124 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+19:46:17.128 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49942/post" resulted in 201 (OK)
+19:46:17.128 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.137 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49944/get"
+19:46:17.139 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.142 [I/O dispatcher 73] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49944/get" resulted in 200 (OK)
+19:46:17.142 [I/O dispatcher 73] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.154 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous PUT request for "http://localhost:49946/put"
+19:46:17.154 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+19:46:17.158 [I/O dispatcher 77] DEBUG o.s.w.c.AsyncRestTemplate - Async PUT request for "http://localhost:49946/put" resulted in 202 (OK)
+19:46:17.173 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49948/post"
+19:46:17.173 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.174 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+19:46:17.177 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49948/post" resulted in 201 (OK)
+19:46:17.177 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.186 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49950/post"
+19:46:17.186 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+19:46:17.190 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49950/post" resulted in 201 (OK)
+19:46:17.197 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49952/post"
+19:46:17.197 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain;charset=ISO-8859-1"
+19:46:17.201 [I/O dispatcher 89] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49952/post" resulted in 201 (OK)
+19:46:17.213 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous PUT request for "http://localhost:49954/put"
+19:46:17.213 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] with org.springframework.http.converter.StringHttpMessageConverter
+19:46:17.217 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async PUT request for "http://localhost:49954/put" resulted in 202 (OK)
+19:46:17.226 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49956/get"
+19:46:17.227 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.230 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49956/get" resulted in 200 (OK)
+19:46:17.231 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.237 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous DELETE request for "http://localhost:49958/delete"
+19:46:17.240 [I/O dispatcher 101] DEBUG o.s.w.c.AsyncRestTemplate - Async DELETE request for "http://localhost:49958/delete" resulted in 200 (OK)
+19:46:17.252 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49960/get"
+19:46:17.253 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.257 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49960/get" resulted in 200 (OK)
+19:46:17.257 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.264 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous OPTIONS request for "http://localhost:49962/get"
+19:46:17.268 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async OPTIONS request for "http://localhost:49962/get" resulted in 200 (OK)
+19:46:17.291 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49964/status/notfound"
+19:46:17.291 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.310 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49966/get"
+19:46:17.311 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.314 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49966/get" resulted in 200 (OK)
+19:46:17.314 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.323 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49968/post"
+19:46:17.324 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:17.325 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+19:46:17.329 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49968/post" resulted in 201 (OK)
+19:46:17.341 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49970/get/nothing"
+19:46:17.342 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.345 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49970/get/nothing" resulted in 200 (OK)
+19:46:17.355 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49972/status/notfound"
+19:46:17.358 [Test worker] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49972/status/notfound" resulted in 404 (Client Error); invoking error handler
+19:46:17.366 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous OPTIONS request for "http://localhost:49974/get"
+19:46:17.369 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async OPTIONS request for "http://localhost:49974/get" resulted in 200 (OK)
+19:46:17.378 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous OPTIONS request for "http://localhost:49976/get"
+19:46:17.382 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async OPTIONS request for "http://localhost:49976/get" resulted in 200 (OK)
+19:46:17.390 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49978/status/notfound"
+19:46:17.394 [I/O dispatcher 141] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49978/status/notfound" resulted in 404 (Client Error); invoking error handler
+19:46:17.408 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49980/get"
+19:46:17.408 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.413 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49980/get" resulted in 200 (OK)
+19:46:17.413 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+19:46:17.424 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49982/status/notfound"
+19:46:17.428 [Test worker] WARN  o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49982/status/notfound" resulted in 404 (Client Error); invoking error handler
+19:46:17.437 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49984/post"
+19:46:17.438 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:17.438 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+19:46:17.441 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49984/post" resulted in 201 (OK)
+19:46:17.450 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous GET request for "http://localhost:49986/status/nocontent"
+19:46:17.451 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+19:46:17.454 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async GET request for "http://localhost:49986/status/nocontent" resulted in 204 (OK)
+19:46:17.468 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous DELETE request for "http://localhost:49988/delete"
+19:46:17.472 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async DELETE request for "http://localhost:49988/delete" resulted in 200 (OK)
+19:46:17.480 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Created asynchronous POST request for "http://localhost:49990/post"
+19:46:17.481 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+19:46:17.481 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [Héllo Wörld] as "text/plain"
+19:46:17.484 [Test worker] DEBUG o.s.w.c.AsyncRestTemplate - Async POST request for "http://localhost:49990/post" resulted in 201 (OK)
+]]></system-out>
+  <system-err><![CDATA[Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49908] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49908] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49908] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49910] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49910] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49910] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49912] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49912] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49912] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49914] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49914] received request: HEAD /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49914] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49916] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49916] received request: DELETE /delete HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49916] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49918] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49918] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49918] done accepting connections: Socket closed
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49920] starting to accept connections
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49920] received request: POST /multipart HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:16 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49920] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49922] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49922] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49922] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49924] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49924] received request: GET /get/nocontenttype HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49924] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49926] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49926] received request: HEAD /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49926] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49928] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49928] received request: GET /status/notmodified HTTP/1.1 and responded: HTTP/1.1 304 Redirection
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49928] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49930] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49930] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49930] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49932] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49932] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49932] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49934] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49934] received request: GET /status/server HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49934] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49936] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49936] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49936] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49938] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49938] received request: HEAD /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49938] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49940] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49940] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49940] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49942] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49942] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49942] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49944] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49944] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49944] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49946] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49946] received request: PUT /put HTTP/1.1 and responded: HTTP/1.1 202 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49946] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49948] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49948] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49948] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49950] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49950] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49950] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49952] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49952] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49952] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49954] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49954] received request: PUT /put HTTP/1.1 and responded: HTTP/1.1 202 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49954] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49956] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49956] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49956] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49958] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49958] received request: DELETE /delete HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49958] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49960] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49960] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49960] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49962] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49962] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49962] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49964] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49964] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49964] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49966] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49966] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49966] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49968] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49968] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49968] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49970] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49970] received request: GET /get/nothing HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49970] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49972] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49972] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49972] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49974] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49974] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49974] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49976] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49976] received request: OPTIONS /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49976] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49978] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49978] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49978] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49980] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49980] received request: GET /get HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49980] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49982] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49982] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49982] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49984] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49984] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49984] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49986] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49986] received request: GET /status/nocontent HTTP/1.1 and responded: HTTP/1.1 204 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49986] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49988] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49988] received request: DELETE /delete HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49988] done accepting connections: Socket closed
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[49990] starting to accept connections
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[49990] received request: POST /post HTTP/1.1 and responded: HTTP/1.1 201 OK
+Jun 21, 2019 7:46:17 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[49990] done accepting connections: Socket closed
+]]></system-err>
+</testsuite>

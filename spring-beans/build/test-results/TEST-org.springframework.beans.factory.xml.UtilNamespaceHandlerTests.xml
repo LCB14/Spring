@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:34" hostname="Macbook-Air.local" time="0.474">
+  <properties/>
+  <testcase name="testSimpleList" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.025"/>
+  <testcase name="testScopedProperties" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.018"/>
+  <testcase name="testCircularCollectionBeansStartingWithMap" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.019"/>
+  <testcase name="testCircularCollectionBeansStartingWithSet" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.022"/>
+  <testcase name="testScopedMap" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testScopedSet" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.014"/>
+  <testcase name="testSimpleMap" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.014"/>
+  <testcase name="testSimpleSet" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testConstantWithDefaultName" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testLocalOverrideFalse" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testLoadProperties" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testNestedCollections" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testScopedList" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testNestedInCollections" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.017"/>
+  <testcase name="testLocalOverrideDefault" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testCircularCollections" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testNestedInConstructor" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.02"/>
+  <testcase name="testLocalProperties" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.014"/>
+  <testcase name="testCircularCollectionBeansStartingWithList" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.018"/>
+  <testcase name="testConstant" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.013"/>
+  <testcase name="testPropertyPath" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.014"/>
+  <testcase name="testNestedPropertyPath" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testNestedShortcutCollections" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testNestedProperties" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.016"/>
+  <testcase name="testMapWithRef" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testMergedProperties" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.011"/>
+  <testcase name="testEvents" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.013"/>
+  <testcase name="testLocalOverrideTrue" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.015"/>
+  <testcase name="testMapWithTypes" classname="org.springframework.beans.factory.xml.UtilNamespaceHandlerTests" time="0.023"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

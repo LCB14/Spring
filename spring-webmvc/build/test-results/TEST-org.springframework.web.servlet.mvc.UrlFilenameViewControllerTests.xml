@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:39" hostname="Macbook-Air.local" time="0.013">
+  <properties/>
+  <testcase name="withSuffix" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.007"/>
+  <testcase name="multiLevelMappingWithFallback" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="multiLevelWithMapping" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="settingSuffixToNullCausesEmptyStringToBeUsed" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="settingPrefixToNullCausesEmptyStringToBeUsed" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withContextMapping" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withFilenameAndMatrixVariables" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withFlashAttributes" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="nestedPathisUsedAsViewName_InBreakingChangeFromSpring12Line" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withFilenamePlusExtension" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="multiLevel" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.001"/>
+  <testcase name="withPrefixAndSuffix" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPlainFilename" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <testcase name="withPrefix" classname="org.springframework.web.servlet.mvc.UrlFilenameViewControllerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

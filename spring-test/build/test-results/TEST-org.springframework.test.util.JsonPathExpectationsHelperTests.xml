@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.test.util.JsonPathExpectationsHelperTests" tests="50" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:06" hostname="Macbook-Air.local" time="0.308">
+  <properties/>
+  <testcase name="hasJsonPathForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.249"/>
+  <testcase name="assertValueIsEmptyForAnEmptyMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsNotEmptyForBoolean" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="exists" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNumberForNonNumber" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.006"/>
+  <testcase name="assertValueIsBoolean" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueWithNumberConversionAndMatcher" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.012"/>
+  <testcase name="assertValueIsArrayForNonArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNumber" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsNotEmptyForMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="existsForAnEmptyMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsNotEmptyForAnEmptyMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="hasJsonPathWithNull" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsStringForNonString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNotEmptyForAnEmptyString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="existsForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsEmptyForAnEmptyString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="doesNotExist" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsNotEmptyForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="existsForAnEmptyArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="doesNotExistForAnEmptyArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="doesNotExistForAnEmptyMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="hasJsonPathForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNotEmptyForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="doesNotHaveJsonPathForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsBooleanForNonBoolean" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValue" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="doesNotHaveEmptyPathForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsEmptyForWhitespace" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="existsForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="doesNotExistForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsArrayForAnEmptyArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="hasJsonPath" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="doesNotHaveJsonPathWithNull" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsEmptyForAnEmptyArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsMapForNonMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueWithNumberConversion" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="doesNotExistForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsStringForAnEmptyString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="doesNotHaveJsonPath" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsEmptyForIndefinatePathWithEmptyResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsEmptyForIndefinatePathWithResults" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNotEmptyForAnEmptyArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNotEmptyForNumber" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsMapForAnEmptyMap" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <testcase name="assertValueIsNotEmptyForString" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.001"/>
+  <testcase name="assertValueIsNotEmptyForArray" classname="org.springframework.test.util.JsonPathExpectationsHelperTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

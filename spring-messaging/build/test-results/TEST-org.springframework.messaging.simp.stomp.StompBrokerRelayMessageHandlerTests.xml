@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:51" hostname="Macbook-Air.local" time="0.026">
+  <properties/>
+  <testcase name="virtualHost" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.008"/>
+  <testcase name="connectWhenBrokerNotAvailable" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.001"/>
+  <testcase name="loginAndPasscode" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.0"/>
+  <testcase name="systemSubscription" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.015"/>
+  <testcase name="destinationExcluded" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.0"/>
+  <testcase name="messageFromBrokerIsEnriched" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.001"/>
+  <testcase name="sendAfterBrokerUnavailable" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

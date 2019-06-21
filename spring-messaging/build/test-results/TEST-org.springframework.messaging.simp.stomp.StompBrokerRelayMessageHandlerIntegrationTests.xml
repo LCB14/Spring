@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:51" hostname="Macbook-Air.local" time="31.972">
+  <properties/>
+  <testcase name="messageDeliveryExceptionIfSystemSessionForwardFails" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.35"/>
+  <testcase name="publishSubscribe" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.055"/>
+  <testcase name="brokerAvailabilityEventWhenStopped" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.246"/>
+  <testcase name="relayReconnectsIfBrokerComesBackUp" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="11.033"/>
+  <testcase name="brokerBecomingUnavailableTriggersErrorFrame" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.256"/>
+  <testcase name="disconnectWithReceipt" classname="org.springframework.messaging.simp.stomp.StompBrokerRelayMessageHandlerIntegrationTests" time="4.032"/>
+  <system-out><![CDATA[19:42:51.560 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:42:51.560 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:2) is starting
+19:42:51.561 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:65269
+19:42:51.561 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65269 Started
+19:42:51.562 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:2) started
+19:42:51.562 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:42:51.579 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:2) is shutting down
+19:42:53.581 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:65269 Stopped
+19:42:53.582 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:2) uptime 2.022 seconds
+19:42:53.583 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:2) is shutdown
+19:42:55.908 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:42:55.909 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:3) is starting
+19:42:55.910 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64839
+19:42:55.910 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64839 Started
+19:42:55.910 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:3) started
+19:42:55.911 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:42:58.199 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:3) is shutting down
+19:42:59.960 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64839 Stopped
+19:42:59.961 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:3) uptime 4.053 seconds
+19:42:59.962 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:3) is shutdown
+19:42:59.963 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:42:59.964 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:4) is starting
+19:42:59.965 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62514
+19:42:59.965 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62514 Started
+19:42:59.966 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:4) started
+19:42:59.967 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:42:59.980 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:4) is shutting down
+19:43:01.985 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62514 Stopped
+19:43:01.986 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:4) uptime 2.023 seconds
+19:43:01.986 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:4) is shutdown
+19:43:04.208 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:43:04.209 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:5) is starting
+19:43:04.210 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62318
+19:43:04.210 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62318 Started
+19:43:04.211 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:5) started
+19:43:04.211 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:43:04.240 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:5) is shutting down
+19:43:06.248 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62318 Stopped
+19:43:06.249 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:5) uptime 2.041 seconds
+19:43:06.250 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:5) is shutdown
+19:43:06.251 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:43:06.252 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:6) is starting
+19:43:06.252 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:62318
+19:43:06.253 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62318 Started
+19:43:06.253 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:6) started
+19:43:06.254 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:43:13.463 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:6) is shutting down
+19:43:15.239 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:62318 Stopped
+19:43:15.240 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:6) uptime 8.989 seconds
+19:43:15.240 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:6) is shutdown
+19:43:15.242 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:43:15.244 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:7) is starting
+19:43:15.244 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:63634
+19:43:15.245 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63634 Started
+19:43:15.246 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:7) started
+19:43:15.246 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:43:15.266 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:7) is shutting down
+19:43:17.270 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:63634 Stopped
+19:43:17.271 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:7) uptime 2.029 seconds
+19:43:17.271 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:7) is shutdown
+19:43:19.501 [Test worker] INFO  o.a.a.b.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+19:43:19.502 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:8) is starting
+19:43:19.503 [Test worker] INFO  o.a.a.t.TransportServerThreadSupport - Listening for connections at: stomp://localhost:64002
+19:43:19.504 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64002 Started
+19:43:19.504 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:8) started
+19:43:19.504 [Test worker] INFO  o.a.a.b.BrokerService - For help or more information please see: http://activemq.apache.org
+19:43:21.757 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:8) is shutting down
+19:43:23.528 [Test worker] INFO  o.a.a.b.TransportConnector - Connector stomp://localhost:64002 Stopped
+19:43:23.528 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:8) uptime 4.027 seconds
+19:43:23.529 [Test worker] INFO  o.a.a.b.BrokerService - Apache ActiveMQ 5.8.0 (localhost, ID:Macbook-Air.local-49562-1561117368606-0:8) is shutdown
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

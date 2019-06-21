@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.servlet.mvc.annotation.JdkProxyControllerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:38" hostname="Macbook-Air.local" time="0.232">
+  <properties/>
+  <testcase name="methodLevel" classname="org.springframework.web.servlet.mvc.annotation.JdkProxyControllerTests" time="0.118"/>
+  <testcase name="typeLevel" classname="org.springframework.web.servlet.mvc.annotation.JdkProxyControllerTests" time="0.055"/>
+  <testcase name="typeAndMethodLevel" classname="org.springframework.web.servlet.mvc.annotation.JdkProxyControllerTests" time="0.059"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

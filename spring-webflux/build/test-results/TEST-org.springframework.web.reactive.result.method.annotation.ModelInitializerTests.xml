@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:28" hostname="Macbook-Air.local" time="0.092">
+  <properties/>
+  <testcase name="clearModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.04"/>
+  <testcase name="modelAttributeMethods" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.013"/>
+  <testcase name="initBinderMethod" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.027"/>
+  <testcase name="requiredSessionAttributeMissing" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.006"/>
+  <testcase name="saveModelAttributeToSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.003"/>
+  <testcase name="retrieveModelAttributeFromSession" classname="org.springframework.web.reactive.result.method.annotation.ModelInitializerTests" time="0.003"/>
+  <system-out><![CDATA[19:47:28.881 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:47:28.920 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:47:28.933 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:47:28.960 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:47:28.966 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+19:47:28.969 [Test worker] DEBUG o.s.w.r.r.m.a.ControllerMethodResolver - ControllerAdvice beans: none
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
