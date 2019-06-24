@@ -65,6 +65,8 @@ final class PostProcessorRegistrationDelegate {
 			//BeanDefinitionRegistryPostProcessor继承了BeanFactoryPostProcessor
 			List<BeanDefinitionRegistryPostProcessor> registryProcessors = new ArrayList<>();
 
+			//对用户自己手动添加的后置处理器进行区分
+			// 区分（BeanFactoryPostProcessor和BeanDefinitionRegistryPostProcessor)
 			for (BeanFactoryPostProcessor postProcessor : beanFactoryPostProcessors) {
 				if (postProcessor instanceof BeanDefinitionRegistryPostProcessor) {
 					BeanDefinitionRegistryPostProcessor registryProcessor =
@@ -275,6 +277,7 @@ final class PostProcessorRegistrationDelegate {
 			Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry) {
 
 		for (BeanDefinitionRegistryPostProcessor postProcessor : postProcessors) {
+			//调用org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry
 			postProcessor.postProcessBeanDefinitionRegistry(registry);
 		}
 	}

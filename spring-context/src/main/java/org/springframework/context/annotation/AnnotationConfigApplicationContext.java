@@ -65,6 +65,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		//创建BeanDefinition读取器，用于把普通bean转换成BeanDefinition对象
 		this.reader = new AnnotatedBeanDefinitionReader(this);
 
+		//提供给外部用户自己调用扫描时候用（很少使用，一般默认使用spring内部默认的就行)
 		this.scanner = new ClassPathBeanDefinitionScanner(this);
 	}
 
