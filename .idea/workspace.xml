@@ -81,10 +81,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ComponentScanAnnotationParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ComponentScanAnnotationParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-aop/.gradle/" />
@@ -183,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="90" column="12" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
+            <state relative-caret-position="282">
+              <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -192,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="719" column="50" selection-start-line="719" selection-start-column="50" selection-end-line="719" selection-end-column="50" />
+            <state relative-caret-position="297">
+              <caret line="719" column="52" lean-forward="true" selection-start-line="719" selection-start-column="52" selection-end-line="719" selection-end-column="52" />
               <folding>
                 <element signature="e#18958#18959#0" expanded="true" />
                 <element signature="e#19002#19003#0" expanded="true" />
@@ -206,25 +208,65 @@
         <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="280" column="33" lean-forward="true" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
+              <caret line="280" column="34" selection-start-line="280" selection-start-column="34" selection-end-line="280" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="204">
+              <caret line="324" column="31" selection-start-line="324" selection-start-column="31" selection-end-line="324" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="160" column="84" lean-forward="true" selection-start-line="160" selection-start-column="84" selection-end-line="160" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ComponentScanAnnotationParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+              <folding>
+                <element signature="e#5060#5061#0" expanded="true" />
+                <element signature="e#5110#5111#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="291" column="19" lean-forward="true" selection-start-line="291" selection-start-column="19" selection-end-line="291" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="281" column="50" lean-forward="true" selection-start-line="281" selection-start-column="50" selection-end-line="281" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="315" column="29" lean-forward="true" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -248,12 +290,17 @@
         <option value="$PROJECT_DIR$/lcb-spring/build.gradle" />
         <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/bean/School.java" />
         <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/bean/Student.java" />
-        <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" />
         <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/appconfig/AppConfig.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" />
+        <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassUtils.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ComponentScanAnnotationParser.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java" />
       </list>
     </option>
   </component>
@@ -400,8 +447,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" weight="0.1788269" />
+      <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.1788269" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -420,7 +467,7 @@
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32939634" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.30111524" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.07930607" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -435,6 +482,42 @@
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.1788269" />
+      <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.1788269" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.3370508" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.32939634" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.07930607" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="sbt" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+    </layout-to-restore>
   </component>
   <component name="UnloadedModulesList">
     <module name="spring.spring-aspects.main" />
@@ -446,9 +529,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
-          <line>129</line>
+          <line>112</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -614,17 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="90" column="12" lean-forward="true" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="719" column="50" selection-start-line="719" selection-start-column="50" selection-end-line="719" selection-end-column="50" />
+        <state relative-caret-position="297">
+          <caret line="719" column="52" lean-forward="true" selection-start-line="719" selection-start-column="52" selection-end-line="719" selection-end-column="52" />
           <folding>
             <element signature="e#18958#18959#0" expanded="true" />
             <element signature="e#19002#19003#0" expanded="true" />
@@ -635,21 +711,67 @@
     <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="280" column="33" lean-forward="true" selection-start-line="280" selection-start-column="33" selection-end-line="280" selection-end-column="33" />
+          <caret line="280" column="34" selection-start-line="280" selection-start-column="34" selection-end-line="280" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/BeanDefinitionRegistryPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
+        <state relative-caret-position="562">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="83" column="26" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="88" column="10" lean-forward="true" selection-start-line="88" selection-start-column="10" selection-end-line="88" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="160" column="84" lean-forward="true" selection-start-line="160" selection-start-column="84" selection-end-line="160" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ComponentScanAnnotationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="135" column="25" lean-forward="true" selection-start-line="135" selection-start-column="25" selection-end-line="135" selection-end-column="25" />
+          <folding>
+            <element signature="e#5060#5061#0" expanded="true" />
+            <element signature="e#5110#5111#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="291" column="19" lean-forward="true" selection-start-line="291" selection-start-column="19" selection-end-line="291" selection-end-column="19" />
+        <state relative-caret-position="204">
+          <caret line="324" column="31" selection-start-line="324" selection-start-column="31" selection-end-line="324" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="315" column="29" lean-forward="true" selection-start-line="315" selection-start-column="29" selection-end-line="315" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="281" column="50" lean-forward="true" selection-start-line="281" selection-start-column="50" selection-end-line="281" selection-end-column="50" />
         </state>
       </provider>
     </entry>
