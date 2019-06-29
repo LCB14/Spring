@@ -239,6 +239,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 	protected <T> T doGetBean(final String name, @Nullable final Class<T> requiredType,
 			@Nullable final Object[] args, boolean typeCheckOnly) throws BeansException {
 
+		// 处理bean name带有‘&'操作符的情况（主要针对实现FactoryBean这种特殊的bean场景)
 		final String beanName = transformedBeanName(name);
 		Object bean;
 

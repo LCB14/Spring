@@ -845,8 +845,13 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
 		// Trigger initialization of all non-lazy singleton beans...
 		for (String beanName : beanNames) {
+			// 进行beandefinition合并
 			RootBeanDefinition bd = getMergedLocalBeanDefinition(beanName);
+
+			// 判断待实例化的bean是否符合实例化的条件
 			if (!bd.isAbstract() && bd.isSingleton() && !bd.isLazyInit()) {
+
+				// 判断一个bean是否实现了FactoryBean接口，是则进行特殊的服务^_^
 				if (isFactoryBean(beanName)) {
 					Object bean = getBean(FACTORY_BEAN_PREFIX + beanName);
 					if (bean instanceof FactoryBean) {

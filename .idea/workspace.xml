@@ -81,31 +81,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ClassPathBeanDefinitionScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ClassPathScanningCandidateComponentProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ComponentScanAnnotationParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$CircularImportProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$CircularImportProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DefaultDeferredImportSelectorGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DefaultDeferredImportSelectorGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGrouping.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGrouping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$ImportStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$ImportStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$SourceClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser$SourceClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassPostProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/ConfigurationClassUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/PostProcessorRegistrationDelegate$BeanPostProcessorChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/PostProcessorRegistrationDelegate$BeanPostProcessorChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/PostProcessorRegistrationDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/PostProcessorRegistrationDelegate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/spring-aop/.gradle/" />
@@ -188,12 +169,15 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="330">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="90" column="11" lean-forward="true" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+            <state relative-caret-position="231">
+              <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -210,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
-              <caret line="625" column="7" lean-forward="true" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
+            <state relative-caret-position="478">
+              <caret line="896" column="37" selection-start-line="896" selection-start-column="37" selection-end-line="896" selection-end-column="37" />
               <folding>
                 <element signature="e#18958#18959#0" expanded="true" />
                 <element signature="e#19002#19003#0" expanded="true" />
@@ -221,28 +205,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="589" column="57" lean-forward="true" selection-start-line="589" selection-start-column="57" selection-end-line="589" selection-end-column="57" />
+            <state relative-caret-position="584">
+              <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClass.java">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="199" column="16" selection-start-line="199" selection-start-column="16" selection-end-line="199" selection-end-column="16" />
+            <state relative-caret-position="549">
+              <caret line="869" column="32" selection-start-line="869" selection-start-column="32" selection-end-line="869" selection-end-column="32" />
+              <folding>
+                <element signature="e#8025#8026#0" expanded="true" />
+                <element signature="e#8039#8040#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ImportSelector.java">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="526">
+              <caret line="1793" column="30" selection-start-line="1793" selection-start-column="30" selection-end-line="1793" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="1782" column="9" selection-start-line="1782" selection-start-column="9" selection-end-line="1782" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="225" column="56" lean-forward="true" selection-start-line="225" selection-start-column="56" selection-end-line="225" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -280,8 +286,11 @@
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassPostProcessor.java" />
         <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java" />
-        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" />
         <option value="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" />
+        <option value="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java" />
+        <option value="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" />
+        <option value="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java" />
       </list>
     </option>
   </component>
@@ -292,7 +301,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -301,6 +310,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,57 +319,10 @@
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="lcb-spring" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,7 +341,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lcb.spring.test.Test" />
+      <module name="spring.lcb-spring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lcb.spring.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lcb.spring.test.Test" />
       <module name="spring.lcb-spring.test" />
@@ -406,6 +383,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test" />
       </list>
@@ -425,10 +403,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" weight="0.3025751" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.1788269" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -464,7 +442,7 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.1788269" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.18097281" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.1788269" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -477,7 +455,7 @@
       <window_info anchor="bottom" id="Run with VisualVM" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.3370508" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.3370508" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -500,11 +478,6 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout-to-restore>
   </component>
-  <component name="UnloadedModulesList">
-    <module name="spring.spring-aspects.main" />
-    <module name="spring.spring-aspects.test" />
-    <module name="spring.spring-aspects" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -518,13 +491,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lcb-spring/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lcb-spring/pom.xml" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -607,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcb-spring/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/appconfig/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -624,17 +584,6 @@
             <element signature="e#534#535#0" expanded="true" />
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#609#610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="188" column="11" selection-start-line="188" selection-start-column="11" selection-end-line="188" selection-end-column="11" />
-          <folding>
-            <element signature="e#8025#8026#0" expanded="true" />
-            <element signature="e#8039#8040#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,17 +691,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lcb-spring/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="90" column="11" lean-forward="true" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        <state relative-caret-position="231">
+          <caret line="90" column="13" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="625" column="7" lean-forward="true" selection-start-line="625" selection-start-column="7" selection-end-line="625" selection-end-column="7" />
+        <state relative-caret-position="478">
+          <caret line="896" column="37" selection-start-line="896" selection-start-column="37" selection-end-line="896" selection-end-column="37" />
           <folding>
             <element signature="e#18958#18959#0" expanded="true" />
             <element signature="e#19002#19003#0" expanded="true" />
@@ -760,10 +726,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java">
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="58" lean-forward="true" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="584">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="869" column="32" selection-start-line="869" selection-start-column="32" selection-end-line="869" selection-end-column="32" />
+          <folding>
+            <element signature="e#8025#8026#0" expanded="true" />
+            <element signature="e#8039#8040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="225" column="56" lean-forward="true" selection-start-line="225" selection-start-column="56" selection-end-line="225" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="1793" column="30" selection-start-line="1793" selection-start-column="30" selection-end-line="1793" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="1782" column="9" selection-start-line="1782" selection-start-column="9" selection-end-line="1782" selection-end-column="9" />
         </state>
       </provider>
     </entry>
