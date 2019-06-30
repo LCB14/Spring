@@ -244,7 +244,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 		Object bean;
 
 		// Eagerly check singleton cache for manually registered singletons.
-		// 针对懒加载的bean进行多次get的场景（注意和324行方法的区别)
+		// 针对懒加载的bean进行多次get的场景（注意和324行getSingleton 方法的区别)
 		Object sharedInstance = getSingleton(beanName);
 		if (sharedInstance != null && args == null) {
 			if (logger.isTraceEnabled()) {
