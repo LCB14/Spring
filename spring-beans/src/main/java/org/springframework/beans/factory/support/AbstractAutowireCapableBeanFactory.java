@@ -495,7 +495,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		try {
 			// 处理lookup-method和replace-method配置，也就是上面的method overrides
 			mbdToUse.prepareMethodOverrides();
-	}
+		}
 		catch (BeanDefinitionValidationException ex) {
 			throw new BeanDefinitionStoreException(mbdToUse.getResourceDescription(),
 					beanName, "Validation of method overrides failed", ex);
@@ -591,9 +591,9 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		// Initialize the bean instance.
 		Object exposedObject = bean;
 		try {
-			// 负责自动装配
+			// 填充属性(仔细阅读，可以了解spring是如何解决循环依赖的。)
 			populateBean(beanName, mbd, instanceWrapper);
-			// 把原生对象转换成代理对象
+			// 执行后置处理器，aop就是在这里完成的。
 			exposedObject = initializeBean(beanName, exposedObject, mbd);
 		}
 		catch (Throwable ex) {
@@ -1378,6 +1378,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		// Give any InstantiationAwareBeanPostProcessors the opportunity to modify the
 		// state of the bean before properties are set. This can be used, for example,
 		// to support styles of field injection.
+		// 表示需不需要spring帮你设置bean属性。
 		boolean continueWithPropertyPopulation = true;
 
 		if (!mbd.isSynthetic() && hasInstantiationAwareBeanPostProcessors()) {
