@@ -179,11 +179,12 @@ class ConstructorResolver {
 			}
 
 			// Need to resolve the constructor.
+			// 判断构造方法是否为空以及是否根据构造方法自动注入。
 			boolean autowiring = (chosenCtors != null ||
 					mbd.getResolvedAutowireMode() == AutowireCapableBeanFactory.AUTOWIRE_CONSTRUCTOR);
 			ConstructorArgumentValues resolvedValues = null;
 
-			//定义构造方法最小参数个数
+			//定义构造方法最小需要参数个数
 			int minNrOfArgs;
 			if (explicitArgs != null) {
 				minNrOfArgs = explicitArgs.length;
@@ -193,14 +194,18 @@ class ConstructorResolver {
 				// 主要存放参数值和参数值所对应的下标
 				ConstructorArgumentValues cargs = mbd.getConstructorArgumentValues();
 				resolvedValues = new ConstructorArgumentValues();
+				// 确定构造方法参数数量
 				minNrOfArgs = resolveConstructorArguments(beanName, mbd, bw, cargs, resolvedValues);
 			}
 
 			// 对构造方法进行排序，先按访问修饰符（由public到private)，再按参数个数（由多到少)
+			// 此处进行排序的目的是，在下面构造方法选择的时候能够利用排序的结果快速推出循环。
 			AutowireUtils.sortConstructors(candidates);
 
-			// 定义一个差异变量
+			// 定义一个差异变量，用于匹配最相关的构造方法。
 			int minTypeDiffWeight = Integer.MAX_VALUE;
+			// 存放有歧义的构造方法
+			// 例如：两个构造方法都是只有一个参数，但是期中一个参数类型为Object，这时spring就需要特殊处理了
 			Set<Constructor<?>> ambiguousConstructors = null;
 			LinkedList<UnsatisfiedDependencyException> causes = null;
 
@@ -208,7 +213,8 @@ class ConstructorResolver {
 			for (Constructor<?> candidate : candidates) {
 				Class<?>[] paramTypes = candidate.getParameterTypes();
 
-				// 先判断spring是否已经确定好构造方法
+				// 先判断spring在上一次循环中是否已经确定好构造方法
+				// 上面的排序，在这里就用到了，可以提前退出循环！
 				if (constructorToUse != null && argsToUse != null && argsToUse.length > paramTypes.length) {
 					// Already found greedy constructor that can be satisfied ->
 					// do not look any further, there are only less greedy constructors left.
@@ -221,6 +227,7 @@ class ConstructorResolver {
 				ArgumentsHolder argsHolder;
 				if (resolvedValues != null) {
 					try {
+						// 处理@ConstructorProperties注解
 						String[] paramNames = ConstructorPropertiesChecker.evaluate(candidate, paramTypes.length);
 						if (paramNames == null) {
 							// 获取构造方法参数列表
@@ -230,6 +237,8 @@ class ConstructorResolver {
 							}
 						}
 						// 进行参数值类型转换
+						// argsHolder可以通过GenericBeanDefinition实例的
+						// getConstructorArgumentValues().addGenericArgumentValue()方法进行指定。
 						argsHolder = createArgumentArray(beanName, mbd, resolvedValues, bw, paramTypes, paramNames,
 								getUserDeclaredConstructor(candidate), autowiring, candidates.length == 1);
 					}
@@ -253,8 +262,10 @@ class ConstructorResolver {
 					argsHolder = new ArgumentsHolder(explicitArgs);
 				}
 
+				// 计算构造方法之间的差异值
 				int typeDiffWeight = (mbd.isLenientConstructorResolution() ?
 						argsHolder.getTypeDifferenceWeight(paramTypes) : argsHolder.getAssignabilityWeight(paramTypes));
+
 				// Choose this constructor if it represents the closest match.
 				if (typeDiffWeight < minTypeDiffWeight) {
 					constructorToUse = candidate;
@@ -272,6 +283,7 @@ class ConstructorResolver {
 				}
 			}
 
+			// 循环结束，针对没有找到构造方法的情况
 			if (constructorToUse == null) {
 				if (causes != null) {
 					UnsatisfiedDependencyException ex = causes.removeLast();
