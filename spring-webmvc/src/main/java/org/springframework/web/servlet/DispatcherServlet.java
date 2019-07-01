@@ -499,14 +499,23 @@ public class DispatcherServlet extends FrameworkServlet {
 	 * <p>May be overridden in subclasses in order to initialize further strategy objects.
 	 */
 	protected void initStrategies(ApplicationContext context) {
+		// 处理上传文件
 		initMultipartResolver(context);
+		// 进行国际化处理
 		initLocaleResolver(context);
+		// 处理前端的主题样式
 		initThemeResolver(context);
+		// 初始化HandlerMappings
 		initHandlerMappings(context);
+		// 初始化适配器
 		initHandlerAdapters(context);
+		// 初始化异常处理器
 		initHandlerExceptionResolvers(context);
+		// 初始化视图转换器
 		initRequestToViewNameTranslator(context);
+		// 初始化视图解析器
 		initViewResolvers(context);
+		// 重定向数据管理器
 		initFlashMapManager(context);
 	}
 
@@ -939,6 +948,7 @@ public class DispatcherServlet extends FrameworkServlet {
 		}
 
 		try {
+			// 核心方法
 			doDispatch(request, response);
 		}
 		finally {
@@ -1001,6 +1011,7 @@ public class DispatcherServlet extends FrameworkServlet {
 		HandlerExecutionChain mappedHandler = null;
 		boolean multipartRequestParsed = false;
 
+		// 异步处理请求
 		WebAsyncManager asyncManager = WebAsyncUtils.getAsyncManager(request);
 
 		try {
@@ -1008,10 +1019,12 @@ public class DispatcherServlet extends FrameworkServlet {
 			Exception dispatchException = null;
 
 			try {
+				// 检查请求中是否有文件上传操作
 				processedRequest = checkMultipart(request);
 				multipartRequestParsed = (processedRequest != request);
 
 				// Determine handler for the current request.
+				// 确定当前请求处理程序--推断controller和handler类型
 				mappedHandler = getHandler(processedRequest);
 				if (mappedHandler == null) {
 					noHandlerFound(processedRequest, response);
