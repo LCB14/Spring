@@ -76,6 +76,10 @@ public interface InstantiationAwareBeanPostProcessor extends BeanPostProcessor {
 	}
 
 	/**
+	 * 如果对此方法进行重写即返回一个非null实例，那么就会把返回的对象放到单例
+	 * 池当中缓存，而且后续只有BeanPostProcessor的postProcessAfterInitization
+	 * 方法会被调用，其它后置处理器方法不会再被调用。
+	 *
 	 * Perform operations after the bean has been instantiated, via a constructor or factory method,
 	 * but before Spring property population (from explicit properties or autowiring) occurs.
 	 * <p>This is the ideal callback for performing custom field injection on the given bean
