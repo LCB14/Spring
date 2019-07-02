@@ -504,6 +504,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		try {
 			// Give BeanPostProcessors a chance to return a proxy instead of the target bean instance.
 			// 在bean初始化前应用后置处理器（这也是spring第一次应用后置处理器)
+			// 应用场景AOP
 			Object bean = resolveBeforeInstantiation(beanName, mbdToUse);
 			if (bean != null) {
 				return bean;
@@ -1135,6 +1136,8 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		// 即直接或间接实现BeanPostProcessors接口的后置处理器
 		for (BeanPostProcessor bp : getBeanPostProcessors()) {
 			if (bp instanceof InstantiationAwareBeanPostProcessor) {
+				// InstantiationAwareBeanPostProcessor接口所提供的方法，主要作用在于
+				// 目标对象实例化过程中可以加入自己的逻辑，包括实例化对象的前后过程以及实例的属性设置。
 				InstantiationAwareBeanPostProcessor ibp = (InstantiationAwareBeanPostProcessor) bp;
 				Object result = ibp.postProcessBeforeInstantiation(beanClass, beanName);
 				if (result != null) {
