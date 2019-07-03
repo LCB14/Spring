@@ -302,7 +302,7 @@ public class AutowiredAnnotationBeanPostProcessor extends InstantiationAwareBean
 					Constructor<?> primaryConstructor = BeanUtils.findPrimaryConstructor(beanClass);
 					int nonSyntheticConstructors = 0;
 					for (Constructor<?> candidate : rawCandidates) {
-						// isSynthetic()主要用于判断当前构造方法，或者属性是不是混合类
+						// isSynthetic()主要用于判断当前构造方法所在类是不是混合类
 						// Synthetic是Java的一个关键字，编译器在编译过程中引入的，非静态内部类
 						// 被编译后，会在其方法前加上synthetic，表明该方法是来自内部类，和外部类加以区分。
 						if (!candidate.isSynthetic()) {
