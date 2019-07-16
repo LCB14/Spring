@@ -109,7 +109,7 @@ public class GenericApplicationContext extends AbstractApplicationContext implem
 	 * @see #refresh
 	 */
 	public GenericApplicationContext() {
-		// 这块相当重要  初始化一个BeanFactory
+		// 这块相当重要  初始化一个BeanFactory，refresh方法中会将其取出
 		this.beanFactory = new DefaultListableBeanFactory();
 	}
 
