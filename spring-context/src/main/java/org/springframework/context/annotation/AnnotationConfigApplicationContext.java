@@ -52,8 +52,14 @@ import org.springframework.util.Assert;
  */
 public class AnnotationConfigApplicationContext extends GenericApplicationContext implements AnnotationConfigRegistry {
 
+	/**
+	 * 	注解bean定义读取器，主要作用是用来读取被注解的了bean
+	 */
 	private final AnnotatedBeanDefinitionReader reader;
 
+	/**
+	 *  扫描器，它仅仅是在我们外部手动调用 .scan 等方法才有用，常规方式是不会用到scanner对象的
+	 */
 	private final ClassPathBeanDefinitionScanner scanner;
 
 
@@ -62,10 +68,10 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * through {@link #register} calls and then manually {@linkplain #refresh refreshed}.
 	 */
 	public AnnotationConfigApplicationContext() {
-		//创建BeanDefinition读取器，用于把普通bean转换成BeanDefinition对象
+		// 创建BeanDefinition读取器，用于把普通bean转换成BeanDefinition对象
 		this.reader = new AnnotatedBeanDefinitionReader(this);
 
-		//提供给外部用户自己调用扫描时候用（很少使用，一般默认使用spring内部默认的就行)
+		// 提供给外部用户自己调用扫描时候用（很少使用，一般默认使用spring内部默认的就行)
 		this.scanner = new ClassPathBeanDefinitionScanner(this);
 	}
 
@@ -86,8 +92,18 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * e.g. {@link Configuration @Configuration} classes
 	 */
 	public AnnotationConfigApplicationContext(Class<?>... annotatedClasses) {
+		// 调用无参构造函数
 		this();
+
+		/**
+		 * 把传入的类进行注册，这里有两个情况，
+		 * 传入传统的配置类
+		 * 传入bean（虽然一般没有人会这么做
+		 * 看到后面会知道spring把传统的带上@Configuration的配置类称之为FULL配置类，不带@Configuration的称之为Lite配置类
+		 */
 		register(annotatedClasses);
+
+		// 重点方法
 		refresh();
 	}
 

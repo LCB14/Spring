@@ -66,7 +66,7 @@ public abstract class AnnotationConfigUtils {
 			"org.springframework.context.annotation.internalConfigurationAnnotationProcessor";
 
 	/**
-	 * The bean name of the internally managed BeanNameGenerator for use when processing
+	 * The bean name of the internally managed BeanNameGenerator for use when procesBeanDefinitionRegistryPostProcessorsing
 	 * {@link Configuration} classes. Set by {@link AnnotationConfigApplicationContext}
 	 * and {@code AnnotationConfigWebApplicationContext} during bootstrap in order to make
 	 * any custom name generation strategy available to the underlying
@@ -134,6 +134,7 @@ public abstract class AnnotationConfigUtils {
 	 * @param registry the registry to operate on
 	 */
 	public static void registerAnnotationConfigProcessors(BeanDefinitionRegistry registry) {
+		// 该方法主要进行spring内置bean的注册
 		registerAnnotationConfigProcessors(registry, null);
 	}
 
@@ -160,9 +161,20 @@ public abstract class AnnotationConfigUtils {
 
 		Set<BeanDefinitionHolder> beanDefs = new LinkedHashSet<>(8);
 
+		/**
+		 * ConfigurationClassPostProcessor实现BeanDefinitionRegistryPostProcessor接口
+		 * BeanDefinitionRegistryPostProcessor接口又扩展了BeanFactoryPostProcessor接口
+		 * BeanFactoryPostProcessor是Spring的扩展点之一
+		 * ConfigurationClassPostProcessor是Spring极为重要的一个类，必须牢牢的记住上面所说的这个类和它的继承关系。
+		 */
+		// 判断容器中是否已经存在了ConfigurationClassPostProcessor Bean -- 后置处理器
 		if (!registry.containsBeanDefinition(CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME)) {
+			// 如果不存在（当然这里肯定是不存在的），就通过RootBeanDefinition的构造方法获得ConfigurationClassPostProcessor的BeanDefinition，
+			// RootBeanDefinition是BeanDefinition的子类：
 			RootBeanDefinition def = new RootBeanDefinition(ConfigurationClassPostProcessor.class);
 			def.setSource(source);
+
+			// 通过registerPostProcessor()放方法注册bean
 			beanDefs.add(registerPostProcessor(registry, def, CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME));
 		}
 
@@ -212,8 +224,14 @@ public abstract class AnnotationConfigUtils {
 	private static BeanDefinitionHolder registerPostProcessor(
 			BeanDefinitionRegistry registry, RootBeanDefinition definition, String beanName) {
 
+		// 设置待注册bean的属性即将其标识为ROLE_INFRASTRUCTURE
+		// 表示spring内部的，并非用户自定义的。
 		definition.setRole(BeanDefinition.ROLE_INFRASTRUCTURE);
+
+		// 进行真正的注册（点击去发现是一个interface...mmp)
+		// 此处对应的实现类是DefaultListableBeanFactory(看152行就知道了)
 		registry.registerBeanDefinition(beanName, definition);
+
 		return new BeanDefinitionHolder(definition, beanName);
 	}
 
