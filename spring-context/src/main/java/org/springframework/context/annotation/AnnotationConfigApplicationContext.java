@@ -94,7 +94,6 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	public AnnotationConfigApplicationContext(Class<?>... annotatedClasses) {
 		// 调用无参构造函数
 		this();
-
 		/**
 		 * 把传入的类进行注册，这里有两个情况，
 		 * 传入传统的配置类
@@ -102,7 +101,6 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 * 看到后面会知道spring把传统的带上@Configuration的配置类称之为FULL配置类，不带@Configuration的称之为Lite配置类
 		 */
 		register(annotatedClasses);
-
 		// 重点方法
 		refresh();
 	}
