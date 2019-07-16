@@ -272,9 +272,10 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
 	protected Set<BeanDefinitionHolder> doScan(String... basePackages) {
 		Assert.notEmpty(basePackages, "At least one base package must be specified");
 		Set<BeanDefinitionHolder> beanDefinitions = new LinkedHashSet<>();
+		// 循环处理basePackages
 		for (String basePackage : basePackages) {
 
-			// 扫描basePackage路径下的Java文件，把符合条件的转成BeanDefinition类型
+			// 根据包名找到符合条件的BeanDefinition集合
 			Set<BeanDefinition> candidates = findCandidateComponents(basePackage);
 
 			for (BeanDefinition candidate : candidates) {
@@ -282,12 +283,18 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
 				ScopeMetadata scopeMetadata = this.scopeMetadataResolver.resolveScopeMetadata(candidate);
 				candidate.setScope(scopeMetadata.getScopeName());
 				String beanName = this.beanNameGenerator.generateBeanName(candidate, this.registry);
+				/**
+				 * 由findCandidateComponents内部可知，这里的candidate是ScannedGenericBeanDefinition
+				 * 而ScannedGenericBeanDefinition是AbstractBeanDefinition和AnnotatedBeanDefinition的之类
+				 * 所以下面的两个if都会进入
+				 */
 				if (candidate instanceof AbstractBeanDefinition) {
 					// 如果这个类时AbstractBeanDefinition的子类，则为他设置默认值，比如lazy.
+					// 内部会设置默认值
 					postProcessBeanDefinition((AbstractBeanDefinition) candidate, beanName);
 				}
 				if (candidate instanceof AnnotatedBeanDefinition) {
-
+					// 如果是AnnotatedBeanDefinition，还会再设置一次值
 					AnnotationConfigUtils.processCommonDefinitionAnnotations((AnnotatedBeanDefinition) candidate);
 				}
 				if (checkCandidate(beanName, candidate)) {

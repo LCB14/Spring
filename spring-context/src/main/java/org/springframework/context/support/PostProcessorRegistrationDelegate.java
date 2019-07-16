@@ -126,20 +126,21 @@ final class PostProcessorRegistrationDelegate {
 		// Invoke BeanDefinitionRegistryPostProcessors first, if any.
 		Set<String> processedBeans = new HashSet<>();
 
-		//beanFactory是BeanDefinitionRegistry的实现类，所以肯定满足if
+		// beanFactory是BeanDefinitionRegistry的实现类，所以肯定满足if
 		if (beanFactory instanceof BeanDefinitionRegistry) {
 			BeanDefinitionRegistry registry = (BeanDefinitionRegistry) beanFactory;
-			// regularPostProcessors 用来存放BeanFactoryPostProcessor
+			// regularPostProcessors 用来存放 BeanFactoryPostProcessor
 			List<BeanFactoryPostProcessor> regularPostProcessors = new ArrayList<>();
 
 			//BeanDefinitionRegistryPostProcessor继承了BeanFactoryPostProcessor
 			List<BeanDefinitionRegistryPostProcessor> registryProcessors = new ArrayList<>();
 
 			// 对用户自己手动添加的后置处理器进行区分
-			// 区分（BeanFactoryPostProcessor和BeanDefinitionRegistryPostProcessor)
+			// 区分（BeanFactoryPostProcessor 和 BeanDefinitionRegistryPostProcessor)
 			for (BeanFactoryPostProcessor postProcessor : beanFactoryPostProcessors) {
 				// 判断postProcessor是不是BeanDefinitionRegistryPostProcessor
-				// 因为BeanDefinitionRegistryPostProcessor扩展了BeanFactoryPostProcessor，所以这里先要判断是不是BeanDefinitionRegistryPostProcessor
+				// 因为BeanDefinitionRegistryPostProcessor扩展了BeanFactoryPostProcessor，
+				// 所以这里先要判断是不是BeanDefinitionRegistryPostProcessor
 				// 是的话，直接执行postProcessBeanDefinitionRegistry方法，然后把对象装到registryProcessors里面去
 				if (postProcessor instanceof BeanDefinitionRegistryPostProcessor) {
 					BeanDefinitionRegistryPostProcessor registryProcessor =
@@ -161,12 +162,12 @@ final class PostProcessorRegistrationDelegate {
 
 			// First, invoke the BeanDefinitionRegistryPostProcessors that implement PriorityOrdered.
 			/**
-			 * 获得实现BeanDefinitionRegistryPostProcessor接口的类的
+			 * 获得实现BeanDefinitionRegistryPostProcessor接口的类的名称
 			 * BeanName:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
 			 *
 			 * 并且装入数组postProcessorNames，我理解一般情况下，只会找到一个
 			 * 这里又有一个坑，为什么我自己创建了一个实现BeanDefinitionRegistryPostProcessor接口的类，
-			 * 也打上了@Component注解,配置类也加上了@Component注解，但是这里却没有拿到
+			 * 也打上了@Component注解,配置类也加上了，但是这里却没有拿到
 			 *
 			 * 因为直到这一步，Spring还没有去扫描，扫描是在ConfigurationClassPostProcessor类中完成的，也就是下面的第一个.
 			 */
@@ -176,9 +177,8 @@ final class PostProcessorRegistrationDelegate {
 				if (beanFactory.isTypeMatch(ppName, PriorityOrdered.class)) {
 					/**
 					 *	获得ConfigurationClassPostProcessor类，并且放到currentRegistryProcessors
-					 *
 					 *	ConfigurationClassPostProcessor是很重要的一个类，它实现了BeanDefinitionRegistryPostProcessor接口
-					 *	BeanDefinitionRegistryPostProcessor接口又实现了BeanFactoryPostProcessor接口
+					 *	BeanDefinitionRegistryPostProcessor接口又继承了BeanFactoryPostProcessor接口
 					 *
 					 *  ConfigurationClassPostProcessor是极其重要的类,里面执行了扫描Bean，Import，ImportResouce等各种操作
 					 *  用来处理配置类（有两种情况 一种是传统意义上的配置类，一种是普通的bean）的各种逻辑
@@ -189,11 +189,14 @@ final class PostProcessorRegistrationDelegate {
 					processedBeans.add(ppName);
 				}
 			}
+
 			//处理排序
 			sortPostProcessors(currentRegistryProcessors, beanFactory);
+
 			/**
 			 * 合并Processors，为什么要合并?
-			 * 因为registryProcessors是装载BeanDefinitionRegistryPostProcessor的一开始的时候，
+			 *
+			 * 因为registryProcessors一开始的时候是装载BeanDefinitionRegistryPostProcessor的
 			 * spring只会执行BeanDefinitionRegistryPostProcessor独有的方法
 			 * 而不会执行BeanDefinitionRegistryPostProcessor父类的方法，即BeanFactoryProcessor的方法
 			 *
@@ -204,7 +207,7 @@ final class PostProcessorRegistrationDelegate {
 			/**
 			 * 可以理解为执行ConfigurationClassPostProcessor的postProcessBeanDefinitionRegistry方法
 			 * Spring热插拔的体现，像ConfigurationClassPostProcessor就相当于一个组件，Spring很多事情就是交给组件去管理
-			 * 如果不想用这个组件，直接把注册组件的那一步去掉就可以
+			 * 如果不想用这个组件，直接把注册组件的那一步去掉就可以 -- 很重要的设计思想
 			 */
 			invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);
 
