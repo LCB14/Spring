@@ -266,9 +266,9 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 
 	/**
 	 * Build and validate a configuration model based on the registry of
-	 *1、获得所有的BeanName，放入candidateNames数组。
-	 *2、循环candidateNames数组，根据beanName获得BeanDefinition，判断此BeanDefinition是否已经被处理过了。
-	 *3、判断是否是配置类，如果是的话。加入到configCandidates数组，在判断的时候，还会标记配置类属于Full配置类，还是Lite配置类，这里会引发一连串的知识盲点：
+	 * 1、获得所有的BeanName，放入candidateNames数组。
+	 * 2、循环candidateNames数组，根据beanName获得BeanDefinition，判断此BeanDefinition是否已经被处理过了。
+	 * 3、判断是否是配置类，如果是的话。加入到configCandidates数组，在判断的时候，还会标记配置类属于Full配置类，还是Lite配置类，这里会引发一连串的知识盲点：
 	 * 		3.1 当我们注册配置类的时候，可以不加@Configuration注解，直接使用@Component @ComponentScan @Import @ImportResource等注解，
 	 * 		Spring把这种配置类称之为Lite配置类， 如果加了@Configuration注解，就称之为Full配置类。
 	 * 		3.2 如果我们注册了Lite配置类，我们getBean这个配置类，会发现它就是原本的那个配置类，如果我们注册了Full配置类，
@@ -276,10 +276,11 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 	 * 		3.3 写一个A类，其中有一个构造方法，打印出“你好”，再写一个配置类，里面有两个被@bean注解的方法，其中一个方法new了A类，
 	 * 		并且返回A的对象，把此方法称之为getA，第二个方法又调用了getA方法，如果配置类是Lite配置类，会发现打印了两次“你好”，也就是说A类被new了两次，如果配置类是Full配置类，会发现只打印了一次“你好”，也就是说A类只被new了一次，因为这个类被cgilb代理了，方法已经被改写。
 	 * 		3.4 具体的可以看这篇博客：https://www.cnblogs.com/CodeBear/p/10304605.html，里面有详细的说明。
-	 *4、如果没有配置类直接返回。
-	 *5、处理排序。
-	 *6、解析配置类，可能是Full配置类，也有可能是Lite配置类，这个小方法是此方法的核心，稍后具体说明。
-	 *7、在第6步的时候，只是注册了部分Bean，像 @Import @Bean等，是没有被注册的，这里统一对这些进行注册。
+	 * 4、如果没有配置类直接返回。
+	 * 5、处理排序。
+	 * 6、解析配置类，可能是Full配置类，也有可能是Lite配置类，这个小方法是此方法的核心，稍后具体说明。
+	 * 7、在第6步的时候，只是注册了部分Bean，像 @Import @Bean等，是没有被注册的，这里统一对这些进行注册。
+	 *
 	 * {@link Configuration} classes.
 	 */
 	public void processConfigBeanDefinitions(BeanDefinitionRegistry registry) {
