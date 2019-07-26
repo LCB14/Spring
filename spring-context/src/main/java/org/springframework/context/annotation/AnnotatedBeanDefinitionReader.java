@@ -84,7 +84,10 @@ public class AnnotatedBeanDefinitionReader {
 		Assert.notNull(environment, "Environment must not be null");
 		this.registry = registry;
 		this.conditionEvaluator = new ConditionEvaluator(registry, environment, null);
-		// 门面方法，点进去
+		/**
+		 * 这是个门面方法，点进去，这个方法的返回值是Set，但是上游方法并没有去接收这个返回值，
+		 * 所以这个方法的返回值也不是很重要了，当然方法内部给这个返回值赋值也不重要了。
+ 		 */
 		AnnotationConfigUtils.registerAnnotationConfigProcessors(this.registry);
 	}
 

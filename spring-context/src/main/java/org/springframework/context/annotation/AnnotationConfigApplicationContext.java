@@ -67,7 +67,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * Create a new AnnotationConfigApplicationContext that needs to be populated
 	 * through {@link #register} calls and then manually {@linkplain #refresh refreshed}.
 	 *
-	 * 此处会先调用父类的构造方法初始化一个beanFactory
+	 * 此处会隐式调用父类GenericApplicationContext的构造方法初始化一个beanFactory
 	 */
 	public AnnotationConfigApplicationContext() {
 		// 创建BeanDefinition读取器，用于把普通bean转换成BeanDefinition对象
@@ -94,7 +94,15 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * e.g. {@link Configuration @Configuration} classes
 	 */
 	public AnnotationConfigApplicationContext(Class<?>... annotatedClasses) {
-		// 调用无参构造函数
+		/**
+		 * 调用无参构造函数
+		 *
+		 * 首先调用父类GenericApplicationContext的构造函数，
+		 * 父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
+		 *
+		 *  本类的构造函数里面，初始化了一个读取器：AnnotatedBeanDefinitionReader read，
+		 *  一个扫描器ClassPathBeanDefinitionScanner scanner。
+ 		 */
 		this();
 
 		/**
