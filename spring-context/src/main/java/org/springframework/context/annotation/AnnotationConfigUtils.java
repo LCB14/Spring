@@ -177,7 +177,6 @@ public abstract class AnnotationConfigUtils {
 			 */
 			RootBeanDefinition def = new RootBeanDefinition(ConfigurationClassPostProcessor.class);
 			def.setSource(source);
-
 			// 通过registerPostProcessor()方法将这些后置处理器bean添加到beanDefinitionMap容器中去
 			beanDefs.add(registerPostProcessor(registry, def, CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME));
 		}
