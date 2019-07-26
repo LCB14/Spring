@@ -178,7 +178,7 @@ public abstract class AnnotationConfigUtils {
 			RootBeanDefinition def = new RootBeanDefinition(ConfigurationClassPostProcessor.class);
 			def.setSource(source);
 
-			// 通过registerPostProcessor()方法注册bean
+			// 通过registerPostProcessor()方法将这些后置处理器bean添加到beanDefinitionMap容器中去
 			beanDefs.add(registerPostProcessor(registry, def, CONFIGURATION_ANNOTATION_PROCESSOR_BEAN_NAME));
 		}
 
@@ -230,13 +230,15 @@ public abstract class AnnotationConfigUtils {
 
 		/**
 		 * 设置待注册bean的属性
-		 * 将其标识为ROLE_INFRASTRUCTURE，表示spring内部的，并非用户自定义的。
+		 * 将其标识为ROLE_INFRASTRUCTURE，表示是spring内部的，而非用户自定义的。
  		 */
 		definition.setRole(BeanDefinition.ROLE_INFRASTRUCTURE);
 
 		/**
 		 * 进行真正的注册（点击去发现是一个interface...mmp)
-		 * 此处对应的实现类是DefaultListableBeanFactory(看152行就知道了)
+		 * 此处对应的实现类是GenericApplicationContext
+		 * 看一眼类AnnotationConfigApplicationContext之间的继承关系图便知
+		 * @see AnnotationConfigApplicationContext
 		 */
 		registry.registerBeanDefinition(beanName, definition);
 

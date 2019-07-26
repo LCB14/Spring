@@ -324,7 +324,7 @@ public class GenericApplicationContext extends AbstractApplicationContext implem
 	@Override
 	public void registerBeanDefinition(String beanName, BeanDefinition beanDefinition)
 			throws BeanDefinitionStoreException {
-
+		// 此处的beanFactory实例就是之前类AnnotationConfigApplicationContext无参构造隐式调用父类进行初始化的结果
 		this.beanFactory.registerBeanDefinition(beanName, beanDefinition);
 	}
 
