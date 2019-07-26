@@ -432,7 +432,11 @@ final class PostProcessorRegistrationDelegate {
 			Collection<? extends BeanDefinitionRegistryPostProcessor> postProcessors, BeanDefinitionRegistry registry) {
 
 		for (BeanDefinitionRegistryPostProcessor postProcessor : postProcessors) {
-			//调用org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry
+			/**
+			 * 调用org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry
+			 *
+			 * @see org.springframework.context.annotation.ConfigurationClassPostProcessor#postProcessBeanDefinitionRegistry(org.springframework.beans.factory.support.BeanDefinitionRegistry)
+			 */
 			postProcessor.postProcessBeanDefinitionRegistry(registry);
 		}
 	}
