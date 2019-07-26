@@ -250,8 +250,14 @@ public class AnnotatedBeanDefinitionReader {
 			@Nullable Class<? extends Annotation>[] qualifiers, @Nullable Supplier<T> supplier,
 			@Nullable BeanDefinitionCustomizer[] customizers) {
 
-		// AnnotatedGenericBeanDefinition可以理解为一种数据结构，是用来描述Bean的
-		// 这里的作用就是把传入的标记了注解的类转为AnnotatedGenericBeanDefinition数据结构，里面有一个getMetadata方法，可以拿到类上的注解
+		/**
+		 * 通过AnnotatedGenericBeanDefinition的构造方法，获得配置类的BeanDefinition，
+		 * 这里是不是似曾相似，在注册ConfigurationClassPostProcessor类的时候，也是通过构造方法去获得BeanDefinition的，
+		 * 只不过当时是通过RootBeanDefinition去获得，现在是通过AnnotatedGenericBeanDefinition去获得
+		 *
+		 * AnnotatedGenericBeanDefinition可以理解为一种数据结构，是用来描述Bean的
+		 * 这里的作用就是把传入的标记了注解的类转为AnnotatedGenericBeanDefinition数据结构，里面有一个getMetadata方法，可以拿到类上的注解
+		 */
 		AnnotatedGenericBeanDefinition abd = new AnnotatedGenericBeanDefinition(annotatedClass);
 
 		// 判断是否需要跳过注解，spring中有一个@Condition注解，当不满足条件，这个bean就不会被解析
@@ -263,6 +269,7 @@ public class AnnotatedBeanDefinitionReader {
 		// 解析bean的作用域，如果没有设置的话，默认为单例
 		ScopeMetadata scopeMetadata = this.scopeMetadataResolver.resolveScopeMetadata(abd);
 		abd.setScope(scopeMetadata.getScopeName());
+
 		// 获得beanName
 		String beanName = (name != null ? name : this.beanNameGenerator.generateBeanName(abd, this.registry));
 
@@ -270,7 +277,8 @@ public class AnnotatedBeanDefinitionReader {
 		AnnotationConfigUtils.processCommonDefinitionAnnotations(abd);
 
 		/**
-		 * 限定符处理，不是特指@Qualifier注解，也有可能是Primary,或者是Lazy，或者是其他（理论上是任何注解，这里没有判断注解的有效性），如果我们在外面，以类似这种
+		 * 限定符处理，不是特指@Qualifier注解，也有可能是@Primary,或者是@Lazy，或者是其他（理论上是任何注解，这里没有判断注解的有效性），
+		 * 如果我们在外面，以类似这种:
 		 * AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(Appconfig.class);
 		 * 常规方式去初始化springqualifiers永远都是空的，包括上面的name和instanceSupplier都是同样的道理但是spring提供了其他方式去注册bean，就可能会传入了
 		 */
