@@ -98,18 +98,20 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 * 调用无参构造函数
 		 *
 		 * 首先调用父类GenericApplicationContext的构造函数，
-		 * 父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
+		 * 在父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
 		 *
-		 *  本类的构造函数里面，初始化了一个读取器：AnnotatedBeanDefinitionReader read，
-		 *  一个扫描器ClassPathBeanDefinitionScanner scanner。
+		 *  本类的构造函数里面初始化了
+		 *  一个读取器：AnnotatedBeanDefinitionReader reader，
+		 *  一个扫描器:ClassPathBeanDefinitionScanner scanner。
  		 */
 		this();
 
 		/**
-		 * 把传入的类进行注册，这里有两个情况，
-		 * 传入传统的配置类
-		 * 传入bean（虽然一般没有人会这么做）
-		 * 看到后面就会知道spring把传统的带上@Configuration注解的配置类称之为FULL配置类，不带@Configuration注解的称之为Lite配置类
+		 * 把传入的bean进行注册，这里有两种情况：
+		 * 1、传入传统的配置类 -- 添加了@Configuration注解
+		 * 2、传入常规的bean（虽然一般没有人会这么做） -- 未添加@Configuration注解
+		 *
+		 * 看到后面就会知道spring把传统的带上@Configuration注解的配置类称之为FULL配置类，不带@Configuration注解的称之为Lite配置类。
 		 */
 		register(annotatedClasses);
 

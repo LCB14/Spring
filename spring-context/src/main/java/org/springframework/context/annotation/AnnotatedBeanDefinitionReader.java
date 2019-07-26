@@ -23,10 +23,7 @@ import org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefiniti
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinitionCustomizer;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
-import org.springframework.beans.factory.support.AutowireCandidateQualifier;
-import org.springframework.beans.factory.support.BeanDefinitionReaderUtils;
-import org.springframework.beans.factory.support.BeanDefinitionRegistry;
-import org.springframework.beans.factory.support.BeanNameGenerator;
+import org.springframework.beans.factory.support.*;
 import org.springframework.core.env.Environment;
 import org.springframework.core.env.EnvironmentCapable;
 import org.springframework.core.env.StandardEnvironment;
@@ -256,7 +253,7 @@ public class AnnotatedBeanDefinitionReader {
 		/**
 		 * 通过AnnotatedGenericBeanDefinition的构造方法，获得配置类的BeanDefinition，
 		 * 这里是不是似曾相似，在注册ConfigurationClassPostProcessor类的时候，也是通过构造方法去获得BeanDefinition的，
-		 * 只不过当时是通过RootBeanDefinition去获得，现在是通过AnnotatedGenericBeanDefinition去获得
+		 * 只不过当时是通过RootBeanDefinition类的构造方法去获得，现在是通过AnnotatedGenericBeanDefinition类的构造方法去获得
 		 *
 		 * AnnotatedGenericBeanDefinition可以理解为一种数据结构，是用来描述Bean的
 		 * 这里的作用就是把传入的标记了注解的类转为AnnotatedGenericBeanDefinition数据结构，里面有一个getMetadata方法，可以拿到类上的注解
@@ -267,6 +264,7 @@ public class AnnotatedBeanDefinitionReader {
 		if (this.conditionEvaluator.shouldSkip(abd.getMetadata())) {
 			return;
 		}
+
 		abd.setInstanceSupplier(supplier);
 
 		// 解析bean的作用域，如果没有设置的话，默认为单例
@@ -276,14 +274,17 @@ public class AnnotatedBeanDefinitionReader {
 		// 获得beanName
 		String beanName = (name != null ? name : this.beanNameGenerator.generateBeanName(abd, this.registry));
 
-		// 解析通用注解，填充到AnnotatedGenericBeanDefinition，解析的注解为Lazy，Primary，DependsOn，Role，Description
+		/**
+		 * 解析通用注解，填充到AnnotatedGenericBeanDefinition
+		 * 解析的注解为：Lazy，Primary，DependsOn，Role，Description
+		 */
 		AnnotationConfigUtils.processCommonDefinitionAnnotations(abd);
 
 		/**
-		 * 限定符处理，不是特指@Qualifier注解，也有可能是@Primary,或者是@Lazy，或者是其他（理论上是任何注解，这里没有判断注解的有效性），
-		 * 如果我们在外面，以类似这种:
-		 * AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(Appconfig.class);
-		 * 常规方式去初始化springqualifiers永远都是空的，包括上面的name和instanceSupplier都是同样的道理但是spring提供了其他方式去注册bean，就可能会传入了
+		 * 限定符处理，不是特指@Qualifier注解，也有可能是@Primary或者@Lazy，或者其他（理论上是任何注解，这里没有判断注解的有效性），
+		 * 以类似这种:AnnotationConfigApplicationContext annotationConfigApplicationContext =
+		 * new AnnotationConfigApplicationContext(Appconfig.class);常规方式去初始化spring
+		 * qualifiers永远都是空的，包括上面的name和instanceSupplier都是同样的道理但是spring提供了其他方式去注册bean，就可能会传入了。
 		 */
 		if (qualifiers != null) {
 			// 可以传入qualifier数组，所以需要循环处理
@@ -302,6 +303,7 @@ public class AnnotatedBeanDefinitionReader {
 				}
 			}
 		}
+
 		if (customizers != null) {
 			for (BeanDefinitionCustomizer customizer : customizers) {
 				customizer.customize(abd);
@@ -313,7 +315,9 @@ public class AnnotatedBeanDefinitionReader {
 		definitionHolder = AnnotationConfigUtils.applyScopedProxyMode(scopeMetadata, definitionHolder, this.registry);
 
 		/**
-		 * 注册，最终会调用DefaultListableBeanFactory中的registerBeanDefinition方法去注册，
+		 * 注册，最终会调用DefaultListableBeanFactory中的registerBeanDefinition方法去注册
+		 * @see DefaultListableBeanFactory#registerBeanDefinition(java.lang.String, org.springframework.beans.factory.config.BeanDefinition)
+		 *
 		 * DefaultListableBeanFactory维护着一系列信息，比如beanDefinitionNames，beanDefinitionMap
 		 * beanDefinitionNames是一个List<String>,用来保存beanName
 		 * beanDefinitionMap是一个Map,用来保存beanName和beanDefinition
