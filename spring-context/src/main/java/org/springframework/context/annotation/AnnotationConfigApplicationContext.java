@@ -101,8 +101,10 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 * 在父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
 		 *
 		 *  本类的构造函数里面初始化了
-		 *  一个读取器：AnnotatedBeanDefinitionReader reader，
+		 *  一个读取器：AnnotatedBeanDefinitionReader reader。
 		 *  一个扫描器:ClassPathBeanDefinitionScanner scanner。
+		 *
+		 *  this()方法最终触发逻辑是将spring内置的一些后置处理器注册到bean容器中！
  		 */
 		this();
 
