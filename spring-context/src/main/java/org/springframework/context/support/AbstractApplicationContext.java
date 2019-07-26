@@ -515,7 +515,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	public void refresh() throws BeansException, IllegalStateException {
 		synchronized (this.startupShutdownMonitor) {
 			// Prepare this context for refreshing.
-			// 刷新前的预处理，和主流程关系不大，就是保存了容器的启动时间，启动标志等
+			// 刷新前的预处理和主流程关系不大，就是保存了容器的启动时间、启动标志等
 			prepareRefresh();
 
 			// Tell the subclass to refresh the internal bean factory.
@@ -525,8 +525,8 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			// Prepare the bean factory for use in this context.
 			/**
 			 * 还是一些准备工作，添加了两个后置处理器：ApplicationContextAwareProcessor和ApplicationListenerDetector
-			 * 还设置了忽略自动装配 和 允许自动装配 的接口,如果不存在某个bean的时候，spring就自动注册singleton bean
-			 * 还设置了bean表达式解析器 等
+			 * 设置了忽略自动装配 和 允许自动装配 的接口,如果不存在某个bean的时候，spring就自动注册singleton bean
+			 * 设置了bean表达式解析器等
 			 */
 			prepareBeanFactory(beanFactory);
 
@@ -540,7 +540,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 				invokeBeanFactoryPostProcessors(beanFactory);
 
 				// Register bean processors that intercept bean creation.
-				// 注册相关的bean后置处理器
+				// 注册BeanPostProcessor
 				registerBeanPostProcessors(beanFactory);
 
 				// Initialize message source for this context.
@@ -667,17 +667,17 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 */
 	protected void prepareBeanFactory(ConfigurableListableBeanFactory beanFactory) {
 		// Tell the internal bean factory to use the context's class loader etc.
-		//设置一个类加载器
+		// 设置一个类加载器
 		beanFactory.setBeanClassLoader(getClassLoader());
 
-		//设置bean表达式解析器（目前前后端分离，该操作用的很少)
+		// 设置bean表达式解析器（目前前后端分离是大趋势，该操作用的很少)
 		beanFactory.setBeanExpressionResolver(new StandardBeanExpressionResolver(beanFactory.getBeanClassLoader()));
 
 		// 设置属性编辑器支持（设置对象与String类型的转换）
 		beanFactory.addPropertyEditorRegistrar(new ResourceEditorRegistrar(this, getEnvironment()));
 
 		// Configure the bean factory with context callbacks.
-		// 添加后置处理器（非常重要的操作) -- ApplicationContextAwareProcessor
+		// 添加后置处理器（非常重要的操作) -- ApplicationContextAwareProcessor此后置处理处理器实现了BeanPostProcessor接口
 		beanFactory.addBeanPostProcessor(new ApplicationContextAwareProcessor(this));
 
 		// 以下接口忽略自动装配
@@ -738,9 +738,13 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 */
 	protected void invokeBeanFactoryPostProcessors(ConfigurableListableBeanFactory beanFactory) {
 		/**
-		 * getBeanFactoryPostProcessors() -- 获取自定义的后置处理器前提是用户必须手动添加到该方法相关的List中去
-		 * AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+		 * getBeanFactoryPostProcessors() -- 获取自定义的后置处理器前提是必须用户手动添加到该方法相关的List中去
+		 * 如下操作：AnnotationConfigApplicationContext annotationConfigApplicationContext =
+		 * new AnnotationConfigApplicationContext(AppConfig.class);
 		 * annotationConfigApplicationContext.addBeanFactoryPostProcessor(XXX);
+		 * 否者该集合将永远是一个空集合
+		 *
+		 * @see AbstractApplicationContext#addBeanFactoryPostProcessor(org.springframework.beans.factory.config.BeanFactoryPostProcessor)
 		 */
 		PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(beanFactory, getBeanFactoryPostProcessors());
 

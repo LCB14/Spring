@@ -85,27 +85,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$FactoryAwareOrderSourceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$FactoryAwareOrderSourceProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$Jsr330Factory$Jsr330Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$Jsr330Factory$Jsr330Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$Jsr330Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$Jsr330Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$MultiElementDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$MultiElementDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$NestedDependencyDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$NestedDependencyDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$SerializedBeanFactoryReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$SerializedBeanFactoryReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$StreamDependencyDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$StreamDependencyDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/GenericApplicationContext$ClassDerivedBeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/GenericApplicationContext$ClassDerivedBeanDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/GenericApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/GenericApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561116212145</updated>
-      <workItem from="1564117886429" duration="6674000" />
+      <workItem from="1564117886429" duration="10529000" />
     </task>
     <servers />
   </component>
@@ -264,7 +245,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
-          <line>240</line>
+          <line>244</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -284,7 +265,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>917</line>
+          <line>921</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -436,28 +417,18 @@
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/GenericApplicationContext.java</url>
-          <line>297</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/GenericApplicationContext.java</url>
-          <line>298</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>744</line>
+          <line>748</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
-          <line>211</line>
+          <line>215</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/PostProcessorRegistrationDelegate.java</url>
-          <line>426</line>
+          <line>430</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

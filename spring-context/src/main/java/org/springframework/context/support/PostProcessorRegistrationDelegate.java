@@ -132,16 +132,20 @@ final class PostProcessorRegistrationDelegate {
 			// regularPostProcessors 用来存放 BeanFactoryPostProcessor
 			List<BeanFactoryPostProcessor> regularPostProcessors = new ArrayList<>();
 
-			//BeanDefinitionRegistryPostProcessor继承了BeanFactoryPostProcessor
+			// BeanDefinitionRegistryPostProcessor继承了BeanFactoryPostProcessor
 			List<BeanDefinitionRegistryPostProcessor> registryProcessors = new ArrayList<>();
 
-			// 对用户自己手动添加的后置处理器进行区分
-			// 区分（BeanFactoryPostProcessor 和 BeanDefinitionRegistryPostProcessor)
+			/**
+			 * 对用户自己手动添加的后置处理器进行区分,区分后分别放入上面定义的两个List中。
+			 * 区分（BeanFactoryPostProcessor 和 BeanDefinitionRegistryPostProcessor)
+ 			 */
 			for (BeanFactoryPostProcessor postProcessor : beanFactoryPostProcessors) {
-				// 判断postProcessor是不是BeanDefinitionRegistryPostProcessor
-				// 因为BeanDefinitionRegistryPostProcessor扩展了BeanFactoryPostProcessor，
-				// 所以这里先要判断是不是BeanDefinitionRegistryPostProcessor
-				// 是的话，直接执行postProcessBeanDefinitionRegistry方法，然后把对象装到registryProcessors里面去
+				/**
+				 * 判断postProcessor是不是BeanDefinitionRegistryPostProcessor
+				 * 因为BeanDefinitionRegistryPostProcessor扩展了BeanFactoryPostProcessor，
+				 * 所以这里先要判断是不是BeanDefinitionRegistryPostProcessor
+				 * 是的话，直接执行postProcessBeanDefinitionRegistry方法，然后把对象装到registryProcessors里面去
+ 				 */
 				if (postProcessor instanceof BeanDefinitionRegistryPostProcessor) {
 					BeanDefinitionRegistryPostProcessor registryProcessor =
 							(BeanDefinitionRegistryPostProcessor) postProcessor;
@@ -162,25 +166,26 @@ final class PostProcessorRegistrationDelegate {
 
 			// First, invoke the BeanDefinitionRegistryPostProcessors that implement PriorityOrdered.
 			/**
-			 * 获得实现BeanDefinitionRegistryPostProcessor接口的类的名称
-			 * BeanName:org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+			 * 获得实现BeanDefinitionRegistryPostProcessor接口bean的beanName
+			 * 并且装入数组postProcessorNames，我理解一般情况下，只会找到一个。
 			 *
-			 * 并且装入数组postProcessorNames，我理解一般情况下，只会找到一个
-			 * 这里又有一个坑，为什么我自己创建了一个实现BeanDefinitionRegistryPostProcessor接口的类，
-			 * 也打上了@Component注解,配置类也加上了，但是这里却没有拿到
+			 * 这里又有一个坑，为什么我自己创建了一个实现BeanDefinitionRegistryPostProcessor接口的bean，
+			 * 也打上了@Component注解,配置类也加上了，但是这里却没有拿到?
 			 *
-			 * 因为直到这一步，Spring还没有去扫描，扫描是在ConfigurationClassPostProcessor类中完成的，也就是下面的第一个.
+			 * 因为直到这一步，Spring还没有去扫描，扫描是在ConfigurationClassPostProcessor类中完成的，也就是下面的第一个。
 			 */
 			String[] postProcessorNames =
 					beanFactory.getBeanNamesForType(BeanDefinitionRegistryPostProcessor.class, true, false);
 			for (String ppName : postProcessorNames) {
 				if (beanFactory.isTypeMatch(ppName, PriorityOrdered.class)) {
 					/**
-					 *	获得ConfigurationClassPostProcessor类，并且放到currentRegistryProcessors
-					 *	ConfigurationClassPostProcessor是很重要的一个类，它实现了BeanDefinitionRegistryPostProcessor接口
-					 *	BeanDefinitionRegistryPostProcessor接口又继承了BeanFactoryPostProcessor接口
+					 *  此处可以回忆一下之前提示需要牢记的ConfigurationClassPostProcessor与BeanDefinitionRegistryPostProcessor的继承关系！！
+					 *  ConfigurationClassPostProcessor是很重要的一个类，它实现了BeanDefinitionRegistryPostProcessor接口
+					 *  BeanDefinitionRegistryPostProcessor接口又继承了BeanFactoryPostProcessor接口
 					 *
-					 *  ConfigurationClassPostProcessor是极其重要的类,里面执行了扫描Bean，Import，ImportResouce等各种操作
+					 *	获得ConfigurationClassPostProcessor类，并且放到currentRegistryProcessors。
+					 *
+					 *  ConfigurationClassPostProcessor是极其重要的类,里面执行了扫描Bean，Import，ImportResouce等注解的各种操作
 					 *  用来处理配置类（有两种情况 一种是传统意义上的配置类，一种是普通的bean）的各种逻辑
 					 */
 					currentRegistryProcessors.add(beanFactory.getBean(ppName, BeanDefinitionRegistryPostProcessor.class));
