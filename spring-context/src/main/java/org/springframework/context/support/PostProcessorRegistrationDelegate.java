@@ -202,17 +202,17 @@ final class PostProcessorRegistrationDelegate {
 			/**
 			 * 合并Processors，为什么要合并?
 			 *
-			 * 因为registryProcessors一开始的时候是装载用户手动添加的BeanDefinitionRegistryPostProcessor
-			 * spring只会执行BeanDefinitionRegistryPostProcessor独有的方法
-			 * 而不会执行BeanDefinitionRegistryPostProcessor父类的方法，即BeanFactoryProcessor的方法
-			 * 所以这里需要把处理器放入一个集合中，后续统一执行父类的方法
+			 * 因为一开始spring只会执行BeanDefinitionRegistryPostProcessor独有的方法，而不会执行BeanDefinitionRegistryPostProcessor父类的方法，
+			 * 即BeanFactoryProcessor接口中的方法，所以需要把这些后置处理器放入一个集合中，后续统一执行BeanFactoryProcessor接口中的方法。
+			 * 当然目前这里只有一个后置处理器，就是ConfigurationClassPostProcessor。
 			 */
 			registryProcessors.addAll(currentRegistryProcessors);
 
 			/**
-			 * 可以理解为执行ConfigurationClassPostProcessor的postProcessBeanDefinitionRegistry方法
-			 * Spring热插拔的体现，像ConfigurationClassPostProcessor就相当于一个组件，Spring很多事情就是交给组件去管理
-			 * 如果不想用哪个组件，直接把注册组件的那一步去掉就可以 -- 很重要的设计思想
+			 * 可以理解为执行currentRegistryProcessors中的ConfigurationClassPostProcessor中的postProcessBeanDefinitionRegistry方法，
+			 * 这就是Spring设计思想的体现了，在这里体现的就是其中的热插拔，插件化开发的思想。
+			 *
+			 * Spring中很多东西都是交给插件去处理的，这个后置处理器就相当于一个插件，如果不想用了，直接不添加就是了。
 			 *
 			 * 该方法执行完毕后用户自定义实现了BeanDefinitionRegistryPostProcessor接口的后置处理器才会被扫描到。
 			 */
@@ -223,13 +223,12 @@ final class PostProcessorRegistrationDelegate {
 
 			// Next, invoke the BeanDefinitionRegistryPostProcessors that implement Ordered.
 			/**
-			 * 再次根据BeanDefinitionRegistryPostProcessor获得BeanName，看看这个BeanName是否已经被执行过了，有没有实现Ordered接口？
+			 * 再次根据BeanDefinitionRegistryPostProcessor获得BeanName，然后进行循环，看这个后置处理器是否被执行过了，
+			 * 如果没有被执行过，也实现了Ordered接口的话，把此后置处理器推送到currentRegistryProcessors和processedBeans中。
 			 *
-			 * 如果没有被执行过，也实现了Ordered接口的话，把对象推送到currentRegistryProcessors，名称推送到processedBeans
-			 *
-			 * 如果没有实现Ordered接口的话，这里不把数据加到currentRegistryProcessors，processedBeans中，后续再做处理
-			 *
-			 * 在这里才可以获得我们定义的实现了BeanDefinitionRegistryPostProcessor的Bean
+			 * 这里就可以获得我们定义的，并且打上@Component注解的后置处理器了，因为Spring已经完成了扫描，但是这里需要注意的是，
+			 * 由于ConfigurationClassPostProcessor在上面已经被执行过了，所以虽然可以通过getBeanNamesForType获得，
+			 * 但是并不会加入到currentRegistryProcessors和processedBeans。
 			 */
 			postProcessorNames = beanFactory.getBeanNamesForType(BeanDefinitionRegistryPostProcessor.class, true, false);
 			for (String ppName : postProcessorNames) {

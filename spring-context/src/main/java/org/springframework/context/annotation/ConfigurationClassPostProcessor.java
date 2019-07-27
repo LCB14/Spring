@@ -297,7 +297,8 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 
 			/**
 			 *  内部有两个标记位来标记是否已经处理过了,这里会引发一连串知识盲点
-			 *  当我们注册配置类的时候，可以不加Configuration注解，直接使用Component ComponentScan Import ImportResource注解，称之为Lite配置类
+			 *  当我们注册配置类的时候，可以不加Configuration注解，直接使用@Component 、@ComponentScan 、@Import、 @ImportResource注解，
+			 *  称之为Lite配置类
 			 *
 			 *  如果加了Configuration注解，就称之为Full配置类
 			 *
