@@ -319,8 +319,8 @@ public class AnnotatedBeanDefinitionReader {
 		 * @see DefaultListableBeanFactory#registerBeanDefinition(java.lang.String, org.springframework.beans.factory.config.BeanDefinition)
 		 *
 		 * DefaultListableBeanFactory维护着一系列信息，比如beanDefinitionNames，beanDefinitionMap
-		 * beanDefinitionNames是一个List<String>,用来保存beanName
-		 * beanDefinitionMap是一个Map,用来保存beanName和beanDefinition
+		 * beanDefinitionNames:是一个List<String>,用来保存beanName
+		 * beanDefinitionMap:是一个Map,用来保存beanName和beanDefinition
 		 */
 		BeanDefinitionReaderUtils.registerBeanDefinition(definitionHolder, this.registry);
 	}
