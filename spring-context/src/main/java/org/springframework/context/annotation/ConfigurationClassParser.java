@@ -165,9 +165,10 @@ class ConfigurationClassParser {
 	public void parse(Set<BeanDefinitionHolder> configCandidates) {
 		// 循环传进来的配置类
 		for (BeanDefinitionHolder holder : configCandidates) {
+			// 获得BeanDefinition
 			BeanDefinition bd = holder.getBeanDefinition();
 			try {
-				// 如果获得BeanDefinition是AnnotatedBeanDefinition的实例
+				// 判断获得BeanDefinition是否是AnnotatedBeanDefinition的实例
 				if (bd instanceof AnnotatedBeanDefinition) {
 					parse(((AnnotatedBeanDefinition) bd).getMetadata(), holder.getBeanName());
 				}
@@ -306,12 +307,14 @@ class ConfigurationClassParser {
 		// 如果没有打上ComponentScan，或者被@Condition条件跳过，就不再进入这个if
 		if (!componentScans.isEmpty() &&
 				!this.conditionEvaluator.shouldSkip(sourceClass.getMetadata(), ConfigurationPhase.REGISTER_BEAN)) {
+
 			// 循环处理componentScans
 			for (AnnotationAttributes componentScan : componentScans) {
 				// The config class is annotated with @ComponentScan -> perform the scan immediately
 				// componentScan就是@ComponentScan上的具体内容，sourceClass.getMetadata().getClassName()就是配置类的名称
 				Set<BeanDefinitionHolder> scannedBeanDefinitions =
 						this.componentScanParser.parse(componentScan, sourceClass.getMetadata().getClassName());
+
 				// Check the set of scanned definitions for any further config classes and parse recursively if needed
 				// 检查扫描出来的类中是否还有configuration
 				for (BeanDefinitionHolder holder : scannedBeanDefinitions) {

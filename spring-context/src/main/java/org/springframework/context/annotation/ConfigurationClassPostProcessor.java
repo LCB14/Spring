@@ -284,7 +284,7 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 	 * {@link Configuration} classes.
 	 */
 	public void processConfigBeanDefinitions(BeanDefinitionRegistry registry) {
-		// 存放app提供的bean
+		// 存放spring自己内部提供的bean
 		List<BeanDefinitionHolder> configCandidates = new ArrayList<>();
 
 		// 获得所有的BeanDefinition的Name，放入candidateNames数组
@@ -298,12 +298,10 @@ public class ConfigurationClassPostProcessor implements BeanDefinitionRegistryPo
 			/**
 			 *  内部有两个标记位来标记是否已经处理过了,这里会引发一连串知识盲点
 			 *  当我们注册配置类的时候，可以不加Configuration注解，直接使用@Component 、@ComponentScan 、@Import、 @ImportResource注解，
-			 *  称之为Lite配置类
-			 *
-			 *  如果加了Configuration注解，就称之为Full配置类
+			 *  称之为Lite配置类，如果加了Configuration注解，就称之为Full配置类
 			 *
 			 *  如果我们注册了Lite配置类，我们getBean这个配置类，会发现它就是原本的那个配置类
-			 *  如果我们注册了Full配置类，我们getBean这个配置类，会发现它已经不是原本那个配置类了，而是已经被cgilb代理的类了
+			 *  如果我们注册了Full配置类，我们getBean这个配置类，会发现它已经不是原本那个配置类了，而是已经被cglib代理的类了
 			 *
 			 *  写一个A类，其中有一个构造方法，打印出“你好”
 			 *  再写一个配置类，里面有两个bean注解的方法
