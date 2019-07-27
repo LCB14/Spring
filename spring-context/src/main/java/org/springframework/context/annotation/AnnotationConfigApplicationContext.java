@@ -96,7 +96,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 */
 	public AnnotationConfigApplicationContext(Class<?>... annotatedClasses) {
 		/**
-		 * 调用无参构造函数
+		 * 实例化reader和scanner以及beanFactory
 		 *
 		 * 首先调用父类GenericApplicationContext的构造函数，
 		 * 在父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
@@ -110,6 +110,8 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		this();
 
 		/**
+		 * 将配置bean添加到容器
+		 *
 		 * 把传入的配置bean进行注册，这里有两种情况：（注意：自定义的bean需要等到refresh()方法执行完毕后才能完成注册)
 		 * 1、传入传统的配置类 -- 添加了@Configuration注解
 		 * 2、传入常规的bean（虽然一般没有人会这么做） -- 未添加@Configuration注解
@@ -118,7 +120,11 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 		 */
 		register(annotatedClasses);
 
-		// 重点方法
+		/**
+		 * 刷新容器
+		 *
+		 * 注册用户自定义的bean到容器中
+ 		 */
 		refresh();
 	}
 

@@ -124,6 +124,7 @@ final class PostProcessorRegistrationDelegate {
 			ConfigurableListableBeanFactory beanFactory, List<BeanFactoryPostProcessor> beanFactoryPostProcessors) {
 
 		// Invoke BeanDefinitionRegistryPostProcessors first, if any.
+		// 定义了一个Set，装载BeanName，后面会根据这个Set，来判断后置处理器是否被执行过了。
 		Set<String> processedBeans = new HashSet<>();
 
 		// beanFactory是BeanDefinitionRegistry的实现类，所以肯定满足if
@@ -161,7 +162,7 @@ final class PostProcessorRegistrationDelegate {
 			// uninitialized to let the bean factory post-processors apply to them!
 			// Separate between BeanDefinitionRegistryPostProcessors that implement
 			// PriorityOrdered, Ordered, and the rest.
-			// 一个临时变量，用来装载BeanDefinitionRegistryPostProcessor
+			// 此处定义一个临时变量，用来装载BeanDefinitionRegistryPostProcessor
 			List<BeanDefinitionRegistryPostProcessor> currentRegistryProcessors = new ArrayList<>();
 
 			// First, invoke the BeanDefinitionRegistryPostProcessors that implement PriorityOrdered.
@@ -170,7 +171,7 @@ final class PostProcessorRegistrationDelegate {
 			 * 并且装入数组postProcessorNames，我理解一般情况下，只会找到一个。
 			 *
 			 * 这里又有一个坑，为什么我自己创建了一个实现BeanDefinitionRegistryPostProcessor接口的bean，
-			 * 也打上了@Component注解,配置类也加上了，但是这里却没有拿到?
+			 * 也打上了@Component注解但是这里却没有拿到?
 			 *
 			 * 因为直到这一步，Spring还没有去扫描，扫描是在ConfigurationClassPostProcessor类中完成的，也就是下面的第一个。
 			 */
@@ -201,10 +202,9 @@ final class PostProcessorRegistrationDelegate {
 			/**
 			 * 合并Processors，为什么要合并?
 			 *
-			 * 因为registryProcessors一开始的时候是装载BeanDefinitionRegistryPostProcessor的
+			 * 因为registryProcessors一开始的时候是装载用户手动添加的BeanDefinitionRegistryPostProcessor
 			 * spring只会执行BeanDefinitionRegistryPostProcessor独有的方法
 			 * 而不会执行BeanDefinitionRegistryPostProcessor父类的方法，即BeanFactoryProcessor的方法
-			 *
 			 * 所以这里需要把处理器放入一个集合中，后续统一执行父类的方法
 			 */
 			registryProcessors.addAll(currentRegistryProcessors);
@@ -212,16 +212,18 @@ final class PostProcessorRegistrationDelegate {
 			/**
 			 * 可以理解为执行ConfigurationClassPostProcessor的postProcessBeanDefinitionRegistry方法
 			 * Spring热插拔的体现，像ConfigurationClassPostProcessor就相当于一个组件，Spring很多事情就是交给组件去管理
-			 * 如果不想用这个组件，直接把注册组件的那一步去掉就可以 -- 很重要的设计思想
+			 * 如果不想用哪个组件，直接把注册组件的那一步去掉就可以 -- 很重要的设计思想
+			 *
+			 * 该方法执行完毕后用户自定义实现了BeanDefinitionRegistryPostProcessor接口的后置处理器才会被扫描到。
 			 */
 			invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);
 
-			// 因为currentRegistryProcessors是一个临时变量，所以需要清除
+			// 因为currentRegistryProcessors是一个临时变量，所以需要清除，以便下次使用。
 			currentRegistryProcessors.clear();
 
 			// Next, invoke the BeanDefinitionRegistryPostProcessors that implement Ordered.
 			/**
-			 * 再次根据BeanDefinitionRegistryPostProcessor获得BeanName，看这个BeanName是否已经被执行过了，有没有实现Ordered接口？
+			 * 再次根据BeanDefinitionRegistryPostProcessor获得BeanName，看看这个BeanName是否已经被执行过了，有没有实现Ordered接口？
 			 *
 			 * 如果没有被执行过，也实现了Ordered接口的话，把对象推送到currentRegistryProcessors，名称推送到processedBeans
 			 *

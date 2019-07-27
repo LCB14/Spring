@@ -525,7 +525,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			// Prepare the bean factory for use in this context.
 			/**
 			 * 还是一些准备工作，添加了两个后置处理器：ApplicationContextAwareProcessor和ApplicationListenerDetector
-			 * 设置了忽略自动装配 和 允许自动装配 的接口,如果不存在某个bean的时候，spring就自动注册singleton bean
+			 * 设置了忽略自动装配 和 允许自动装配 的接口
 			 * 设置了bean表达式解析器等
 			 */
 			prepareBeanFactory(beanFactory);
