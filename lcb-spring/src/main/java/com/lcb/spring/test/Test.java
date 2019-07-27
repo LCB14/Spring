@@ -4,6 +4,8 @@ import com.lcb.spring.appconfig.AppConfig;
 import com.lcb.spring.bean.Student;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.Arrays;
+
 /**
  * @author changbao.li
  * @Description spring 特性测试
@@ -17,6 +19,6 @@ public class Test {
 
         Student student = annotationConfigApplicationContext.getBean(Student.class);
 
-        System.out.println(student.toString());
+         System.out.println(student.toString());
     }
 }
