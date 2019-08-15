@@ -16,7 +16,7 @@ public class TestController {
     @RequestMapping("/getUser.do")
     @ResponseBody
     public Object getUser(User user){
-        System.out.println("进来了");
+        System.out.println(user.toString());
         return user;
     }
 }
