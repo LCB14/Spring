@@ -9,8 +9,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="LCB" target="1.5" />
-      <module name="lcb-spring" target="1.7" />
+      <module name="lcb-springMVC" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

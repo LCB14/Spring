@@ -148,6 +148,10 @@ public abstract class HttpServletBean extends HttpServlet implements Environment
 	public final void init() throws ServletException {
 
 		// Set bean properties from init parameters.
+		/**
+		 * ServletConfigPropertyValuesd是HTTPServletBean内部静态类，构造过程中会使用
+		 * ServletConfig对象找出web.xml配置文件中的配置参数并设置到ServletConfigPropertyValues中
+		 */
 		PropertyValues pvs = new ServletConfigPropertyValues(getServletConfig(), this.requiredProperties);
 		if (!pvs.isEmpty()) {
 			try {
