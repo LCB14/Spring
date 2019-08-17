@@ -17,6 +17,6 @@ public class TestController {
     @ResponseBody
     public Object getUser(User user){
         System.out.println(user.toString());
-        return user;
+        return user.toString();
     }
 }

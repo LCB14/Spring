@@ -12,8 +12,6 @@
       <module name="lcb-springMVC" target="8" />
       <module name="org.springframework.spring.springMVC.main" target="1.8" />
       <module name="org.springframework.spring.springMVC.test" target="1.8" />
-      <module name="spring.spring-aspects.main" target="1.8" />
-      <module name="spring.spring-aspects.test" target="1.8" />
       <module name="spring.springMVC.main" target="1.8" />
       <module name="spring.springMVC.test" target="1.8" />
     </bytecodeTargetLevel>

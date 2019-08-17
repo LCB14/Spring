@@ -93,10 +93,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/classes/com/lcb/spring/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/classes/com/lcb/spring/mvc/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/classes/com/lcb/spring/mvc/init/MyWebApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/classes/com/lcb/spring/mvc/init/MyWebApplicationInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-aop-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-aop-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-beans-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-beans-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-context-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-context-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
@@ -110,10 +112,7 @@
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-tx-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-tx-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-web-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-web-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-webmvc-5.2.0.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/build/libs/exploded/spring-mvc-5.2.0.BUILD-SNAPSHOT.war/WEB-INF/lib/org.springframework-spring-webmvc-5.2.0.BUILD-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/out/production/classes/com/lcb/spring/mvc/controller/TestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/out/production/classes/com/lcb/spring/mvc/controller/TestController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/out/production/classes/com/lcb/spring/mvc/init/MyWebApplicationInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/out/production/classes/com/lcb/spring/mvc/init/MyWebApplicationInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/com/lcb/spring/mvc/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/lcb/spring/mvc/controller/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc/src/main/java/com/lcb/spring/mvc/init/MyWebApplicationInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/com/lcb/spring/mvc/init/MyWebApplicationInitializer.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -443,17 +442,13 @@
       <workItem from="1565784512042" duration="2408000" />
       <workItem from="1565834134588" duration="761000" />
       <workItem from="1565869801530" duration="11241000" />
-      <workItem from="1565885195698" duration="8023000" />
+      <workItem from="1565885195698" duration="8505000" />
+      <workItem from="1566050667309" duration="523000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="UnloadedModulesList">
-    <module name="spring.spring-aspects.main" />
-    <module name="spring.spring-aspects.test" />
-    <module name="spring.spring-aspects" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -698,6 +693,11 @@
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/ConfigurationClassParser.java</url>
           <line>318</line>
           <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>951</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
