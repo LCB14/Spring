@@ -1025,8 +1025,8 @@ public class DispatcherServlet extends FrameworkServlet {
 
 				// Determine handler for the current request.
                 /**
-                 * HandlerExecutionChain(处理执行链)包含两部分内容,一部分是请求对应的控制器,一部分是拦截器,真正执行handle之前,有一系列操作,
-                 * 例如数据转换,格式化,数据验证这些,都是由拦截器来做的
+                 * HandlerExecutionChain(处理执行链)包含两部分内容,一部分是请求对应的控制器,
+				 * 一部分是拦截器,真正执行handle之前,有一系列操作,例如数据转换,格式化,数据验证这些,都是由拦截器来做的
                  */
 				mappedHandler = getHandler(processedRequest);
 				if (mappedHandler == null) {
@@ -1285,6 +1285,10 @@ public class DispatcherServlet extends FrameworkServlet {
 	 */
 	protected HandlerAdapter getHandlerAdapter(Object handler) throws ServletException {
 		if (this.handlerAdapters != null) {
+			/**
+			 * HandlerAdapter(处理适配器)这个组件和HandlerMapping类似也是通过
+			 * 在DispatcherServlet.properties文件中提前配置的。
+			 */
 			for (HandlerAdapter adapter : this.handlerAdapters) {
 				if (adapter.supports(handler)) {
 					return adapter;
