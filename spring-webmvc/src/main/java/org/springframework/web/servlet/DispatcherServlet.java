@@ -1019,12 +1019,11 @@ public class DispatcherServlet extends FrameworkServlet {
 			Exception dispatchException = null;
 
 			try {
-				// 检查请求中是否有文件上传操作
+				// 检查请求中是否有二进制文件上传操作
 				processedRequest = checkMultipart(request);
 				multipartRequestParsed = (processedRequest != request);
 
 				// Determine handler for the current request.
-				// 确定当前请求处理程序--推断controller和handler类型
 				mappedHandler = getHandler(processedRequest);
 				if (mappedHandler == null) {
 					noHandlerFound(processedRequest, response);
@@ -1241,6 +1240,11 @@ public class DispatcherServlet extends FrameworkServlet {
 	@Nullable
 	protected HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
 		if (this.handlerMappings != null) {
+            /**
+             * HandlerMapping处理器映射器，目的是判断通过BeanNameUrl的方式还是Annotation的方式来配置controller
+             *
+             * this.handlerMappings值来源于DispatcherServlet.properties文件中提前配置的值
+             */
 			for (HandlerMapping mapping : this.handlerMappings) {
 				HandlerExecutionChain handler = mapping.getHandler(request);
 				if (handler != null) {
