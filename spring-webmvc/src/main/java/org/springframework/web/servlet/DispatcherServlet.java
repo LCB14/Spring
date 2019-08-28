@@ -1005,6 +1005,8 @@ public class DispatcherServlet extends FrameworkServlet {
 	 * @param request current HTTP request
 	 * @param response current HTTP response
 	 * @throws Exception in case of any kind of processing failure
+     *
+     * 参考：https://juejin.im/post/5aaf4c556fb9a028b547af83
 	 */
 	protected void doDispatch(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		HttpServletRequest processedRequest = request;
@@ -1025,8 +1027,11 @@ public class DispatcherServlet extends FrameworkServlet {
 
 				// Determine handler for the current request.
                 /**
-                 * HandlerExecutionChain(处理执行链)包含两部分内容,一部分是请求对应的控制器,
-				 * 一部分是拦截器,真正执行handle之前,有一系列操作,例如数据转换,格式化,数据验证这些,都是由拦截器来做的
+                 * 1、调用handlerMapping获取handlerChain
+                 *
+                 * HandlerExecutionChain(处理执行链)包含两部分内容:
+                 * 一部分是请求对应的控制器;
+				 * 一部分是拦截器,真正执行handle之前,有一系列操作,例如数据转换,格式化,数据验证这些,都是由拦截器来做的.
                  */
 				mappedHandler = getHandler(processedRequest);
 				if (mappedHandler == null) {
@@ -1035,13 +1040,16 @@ public class DispatcherServlet extends FrameworkServlet {
 				}
 
 				// Determine handler adapter for the current request.
+                // 2.获取支持该handler解析的HandlerAdapter
 				HandlerAdapter ha = getHandlerAdapter(mappedHandler.getHandler());
 
 				// Process last-modified header, if supported by the handler.
+                // 如果是Get或Head请求 调用getLastModified()获取上次更新时间
 				String method = request.getMethod();
 				boolean isGet = "GET".equals(method);
 				if (isGet || "HEAD".equals(method)) {
 					long lastModified = ha.getLastModified(request, mappedHandler.getHandler());
+                    // 如果小于浏览器缓存更新时间 则直接返回 浏览器使用本地缓存
 					if (new ServletWebRequest(request, response).checkNotModified(lastModified) && isGet) {
 						return;
 					}
@@ -1052,12 +1060,14 @@ public class DispatcherServlet extends FrameworkServlet {
 				}
 
 				// Actually invoke the handler.
+                // 3.使用HandlerAdapter完成handler处理
 				mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
 
 				if (asyncManager.isConcurrentHandlingStarted()) {
 					return;
 				}
 
+                // 4.视图处理(页面渲染)
 				applyDefaultViewName(processedRequest, mv);
 				mappedHandler.applyPostHandle(processedRequest, response, mv);
 			}
@@ -1290,6 +1300,7 @@ public class DispatcherServlet extends FrameworkServlet {
 			 * 在DispatcherServlet.properties文件中提前配置的。
 			 */
 			for (HandlerAdapter adapter : this.handlerAdapters) {
+			    // 调用HandlerAdapter.support()方法 判断是否支持该handler对象的解析 -- 寻找符合当前handler的处理器适配器
 				if (adapter.supports(handler)) {
 					return adapter;
 				}

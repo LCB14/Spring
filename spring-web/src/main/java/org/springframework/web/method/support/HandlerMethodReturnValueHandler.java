@@ -24,6 +24,8 @@ import org.springframework.web.context.request.NativeWebRequest;
  * Strategy interface to handle the value returned from the invocation of a
  * handler method .
  *
+ * 返回值解析器
+ *
  * @author Arjen Poutsma
  * @since 3.1
  * @see HandlerMethodArgumentResolver
@@ -33,6 +35,9 @@ public interface HandlerMethodReturnValueHandler {
 	/**
 	 * Whether the given {@linkplain MethodParameter method return type} is
 	 * supported by this handler.
+	 *
+	 * 判断是否支持该返回值的解析(根据类型,注解等)
+	 *
 	 * @param returnType the method return type to check
 	 * @return {@code true} if this handler supports the supplied return type;
 	 * {@code false} otherwise
@@ -42,6 +47,9 @@ public interface HandlerMethodReturnValueHandler {
 	/**
 	 * Handle the given return value by adding attributes to the model and
 	 * setting a view or setting the
+	 *
+	 * 对返回值进行解析
+	 *
 	 * {@link ModelAndViewContainer#setRequestHandled} flag to {@code true}
 	 * to indicate the response has been handled directly.
 	 * @param returnValue the value returned from the handler method

@@ -208,7 +208,9 @@ public abstract class AbstractHandlerMethodMapping<T> extends AbstractHandlerMap
 	 */
 	protected void initHandlerMethods() {
 		for (String beanName : getCandidateBeanNames()) {
+			// 抽象,过滤(在RequestMappingHandlerMapping中根据Controller和RequestMapping注解过滤)
 			if (!beanName.startsWith(SCOPED_TARGET_NAME_PREFIX)) {
+				// 探测类中定义的handler方法
 				processCandidateBean(beanName);
 			}
 		}
@@ -222,6 +224,7 @@ public abstract class AbstractHandlerMethodMapping<T> extends AbstractHandlerMap
 	 * @see BeanFactoryUtils#beanNamesForTypeIncludingAncestors
 	 */
 	protected String[] getCandidateBeanNames() {
+		// //从容器中获取所有object类型名
 		return (this.detectHandlerMethodsInAncestorContexts ?
 				BeanFactoryUtils.beanNamesForTypeIncludingAncestors(obtainApplicationContext(), Object.class) :
 				obtainApplicationContext().getBeanNamesForType(Object.class));
@@ -242,8 +245,7 @@ public abstract class AbstractHandlerMethodMapping<T> extends AbstractHandlerMap
 		Class<?> beanType = null;
 		try {
 			beanType = obtainApplicationContext().getType(beanName);
-		}
-		catch (Throwable ex) {
+		} catch (Throwable ex) {
 			// An unresolvable bean type, probably from a lazy bean - let's ignore it.
 			if (logger.isTraceEnabled()) {
 				logger.trace("Could not resolve type for bean '" + beanName + "'", ex);
@@ -265,6 +267,7 @@ public abstract class AbstractHandlerMethodMapping<T> extends AbstractHandlerMap
 
 		if (handlerType != null) {
 			Class<?> userType = ClassUtils.getUserClass(handlerType);
+			// 得到符合条件的handler方法
 			Map<Method, T> methods = MethodIntrospector.selectMethods(userType,
 					(MethodIntrospector.MetadataLookup<T>) method -> {
 						try {
@@ -275,9 +278,12 @@ public abstract class AbstractHandlerMethodMapping<T> extends AbstractHandlerMap
 									userType.getName() + "]: " + method, ex);
 						}
 					});
+
 			if (logger.isTraceEnabled()) {
 				logger.trace(formatMappings(userType, methods));
 			}
+
+			// 注册handler方法
 			methods.forEach((method, mapping) -> {
 				Method invocableMethod = AopUtils.selectInvocableMethod(method, userType);
 				registerHandlerMethod(handler, invocableMethod, mapping);
