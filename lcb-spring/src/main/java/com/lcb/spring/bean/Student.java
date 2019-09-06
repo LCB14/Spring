@@ -2,6 +2,8 @@ package com.lcb.spring.bean;
 
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 /**
  * @author changbao.li
  * @Description 学生bean
@@ -20,6 +22,10 @@ public class Student {
         this.school = school;
     }
 
+    @PostConstruct
+    public void init(){
+        System.out.println("init");
+    }
     public String getName() {
         return name;
     }
