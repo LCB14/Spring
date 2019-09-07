@@ -1,4 +1,4 @@
-#### 1、spring bean的声明周期？
+#### 1、spring bean的生命周期？
 
 #### 2、spring是如何解决循环依赖的？
 
