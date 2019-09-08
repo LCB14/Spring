@@ -26,6 +26,7 @@ public class Student {
     public void init(){
         System.out.println("init");
     }
+
     public String getName() {
         return name;
     }

@@ -22,7 +22,7 @@ public class Test {
         System.out.println(student.toString());
 
         // 获取所有已经注册bean的名称
-        String[] beanDefinitionNames = annotationConfigApplicationContext.getBeanDefinitionNames();
-        System.out.println(Arrays.toString(beanDefinitionNames));
+//        String[] beanDefinitionNames = annotationConfigApplicationContext.getBeanDefinitionNames();
+//        System.out.println(Arrays.toString(beanDefinitionNames));
     }
 }
