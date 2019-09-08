@@ -93,7 +93,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/other/CommonHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/other/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/other/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/other/YangFangHouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -445,7 +452,7 @@
       <workItem from="1566306684621" duration="7295000" />
       <workItem from="1566913381439" duration="1677000" />
       <workItem from="1566980528551" duration="9314000" />
-      <workItem from="1567759430579" duration="4446000" />
+      <workItem from="1567759430579" duration="5513000" />
     </task>
     <servers />
   </component>
