@@ -504,8 +504,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
 		try {
 			// Give BeanPostProcessors a chance to return a proxy instead of the target bean instance.
-			// 在bean初始化前应用后置处理器（这也是spring第一次应用后置处理器)
-			// 应用场景AOP -- 解析切面
+			/**
+			 * 第一次使用后置处理器
+			 *
+			 * 这一步是我们使用spring aop和事务功能的关键，因为在这里会解析我们定义的切面信息进行缓存
+			 */
 			Object bean = resolveBeforeInstantiation(beanName, mbdToUse);
 			if (bean != null) {
 				return bean;
@@ -571,7 +574,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		synchronized (mbd.postProcessingLock) {
 			if (!mbd.postProcessed) {
 				try {
-					// spring第三次执行后置处理器
+					/**
+					 * spring第三次执行后置处理器
+					 *
+					 * 对添加@AutoWired注解的属性进行预解析
+					 */
 					applyMergedBeanDefinitionPostProcessors(mbd, beanType, beanName);
 				}
 				catch (Throwable ex) {
@@ -591,7 +598,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 				logger.trace("Eagerly caching bean '" + beanName +
 						"' to allow for resolving potential circular references");
 			}
-			// spring第四次执行后置处理器
+			/**
+			 * spring第四次执行后置处理器
+			 *
+			 * 解决循环依赖
+			 */
 			addSingletonFactory(beanName, () -> getEarlyBeanReference(beanName, mbd, bean));
 		}
 
@@ -1205,8 +1216,12 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		}
 
 		// Candidate constructors for autowiring?
-        // 通过后置处理器（第二次应用后置处理器)，返回相应的构造方法(有参)实例bean
-		// 如果bean中既有有参又有无参构造方法，此处则返回null。（因为spring此时无法推断了，干脆返回null)
+		/**
+		 * 第二次使用后置处理器
+		 *
+		 * 通过后置处理器推断当前bean实例的创建该使用哪个构造器，如果bean中既有有参又有无参构造方法，
+		 * 此处则返回null。（因为spring此时无法推断了，干脆返回null)
+		 */
 		Constructor<?>[] ctors = determineConstructorsFromBeanPostProcessors(beanClass, beanName);
 		if (ctors != null || mbd.getResolvedAutowireMode() == AUTOWIRE_CONSTRUCTOR ||
 				mbd.hasConstructorArgumentValues() || !ObjectUtils.isEmpty(args)) {
@@ -1399,8 +1414,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 		if (!mbd.isSynthetic() && hasInstantiationAwareBeanPostProcessors()) {
 			for (BeanPostProcessor bp : getBeanPostProcessors()) {
 				if (bp instanceof InstantiationAwareBeanPostProcessor) {
-					// spring第五次执行后置处理器
-					// 判断待初始化的bean要不要进行属性的填充
+					/**
+					 * spring第五次执行后置处理器
+					 *
+					 * 判断待初始化的bean要不要进行属性的填充
+					 */
 					InstantiationAwareBeanPostProcessor ibp = (InstantiationAwareBeanPostProcessor) bp;
 					if (!ibp.postProcessAfterInstantiation(bw.getWrappedInstance(), beanName)) {
 						continueWithPropertyPopulation = false;
@@ -1440,9 +1458,12 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 			}
 			for (BeanPostProcessor bp : getBeanPostProcessors()) {
 				if (bp instanceof InstantiationAwareBeanPostProcessor) {
-					// spring第六次执行后置处理器
-					// 和第一次调用的是同一个后置处理器，但是调用的方法不用而已
-					// 完成属性的填充（自动注入)
+					/**
+					 * spring第六次执行后置处理器
+					 *
+					 * 和第一次调用的是同一个后置处理器，但是调用的方法不用而已,完成属性的填充（自动注入)
+					 * 用于在spring填充属性到bean对象前，对属性值进行相应的处理。
+					 */
 					InstantiationAwareBeanPostProcessor ibp = (InstantiationAwareBeanPostProcessor) bp;
 					PropertyValues pvsToUse = ibp.postProcessProperties(pvs, bw.getWrappedInstance(), beanName);
 					if (pvsToUse == null) {
@@ -1810,8 +1831,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
 		Object wrappedBean = bean;
 		if (mbd == null || !mbd.isSynthetic()) {
-			// spring第七次执行后置处理器--before方法
-			// 即spring初始化方法之前执行--对应注解@PostConstruct
+			/**
+			 * spring第七次执行后置处理器--before方法
+			 *
+			 * 即spring初始化方法之前执行--对应注解@PostConstruct
+			 */
 			wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);
 		}
 
@@ -1824,8 +1848,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 					beanName, "Invocation of init method failed", ex);
 		}
 		if (mbd == null || !mbd.isSynthetic()) {
-			// spring第八次执行后置处理器--after方法
-			// 即spring初始化方法之后执行
+			/**
+			 * spring第八次执行后置处理器--after方法
+			 *
+			 * 即spring初始化方法之后执行
+			 */
 			wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);
 		}
 
