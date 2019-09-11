@@ -5,6 +5,7 @@ import com.lcb.spring.bean.Student;
 import com.lcb.spring.other.People;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.lang.reflect.Proxy;
 import java.util.Arrays;
 
 /**
@@ -17,7 +18,6 @@ public class Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
-
 //        Student student = annotationConfigApplicationContext.getBean(Student.class);
 //        System.out.println(student.toString());
 
