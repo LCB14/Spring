@@ -619,7 +619,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         // Initialize the bean instance.
         Object exposedObject = bean;
         try {
-            // 填充属性(仔细阅读，可以了解spring是如何解决循环依赖的。)
+            // 解析依赖，填充属性(仔细阅读，可以了解spring是如何解决循环依赖的。)
             populateBean(beanName, mbd, instanceWrapper);
 
             // 执行后置处理器，aop就是在这里完成的。
@@ -1493,6 +1493,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         }
 
         if (pvs != null) {
+            // 为bean属性赋值
             applyPropertyValues(beanName, mbd, bw, pvs);
         }
     }
