@@ -304,7 +304,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             }
 
             // Check if bean definition exists in this factory.
-            // 判断当前容器是否存在父工厂，有则让父工厂负责bean的加载。
+            // 判断当前容器是否存在父容器，有则让父容器负责bean的加载。
             BeanFactory parentBeanFactory = getParentBeanFactory();
             if (parentBeanFactory != null && !containsBeanDefinition(beanName)) {
                 // Not found -> check parent.
