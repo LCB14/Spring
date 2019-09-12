@@ -572,7 +572,10 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
             instanceWrapper = this.factoryBeanInstanceCache.remove(beanName);
         }
         if (instanceWrapper == null) {
-            // 创建原始bean实例 核心方法 -- 该方法有点小复杂，牵扯到构造函数选择问题。
+            /**
+             * 创建原始bean实例 核心方法 -- 该方法有点小复杂，牵扯到构造函数选择问题。
+             * 如果使用有参构造的时候存在循环依赖，spring是无法解决这种循环依赖的。
+             */
             instanceWrapper = createBeanInstance(beanName, mbd, args);
         }
         final Object bean = instanceWrapper.getWrappedInstance();
