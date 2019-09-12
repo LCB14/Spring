@@ -1852,6 +1852,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
                     (mbd != null ? mbd.getResourceDescription() : null),
                     beanName, "Invocation of init method failed", ex);
         }
+
         if (mbd == null || !mbd.isSynthetic()) {
             /**
              * spring第八次执行后置处理器--after方法
