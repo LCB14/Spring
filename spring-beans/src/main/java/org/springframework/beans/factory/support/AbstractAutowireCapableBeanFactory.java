@@ -1860,7 +1860,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
             /**
              * spring第八次执行后置处理器--after方法
              *
-             * 即spring初始化方法之后执行
+             * 即spring初始化方法之后执行,此处会产生AOP的代理对象。
              */
             wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);
         }
