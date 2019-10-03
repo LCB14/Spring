@@ -18,14 +18,14 @@ public class Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
-//        Student student = annotationConfigApplicationContext.getBean(Student.class);
-//        System.out.println(student.toString());
+        Student student = annotationConfigApplicationContext.getBean(Student.class);
+        System.out.println(student.toString());
 
         // 获取所有已经注册bean的名称
 //        String[] beanDefinitionNames = annotationConfigApplicationContext.getBeanDefinitionNames();
 //        System.out.println(Arrays.toString(beanDefinitionNames));
-
-        People people = (People)annotationConfigApplicationContext.getBean("people");
-        people.sOut();
+//
+//        People people = (People)annotationConfigApplicationContext.getBean("people");
+//        people.sOut();
     }
 }
