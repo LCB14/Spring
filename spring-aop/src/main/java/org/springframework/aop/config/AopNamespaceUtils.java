@@ -76,7 +76,7 @@ public abstract class AopNamespaceUtils {
 
 		/**
 		 * 注册或升级AutoProxyCreator
-		 * 定义beanname为org.springframework.aop.config.internalAutoProxyCreator的BeanDefinition
+		 * 定义beanName为org.springframework.aop.config.internalAutoProxyCreator的BeanDefinition
  		 */
 		BeanDefinition beanDefinition = AopConfigUtils.registerAspectJAnnotationAutoProxyCreatorIfNecessary(
 				parserContext.getRegistry(), parserContext.extractSource(sourceElement));
