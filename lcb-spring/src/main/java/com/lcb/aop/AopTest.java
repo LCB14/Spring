@@ -1,6 +1,5 @@
 package com.lcb.aop;
 
-import com.lcb.spring.appconfig.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

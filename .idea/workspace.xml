@@ -93,25 +93,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AspectJTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/TestBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/out/production/classes/org/springframework/aop/config/AopNamespaceUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/out/production/classes/org/springframework/aop/config/AopNamespaceUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/out/production/classes/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/out/production/classes/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/out/production/classes/org/springframework/beans/factory/support/DefaultListableBeanFactory$DependencyObjectProvider$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/support/AbstractApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AopTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -454,7 +437,7 @@
       <workItem from="1570074126855" duration="5169000" />
       <workItem from="1572330185103" duration="4029000" />
       <workItem from="1572336494552" duration="4239000" />
-      <workItem from="1572419496085" duration="1817000" />
+      <workItem from="1572419496085" duration="2966000" />
     </task>
     <servers />
   </component>
