@@ -93,8 +93,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/appconfig/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/bean/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/other/CommonHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/other/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/other/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/other/YangFangHouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/out/production/classes/com/lcb/spring/test/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/aop/AppConfig.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -389,20 +404,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.AopTest" />
       <item itemvalue="Gradle.spring:spring-aspects [clean]" />
       <item itemvalue="Gradle.spring:springMVC [jar]" />
       <item itemvalue="Gradle.spring:springMVC [clean]" />
       <item itemvalue="Tomcat Server.springMVC" />
-      <item itemvalue="Application.AopTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AopTest" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Gradle.spring:springMVC [clean]" />
         <item itemvalue="Gradle.spring:springMVC [jar]" />
-        <item itemvalue="Gradle.spring:spring-aspects [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +453,9 @@
       <workItem from="1570074126855" duration="5169000" />
       <workItem from="1572330185103" duration="4029000" />
       <workItem from="1572336494552" duration="4239000" />
-      <workItem from="1572419496085" duration="2966000" />
+      <workItem from="1572419496085" duration="4642000" />
+      <workItem from="1572431259707" duration="544000" />
+      <workItem from="1572503542454" duration="3552000" />
     </task>
     <servers />
   </component>

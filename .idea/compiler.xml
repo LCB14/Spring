@@ -1,103 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AjcSettings">
+    <option name="ajcPath" value="$USER_HOME$/aspecj/aspectjtools-1.9.1.jar" />
+    <option name="delegateToJavac" value="true" />
+  </component>
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="ajc" />
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dubbo-metadata-report-etcd" />
-        <module name="dubbo-rpc-injvm" />
-        <module name="dubbo-rpc-jsonrpc" />
-        <module name="dubbo-rpc-webservice" />
-        <module name="dubbo-config-spring" />
-        <module name="dubbo-demo-api-provider" />
-        <module name="dubbo-demo-xml-consumer" />
-        <module name="dubbo-demo-xml-provider" />
-        <module name="dubbo-configcenter-zookeeper" />
-        <module name="dubbo-metadata-report-zookeeper" />
-        <module name="dubbo-registry-etcd3" />
-        <module name="dubbo-remoting-p2p" />
-        <module name="dubbo-rpc-memcached" />
-        <module name="dubbo-serialization-protobuf-json" />
-        <module name="dubbo-container-logback" />
-        <module name="dubbo-serialization-jdk" />
-        <module name="dubbo-remoting-http" />
-        <module name="dubbo-monitor-default" />
-        <module name="dubbo-qos" />
-        <module name="dubbo-common" />
-        <module name="dubbo-serialization-kryo" />
-        <module name="lcb-dubbo" />
-        <module name="dubbo-rpc-rmi" />
-        <module name="dubbo-registry-nacos" />
-        <module name="dubbo-demo-api-consumer" />
         <module name="dubbo" />
-        <module name="dubbo-registry-default" />
-        <module name="dubbo-configcenter-apollo" />
-        <module name="dubbo-serialization-gson" />
-        <module name="dubbo-registry-redis" />
-        <module name="dubbo-serialization-test" />
-        <module name="dubbo-remoting-netty4" />
-        <module name="dubbo-configcenter-nacos" />
-        <module name="dubbo-serialization-native-hession" />
-        <module name="dubbo-serialization-protostuff" />
-        <module name="dubbo-remoting-api" />
-        <module name="dubbo-remoting-mina" />
-        <module name="dubbo-demo-annotation-provider" />
-        <module name="dubbo-remoting-netty" />
-        <module name="dubbo-remoting-zookeeper" />
-        <module name="dubbo-registry-consul" />
-        <module name="dubbo-container-log4j" />
-        <module name="dubbo-rpc-thrift" />
-        <module name="dubbo-configcenter-api" />
-        <module name="dubbo-registry-api" />
-        <module name="dubbo-rpc-native-thrift" />
-        <module name="dubbo-demo-interface" />
-        <module name="dubbo-rpc-dubbo" />
-        <module name="dubbo-registry-sofa" />
-        <module name="dubbo-metadata-report-consul" />
-        <module name="dubbo-configcenter-etcd" />
-        <module name="dubbo-metadata-definition-protobuf" />
-        <module name="dubbo-demo-annotation-consumer" />
-        <module name="dubbo-serialization-avro" />
-        <module name="dubbo-remoting-etcd3" />
-        <module name="dubbo-registry-multicast" />
-        <module name="dubbo-registry-multiple" />
-        <module name="dubbo-metadata-report-nacos" />
-        <module name="dubbo-compatible" />
-        <module name="dubbo-rpc-hessian" />
-        <module name="dubbo-serialization-hessian2" />
-        <module name="dubbo-rpc-rest" />
-        <module name="dubbo-metadata-report-redis" />
-        <module name="dubbo-filter-validation" />
-        <module name="dubbo-container-spring" />
-        <module name="dubbo-rpc-http" />
-        <module name="dubbo-monitor-api" />
-        <module name="dubbo-serialization-fst" />
-        <module name="dubbo-remoting-grizzly" />
-        <module name="dubbo-rpc-xml" />
-        <module name="dubbo-container-api" />
-        <module name="dubbo-rpc-redis" />
-        <module name="dubbo-cluster" />
-        <module name="dubbo-rpc-api" />
-        <module name="dubbo-registry-zookeeper" />
-        <module name="dubbo-config-api" />
-        <module name="dubbo-metadata-definition" />
-        <module name="dubbo-serialization-fastjson" />
-        <module name="dubbo-configcenter-consul" />
-        <module name="dubbo-serialization-api" />
-        <module name="dubbo-metadata-report-api" />
-        <module name="dubbo-filter-cache" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="dubbo" target="1.7" />
-      <module name="dubbo-parent" target="1.7" />
-      <module name="lcb-springMVC" target="8" />
-      <module name="org.springframework.spring.springMVC.main" target="1.8" />
-      <module name="org.springframework.spring.springMVC.test" target="1.8" />
-      <module name="spring.springMVC.main" target="1.8" />
-      <module name="spring.springMVC.test" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
