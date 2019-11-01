@@ -15,24 +15,24 @@ public class AspectJTest {
 
     @Before("test()")
     public void beforeTest(){
-        System.out.println("beforeTest");
+        System.out.println("beforeInformTest");
     }
 
     @After("test()")
     public void afterTest(){
-        System.out.println("afterTest");
+        System.out.println("afterInformTest");
     }
 
     @Around("test()")
     public Object arountTest(ProceedingJoinPoint proceedingJoinPoint){
-        System.out.println("before");
+        System.out.println("beforeArround");
         Object object = null;
         try{
             object = proceedingJoinPoint.proceed();
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
-        System.out.println("after");
+        System.out.println("afterArround");
         return object;
     }
 }
