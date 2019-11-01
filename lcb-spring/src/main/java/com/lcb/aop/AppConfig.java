@@ -18,9 +18,4 @@ public class AppConfig {
     public TestBean testBean(){
         return new TestBean();
     }
-
-    @Bean
-    public AspectJTest aspectJTest(){
-        return new AspectJTest();
-    }
 }

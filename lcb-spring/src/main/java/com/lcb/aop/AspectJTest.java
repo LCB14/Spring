@@ -2,12 +2,14 @@ package com.lcb.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
+import org.springframework.stereotype.Component;
 
 /**
  * @author changbao.li Date: 2019-10-30 Time: 15:14
  * @version $
  */
 @Aspect
+@Component
 public class AspectJTest {
 
     @Pointcut("execution(* *.test(..))")
