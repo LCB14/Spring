@@ -163,6 +163,9 @@ public abstract class AnnotationConfigUtils {
             }
         }
 
+        /**
+         * 便于参数传递，把beanName和对应的具体的bean封装在一起
+         */
         Set<BeanDefinitionHolder> beanDefs = new LinkedHashSet<>(8);
 
         /**
