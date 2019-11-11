@@ -71,10 +71,10 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
      * 此处会隐式调用父类GenericApplicationContext的构造方法初始化一个beanFactory
      */
     public AnnotationConfigApplicationContext() {
-        // 创建BeanDefinition读取器，用于把普通bean转换成BeanDefinition对象
+        // 用于从Resource中读取BeanDefinition
         this.reader = new AnnotatedBeanDefinitionReader(this);
 
-        // 此处的scanner用处不是很大，它仅仅是在用户外部手动调用 .scan 等方法时才有用，常规方式是不会用到此处的scanner对象的
+        // 设置资源加载器 -- ResourceLoader
         this.scanner = new ClassPathBeanDefinitionScanner(this);
     }
 
