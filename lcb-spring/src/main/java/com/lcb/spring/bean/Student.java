@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
 @Component
 public class Student {
 
-    private String name;
+    private String name = "图灵";
 
     private School school;
 

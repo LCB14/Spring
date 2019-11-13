@@ -97,7 +97,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/annotation/AnnotationConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/out/production/classes/org/springframework/context/annotation/AnnotationConfigUtils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -444,7 +444,9 @@
       <workItem from="1572419496085" duration="4642000" />
       <workItem from="1572431259707" duration="544000" />
       <workItem from="1572503542454" duration="14805000" />
-      <workItem from="1573443816072" duration="3974000" />
+      <workItem from="1573443816072" duration="5930000" />
+      <workItem from="1573524426078" duration="1286000" />
+      <workItem from="1573612994437" duration="4477000" />
     </task>
     <servers />
   </component>
@@ -711,6 +713,11 @@
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>1851</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/annotation/AnnotatedGenericBeanDefinition.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class School {
 
-    private String name;
+    private String name = "加里敦大学";
 
-    private String address;
+    private String address = "加里敦";
 
     public String getName() {
         return name;
@@ -28,5 +28,13 @@ public class School {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "School{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }

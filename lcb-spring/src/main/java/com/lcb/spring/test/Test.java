@@ -1,6 +1,7 @@
 package com.lcb.spring.test;
 
 import com.lcb.spring.appconfig.AppConfig;
+import com.lcb.spring.bean.School;
 import com.lcb.spring.bean.Student;
 import com.lcb.spring.other.People;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -19,8 +20,10 @@ public class Test {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
         Student student = annotationConfigApplicationContext.getBean(Student.class);
-        System.out.println(student.toString());
+        System.out.println(student);
 
+        School school = (School)annotationConfigApplicationContext.getBean("school");
+        System.out.println(school);
         // 获取所有已经注册bean的名称
 //        String[] beanDefinitionNames = annotationConfigApplicationContext.getBeanDefinitionNames();
 //        System.out.println(Arrays.toString(beanDefinitionNames));
