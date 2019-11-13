@@ -363,7 +363,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             }
 
             if (!typeCheckOnly) {
-                // 把已经创建的bean添加的set集合中，表示已经创建过一次了，防止重复创建
+                // 把已经创建的bean的名称添加到指定set集合中，表示已经创建过一次了，防止重复创建
                 markBeanAsCreated(beanName);
             }
 
