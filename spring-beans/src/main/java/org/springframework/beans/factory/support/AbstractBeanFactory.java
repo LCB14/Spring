@@ -278,7 +278,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
     protected <T> T doGetBean(final String name, @Nullable final Class<T> requiredType,
                               @Nullable final Object[] args, boolean typeCheckOnly) throws BeansException {
 
-         /*
+        /*
          * 通过 name 获取 beanName。这里不使用 name 直接作为 beanName 有两点原因：
          *
          * 1. name 可能会以 & 字符开头，表明调用者想获取 FactoryBean 本身，而非 FactoryBean
@@ -292,8 +292,22 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         Object bean;
 
         // Eagerly check singleton cache for manually registered singletons.
-        // 针对懒加载的bean进行多次get的场景（注意和324行getSingleton 方法的区别)
+        /*
+         * 从缓存中获取单例 bean。Spring 是使用 Map 作为 beanName 和 bean 实例的缓存的，所以这
+         * 里暂时可以把 getSingleton(beanName) 等价于 beanMap.get(beanName)。当然，实际的
+         * 逻辑并非如此简单，后面再细说。
+         */
         Object sharedInstance = getSingleton(beanName);
+
+        /*
+         * 如果 sharedInstance = null，则说明缓存里没有对应的实例，表明这个实例还没创建。
+         * BeanFactory 并不会在一开始就将所有的单例 bean 实例化好，而是在调用 getBean 获取
+         * bean 时再实例化，也就是懒加载。
+         * getBean 方法有很多重载，比如 getBean(String name, Object... args)，我们在首次获取
+         * 某个 bean 时，可以传入用于初始化 bean 的参数数组（args），BeanFactory 会根据这些参数
+         * 去匹配合适的构造方法构造 bean 实例。当然，如果单例 bean 早已创建好，这里的 args 就没有
+         * 用了，BeanFactory 不会多次实例化单例 bean。
+         */
         if (sharedInstance != null && args == null) {
             if (logger.isTraceEnabled()) {
                 if (isSingletonCurrentlyInCreation(beanName)) {
@@ -303,6 +317,13 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                     logger.trace("Returning cached instance of singleton bean '" + beanName + "'");
                 }
             }
+
+            /*
+             * 如果 sharedInstance 是普通的单例 bean，下面的方法会直接返回。但如果
+             * sharedInstance 是 FactoryBean 类型的，则需调用 getObject 工厂方法获取真正的
+             * bean 实例。如果用户想获取 FactoryBean 本身，这里也不会做特别的处理，直接返回
+             * 即可。毕竟 FactoryBean 的实现类本身也是一种 bean，只不过具有一点特殊的功能而已。
+             */
             bean = getObjectForBeanInstance(sharedInstance, name, beanName, null);
         } else {
             // Fail if we're already creating this bean instance:

@@ -94,9 +94,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactoryUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/BeanFactoryUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/SimpleAliasRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/SimpleAliasRegistry.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -445,7 +444,7 @@
       <workItem from="1572503542454" duration="14805000" />
       <workItem from="1573443816072" duration="5930000" />
       <workItem from="1573524426078" duration="1286000" />
-      <workItem from="1573612994437" duration="5235000" />
+      <workItem from="1573612994437" duration="5996000" />
     </task>
     <servers />
   </component>
@@ -475,12 +474,12 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>359</line>
+          <line>382</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>286</line>
+          <line>299</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -510,7 +509,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>362</line>
+          <line>385</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -672,11 +671,6 @@
           <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
           <line>951</line>
           <option name="timeStamp" value="120" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/Test.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
