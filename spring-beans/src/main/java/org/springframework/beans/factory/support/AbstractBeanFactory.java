@@ -368,7 +368,17 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             }
 
             try {
-                // 合并bean定义，即把父bean中的属性copy到其子类中去
+                /**
+                 *  合并bean定义，即把父bean中的属性copy到其子类中去
+                 *
+                 *  <bean id="hello" class="xyz.coolblog.innerbean.Hello">
+                 *       <property name="content" value="hello"/>
+                 *  </bean>
+                 *
+                 *  <bean id="hello-child" parent="hello">
+                 *        <property name="content" value="I`m hello-child"/>
+                 *  </bean>
+                 **/
                 final RootBeanDefinition mbd = getMergedLocalBeanDefinition(beanName);
                 checkMergedBeanDefinition(mbd, beanName, args);
 
@@ -1300,10 +1310,12 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
      */
     protected RootBeanDefinition getMergedLocalBeanDefinition(String beanName) throws BeansException {
         // Quick check on the concurrent map first, with minimal locking.
+        // 检查缓存中是否存在“已合并的 BeanDefinition”，若有直接返回即可
         RootBeanDefinition mbd = this.mergedBeanDefinitions.get(beanName);
         if (mbd != null) {
             return mbd;
         }
+        // 调用重载方法
         return getMergedBeanDefinition(beanName, getBeanDefinition(beanName));
     }
 
@@ -1318,7 +1330,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
      */
     protected RootBeanDefinition getMergedBeanDefinition(String beanName, BeanDefinition bd)
             throws BeanDefinitionStoreException {
-
+        // 继续调用重载方法
         return getMergedBeanDefinition(beanName, bd, null);
     }
 
@@ -1346,6 +1358,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             }
 
             if (mbd == null) {
+                // bd.getParentName() == null，表明无父配置，这时直接将当前的 BeanDefinition 升级为 RootBeanDefinition
                 if (bd.getParentName() == null) {
                     // Use copy of given root bean definition.
                     if (bd instanceof RootBeanDefinition) {
@@ -1358,9 +1371,24 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                     BeanDefinition pbd;
                     try {
                         String parentBeanName = transformedBeanName(bd.getParentName());
+                        /*
+                         * 判断父类 beanName 与子类 beanName 名称是否相同。若相同，则父类 bean 一定
+                         * 在父容器中。原因也很简单，容器底层是用 Map 缓存 <beanName, bean> 键值对
+                         * 的。同一个容器下，使用同一个 beanName 映射两个 bean 实例显然是不合适的。
+                         * 有的朋友可能会觉得可以这样存储：<beanName, [bean1, bean2]> ，似乎解决了
+                         * 一对多的问题。但是也有问题，调用 getName(beanName) 时，到底返回哪个 bean
+                         * 实例好呢？
+                         */
                         if (!beanName.equals(parentBeanName)) {
+                            /*
+                             * 这里再次调用 getMergedBeanDefinition，只不过参数值变为了
+                             * parentBeanName，用于合并父 BeanDefinition 和爷爷辈的
+                             * BeanDefinition。如果爷爷辈的 BeanDefinition 仍有父
+                             * BeanDefinition，则继续合并
+                             */
                             pbd = getMergedBeanDefinition(parentBeanName);
                         } else {
+                            // 获取父容器，并判断，父容器的类型，若不是 ConfigurableBeanFactory 则判抛出异常
                             BeanFactory parent = getParentBeanFactory();
                             if (parent instanceof ConfigurableBeanFactory) {
                                 pbd = ((ConfigurableBeanFactory) parent).getMergedBeanDefinition(parentBeanName);
@@ -1375,11 +1403,14 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                                 "Could not resolve parent bean definition '" + bd.getParentName() + "'", ex);
                     }
                     // Deep copy with overridden values.
+                    // 以父 BeanDefinition 的配置信息为蓝本创建 RootBeanDefinition，也就是“已合并的 BeanDefinition”
                     mbd = new RootBeanDefinition(pbd);
+                    // 用子 BeanDefinition 中的属性覆盖父 BeanDefinition 中的属性
                     mbd.overrideFrom(bd);
                 }
 
                 // Set default singleton scope, if not configured before.
+                // 如果用户未配置 scope 属性，则默认将该属性配置为 singleton
                 if (!StringUtils.hasLength(mbd.getScope())) {
                     mbd.setScope(RootBeanDefinition.SCOPE_SINGLETON);
                 }
@@ -1395,6 +1426,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                 // Cache the merged bean definition for the time being
                 // (it might still get re-merged later on in order to pick up metadata changes)
                 if (containingBd == null && isCacheBeanMetadata()) {
+                    // 缓存合并后的 BeanDefinition
                     this.mergedBeanDefinitions.put(beanName, mbd);
                 }
             }
