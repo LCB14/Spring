@@ -285,6 +285,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
          *    getObject()返回的bean实例。在 BeanFactory 中，FactoryBean 的实现类和其他的 bean 存储
          *    方式是一致的，即 <beanName, bean>，beanName 中是没有 & 这个字符的。所以我们需要
          *    将 name 的首字符 & 移除，这样才能从缓存里取到 FactoryBean 实例。
+         *
          * 2. 若 name 是一个别名，则应将别名转换为具体的实例名，也就是 beanName。
          *
          * */
@@ -1762,6 +1763,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
         // Don't let calling code try to dereference the factory if the bean isn't a factory.
         if (BeanFactoryUtils.isFactoryDereference(name)) {
+            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 而是 NullBean，spring 看你比较惨选择原谅你一次，但下不为例。
             if (beanInstance instanceof NullBean) {
                 return beanInstance;
             }
