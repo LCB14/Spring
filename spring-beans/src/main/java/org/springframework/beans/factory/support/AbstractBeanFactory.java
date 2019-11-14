@@ -1765,6 +1765,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             if (beanInstance instanceof NullBean) {
                 return beanInstance;
             }
+            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean，spring则认为你又想搞事情。
             if (!(beanInstance instanceof FactoryBean)) {
                 throw new BeanIsNotAFactoryException(beanName, beanInstance.getClass());
             }
