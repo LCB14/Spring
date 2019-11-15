@@ -296,6 +296,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
                  */
                 beforeSingletonCreation(beanName);
 
+                // 标识 bean 实例是否创建成功
                 boolean newSingleton = false;
                 boolean recordSuppressedExceptions = (this.suppressedExceptions == null);
                 if (recordSuppressedExceptions) {
