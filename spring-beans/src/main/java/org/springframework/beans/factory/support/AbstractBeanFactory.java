@@ -415,13 +415,16 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
                 // 创建 bean 实例
                 if (mbd.isSingleton()) {
-                    /*
+                    /**
+                     *
                      * 这里并没有直接调用 createBean 方法创建 bean 实例，而是通过
                      * getSingleton(String, ObjectFactory) 方法获取 bean 实例。
                      * getSingleton(String, ObjectFactory) 方法会在内部调用
                      * ObjectFactory 的 getObject() 方法创建 bean，并会在创建完成后，
                      * 将 bean 放入缓存中。
-                     */
+                     *
+                     * @see DefaultSingletonBeanRegistry#getSingleton(java.lang.String, org.springframework.beans.factory.ObjectFactory)
+                     * */
                     sharedInstance = getSingleton(beanName, () -> {
                         try {
                             // 创建 bean 实例，该方法返回的bean实例是完全实例化好的
