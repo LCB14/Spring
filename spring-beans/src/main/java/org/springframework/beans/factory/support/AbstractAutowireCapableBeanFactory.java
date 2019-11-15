@@ -539,7 +539,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         }
 
         try {
-            // 调用 doCreateBean 创建 bean
+            // 调用 doCreateBean 创建 bean -- 创建bean实例的核心逻辑
             Object beanInstance = doCreateBean(beanName, mbdToUse, args);
             if (logger.isTraceEnabled()) {
                 logger.trace("Finished creating instance of bean '" + beanName + "'");

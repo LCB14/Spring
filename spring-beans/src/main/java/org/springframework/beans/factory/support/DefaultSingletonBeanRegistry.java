@@ -290,7 +290,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
                     logger.debug("Creating shared instance of singleton bean '" + beanName + "'");
                 }
 
-                /*
+                /**
                  * 将 beanName 添加到 singletonsCurrentlyInCreation 集合中，
                  * 用于表明 beanName 对应的 bean 正在创建中
                  */
@@ -331,7 +331,7 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
                     afterSingletonCreation(beanName);
                 }
                 if (newSingleton) {
-                    /*
+                    /**
                      * 将 <beanName, singletonObject> 键值对添加到 singletonObjects 集合中，
                      * 并从其他集合（比如 earlySingletonObjects）中移除 singletonObject 记录
                      */
