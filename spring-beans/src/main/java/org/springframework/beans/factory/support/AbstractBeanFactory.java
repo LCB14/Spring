@@ -1808,7 +1808,13 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                 // 合并 BeanDefinition
                 mbd = getMergedLocalBeanDefinition(beanName);
             }
+            /**
+             *  synthetic 字面意思是"合成的"。通过全局查找，我发现在 AOP 相关的类中会将该属性设为 true。
+             *  所以我觉得该字段可能表示某个 bean 是不是被 AOP 增强过，也就是 AOP 基于原始类合成了一个新的代理类。
+             *  不过目前只是猜测，没有深究。如果有朋友知道这个字段的具体意义，还望不吝赐教
+             */
             boolean synthetic = (mbd != null && mbd.isSynthetic());
+
             // 调用 getObjectFromFactoryBean 方法继续获取实例
             object = getObjectFromFactoryBean(factory, beanName, !synthetic);
         }
