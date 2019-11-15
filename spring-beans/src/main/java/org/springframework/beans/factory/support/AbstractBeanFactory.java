@@ -1752,6 +1752,14 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
      * Get the object for the given bean instance, either the bean
      * instance itself or its created object in case of a FactoryBean.
      *
+     * 方法执行逻辑：
+     * 1、检测参数 beanInstance 的类型，如果是非 FactoryBean 类型的 bean，直接返回
+     * 2、检测 FactoryBean 实现类是否单例类型，针对单例和非单例类型进行不同处理
+     * 3、对于单例 FactoryBean，先从缓存里获取 FactoryBean 生成的实例
+     * 4、若缓存未命中，则调用 FactoryBean.getObject() 方法生成实例，并放入缓存中
+     * 5、对于非单例的 FactoryBean，每次直接创建新的实例即可，无需缓存
+     * 6、如果 shouldPostProcess = true，不管是单例还是非单例 FactoryBean 生成的实例，都要进行后置处理
+     *
      * @param beanInstance the shared bean instance
      * @param name         name that may include factory dereference prefix
      * @param beanName     the canonical bean name
@@ -1762,6 +1770,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             Object beanInstance, String name, String beanName, @Nullable RootBeanDefinition mbd) {
 
         // Don't let calling code try to dereference the factory if the bean isn't a factory.
+        // 判断 name 是否以 & 开头。
         if (BeanFactoryUtils.isFactoryDereference(name)) {
             // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 而是 NullBean，spring 看你比较惨选择原谅你一次，但下不为例。
             if (beanInstance instanceof NullBean) {
@@ -1792,6 +1801,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             // Return bean instance from factory.
             // 经过前面的判断，到这里可以保证 beanInstance 是 FactoryBean 类型的，所以可以进行类型转换
             FactoryBean<?> factory = (FactoryBean<?>) beanInstance;
+
             // Caches object obtained from FactoryBean if it is a singleton.
             // 如果 mbd 为空，则判断是否存在名字为 beanName 的 BeanDefinition
             if (mbd == null && containsBeanDefinition(beanName)) {
