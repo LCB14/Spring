@@ -1140,6 +1140,7 @@ public abstract class AbstractBeanDefinition extends BeanMetadataAttributeAccess
         if (hasMethodOverrides()) {
             Set<MethodOverride> overrides = getMethodOverrides().getOverrides();
             synchronized (overrides) {
+                // 循环处理每个 MethodOverride 对象
                 for (MethodOverride mo : overrides) {
                     prepareMethodOverride(mo);
                 }
@@ -1156,13 +1157,18 @@ public abstract class AbstractBeanDefinition extends BeanMetadataAttributeAccess
      * @throws BeanDefinitionValidationException in case of validation failure
      */
     protected void prepareMethodOverride(MethodOverride mo) throws BeanDefinitionValidationException {
+        // 获取方法名为 mo.getMethodName() 的方法数量，当方法重载时，count 的值就会大于1
         int count = ClassUtils.getMethodCountForName(getBeanClass(), mo.getMethodName());
+        // count = 0，表明根据方法名未找到相应的方法，此时抛出异常
         if (count == 0) {
             throw new BeanDefinitionValidationException(
                     "Invalid method override: no method with name '" + mo.getMethodName() +
                             "' on class [" + getBeanClassName() + "]");
-        } else if (count == 1) {
+        }
+        // 若 count = 1，表明仅存在已方法名为 mo.getMethodName()，这意味着方法不存在重载
+        else if (count == 1) {
             // Mark override as not overloaded, to avoid the overhead of arg type checking.
+            // 方法不存在重载，则将 overloaded 成员变量设为 false
             mo.setOverloaded(false);
         }
     }
