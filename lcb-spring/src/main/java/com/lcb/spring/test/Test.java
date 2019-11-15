@@ -20,8 +20,8 @@ public class Test {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
 
-        Student student = annotationConfigApplicationContext.getBean(Student.class);
-        System.out.println(student);
+//        Student student = annotationConfigApplicationContext.getBean(Student.class);
+//        System.out.println(student);
 
         School school = (School)annotationConfigApplicationContext.getBean("school");
         System.out.println(school);
