@@ -94,7 +94,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -446,7 +445,7 @@
       <workItem from="1573612994437" duration="12921000" />
       <workItem from="1573704334992" duration="3723000" />
       <workItem from="1573713919045" duration="1110000" />
-      <workItem from="1573732437379" duration="3139000" />
+      <workItem from="1573732437379" duration="4157000" />
     </task>
     <servers />
   </component>
