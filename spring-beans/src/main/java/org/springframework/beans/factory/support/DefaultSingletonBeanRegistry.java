@@ -199,8 +199,9 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
     @Nullable
     public Object getSingleton(String beanName) {
         /**
-         * 这里解释一下 allowEarlyReference 参数，allowEarlyReference 表示是否允许其他 bean 引用
-         * 正在创建中的 bean，用于处理循环引用的问题。关于循环引用，这里先简单介绍一下。先看下面的配置：
+         * allowEarlyReference 表示是否允许引用正在创建中的 bean 引用，用于处理循环引用的问题。
+         *
+         * 关于循环引用，这里先简单介绍一下。先看下面的配置：
          *
          *   <bean id="hello" class="xyz.coolblog.service.Hello">
          *       <property name="world" ref="world"/>
