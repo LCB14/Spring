@@ -328,8 +328,8 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             bean = getObjectForBeanInstance(sharedInstance, name, beanName, null);
         }
         /*
-         * 如果上面的条件不满足，则表明 sharedInstance 可能为空，此时 beanName 对应的 bean
-         * 实例可能还未创建。这里还存在另一种可能，如果当前容器有父容器，beanName 对应的 bean 实例
+         * 如果上面的条件不满足，则表明 sharedInstance 可能为空（args不为null也可能），此时 beanName 对应的 bean
+         * 实例可能还未创建。或者当前容器有父容器，beanName 对应的 bean 实例
          * 可能是在父容器中被创建了，所以在创建实例前，需要先去父容器里检查一下。
          */
         else {
@@ -343,6 +343,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             // Check if bean definition exists in this factory.
             // 如果 sharedInstance = null，则到父容器中查找 bean 实例
             BeanFactory parentBeanFactory = getParentBeanFactory();
+            // 存在父容器且当前容器确实没有对应的 bean (防止 args 不为 null 导致执行此处)
             if (parentBeanFactory != null && !containsBeanDefinition(beanName)) {
                 // Not found -> check parent.
                 // 获取 name 对应的 beanName，如果 name 是以 & 字符开头，则返回 & + beanName
