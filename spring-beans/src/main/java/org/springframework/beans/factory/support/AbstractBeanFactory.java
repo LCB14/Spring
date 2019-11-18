@@ -343,7 +343,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
             // Check if bean definition exists in this factory.
             // 如果 sharedInstance = null，则到父容器中查找 bean 实例
             BeanFactory parentBeanFactory = getParentBeanFactory();
-            // 存在父容器且当前容器确实没有对应的 bean (防止 args 不为 null 导致执行此处)
+            // 存在父容器且当前容器确实没有对应的 bean (!containsBeanDefinition(beanName)条件是防止 args 不为 null 这种 case 执行此处)
             if (parentBeanFactory != null && !containsBeanDefinition(beanName)) {
                 // Not found -> check parent.
                 // 获取 name 对应的 beanName，如果 name 是以 & 字符开头，则返回 & + beanName

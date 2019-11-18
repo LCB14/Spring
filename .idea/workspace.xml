@@ -94,7 +94,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +179,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.23602484" />
     <property name="project.structure.side.proportion" value="0.5046729" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -447,7 +446,8 @@
       <workItem from="1573742371522" duration="217000" />
       <workItem from="1573829212516" duration="1188000" />
       <workItem from="1573836483602" duration="498000" />
-      <workItem from="1573873882231" duration="2597000" />
+      <workItem from="1573873882231" duration="7041000" />
+      <workItem from="1574003285551" duration="1974000" />
     </task>
     <servers />
   </component>
@@ -477,7 +477,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>359</line>
+          <line>360</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -512,7 +512,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
-          <line>362</line>
+          <line>363</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
