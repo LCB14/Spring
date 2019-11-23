@@ -301,7 +301,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         Object sharedInstance = getSingleton(beanName);
 
         /*
-         * 如果 sharedInstance = null，则说明缓存里没有对应的实例，表明这个实例还没创建。
+         * 如果 sharedInstance == null，则说明缓存里没有对应的实例，表明这个实例还没创建。
          * BeanFactory 并不会在一开始就将所有的单例 bean 实例化好，而是在调用 getBean 获取
          * bean 时再实例化，也就是懒加载。
          * getBean 方法有很多重载，比如 getBean(String name, Object... args)，我们在首次获取
@@ -1776,7 +1776,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         // Don't let calling code try to dereference the factory if the bean isn't a factory.
         // 判断 name 是否以 & 开头。
         if (BeanFactoryUtils.isFactoryDereference(name)) {
-            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 而是 NullBean，spring 看你比较惨选择原谅你一次，但下不为例。
+            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 实例而是 NullBean 实例，spring 看你比较惨选择原谅你一次，但下不为例。
             if (beanInstance instanceof NullBean) {
                 return beanInstance;
             }
@@ -1813,9 +1813,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                 mbd = getMergedLocalBeanDefinition(beanName);
             }
             /**
-             *  synthetic 字面意思是"合成的"。通过全局查找，我发现在 AOP 相关的类中会将该属性设为 true。
-             *  所以我觉得该字段可能表示某个 bean 是不是被 AOP 增强过，也就是 AOP 基于原始类合成了一个新的代理类。
-             *  不过目前只是猜测，没有深究。如果有朋友知道这个字段的具体意义，还望不吝赐教
+             *  synthetic 主要是为了解决一个类存在内部类的情况
              */
             boolean synthetic = (mbd != null && mbd.isSynthetic());
 
