@@ -181,6 +181,8 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
      * <p>To be called for eager registration of singletons, e.g. to be able to
      * resolve circular references.
      *
+     * @see AbstractAutowireCapableBeanFactory#doCreateBean(java.lang.String, org.springframework.beans.factory.support.RootBeanDefinition, java.lang.Object[])
+     *
      * @param beanName         the name of the bean
      * @param singletonFactory the factory for the singleton object
      */
@@ -243,7 +245,11 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
                 singletonObject = this.earlySingletonObjects.get(beanName);
                 // 如果如果 singletonObject = null，且允许提前曝光 bean 实例，则从相应的 ObjectFactory 获取一个原始的（raw）bean（尚未填充属性）
                 if (singletonObject == null && allowEarlyReference) {
-                    // 获取相应的 bean 工厂
+                    /**
+                     * 获取相应的 bean 工厂
+                     *
+                     * @see DefaultSingletonBeanRegistry#addSingletonFactory(java.lang.String, org.springframework.beans.factory.ObjectFactory)
+                     */
                     ObjectFactory<?> singletonFactory = this.singletonFactories.get(beanName);
                     if (singletonFactory != null) {
                         // 提前曝光 bean 实例（raw bean），用于解决循环依赖
