@@ -236,8 +236,8 @@ public class DefaultSingletonBeanRegistry extends SimpleAliasRegistry implements
         Object singletonObject = this.singletonObjects.get(beanName);
 
         /*
-         * 如果 singletonObject = null，表明还没创建，或者还没完全创建好。
-         * 这里判断 beanName 对应的 bean 是否正在创建中
+         * 如果 singletonObject = null，表明还没创建，或者正在创建中。
+         * isSingletonCurrentlyInCreation 判断 beanName 对应的 bean 是否正在创建中
          */
         if (singletonObject == null && isSingletonCurrentlyInCreation(beanName)) {
             synchronized (this.singletonObjects) {

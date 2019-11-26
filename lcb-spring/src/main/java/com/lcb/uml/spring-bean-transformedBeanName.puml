@@ -1,0 +1,9 @@
+@startuml
+alt org.springframework.beans.factory.support.AbstractBeanFactory.transformedBeanName方法
+    transformedBeanName -> BeanFactoryUtils.transformedBeanName: 对 bean name进行处理
+    note left: 去除'&'符号
+    transformedBeanName <-- BeanFactoryUtils.transformedBeanName: 返回去除 '&' 的 bean name
+    transformedBeanName -> canonicalName: 别名处理 alias
+    transformedBeanName <-- canonicalName: 返回与容器中存储相对应的bean name
+end
+@enduml

@@ -93,7 +93,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getMergedLocalBeanDefinition.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getObjectForBeanInstance.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getSingleton.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-transformedBeanName.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/spring-bean-getByName.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getBean.puml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,6 +163,7 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="UML Sequence" />
+        <option value="UML Activity" />
       </list>
     </option>
   </component>
@@ -184,7 +190,7 @@
   <component name="ProjectId" id="1OStilcRMSgzPKK84zYxfCWMLTk" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultPlantUmlFileTemplate" value="UML Sequence" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Activity" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -466,7 +472,7 @@
       <workItem from="1574003285551" duration="2493000" />
       <workItem from="1574049306074" duration="15000" />
       <workItem from="1574474727576" duration="6353000" />
-      <workItem from="1574735922757" duration="15794000" />
+      <workItem from="1574735922757" duration="21348000" />
     </task>
     <servers />
   </component>
@@ -506,7 +512,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
-          <line>269</line>
+          <line>275</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -733,6 +739,19 @@
           <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
           <line>1851</line>
           <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>657</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="133" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
