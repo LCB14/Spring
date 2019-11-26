@@ -1,0 +1,70 @@
+@startuml
+getBean -> doGetBean: 通过指定的 name 获取 bean 实例
+
+doGetBean -> transformedBeanName: 对 name 进行处理
+
+doGetBean <-- transformedBeanName: 返回和容器中格式一致的 beanName
+
+doGetBean -> getSingleton: 获取容器中与 beanName 对应的 bean 实例
+
+doGetBean <-- getSingleton: bean 实例
+
+alt bean 实例为 null
+    doGetBean -> doGetBean: bean 实例为 null
+    note left
+         可能对应的 bean 实例
+         存在于当前容器的父容器中
+    end note
+    doGetBean -> getParentBeanFactory: 获取当前容器的父容器
+    doGetBean <-- getParentBeanFactory: 返回父容器 parentBeanFactory
+
+    alt 父容器不为 null
+        doGetBean -> doGetBean:父容器不为 null
+        note left: 针对当前容器存在父容器的情况
+        doGetBean -> parentBeanFactory.doGetBean: 上父容器中查找相关的 bean 实例
+
+        doGetBean <-- parentBeanFactory.doGetBean: bean 实例
+
+        getBean <-- doGetBean:返回 bean 实例
+    end
+
+    doGetBean -> getMergedLocalBeanDefinition: 进行 bean 合并
+    doGetBean <-- getMergedLocalBeanDefinition: 合并后的 bean 即 mbd
+    doGetBean -> doGetBean: 检查是否有 dependsOn 依赖
+    note left
+     如果存在依赖则先对依赖
+     bean执行getBean方法
+    end note
+    doGetBean -> createBean: 创建bean实例
+    note left
+        这里并没有直接调用 createBean 方法创建 bean 实例，
+        而是通过 getSingleton(String, ObjectFactory)
+        方法获取 bean 实例。
+        getSingleton(String, ObjectFactory) 方法会在
+        内部调用ObjectFactory 的 getObject() 方法创建 bean，
+        getObject()方法内部会调用createBean方法.
+    end note
+    doGetBean <-- createBean: 返回创建的 bean 实例
+end
+
+alt bean 实例不为 null
+    doGetBean -> doGetBean: bean 实例不为 null
+
+    doGetBean -> getObjectForBeanInstance: 对 bean 实例进行处理
+    note left
+        主要是针对 FactoryBean
+        这种特殊的 bean 进行处理
+    end note
+    doGetBean <-- getObjectForBeanInstance: 目标 bean 实例
+end
+
+alt bean实例进行类型转换
+    doGetBean -> doGetBean:需要类型转换
+    doGetBean -> convertIfNecessary:类型转换
+    doGetBean <-- convertIfNecessary:转换后的 bean 实例
+    note left:对 bean 实例进行类型转换
+end
+getBean <-- doGetBean:返回目标 bean 实例
+
+
+@enduml

@@ -93,8 +93,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/spring-bean-getByName.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/spring/test/spring-bean-life.puml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -467,7 +468,7 @@
       <workItem from="1574003285551" duration="2493000" />
       <workItem from="1574049306074" duration="15000" />
       <workItem from="1574474727576" duration="6353000" />
-      <workItem from="1574735922757" duration="752000" />
+      <workItem from="1574735922757" duration="9322000" />
     </task>
     <servers />
   </component>
