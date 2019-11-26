@@ -45,6 +45,9 @@ alt bean 实例为 null
         getObject()方法内部会调用createBean方法.
     end note
     doGetBean <-- createBean: 返回创建的 bean 实例
+    doGetBean -> getObjectForBeanInstance: 对创建的 bean 进行处理
+    note left: 判断 bean 类型 是否为 FactoryBean
+    doGetBean <-- getObjectForBeanInstance: 返回处理后的 bean 实例
 end
 
 alt bean 实例不为 null
@@ -55,7 +58,7 @@ alt bean 实例不为 null
         主要是针对 FactoryBean
         这种特殊的 bean 进行处理
     end note
-    doGetBean <-- getObjectForBeanInstance: 目标 bean 实例
+    doGetBean <-- getObjectForBeanInstance: 返回处理后的 bean 实例
 end
 
 alt bean实例进行类型转换
