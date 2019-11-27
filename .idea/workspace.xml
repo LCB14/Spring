@@ -94,11 +94,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getBean.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getBean.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getMergedLocalBeanDefinition.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getMergedLocalBeanDefinition.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getObjectForBeanInstance.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getObjectForBeanInstance.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-getSingleton.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getSingleton.puml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/spring-bean-transformedBeanName.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-transformedBeanName.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getObjectForBeanInstance.puml" beforeDir="false" afterPath="$PROJECT_DIR$/lcb-spring/src/main/java/com/lcb/uml/bean/spring-bean-getObjectForBeanInstance.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/src/main/java/org/springframework/beans/factory/support/FactoryBeanRegistrySupport.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -476,7 +474,7 @@
       <workItem from="1574003285551" duration="2493000" />
       <workItem from="1574049306074" duration="15000" />
       <workItem from="1574474727576" duration="6353000" />
-      <workItem from="1574735922757" duration="27217000" />
+      <workItem from="1574735922757" duration="29298000" />
     </task>
     <servers />
   </component>

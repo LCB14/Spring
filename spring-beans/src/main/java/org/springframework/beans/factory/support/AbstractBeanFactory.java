@@ -1755,7 +1755,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
     /**
      * Get the object for the given bean instance, either the bean
      * instance itself or its created object in case of a FactoryBean.
-     *
+     * <p>
      * 方法执行逻辑：
      * 1、检测参数 beanInstance 的类型，如果是非 FactoryBean 类型的 bean，直接返回
      * 2、检测 FactoryBean 实现类是否单例类型，针对单例和非单例类型进行不同处理

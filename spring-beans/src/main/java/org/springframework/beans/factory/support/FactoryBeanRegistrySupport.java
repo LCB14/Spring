@@ -115,7 +115,7 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
                     if (alreadyThere != null) {
                         object = alreadyThere;
                     } else {
-						// shouldPostProcess 等价于上一个方法中的 !synthetic，用于表示是否应用后置处理
+                        // shouldPostProcess 等价于上一个方法中的 !synthetic，用于表示是否应用后置处理
                         if (shouldPostProcess) {
                             if (isSingletonCurrentlyInCreation(beanName)) {
                                 // Temporarily return non-post-processed object, not storing it yet..
@@ -123,7 +123,7 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
                             }
                             beforeSingletonCreation(beanName);
                             try {
-								// 应用后置处理
+                                // 应用后置处理
                                 object = postProcessObjectFromFactoryBean(object, beanName);
                             } catch (Throwable ex) {
                                 throw new BeanCreationException(beanName,
@@ -132,9 +132,9 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
                                 afterSingletonCreation(beanName);
                             }
                         }
-						// 这里的 beanName 对应于 FactoryBean 的实现类， FactoryBean 的实现类也会被实例化，并被缓存在 singletonObjects 中
+                        // 这里的 beanName 对应于 FactoryBean 的实现类， FactoryBean 的实现类也会被实例化，并被缓存在 singletonObjects 中
                         if (containsSingleton(beanName)) {
-							// FactoryBean 所创建的实例会被缓存在 factoryBeanObjectCache 中，供后续调用使用
+                            // FactoryBean 所创建的实例会被缓存在 factoryBeanObjectCache 中，供后续调用使用
                             this.factoryBeanObjectCache.put(beanName, object);
                         }
                     }
@@ -142,13 +142,13 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
                 return object;
             }
         }
-		// 获取非单例实例
+        // 获取非单例实例
         else {
-			// 从工厂类中获取实例
+            // 从工厂类中获取实例
             Object object = doGetObjectFromFactoryBean(factory, beanName);
             if (shouldPostProcess) {
                 try {
-					// 应用后置处理
+                    // 应用后置处理
                     object = postProcessObjectFromFactoryBean(object, beanName);
                 } catch (Throwable ex) {
                     throw new BeanCreationException(beanName, "Post-processing of FactoryBean's object failed", ex);
@@ -172,7 +172,7 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
 
         Object object;
         try {
-			// if 分支的逻辑是 Java 安全方面的代码，可以忽略，直接看 else 分支的代码
+            // if 分支的逻辑是 Java 安全方面的代码，可以忽略，直接看 else 分支的代码
             if (System.getSecurityManager() != null) {
                 AccessControlContext acc = getAccessControlContext();
                 try {
@@ -181,7 +181,7 @@ public abstract class FactoryBeanRegistrySupport extends DefaultSingletonBeanReg
                     throw pae.getException();
                 }
             } else {
-				// 调用工厂方法生成 bean 实例
+                // 调用工厂方法生成 bean 实例
                 object = factory.getObject();
             }
         } catch (FactoryBeanNotInitializedException ex) {
