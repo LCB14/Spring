@@ -1,0 +1,44 @@
+@startuml
+getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition: 是否存在父配置
+alt 不存在父配置
+    getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition: 判断 bean 实例类型
+    note left:bd instanceof RootBeanDefinition
+    alt bd instanceof RootBeanDefinition 为 true
+        return 返回mbd
+    end
+
+    alt bd instanceof RootBeanDefinition 为 false
+        getMergedLocalBeanDefinition <-- getMergedLocalBeanDefinition:返回 new RootBeanDefinition(bd)
+        note left
+            将待合并的 bean 转换成
+            RootBeanDefinition
+        end note
+    end
+end
+
+alt 存在父配置
+    getMergedLocalBeanDefinition -> transformedBeanName: 对 parentName 进行处理
+    getMergedLocalBeanDefinition <-- transformedBeanName: 返回 parentName
+    getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition:判断parentName和其子beanName名称是否equal
+    alt beanName.equals(parentBeanName) 返回false
+         getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition:进行递归处理
+         note left
+             对parentName 对应的 bean
+             进行和其子bean同样的处理，即
+             合并其爷爷辈的bean
+         end note
+    end
+    alt beanName.equals(parentBeanName) 返回 true
+       getMergedLocalBeanDefinition -> getParentBeanFactory: 获取当前容器的父容器
+       getMergedLocalBeanDefinition <-- getParentBeanFactory: 返回对应的父容器
+       note left:名称相同，则父类 bean 一定在父容器中
+       getMergedLocalBeanDefinition -> getMergedBeanDefinition: 获取父容器中的 pbd
+       getMergedLocalBeanDefinition <-- getMergedBeanDefinition: 返回父容器中的 pbd
+    end
+     getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition:对 pbd 进行转化
+     note left:mbd = new RootBeanDefinition(pbd);
+     getMergedLocalBeanDefinition -> getMergedLocalBeanDefinition:合并 mbd.overrideFrom(bd)
+     note left:用子 BeanDefinition 中的属性覆盖父 BeanDefinition 中的属性
+end
+getMergedLocalBeanDefinition <-- getMergedLocalBeanDefinition: 返回合并后的 bd
+@enduml
