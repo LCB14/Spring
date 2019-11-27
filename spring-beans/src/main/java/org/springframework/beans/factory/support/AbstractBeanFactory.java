@@ -1808,6 +1808,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
             // Caches object obtained from FactoryBean if it is a singleton.
             // 如果 mbd 为空，则判断是否存在名字为 beanName 的 BeanDefinition
+            // 为什么此处还要判断容器是否包含 beanName 的对应的 bd?
             if (mbd == null && containsBeanDefinition(beanName)) {
                 // 合并 BeanDefinition
                 mbd = getMergedLocalBeanDefinition(beanName);
