@@ -1776,7 +1776,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         // Don't let calling code try to dereference the factory if the bean isn't a factory.
         // 判断 name 是否以 & 开头。
         if (BeanFactoryUtils.isFactoryDereference(name)) {
-            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 实例而是 NullBean 实例，直接返回。
+            // 如果 name 以 & 开头，但 beanInstance 却不是 FactoryBean 实例而是特殊的 NullBean 实例，直接返回。
             if (beanInstance instanceof NullBean) {
                 return beanInstance;
             }
