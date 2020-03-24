@@ -61,6 +61,7 @@ import org.springframework.web.context.request.async.WebAsyncUtils;
 import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.servlet.handler.AbstractHandlerMapping;
 import org.springframework.web.util.NestedServletException;
 import org.springframework.web.util.WebUtils;
 
@@ -1260,6 +1261,9 @@ public class DispatcherServlet extends FrameworkServlet {
              * this.handlerMappings值来源于DispatcherServlet.properties文件中提前配置的值
              */
 			for (HandlerMapping mapping : this.handlerMappings) {
+				/**
+				 * @see AbstractHandlerMapping#getHandler(javax.servlet.http.HttpServletRequest)
+				 */
 				HandlerExecutionChain handler = mapping.getHandler(request);
 				if (handler != null) {
 					return handler;
