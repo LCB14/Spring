@@ -1032,11 +1032,10 @@ public class DispatcherServlet extends FrameworkServlet {
 
 				// Determine handler for the current request.
                 /**
-                 * 1、调用handlerMapping获取handlerChain
-                 *
-                 * HandlerExecutionChain(处理执行链)包含两部分内容:
-                 * 一部分是请求对应的控制器;
-				 * 一部分是拦截器,真正执行handle之前,有一系列操作,例如数据转换,格式化,数据验证这些,都是由拦截器来做的.
+				 * 根据请求获取相应的处理器映射器，因为对于spring mvc 来说声明controller有多种方式：
+				 * 1、通过 @Controller 注解；
+				 * 2、实现 org.springframework.web.servlet.mvc.Controller 接口；
+				 * 3、实现 org.springframework.web.HttpRequestHandler 接口。
                  */
 				mappedHandler = getHandler(processedRequest);
 				if (mappedHandler == null) {
@@ -1065,7 +1064,13 @@ public class DispatcherServlet extends FrameworkServlet {
 				}
 
 				// Actually invoke the handler.
-                // 3.使用HandlerAdapter完成handler处理
+				/**
+				 *	同样是因为有多种构建  Controller 的方式，所以需要借助适配器针对不同方式做相应的适配。
+				 *
+				 * 思考：为什么Spring MVC使用Map类型来接收实参总是映射不上值？要想映射上值该如何操作？
+				 *
+				 * 提示：实现 org.springframework.web.method.support.HandlerMethodArgumentResolver 接口，自定义参数类型解析。
+				 */
 				mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
 
 				if (asyncManager.isConcurrentHandlingStarted()) {
@@ -1258,6 +1263,11 @@ public class DispatcherServlet extends FrameworkServlet {
 	 */
 	@Nullable
 	protected HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
+		/**
+		 * this.handlerMappings集合被初始化的位置
+		 *
+		 * @see DispatcherServlet#initStrategies(org.springframework.context.ApplicationContext)
+		 */
 		if (this.handlerMappings != null) {
             /**
              * HandlerMapping处理器映射器，目的是判断通过BeanNameUrl的方式还是Annotation的方式来配置controller
