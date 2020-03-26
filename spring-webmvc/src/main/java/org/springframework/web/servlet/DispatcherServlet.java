@@ -489,6 +489,8 @@ public class DispatcherServlet extends FrameworkServlet {
 
 	/**
 	 * This implementation calls {@link #initStrategies}.
+	 *
+	 * @see FrameworkServlet#initWebApplicationContext()
 	 */
 	@Override
 	protected void onRefresh(ApplicationContext context) {
@@ -498,6 +500,8 @@ public class DispatcherServlet extends FrameworkServlet {
 	/**
 	 * Initialize the strategy objects that this servlet uses.
 	 * <p>May be overridden in subclasses in order to initialize further strategy objects.
+	 *
+	 * HttpServletBean 在 init() 方法中进行调用的。
 	 */
 	protected void initStrategies(ApplicationContext context) {
 		// 处理上传文件

@@ -147,18 +147,24 @@ public abstract class HttpServletBean extends HttpServlet implements Environment
 	@Override
 	public final void init() throws ServletException {
 
-		// Set bean properties from init parameters.
 		/**
 		 * ServletConfigPropertyValuesd是HTTPServletBean内部静态类，构造过程中会使用
-		 * ServletConfig对象找出web.xml配置文件中的配置参数并设置到ServletConfigPropertyValues中
+		 * ServletConfig对象找出web.xml配置文件中的配置参数并设置到ServletConfigPropertyValues的
+		 * 父类MutablePropertyValues的propertyValueList集合中
 		 */
+		// Set bean properties from init parameters.
 		PropertyValues pvs = new ServletConfigPropertyValues(getServletConfig(), this.requiredProperties);
 		if (!pvs.isEmpty()) {
 			try {
+				// 把 DispatchServlet 信息封装到 BeanWrapper实例中
 				BeanWrapper bw = PropertyAccessorFactory.forBeanPropertyAccess(this);
+				// 对全局应用程序共享对象（ServletContext实例 -- 全局应用程序共享对象）进行封装，一个ServletContext对应一个应用
 				ResourceLoader resourceLoader = new ServletContextResourceLoader(getServletContext());
+				//
 				bw.registerCustomEditor(Resource.class, new ResourceEditor(resourceLoader, getEnvironment()));
+				// 空方法，用户可以重写拓展。
 				initBeanWrapper(bw);
+
 				bw.setPropertyValues(pvs, true);
 			}
 			catch (BeansException ex) {
@@ -170,6 +176,7 @@ public abstract class HttpServletBean extends HttpServlet implements Environment
 		}
 
 		// Let subclasses do whatever initialization they like.
+		// 默认实现不做任何处理，子类可以通过覆写该方法，实现初始化的时候做更多的事情。
 		initServletBean();
 	}
 
