@@ -38,7 +38,7 @@ public interface HandlerMethodArgumentResolver {
 	 * Whether the given {@linkplain MethodParameter method parameter} is
 	 * supported by this resolver.
 	 *
-	 * 判断是否支持该参数的解析(根据类型,注解等)
+	 * 判断解析器是否支持parameter参数的解析
 	 *
 	 * @param parameter the method parameter to check
 	 * @return {@code true} if this resolver supports the supplied parameter;
@@ -53,7 +53,7 @@ public interface HandlerMethodArgumentResolver {
 	 * a {@link WebDataBinder} instance when needed for data binding and
 	 * type conversion purposes.
 	 *
-	 * 对参数进行解析 得到解析结果
+	 * 将方法参数从给定请求解析为参数值并返回
 	 *
 	 * @param parameter the method parameter to resolve. This parameter must
 	 * have previously been passed to {@link #supportsParameter} which must

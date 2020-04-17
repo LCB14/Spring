@@ -563,24 +563,21 @@ public class RequestMappingHandlerAdapter extends AbstractHandlerMethodAdapter
         // 1.初始化ControllerAdvice注解的对象
         initControllerAdviceCache();
 
-        // 2.装载ArgumentResolver(默认+自定义)
         if (this.argumentResolvers == null) {
+            // 初始化SpringMVC默认的方法参数解析器，并添加至argumentResolvers（HandlerMethodArgumentResolverComposite）
             List<HandlerMethodArgumentResolver> resolvers = getDefaultArgumentResolvers();
-            // 包装成一个Composite对象
             this.argumentResolvers = new HandlerMethodArgumentResolverComposite().addResolvers(resolvers);
         }
 
-        // 2.装载InitBinderArgumentResolvers(默认+自定义)
         if (this.initBinderArgumentResolvers == null) {
+            // 初始化SpringMVC默认的初始化绑定器(@InitBinder)参数解析器，并添加至initBinderArgumentResolvers（HandlerMethodArgumentResolverComposite）
             List<HandlerMethodArgumentResolver> resolvers = getDefaultInitBinderArgumentResolvers();
-            //包装成一个Composite对象
             this.initBinderArgumentResolvers = new HandlerMethodArgumentResolverComposite().addResolvers(resolvers);
         }
 
-        // 3.装载ReturnValueHandlers(默认+自定义)
         if (this.returnValueHandlers == null) {
+            // 获取默认的方法返回值解析器
             List<HandlerMethodReturnValueHandler> handlers = getDefaultReturnValueHandlers();
-            // 包装成一个Composite对象
             this.returnValueHandlers = new HandlerMethodReturnValueHandlerComposite().addHandlers(handlers);
         }
     }
@@ -650,14 +647,24 @@ public class RequestMappingHandlerAdapter extends AbstractHandlerMethodAdapter
     /**
      * Return the list of argument resolvers to use including built-in resolvers
      * and custom resolvers provided via {@link #setCustomArgumentResolvers}.
+     *
+     * 默认的参数解析，创建了默认的24个参数解析器，并添加至resolvers.
+     * 这里的24个参数解析器都是针对不同的参数类型来解析的
      */
     private List<HandlerMethodArgumentResolver> getDefaultArgumentResolvers() {
         List<HandlerMethodArgumentResolver> resolvers = new ArrayList<>();
 
-        // Annotation-based argument resolution
+        // Annotation-based argument resolution (基于注解的参数解析器)
+        // 一般用于带有@RequestParam注解的简单参数绑定，简单参数比如byte、int、long、double、String以及对应的包装类型
         resolvers.add(new RequestParamMethodArgumentResolver(getBeanFactory(), false));
+        // 用于处理带有@RequestParam注解，且参数类型为Map的解析绑定
         resolvers.add(new RequestParamMapMethodArgumentResolver());
+        // 一般用于处理带有@PathVariable注解的默认参数绑定
         resolvers.add(new PathVariableMethodArgumentResolver());
+        /**
+         * 也是用于带有@PathVariable注解的Map相关参数绑定，后续还有一些默认的参数解析器。
+         * 想具体确认某个参数会交个哪个参数解析器处理，可以通过以下解析器的supportsParameter(MethodParameter parameter)方法得知
+         */
         resolvers.add(new PathVariableMapMethodArgumentResolver());
         resolvers.add(new MatrixVariableMethodArgumentResolver());
         resolvers.add(new MatrixVariableMapMethodArgumentResolver());
@@ -671,7 +678,7 @@ public class RequestMappingHandlerAdapter extends AbstractHandlerMethodAdapter
         resolvers.add(new SessionAttributeMethodArgumentResolver());
         resolvers.add(new RequestAttributeMethodArgumentResolver());
 
-        // Type-based argument resolution
+        // Type-based argument resolution（基于类型的参数解析器）
         resolvers.add(new ServletRequestMethodArgumentResolver());
         resolvers.add(new ServletResponseMethodArgumentResolver());
         resolvers.add(new HttpEntityMethodProcessor(getMessageConverters(), this.requestResponseBodyAdvice));
