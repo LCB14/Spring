@@ -140,7 +140,6 @@ public class HandlerMethodArgumentResolverComposite implements HandlerMethodArgu
 
         /**
          * 解析参数
-         * @see ModelAttributeMethodProcessor#resolveArgument(org.springframework.core.MethodParameter, org.springframework.web.method.support.ModelAndViewContainer, org.springframework.web.context.request.NativeWebRequest, org.springframework.web.bind.support.WebDataBinderFactory)
          */
         return resolver.resolveArgument(parameter, mavContainer, webRequest, binderFactory);
     }
