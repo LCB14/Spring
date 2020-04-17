@@ -138,15 +138,18 @@ public class InternalResourceView extends AbstractUrlBasedView {
 			Map<String, Object> model, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
 		// Expose the model object as request attributes.
+		// 渲染视图，将模型中的数据填充到request中去，就是这里实现的
 		exposeModelAsRequestAttributes(model, request);
 
 		// Expose helpers as request attributes, if any.
 		exposeHelpers(request);
 
 		// Determine the path for the request dispatcher.
+		// 得到view所在的路径  Dispatcher要跳转的路径
 		String dispatcherPath = prepareForRendering(request, response);
 
 		// Obtain a RequestDispatcher for the target resource (typically a JSP).
+		// 得到一个Dispatcher
 		RequestDispatcher rd = getRequestDispatcher(request, dispatcherPath);
 		if (rd == null) {
 			throw new ServletException("Could not get RequestDispatcher for [" + getUrl() +

@@ -92,11 +92,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/spring-orm/spring.spring-orm.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/spring-orm/spring.spring-orm.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/AbstractHandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/handler/AbstractHandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerExecutionChain.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/HandlerExecutionChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/view/AbstractView.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/view/AbstractView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/view/InternalResourceView.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/view/InternalResourceView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -559,7 +560,7 @@
       <workItem from="1585299630489" duration="542000" />
       <workItem from="1586945959677" duration="978000" />
       <workItem from="1586997464390" duration="925000" />
-      <workItem from="1587005523455" duration="6157000" />
+      <workItem from="1587005523455" duration="9370000" />
     </task>
     <servers />
   </component>
@@ -944,7 +945,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>995</line>
+          <line>996</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -974,7 +975,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/spring-webmvc/src/main/java/org/springframework/web/servlet/DispatcherServlet.java</url>
-          <line>567</line>
+          <line>568</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>

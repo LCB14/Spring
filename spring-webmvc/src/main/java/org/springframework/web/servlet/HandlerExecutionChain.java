@@ -138,6 +138,10 @@ public class HandlerExecutionChain {
 			for (int i = 0; i < interceptors.length; i++) {
 				HandlerInterceptor interceptor = interceptors[i];
 				if (!interceptor.preHandle(request, response, this.handler)) {
+					/**
+					 *	执行拦截的 afterCompletion 方法（思考：为什么是倒序执行？）
+					 *	提示：类似资源关闭的顺序...
+					 */
 					triggerAfterCompletion(request, response, null);
 					return false;
 				}

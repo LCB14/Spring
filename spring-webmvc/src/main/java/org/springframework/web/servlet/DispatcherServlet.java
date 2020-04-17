@@ -62,6 +62,7 @@ import org.springframework.web.multipart.MultipartException;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.servlet.handler.AbstractHandlerMapping;
+import org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter;
 import org.springframework.web.servlet.view.AbstractView;
 import org.springframework.web.util.NestedServletException;
 import org.springframework.web.util.WebUtils;
@@ -1103,11 +1104,13 @@ public class DispatcherServlet extends FrameworkServlet {
 
                 // Actually invoke the handler.
                 /**
-                 *	同样是因为有多种构建  Controller 的方式，所以需要借助适配器针对不同方式做相应的适配。
+                 *	同样是因为有多种构建  Controller 的方式，所以需要借助不同的适配器针对不同方式做相应的适配。
                  *
                  * 思考：为什么Spring MVC使用Map类型来接收实参总是映射不上值？要想映射上值该如何操作？
                  *
                  * 提示：实现 org.springframework.web.method.support.HandlerMethodArgumentResolver 接口，自定义参数类型解析。
+                 *
+                 * @see AbstractHandlerMethodAdapter#handle(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.Object)
                  */
                 mv = ha.handle(processedRequest, response, mappedHandler.getHandler());
 
@@ -1118,7 +1121,7 @@ public class DispatcherServlet extends FrameworkServlet {
                 // 获取默认的视图名称
                 applyDefaultViewName(processedRequest, mv);
 
-                // 执行拦截器的后置方法
+                // 执行拦截器的postHandle方法(倒序执行)
                 mappedHandler.applyPostHandle(processedRequest, response, mv);
             } catch (Exception ex) {
                 dispatchException = ex;
@@ -1127,7 +1130,7 @@ public class DispatcherServlet extends FrameworkServlet {
                 // making them available for @ExceptionHandler methods and other scenarios.
                 dispatchException = new NestedServletException("Handler dispatch failed", err);
             }
-            //
+            // 请求视图解析器解析视图、渲染视图
             processDispatchResult(processedRequest, response, mappedHandler, mv, dispatchException);
         } catch (Exception ex) {
             triggerAfterCompletion(processedRequest, response, mappedHandler, ex);
@@ -1184,7 +1187,7 @@ public class DispatcherServlet extends FrameworkServlet {
 
         // Did the handler return a view to render?
         if (mv != null && !mv.wasCleared()) {
-            // 渲染 ModelAndView
+            // 请求视图解析器、渲染视图
             render(mv, request, response);
             if (errorView) {
                 WebUtils.clearErrorRequestAttributes(request);
@@ -1458,7 +1461,7 @@ public class DispatcherServlet extends FrameworkServlet {
                 response.setStatus(mv.getStatus().value());
             }
             /**
-             * 填充Model并去渲染视图
+             * 将模型中的数据填充到request中去
              *
              * @see AbstractView#render(java.util.Map, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
              */
