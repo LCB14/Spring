@@ -29,6 +29,7 @@ import org.springframework.core.MethodParameter;
 import org.springframework.lang.Nullable;
 import org.springframework.web.bind.support.WebDataBinderFactory;
 import org.springframework.web.context.request.NativeWebRequest;
+import org.springframework.web.method.annotation.ModelAttributeMethodProcessor;
 
 /**
  * Resolves method parameters by delegating to a list of registered
@@ -126,12 +127,21 @@ public class HandlerMethodArgumentResolverComposite implements HandlerMethodArgu
     public Object resolveArgument(MethodParameter parameter, @Nullable ModelAndViewContainer mavContainer,
                                   NativeWebRequest webRequest, @Nullable WebDataBinderFactory binderFactory) throws Exception {
 
+        /**
+         * 首先获取参数解析器，这里获取的逻辑是首先从argumentResolverCache缓存中获取该MethodParameter匹配的HandlerMethodArgumentResolver。
+         * 如果为空，遍历初始化定义的那24个。查找匹配的HandlerMethodArgumentResolver，然后添加至argumentResolverCache缓存中
+         */
         HandlerMethodArgumentResolver resolver = getArgumentResolver(parameter);
         if (resolver == null) {
             throw new IllegalArgumentException(
                     "Unsupported parameter type [" + parameter.getParameterType().getName() + "]." +
                             " supportsParameter should be called first.");
         }
+
+        /**
+         * 解析参数
+         * @see ModelAttributeMethodProcessor#resolveArgument(org.springframework.core.MethodParameter, org.springframework.web.method.support.ModelAndViewContainer, org.springframework.web.context.request.NativeWebRequest, org.springframework.web.bind.support.WebDataBinderFactory)
+         */
         return resolver.resolveArgument(parameter, mavContainer, webRequest, binderFactory);
     }
 

@@ -805,9 +805,8 @@ public class RequestMappingHandlerAdapter extends AbstractHandlerMethodAdapter
         if (this.synchronizeOnSession) {
             HttpSession session = request.getSession(false);
             if (session != null) {
-                // 得到互斥量
                 Object mutex = WebUtils.getSessionMutex(session);
-                // 执行过程调用
+                // 调用handlerMethod（注：在执行handlerMethod之前，需要处理参数的绑定。）
                 synchronized (mutex) {
                     mav = invokeHandlerMethod(request, response, handlerMethod);
                 }
@@ -877,13 +876,14 @@ public class RequestMappingHandlerAdapter extends AbstractHandlerMethodAdapter
 
         ServletWebRequest webRequest = new ServletWebRequest(request, response);
         try {
-            // 使用initBinderAdviceCache对@initBinder进行处理
+            /**
+             * 根据handlerMethod和binderFactory创建一个ServletInvocableHandlerMethod。
+             * 后续会把请求直接交给ServletInvocableHandlerMethod执行。
+             */
             WebDataBinderFactory binderFactory = getDataBinderFactory(handlerMethod);
-
-            // 使用modelAttributeAdviceCache对@ModelAttribute进行处理
             ModelFactory modelFactory = getModelFactory(handlerMethod, binderFactory);
-
             ServletInvocableHandlerMethod invocableMethod = createInvocableHandlerMethod(handlerMethod);
+
             if (this.argumentResolvers != null) {
                 invocableMethod.setHandlerMethodArgumentResolvers(this.argumentResolvers);
             }

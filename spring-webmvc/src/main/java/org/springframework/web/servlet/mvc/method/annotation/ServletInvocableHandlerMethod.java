@@ -103,7 +103,7 @@ public class ServletInvocableHandlerMethod extends InvocableHandlerMethod {
     public void invokeAndHandle(ServletWebRequest webRequest, ModelAndViewContainer mavContainer,
                                 Object... providedArgs) throws Exception {
 
-        // 参数解析 并完成过程调用
+        // 从request中解析出HandlerMethod方法所需要的参数，然后通过反射调用HandlerMethod中的method。
         Object returnValue = invokeForRequest(webRequest, mavContainer, providedArgs);
         setResponseStatus(webRequest);
 

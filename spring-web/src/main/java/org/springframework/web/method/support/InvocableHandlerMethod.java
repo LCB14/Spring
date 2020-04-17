@@ -134,7 +134,7 @@ public class InvocableHandlerMethod extends HandlerMethod {
     public Object invokeForRequest(NativeWebRequest request, @Nullable ModelAndViewContainer mavContainer,
                                    Object... providedArgs) throws Exception {
 
-        // 参数解析并得到绑定的结果
+        // 从request中解析出HandlerMethod方法所需要的参数，并返回Object[]
         Object[] args = getMethodArgumentValues(request, mavContainer, providedArgs);
         if (logger.isTraceEnabled()) {
             logger.trace("Arguments: " + Arrays.toString(args));
@@ -147,18 +147,21 @@ public class InvocableHandlerMethod extends HandlerMethod {
      * Get the method argument values for the current request, checking the provided
      * argument values and falling back to the configured argument resolvers.
      * <p>The resulting array will be passed into {@link #doInvoke}.
+     * <p>
+     * 获取当前请求的方法参数值。
      *
      * @since 5.1.2
      */
     protected Object[] getMethodArgumentValues(NativeWebRequest request, @Nullable ModelAndViewContainer mavContainer,
                                                Object... providedArgs) throws Exception {
 
-        // 方法参数信息
+        // 获取方法参数信息数组
         MethodParameter[] parameters = getMethodParameters();
         if (ObjectUtils.isEmpty(parameters)) {
             return EMPTY_ARGS;
         }
 
+        // 创建一个参数数组，保存从request解析出的方法参数
         Object[] args = new Object[parameters.length];
         for (int i = 0; i < parameters.length; i++) {
             MethodParameter parameter = parameters[i];
@@ -167,9 +170,12 @@ public class InvocableHandlerMethod extends HandlerMethod {
             if (args[i] != null) {
                 continue;
             }
+
+            // 判断之前RequestMappingHandlerAdapter初始化的那24个HandlerMethodArgumentResolver（参数解析器），是否支持当前参数解析。
             if (!this.resolvers.supportsParameter(parameter)) {
                 throw new IllegalStateException(formatArgumentError(parameter, "No suitable resolver"));
             }
+
             try {
                 args[i] = this.resolvers.resolveArgument(parameter, mavContainer, request, this.dataBinderFactory);
             } catch (Exception ex) {
@@ -193,6 +199,7 @@ public class InvocableHandlerMethod extends HandlerMethod {
     protected Object doInvoke(Object... args) throws Exception {
         ReflectionUtils.makeAccessible(getBridgedMethod());
         try {
+            // 通过反射执行HandleMethod中的method，方法参数为args。并返回方法执行的返回值
             return getBridgedMethod().invoke(getBean(), args);
         } catch (IllegalArgumentException ex) {
             assertTargetBean(getBridgedMethod(), getBean(), args);

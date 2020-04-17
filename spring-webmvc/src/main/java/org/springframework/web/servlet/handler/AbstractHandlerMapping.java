@@ -390,9 +390,6 @@ public abstract class AbstractHandlerMapping extends WebApplicationObjectSupport
 	@Nullable
 	public final HandlerExecutionChain getHandler(HttpServletRequest request) throws Exception {
 		/**
-		 * 抽象,调用子类实现得到一个handler(可以是任一对象,需要通过HandleAdapter来解析)
-		 * RequestMappingInfoHandlerMapping中具体实现就是匹配请求路径和RequestMapping注解.
-		 *
 		 * @see AbstractUrlHandlerMapping#getHandlerInternal(javax.servlet.http.HttpServletRequest)
 		 */
 		Object handler = getHandlerInternal(request);
