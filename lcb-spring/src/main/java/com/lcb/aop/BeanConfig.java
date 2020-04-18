@@ -12,7 +12,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @ComponentScan("com.lcb.aop")
 @EnableAspectJAutoProxy
-public class AppConfig {
+public class BeanConfig {
 
     @Bean
     public TestBean testBean(){

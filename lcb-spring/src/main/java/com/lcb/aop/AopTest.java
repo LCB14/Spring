@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class AopTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext =
-                new AnnotationConfigApplicationContext(AppConfig.class);
+                new AnnotationConfigApplicationContext(BeanConfig.class);
         TestBean testBean = annotationConfigApplicationContext.getBean(TestBean.class);
         testBean.test();
     }
