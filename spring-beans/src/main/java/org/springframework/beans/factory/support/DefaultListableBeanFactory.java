@@ -1176,6 +1176,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
         if (candidateNames.length == 1) {
             String beanName = candidateNames[0];
+            // 获取容器中beanName对应的bean实例（容器初始化的时候添加进去的）
             return new NamedBeanHolder<>(beanName, (T) getBean(beanName, requiredType.toClass(), args));
         } else if (candidateNames.length > 1) {
             Map<String, Object> candidates = new LinkedHashMap<>(candidateNames.length);
