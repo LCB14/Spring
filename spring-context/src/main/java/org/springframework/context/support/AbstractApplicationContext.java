@@ -39,6 +39,7 @@ import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.beans.support.ResourceEditorRegistrar;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -1212,6 +1213,9 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
     @Override
     public <T> T getBean(Class<T> requiredType) throws BeansException {
         assertBeanFactoryActive();
+        /**
+         * @see DefaultListableBeanFactory#getBean(java.lang.Class)
+         */
         return getBeanFactory().getBean(requiredType);
     }
 
