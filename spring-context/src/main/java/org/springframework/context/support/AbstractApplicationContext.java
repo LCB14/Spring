@@ -1214,6 +1214,8 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
     public <T> T getBean(Class<T> requiredType) throws BeansException {
         assertBeanFactoryActive();
         /**
+         * @see org.springframework.context.support.GenericApplicationContext#getBeanFactory()
+         *
          * @see DefaultListableBeanFactory#getBean(java.lang.Class)
          */
         return getBeanFactory().getBean(requiredType);
