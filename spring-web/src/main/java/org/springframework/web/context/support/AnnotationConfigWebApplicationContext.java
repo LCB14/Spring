@@ -147,7 +147,8 @@ public class AnnotationConfigWebApplicationContext extends AbstractRefreshableWe
 	 * @see #setConfigLocation(String)
 	 * @see #refresh()
 	 */
-	public void register(Class<?>... annotatedClasses) {
+	@Override
+    public void register(Class<?>... annotatedClasses) {
 		Assert.notEmpty(annotatedClasses, "At least one annotated class must be specified");
 		Collections.addAll(this.annotatedClasses, annotatedClasses);
 	}
@@ -162,6 +163,7 @@ public class AnnotationConfigWebApplicationContext extends AbstractRefreshableWe
 	 * @see #setConfigLocation(String)
 	 * @see #refresh()
 	 */
+	@Override
 	public void scan(String... basePackages) {
 		Assert.notEmpty(basePackages, "At least one base package must be specified");
 		Collections.addAll(this.basePackages, basePackages);

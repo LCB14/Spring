@@ -106,13 +106,11 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
          *  本类的构造函数里面初始化了
          *  一个读取器：AnnotatedBeanDefinitionReader reader。
          *  一个扫描器:ClassPathBeanDefinitionScanner scanner。
-         *
-         *  this()方法最终触发逻辑是将spring内置的一些后置处理器注册到bean容器中！
          */
         this();
 
         /**
-         * 将配置bean添加到容器
+         * 将配置bean添加到beanDefinitionMap中
          *
          * 把传入的配置bean进行注册，这里有两种情况：（注意：自定义的bean需要等到refresh()方法执行完毕后才能完成注册)
          * 1、传入传统的配置类 -- 添加了@Configuration注解
