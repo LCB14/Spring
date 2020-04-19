@@ -16,7 +16,6 @@
 
 package org.springframework.context.annotation;
 
-import java.util.Arrays;
 import java.util.function.Supplier;
 
 import org.springframework.beans.factory.config.BeanDefinitionCustomizer;
@@ -71,7 +70,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
      * 此处会隐式调用父类GenericApplicationContext的构造方法初始化一个beanFactory
      */
     public AnnotationConfigApplicationContext() {
-        // 用于从Resource中读取BeanDefinition
+        // 用于从Resource中读取BeanDefinition，实例化AnnotatedBeanDefinitionReader的同时把spring默认的后置处理器添加beanDefinitionMap中
         this.reader = new AnnotatedBeanDefinitionReader(this);
 
         // 设置资源加载器 -- ResourceLoader
@@ -102,6 +101,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
          *
          * 首先调用父类GenericApplicationContext的构造函数，
          * 在父类的构造函数里面就是初始化DefaultListableBeanFactory，并且赋值给beanFactory。
+         * @see GenericApplicationContext#GenericApplicationContext()
          *
          *  本类的构造函数里面初始化了
          *  一个读取器：AnnotatedBeanDefinitionReader reader。
