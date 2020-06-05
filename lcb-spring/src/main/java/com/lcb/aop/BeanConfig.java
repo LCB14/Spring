@@ -15,7 +15,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class BeanConfig {
 
     @Bean
-    public TestBean testBean(){
-        return new TestBean();
+    public BeanInfo testBean(){
+        return new BeanInfo();
     }
 }

@@ -4,7 +4,7 @@ package com.lcb.aop;
  * @author changbao.li Date: 2019-10-30 Time: 15:12
  * @version $
  */
-public class TestBean {
+public class BeanInfo {
 
     private String testStr = "testStr";
 

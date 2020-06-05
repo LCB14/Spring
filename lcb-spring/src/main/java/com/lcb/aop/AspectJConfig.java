@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  */
 @Aspect
 @Component
-public class AspectJTest {
+public class AspectJConfig {
 
     @Pointcut("execution(* *.test(..))")
     public void test(){}
