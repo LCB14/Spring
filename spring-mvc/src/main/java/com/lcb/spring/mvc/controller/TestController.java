@@ -19,4 +19,9 @@ public class TestController {
         System.out.println(user.toString());
         return user;
     }
+
+    @RequestMapping("/getUser.do2")
+    public Object getUser2(){
+        return "redirect:http://www.baidu.com";
+    }
 }
