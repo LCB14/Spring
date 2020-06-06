@@ -107,6 +107,10 @@ public class ProxyFactory extends ProxyCreatorSupport {
 	 * @return the proxy object
 	 */
 	public Object getProxy(@Nullable ClassLoader classLoader) {
+		/**
+		 * createAopProxy()
+		 * @see DefaultAopProxyFactory#createAopProxy(org.springframework.aop.framework.AdvisedSupport)
+		 */
 		return createAopProxy().getProxy(classLoader);
 	}
 
