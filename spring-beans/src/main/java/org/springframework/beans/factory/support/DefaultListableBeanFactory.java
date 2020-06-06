@@ -883,7 +883,6 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
             // 判断待实例化的bean是否符合实例化的条件
             if (!bd.isAbstract() && bd.isSingleton() && !bd.isLazyInit()) {
-
                 // 判断一个bean是否实现了FactoryBean接口，是则进行特殊的服务^_^
                 if (isFactoryBean(beanName)) {
                     Object bean = getBean(FACTORY_BEAN_PREFIX + beanName);

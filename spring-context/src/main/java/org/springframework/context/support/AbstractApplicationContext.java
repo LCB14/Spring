@@ -609,7 +609,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
                 initApplicationEventMulticaster();
 
                 // Initialize other special beans in specific context subclasses.
-                // 空方法spring在本版本暂时未做任何实现。
+                // 空方法
                 onRefresh();
 
                 // Check for listener beans and register them.
@@ -973,7 +973,10 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
         beanFactory.freezeConfiguration();
 
         // Instantiate all remaining (non-lazy-init) singletons.
-        // 初始化所有的非懒加载单例
+        /**
+         *  初始化所有的非懒加载单例
+         * @see DefaultListableBeanFactory#preInstantiateSingletons()
+         */
         beanFactory.preInstantiateSingletons();
     }
 

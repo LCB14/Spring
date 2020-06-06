@@ -293,14 +293,14 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         Object bean;
 
         // Eagerly check singleton cache for manually registered singletons.
-        /*
+        /**
          * 从缓存中获取单例 bean。Spring 是使用 Map 作为 beanName 和 bean 实例的缓存的，所以这
          * 里暂时可以把 getSingleton(beanName) 等价于 beanMap.get(beanName)。当然，实际的
          * 逻辑并非如此简单，后面再细说。
          */
         Object sharedInstance = getSingleton(beanName);
 
-        /*
+        /**
          * 如果 sharedInstance == null，则说明缓存里没有对应的实例，表明这个实例还没创建。
          * BeanFactory 并不会在一开始就将所有的单例 bean 实例化好，而是在调用 getBean 获取
          * bean 时再实例化，也就是懒加载。
@@ -319,7 +319,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                 }
             }
 
-            /*
+            /**
              * 如果 sharedInstance 是普通的单例 bean，下面的方法会直接返回。但如果
              * sharedInstance 是 FactoryBean 类型的，则需调用 getObject 工厂方法获取真正的
              * bean 实例。如果用户想获取 FactoryBean 本身，这里也不会做特别的处理，直接返回
@@ -327,7 +327,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
              */
             bean = getObjectForBeanInstance(sharedInstance, name, beanName, null);
         }
-        /*
+        /**
          * 如果上面的条件不满足，则表明 sharedInstance 可能为空（args不为null也可能），此时 beanName 对应的 bean
          * 实例可能还未创建。或者当前容器有父容器，beanName 对应的 bean 实例
          * 可能是在父容器中被创建了，所以在创建实例前，需要先去父容器里检查一下。
