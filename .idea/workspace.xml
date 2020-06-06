@@ -96,7 +96,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3f663565-99c2-46b7-b00d-07382bd662d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/src/main/java/org/springframework/aop/framework/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -652,7 +652,7 @@
       <workItem from="1588912785335" duration="1511000" />
       <workItem from="1589354588759" duration="902000" />
       <workItem from="1589809524631" duration="512000" />
-      <workItem from="1591264313863" duration="22009000" />
+      <workItem from="1591264313863" duration="23051000" />
     </task>
     <task id="LOCAL-00001" summary="2020年06月05日15:24:56">
       <created>1591341906422</created>
@@ -689,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591359189520</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2020年06月06日14:51:15">
+      <created>1591426282609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591426282609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +733,8 @@
     <MESSAGE value="2020年06月05日16:52:48" />
     <MESSAGE value="2020年06月05日19:29:15" />
     <MESSAGE value="2020年06月05日20:13:02" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020年06月05日20:13:02" />
+    <MESSAGE value="2020年06月06日14:51:15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年06月06日14:51:15" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="190" key="#Project_Structure" timestamp="1585208112556">
@@ -754,10 +762,10 @@
     <state x="551" y="-838" width="764" height="579" key="#xdebugger.evaluate/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591414859538" />
     <state x="603" y="235" width="988" height="579" key="#xdebugger.evaluate/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1587213083396" />
     <state x="603" y="235" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1585193415197" />
-    <state x="377" y="-944" key="CommitChangelistDialog2" timestamp="1591359188478">
+    <state x="377" y="-944" key="CommitChangelistDialog2" timestamp="1591426281544">
       <screen x="-184" y="-1080" width="2048" height="1080" />
     </state>
-    <state x="377" y="-944" key="CommitChangelistDialog2/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591359188478" />
+    <state x="377" y="-944" key="CommitChangelistDialog2/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591426281544" />
     <state width="1159" height="480" key="DebuggerActiveHint" timestamp="1591346220666">
       <screen x="-184" y="-1080" width="2048" height="1080" />
     </state>
@@ -889,10 +897,10 @@
     </state>
     <state x="447" y="-562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591414519263" />
     <state x="294" y="268" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1587196861849" />
-    <state x="423" y="-790" width="1179" height="500" key="find.popup" timestamp="1591412487462">
+    <state x="423" y="-790" width="1179" height="500" key="find.popup" timestamp="1591427405090">
       <screen x="-184" y="-1080" width="2048" height="1080" />
     </state>
-    <state x="423" y="-790" width="1179" height="500" key="find.popup/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591412487462" />
+    <state x="423" y="-790" width="1179" height="500" key="find.popup/0.0.1680.1050/-184.-1080.2048.1080@-184.-1080.2048.1080" timestamp="1591427405090" />
     <state x="498" y="282" width="967" height="486" key="find.popup/0.0.1680.1050/-184.-1080.2048.1080@0.0.1680.1050" timestamp="1587206415197" />
     <state x="498" y="282" width="683" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1585192194594" />
     <state x="432" y="-840" width="817" height="696" key="search.everywhere.popup" timestamp="1591346640596">
@@ -924,7 +932,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>966</line>
+          <line>976</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -1024,7 +1032,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>793</line>
+          <line>803</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -1094,12 +1102,12 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>587</line>
+          <line>597</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>610</line>
+          <line>620</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -1229,7 +1237,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/spring-context/src/main/java/org/springframework/context/support/AbstractApplicationContext.java</url>
-          <line>1220</line>
+          <line>1230</line>
           <option name="timeStamp" value="228" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
