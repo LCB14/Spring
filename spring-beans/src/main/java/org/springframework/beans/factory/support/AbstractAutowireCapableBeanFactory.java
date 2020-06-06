@@ -594,6 +594,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         }
         if (instanceWrapper == null) {
             /**
+             * 第二次调用后置处理器
              * 创建 bean 实例，并将实例包裹在 BeanWrapper 实现类对象中返回。createBeanInstance
              * 中包含三种创建 bean 实例的方式：
              *   1. 通过工厂方法创建 bean 实例
@@ -601,7 +602,7 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
              *   3. 通过无参构造方法方法创建 bean 实例
              *
              * 若 bean 的配置信息中配置了 lookup-method 和 replace-method，则会使用 CGLIB
-             * 增强 bean 实例。关于这个方法，后面会专门写一篇文章介绍，这里先说这么多。
+             * 增强 bean 实例。
              */
             instanceWrapper = createBeanInstance(beanName, mbd, args);
         }
@@ -659,9 +660,10 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
         }
 
         // Initialize the bean instance.
+        // 初始化bean实例
         Object exposedObject = bean;
         try {
-            // 解析依赖，填充属性(仔细阅读，可以了解spring是如何解决循环依赖的。)
+            // 第五、六次调用后置处理器 -- 解析依赖，填充属性(仔细阅读，可以了解spring是如何解决循环依赖的。)
             populateBean(beanName, mbd, instanceWrapper);
 
             /**
@@ -719,7 +721,11 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
 
         // Register bean as disposable.
         try {
-            // 注册销毁逻辑
+            /**
+             * 第九次调用后置处理器
+             *
+             * 将bean注册为可销毁
+             */
             registerDisposableBeanIfNecessary(beanName, bean, mbd);
         } catch (BeanDefinitionValidationException ex) {
             throw new BeanCreationException(
@@ -1292,6 +1298,8 @@ public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFac
          *
          * 通过后置处理器推断当前bean实例的创建该使用哪个构造器，如果bean中既有有参又有无参构造方法，
          * 此处则返回null。（因为spring此时无法推断了，干脆返回null)
+         *
+         * AUTOWIRE_CONSTRUCTOR 表示采用贪婪模式选择构造器即使用参数最多的构造器进行注入
          */
         Constructor<?>[] ctors = determineConstructorsFromBeanPostProcessors(beanClass, beanName);
         if (ctors != null || mbd.getResolvedAutowireMode() == AUTOWIRE_CONSTRUCTOR ||
