@@ -168,7 +168,7 @@ final class PostProcessorRegistrationDelegate {
 			// First, invoke the BeanDefinitionRegistryPostProcessors that implement PriorityOrdered.
 			/**
 			 * 获得实现BeanDefinitionRegistryPostProcessor接口bean的beanName
-			 * 并且装入数组postProcessorNames，我理解一般情况下，只会找到一个。
+			 * 并且装入数组postProcessorNames。
 			 *
 			 * 这里又有一个坑，为什么我自己创建了一个实现BeanDefinitionRegistryPostProcessor接口的bean，
 			 * 也打上了@Component注解但是这里却没有拿到?
@@ -215,6 +215,8 @@ final class PostProcessorRegistrationDelegate {
 			 * Spring中很多东西都是交给插件去处理的，这个后置处理器就相当于一个插件，如果不想用了，直接不添加就是了。
 			 *
 			 * 该方法执行完毕后用户自定义实现了BeanDefinitionRegistryPostProcessor接口的后置处理器才会被扫描到。
+			 *
+			 * 重点方法✨
 			 */
 			invokeBeanDefinitionRegistryPostProcessors(currentRegistryProcessors, registry);
 
