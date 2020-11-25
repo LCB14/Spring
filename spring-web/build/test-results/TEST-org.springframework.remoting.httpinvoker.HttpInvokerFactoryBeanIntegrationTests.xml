@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:56" hostname="Macbook-Air.local" time="0.832">
+<testsuite name="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:36" hostname="lichangbaodeMacBook-Pro.local" time="0.417">
   <properties/>
-  <testcase name="testLoadedConfigClass" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.749"/>
-  <testcase name="testNonLoadedConfigClass" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.06"/>
-  <testcase name="withConfigurationClassWithPlainFactoryBean" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.023"/>
+  <testcase name="testLoadedConfigClass" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.381"/>
+  <testcase name="testNonLoadedConfigClass" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.028"/>
+  <testcase name="withConfigurationClassWithPlainFactoryBean" classname="org.springframework.remoting.httpinvoker.HttpInvokerFactoryBeanIntegrationTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

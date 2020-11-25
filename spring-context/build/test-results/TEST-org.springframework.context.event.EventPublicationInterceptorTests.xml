@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.event.EventPublicationInterceptorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:18" hostname="Macbook-Air.local" time="0.034">
+<testsuite name="org.springframework.context.event.EventPublicationInterceptorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:24" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="testWithAbstractStraightApplicationEventClassSupplied" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.013"/>
-  <testcase name="testWithNoApplicationEventClassSupplied" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.001"/>
-  <testcase name="testExpectedBehavior" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.015"/>
-  <testcase name="testWithApplicationEventClassThatDoesntExposeAValidCtor" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.003"/>
+  <testcase name="testWithAbstractStraightApplicationEventClassSupplied" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.004"/>
+  <testcase name="testWithNoApplicationEventClassSupplied" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.0"/>
+  <testcase name="testExpectedBehavior" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.008"/>
+  <testcase name="testWithApplicationEventClassThatDoesntExposeAValidCtor" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.001"/>
   <testcase name="testWithNonApplicationEventClassSupplied" classname="org.springframework.context.event.EventPublicationInterceptorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

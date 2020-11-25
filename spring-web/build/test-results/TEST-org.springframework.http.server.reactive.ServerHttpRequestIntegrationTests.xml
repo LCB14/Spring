@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:28" hostname="Macbook-Air.local" time="0.076">
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.081">
   <properties/>
-  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@3e90d20a]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.01"/>
-  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2a8c9d37]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.008"/>
-  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3ae6fac7]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.045"/>
-  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@7879c7d5]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.013"/>
-  <system-out><![CDATA[19:46:28.170 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50054/foo?param=bar
-19:46:28.170 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:28.173 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:28.180 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50056/foo?param=bar
-19:46:28.180 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:28.182 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:28.197 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50058/foo?param=bar
-19:46:28.197 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:28.203 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:28.235 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50061/foo?param=bar
-19:46:28.236 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:28.239 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@25b0b2a5]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.007"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@54f98cde]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.024"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@20470bd5]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.04"/>
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@79f914e3]]" classname="org.springframework.http.server.reactive.ServerHttpRequestIntegrationTests" time="0.01"/>
+  <system-out><![CDATA[22:41:50.938 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53254/foo?param=bar
+22:41:50.938 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.939 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.943 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53256/foo?param=bar
+22:41:50.944 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.964 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.980 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53258/foo?param=bar
+22:41:50.980 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.985 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:51.011 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53262/foo?param=bar
+22:41:51.011 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.013 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 ]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-13"]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-13-50058"]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-13-50058"]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-13-53258"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-13-53258"]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-13-50058"]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-13-50058"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-13-53258"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-13-53258"]
 ]]></system-err>
 </testsuite>

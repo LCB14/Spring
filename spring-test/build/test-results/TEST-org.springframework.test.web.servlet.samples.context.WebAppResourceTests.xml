@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:09" hostname="Macbook-Air.local" time="0.35">
+<testsuite name="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:07" hostname="lichangbaodeMacBook-Pro.local" time="0.043">
   <properties/>
-  <testcase name="resourcesViaDefaultServlet" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.012"/>
-  <testcase name="tilesDefinitions" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.046"/>
-  <testcase name="resourceRequest" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.291"/>
+  <testcase name="resourcesViaDefaultServlet" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.004"/>
+  <testcase name="tilesDefinitions" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.021"/>
+  <testcase name="resourceRequest" classname="org.springframework.test.web.servlet.samples.context.WebAppResourceTests" time="0.018"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

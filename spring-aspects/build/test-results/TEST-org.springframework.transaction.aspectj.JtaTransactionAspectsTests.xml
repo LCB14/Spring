@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:47" hostname="lichangbaodeMacBook-Pro.local" time="0.082">
+  <properties/>
+  <testcase name="commitOnAnnotatedPrivateMethod" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.07"/>
+  <testcase name="notTransactional" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.001"/>
+  <testcase name="nonAnnotatedMethodCallingPrivateMethod" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.0"/>
+  <testcase name="commitOnAnnotatedProtectedMethod" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.001"/>
+  <testcase name="nonMatchingRollbackOnApplied" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.005"/>
+  <testcase name="nonAnnotatedMethodCallingProtectedMethod" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.001"/>
+  <testcase name="commitOnAnnotatedPublicMethod" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.001"/>
+  <testcase name="matchingRollbackOnApplied" classname="org.springframework.transaction.aspectj.JtaTransactionAspectsTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

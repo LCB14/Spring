@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:41" hostname="Macbook-Air.local" time="0.014">
+<testsuite name="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:35" hostname="lichangbaodeMacBook-Pro.local" time="0.004">
   <properties/>
-  <testcase name="sendNoDestinationResolver" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.009"/>
+  <testcase name="sendNoDestinationResolver" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.002"/>
   <testcase name="convertSendAndReceiveWithPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
-  <testcase name="receiveAndConvert" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
+  <testcase name="receiveAndConvert" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <testcase name="convertSendAndReceiveWithHeadersAndPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <testcase name="sendAndReceive" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <testcase name="send" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
   <testcase name="convertSendAndReceive" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
-  <testcase name="convertAndSendPayloadAndHeadersWithPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendPayloadAndHeadersWithPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <testcase name="convertSendAndReceiveWithHeaders" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
-  <testcase name="convertAndSendPayloadWithPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
-  <testcase name="receive" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
-  <testcase name="convertAndSendPayload" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendPayloadWithPostProcessor" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
+  <testcase name="receive" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendPayload" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <testcase name="convertAndSendPayloadAndHeaders" classname="org.springframework.messaging.core.DestinationResolvingMessagingTemplateTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

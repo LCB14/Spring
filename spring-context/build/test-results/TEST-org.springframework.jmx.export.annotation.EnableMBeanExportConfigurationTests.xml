@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:46" hostname="Macbook-Air.local" time="0.175">
+<testsuite name="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:37" hostname="lichangbaodeMacBook-Pro.local" time="0.095">
   <properties/>
-  <testcase name="testOnlyTargetClassIsExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.05"/>
-  <testcase name="testComponentScan" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.029"/>
-  <testcase name="testPackagePrivateClassExtensionCanBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.017"/>
-  <testcase name="testPackagePrivateExtensionCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.011"/>
-  <testcase name="testLazyNaming" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.018"/>
-  <testcase name="testLazyAssembling" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.022"/>
-  <testcase name="testPlaceholderBased" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.016"/>
-  <testcase name="testPackagePrivateImplementationCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.01"/>
+  <testcase name="testOnlyTargetClassIsExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.028"/>
+  <testcase name="testComponentScan" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.016"/>
+  <testcase name="testPackagePrivateClassExtensionCanBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.009"/>
+  <testcase name="testPackagePrivateExtensionCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.007"/>
+  <testcase name="testLazyNaming" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.01"/>
+  <testcase name="testLazyAssembling" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.011"/>
+  <testcase name="testPlaceholderBased" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.009"/>
+  <testcase name="testPackagePrivateImplementationCantBeExposed" classname="org.springframework.jmx.export.annotation.EnableMBeanExportConfigurationTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Nov 25, 2020 10:38:37 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+Nov 25, 2020 10:38:37 PM ClientIntermediary close
+INFORMATION: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
 </testsuite>

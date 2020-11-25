@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.spr10546.Spr10546Tests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:05" hostname="Macbook-Air.local" time="0.094">
+<testsuite name="org.springframework.context.annotation.spr10546.Spr10546Tests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:16" hostname="lichangbaodeMacBook-Pro.local" time="0.043">
   <properties/>
-  <testcase name="enclosingConfigFirstParentDefinesBeanWithScanning" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.012"/>
-  <testcase name="enclosingConfigOnly" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.004"/>
-  <testcase name="enclosingConfigFirstParentWithParentDefinesBean" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.009"/>
-  <testcase name="enclosingConfigFirstParentDefinesBeanWithImportResource" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.025"/>
-  <testcase name="enclosingConfigFirstParentDefinesBeanWithImport" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.013"/>
-  <testcase name="childConfigFirst" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.002"/>
-  <testcase name="childConfigOnly" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.003"/>
-  <testcase name="enclosingConfigFirstParentDefinesBean" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.004"/>
-  <testcase name="enclosingConfigFirstParentDefinesBeanWithComponentScan" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.014"/>
-  <testcase name="importChildConfigThenChildConfig" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.007"/>
+  <testcase name="enclosingConfigFirstParentDefinesBeanWithScanning" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.005"/>
+  <testcase name="enclosingConfigOnly" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.002"/>
+  <testcase name="enclosingConfigFirstParentWithParentDefinesBean" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.004"/>
+  <testcase name="enclosingConfigFirstParentDefinesBeanWithImportResource" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.011"/>
+  <testcase name="enclosingConfigFirstParentDefinesBeanWithImport" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.006"/>
+  <testcase name="childConfigFirst" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.001"/>
+  <testcase name="childConfigOnly" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.001"/>
+  <testcase name="enclosingConfigFirstParentDefinesBean" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.001"/>
+  <testcase name="enclosingConfigFirstParentDefinesBeanWithComponentScan" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.007"/>
+  <testcase name="importChildConfigThenChildConfig" classname="org.springframework.context.annotation.spr10546.Spr10546Tests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

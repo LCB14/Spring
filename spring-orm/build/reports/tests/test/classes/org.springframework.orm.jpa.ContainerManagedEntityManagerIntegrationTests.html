@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.174s</div>
+<div class="counter">0.068s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,32 +79,32 @@
 </thead>
 <tr>
 <td class="success">testCommitOccurs</td>
-<td class="success">0.012s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testContainerEntityManagerProxyAllowsJoinTransactionInTransaction</td>
-<td class="success">0.005s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">testContainerEntityManagerProxyRejectsJoinTransactionWithoutTransaction</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">testEntityManagerProxyIsProxy</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testEntityManagerProxyRejectsProgrammaticTxManagement</td>
-<td class="success">0.112s</td>
+<td class="success">0.049s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testExceptionTranslationWithDialectFoundOnEntityManagerFactoryBean</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,17 +114,17 @@
 </tr>
 <tr>
 <td class="success">testInstantiateAndSave</td>
-<td class="success">0.007s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testReuseInNewTransaction</td>
-<td class="success">0.025s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testRollbackOccurs</td>
-<td class="success">0.006s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -132,39 +132,39 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>[EL Info]: 2019-06-21 19:43:48.121--ServerSession(1557789170)--EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a
-[EL Warning]: metadata: 2019-06-21 19:43:48.124--ServerSession(1557789170)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
-[EL Info]: connection: 2019-06-21 19:43:48.126--ServerSession(1557789170)--/file:/Users/lichangbao/github/spring_study/spring-orm/build/classes/java/test/_Person login successful
-[EL Fine]: sql: 2019-06-21 19:43:48.131--ServerSession(1557789170)--Connection(1640340641)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
-[EL Fine]: sql: 2019-06-21 19:43:48.153--ClientSession(1585491479)--Connection(512427937)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.155--ClientSession(1585491479)--Connection(512427937)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+<pre>[EL Info]: 2020-11-25 22:40:24.498--ServerSession(1190729837)--EclipseLink, version: Eclipse Persistence Services - 2.7.4.v20190115-ad5b7c6b2a
+[EL Warning]: metadata: 2020-11-25 22:40:24.499--ServerSession(1190729837)--Reverting the lazy setting on the OneToOne or ManyToOne attribute [driversLicense] for the entity class [class org.springframework.orm.jpa.domain.Person] since weaving was not enabled or did not occur.
+[EL Info]: connection: 2020-11-25 22:40:24.5--ServerSession(1190729837)--/file:/Users/lichangbao/resources/spring/spring-orm/build/classes/java/test/_Person login successful
+[EL Fine]: sql: 2020-11-25 22:40:24.502--ServerSession(1190729837)--Connection(1644844875)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2020-11-25 22:40:24.511--ClientSession(1951933440)--Connection(1702980392)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.511--ClientSession(1951933440)--Connection(1702980392)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
 	bind =&gt; [50, SEQ_GEN]
-[EL Fine]: sql: 2019-06-21 19:43:48.156--ClientSession(1585491479)--Connection(512427937)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+[EL Fine]: sql: 2020-11-25 22:40:24.512--ClientSession(1951933440)--Connection(1702980392)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
 	bind =&gt; [SEQ_GEN]
-[EL Fine]: sql: 2019-06-21 19:43:48.158--ClientSession(1585491479)--Connection(512427937)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2020-11-25 22:40:24.512--ClientSession(1951933440)--Connection(1702980392)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [51, Tony, Blair, null]
-[EL Fine]: sql: 2019-06-21 19:43:48.159--ClientSession(1585491479)--Connection(512427937)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.161--ServerSession(1557789170)--Connection(2082168564)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.167--ServerSession(1557789170)--Connection(559800966)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
-[EL Fine]: sql: 2019-06-21 19:43:48.17--ClientSession(446996772)--Connection(1804227884)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.171--ClientSession(446996772)--Connection(1804227884)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2020-11-25 22:40:24.513--ClientSession(1951933440)--Connection(1702980392)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.514--ServerSession(1190729837)--Connection(1354883995)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.516--ServerSession(1190729837)--Connection(236841531)--SELECT ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID FROM PERSON
+[EL Fine]: sql: 2020-11-25 22:40:24.517--ClientSession(1905187408)--Connection(1978511699)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.518--ClientSession(1905187408)--Connection(1978511699)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [52, Tony, Blair, null]
-[EL Fine]: sql: 2019-06-21 19:43:48.172--ClientSession(446996772)--Connection(1804227884)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.174--ServerSession(1557789170)--Connection(647081177)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.177--ClientSession(1173265093)--Connection(1317087746)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.178--ClientSession(1173265093)--Connection(1317087746)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2020-11-25 22:40:24.519--ClientSession(1905187408)--Connection(1978511699)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.519--ServerSession(1190729837)--Connection(2069683802)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.521--ClientSession(282041961)--Connection(71242706)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.521--ClientSession(282041961)--Connection(71242706)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [53, Tony, Blair, null]
-[EL Fine]: sql: 2019-06-21 19:43:48.179--ClientSession(1173265093)--Connection(1317087746)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.182--ClientSession(1823278573)--Connection(1388300384)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.183--ClientSession(1823278573)--Connection(1388300384)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2020-11-25 22:40:24.522--ClientSession(282041961)--Connection(71242706)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.523--ClientSession(725470534)--Connection(507550666)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.523--ClientSession(725470534)--Connection(507550666)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [54, Tony, Blair, null]
-[EL Fine]: sql: 2019-06-21 19:43:48.184--ClientSession(1823278573)--Connection(1388300384)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.187--ServerSession(1557789170)--Connection(2086215190)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.203--ClientSession(1585514954)--Connection(1732004718)--SELECT COUNT(0) FROM person
-[EL Fine]: sql: 2019-06-21 19:43:48.204--ClientSession(1585514954)--Connection(1732004718)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
+[EL Fine]: sql: 2020-11-25 22:40:24.524--ClientSession(725470534)--Connection(507550666)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.524--ServerSession(1190729837)--Connection(101910585)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.526--ClientSession(2063269283)--Connection(1720955767)--SELECT COUNT(0) FROM person
+[EL Fine]: sql: 2020-11-25 22:40:24.526--ClientSession(2063269283)--Connection(1720955767)--INSERT INTO PERSON (ID, FIRST_NAME, LAST_NAME, DRIVERS_LICENSE_ID) VALUES (?, ?, ?, ?)
 	bind =&gt; [55, Tony, Blair, null]
-[EL Fine]: sql: 2019-06-21 19:43:48.206--ClientSession(1585514954)--Connection(1732004718)--SELECT COUNT(0) FROM person
-[EL Info]: connection: 2019-06-21 19:43:48.207--ServerSession(1557789170)--/file:/Users/lichangbao/github/spring_study/spring-orm/build/classes/java/test/_Person logout successful
+[EL Fine]: sql: 2020-11-25 22:40:24.527--ClientSession(2063269283)--Connection(1720955767)--SELECT COUNT(0) FROM person
+[EL Info]: connection: 2020-11-25 22:40:24.528--ServerSession(1190729837)--/file:/Users/lichangbao/resources/spring/spring-orm/build/classes/java/test/_Person logout successful
 </pre>
 </span>
 </div>
@@ -176,7 +176,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:43:49</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:40:25</p>
 </div>
 </div>
 </body>

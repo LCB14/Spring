@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:51" hostname="Macbook-Air.local" time="1.322">
+<testsuite name="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:14" hostname="lichangbaodeMacBook-Pro.local" time="0.882">
   <properties/>
-  <testcase name="detectScriptTemplateConfigWithEngineName" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.386"/>
-  <testcase name="nonInvocableScriptEngineWithRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.708"/>
-  <testcase name="engineAndEngineNameBothDefined" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.085"/>
-  <testcase name="nonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.092"/>
-  <testcase name="missingTemplate" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.004"/>
+  <testcase name="detectScriptTemplateConfigWithEngineName" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.277"/>
+  <testcase name="nonInvocableScriptEngineWithRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.507"/>
+  <testcase name="engineAndEngineNameBothDefined" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.033"/>
+  <testcase name="nonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.033"/>
+  <testcase name="missingTemplate" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.002"/>
   <testcase name="missingScriptTemplateConfig" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.001"/>
-  <testcase name="engineSetterAndNonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.001"/>
-  <testcase name="customEngineAndRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.043"/>
+  <testcase name="engineSetterAndNonSharedEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
+  <testcase name="customEngineAndRenderFunction" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.029"/>
   <testcase name="nonInvocableScriptEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
   <testcase name="detectScriptTemplateConfigWithEngine" classname="org.springframework.web.reactive.result.view.script.ScriptTemplateViewTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

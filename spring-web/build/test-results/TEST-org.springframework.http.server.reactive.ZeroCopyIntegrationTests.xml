@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" tests="4" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:46:27" hostname="Macbook-Air.local" time="0.087">
+<testsuite name="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" tests="4" skipped="2" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.051">
   <properties/>
-  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@29fcd991]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.016">
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@35a95fb0]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.004">
     <skipped/>
   </testcase>
-  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@367b87ae]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.029"/>
-  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@410df0aa]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.021">
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2a310dfe]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.017"/>
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@6690b35b]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.018">
     <skipped/>
   </testcase>
-  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@227f9c8a]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.021"/>
-  <system-out><![CDATA[19:46:27.648 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50012
-19:46:27.649 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.657 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.670 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
-19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50016
-19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.708 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
+  <testcase name="zeroCopy[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@75f29ff9]]" classname="org.springframework.http.server.reactive.ZeroCopyIntegrationTests" time="0.012"/>
+  <system-out><![CDATA[22:41:50.650 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53212
+22:41:50.651 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.657 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.662 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
+22:41:50.687 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53216
+22:41:50.688 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.691 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.691 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "image/png"
 ]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-8"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-8-50014"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-8-50014"]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-8-53214"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-8-53214"]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-8-50014"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-8-50014"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-8-53214"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-8-53214"]
 ]]></system-err>
 </testsuite>

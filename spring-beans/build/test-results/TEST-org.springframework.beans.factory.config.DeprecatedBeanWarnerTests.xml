@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.DeprecatedBeanWarnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:31" hostname="Macbook-Air.local" time="0.004">
+<testsuite name="org.springframework.beans.factory.config.DeprecatedBeanWarnerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:54" hostname="lichangbaodeMacBook-Pro.local" time="0.0">
   <properties/>
-  <testcase name="postProcess" classname="org.springframework.beans.factory.config.DeprecatedBeanWarnerTests" time="0.004"/>
+  <testcase name="postProcess" classname="org.springframework.beans.factory.config.DeprecatedBeanWarnerTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

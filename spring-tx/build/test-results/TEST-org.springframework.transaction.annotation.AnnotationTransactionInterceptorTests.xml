@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:49" hostname="Macbook-Air.local" time="0.244">
+<testsuite name="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:29" hostname="lichangbaodeMacBook-Pro.local" time="0.11">
   <properties/>
-  <testcase name="withRollbackOnRuntimeException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.023"/>
-  <testcase name="withVavrTrySuccess" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.067"/>
-  <testcase name="classLevelOnly" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.02"/>
-  <testcase name="withSingleMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.019"/>
-  <testcase name="withVavrTryCheckedExceptionAndRollbackRule" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.005"/>
-  <testcase name="withSingleMethodOverrideInverted" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.023"/>
+  <testcase name="withRollbackOnRuntimeException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.011"/>
+  <testcase name="withVavrTrySuccess" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.027"/>
+  <testcase name="classLevelOnly" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.011"/>
+  <testcase name="withSingleMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.01"/>
+  <testcase name="withVavrTryCheckedExceptionAndRollbackRule" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.002"/>
+  <testcase name="withSingleMethodOverrideInverted" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.01"/>
   <testcase name="withVavrTryCheckedException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.001"/>
-  <testcase name="withVavrTryRuntimeException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.001"/>
-  <testcase name="withRollbackOnCheckedExceptionAndRollbackRule" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.002"/>
-  <testcase name="withInterfaceOnTargetJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.015"/>
-  <testcase name="crossClassInterfaceMethodLevelOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.01"/>
-  <testcase name="withMultiMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.021"/>
-  <testcase name="withInterface" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.002"/>
-  <testcase name="withInterfaceOnTargetCglibProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.02"/>
-  <testcase name="withCommitOnCheckedException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.002"/>
-  <testcase name="crossClassInterfaceOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.01"/>
+  <testcase name="withVavrTryRuntimeException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.0"/>
+  <testcase name="withRollbackOnCheckedExceptionAndRollbackRule" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.001"/>
+  <testcase name="withInterfaceOnTargetJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.005"/>
+  <testcase name="crossClassInterfaceMethodLevelOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.003"/>
+  <testcase name="withMultiMethodOverride" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.013"/>
+  <testcase name="withInterface" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.001"/>
+  <testcase name="withInterfaceOnTargetCglibProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.01"/>
+  <testcase name="withCommitOnCheckedException" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.001"/>
+  <testcase name="crossClassInterfaceOnJdkProxy" classname="org.springframework.transaction.annotation.AnnotationTransactionInterceptorTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

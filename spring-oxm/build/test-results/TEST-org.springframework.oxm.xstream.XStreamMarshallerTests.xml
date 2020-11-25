@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.oxm.xstream.XStreamMarshallerTests" tests="20" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:43:54" hostname="Macbook-Air.local" time="1.027">
+<testsuite name="org.springframework.oxm.xstream.XStreamMarshallerTests" tests="20" skipped="2" failures="0" errors="0" timestamp="2020-11-25T14:40:27" hostname="lichangbaodeMacBook-Pro.local" time="0.317">
   <properties/>
-  <testcase name="aliasesByTypeStringClassMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.001">
+  <testcase name="aliasesByTypeStringClassMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="marshalStaxResultXMLStreamWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.525"/>
-  <testcase name="marshalStreamResultOutputStream" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.017"/>
-  <testcase name="jettisonDriver" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.078"/>
-  <testcase name="marshalDOMResultToExistentDocument" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.011"/>
-  <testcase name="useAttributesForClassStringListMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.009"/>
-  <testcase name="fieldAliases" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.01"/>
-  <testcase name="implicitCollections" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.187"/>
-  <testcase name="useAttributesForStringClassMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.007"/>
-  <testcase name="jsonDriver" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.012"/>
-  <testcase name="annotatedMarshalStreamResultWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.014"/>
-  <testcase name="useAttributesForClassStringMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.005"/>
-  <testcase name="omitFields" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.004"/>
+  <testcase name="marshalStaxResultXMLStreamWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.147"/>
+  <testcase name="marshalStreamResultOutputStream" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.005"/>
+  <testcase name="jettisonDriver" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.023"/>
+  <testcase name="marshalDOMResultToExistentDocument" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.005"/>
+  <testcase name="useAttributesForClassStringListMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.005"/>
+  <testcase name="fieldAliases" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="implicitCollections" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.084"/>
+  <testcase name="useAttributesForStringClassMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="jsonDriver" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.005"/>
+  <testcase name="annotatedMarshalStreamResultWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.006"/>
+  <testcase name="useAttributesForClassStringMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="omitFields" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.002"/>
   <testcase name="aliasesByTypeStringStringMap" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="marshalStaxResultXMLEventWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.013"/>
-  <testcase name="marshalSaxResult" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.007"/>
-  <testcase name="marshalStreamResultWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.008"/>
-  <testcase name="marshalDOMResult" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.099"/>
-  <testcase name="useAttributesFor" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.01"/>
-  <testcase name="converters" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.009"/>
+  <testcase name="marshalStaxResultXMLEventWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.006"/>
+  <testcase name="marshalSaxResult" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="marshalStreamResultWriter" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="marshalDOMResult" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.007"/>
+  <testcase name="useAttributesFor" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
+  <testcase name="converters" classname="org.springframework.oxm.xstream.XStreamMarshallerTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[Security framework of XStream not initialized, XStream is probably vulnerable.
 Security framework of XStream not initialized, XStream is probably vulnerable.

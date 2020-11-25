@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:27" hostname="Macbook-Air.local" time="0.122">
+<testsuite name="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.064">
   <properties/>
-  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2072876e]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.021"/>
-  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2e542a6]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.022"/>
-  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@19d7ee4a]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.052"/>
-  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@440f8f38]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.027"/>
-  <system-out><![CDATA[19:46:27.732 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50018
-19:46:27.732 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.732 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@18539ed1] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-19:46:27.735 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.736 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-19:46:27.746 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50020
-19:46:27.747 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.747 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@4657058] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-19:46:27.750 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.756 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-19:46:27.780 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50022
-19:46:27.781 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.781 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@2877af3f] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-19:46:27.789 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.789 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
-19:46:27.824 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50025
-19:46:27.825 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.826 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@3dd61c9f] with org.springframework.http.converter.ByteArrayHttpMessageConverter
-19:46:27.830 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.830 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@afa9505]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.009"/>
+  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@f9df3b9]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.01"/>
+  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@64b5858]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.032"/>
+  <testcase name="writeOnly[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@11d80513]]" classname="org.springframework.http.server.reactive.WriteOnlyHandlerIntegrationTests" time="0.013"/>
+  <system-out><![CDATA[22:41:50.698 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53218
+22:41:50.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@56f5e497] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+22:41:50.700 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.700 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+22:41:50.707 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53220
+22:41:50.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@25d9fae5] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+22:41:50.709 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.711 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+22:41:50.721 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53222
+22:41:50.721 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.721 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@71b00883] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+22:41:50.727 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.727 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
+22:41:50.752 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53225
+22:41:50.752 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.752 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [[B@27357a66] with org.springframework.http.converter.ByteArrayHttpMessageConverter
+22:41:50.754 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.754 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as "application/octet-stream"
 ]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-9"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-9-50022"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-9-50022"]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-9-53222"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-9-53222"]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-9-50022"]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-9-50022"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-9-53222"]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-9-53222"]
 ]]></system-err>
 </testsuite>

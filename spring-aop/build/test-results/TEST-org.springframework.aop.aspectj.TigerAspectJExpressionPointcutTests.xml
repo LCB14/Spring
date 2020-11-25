@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:05" hostname="Macbook-Air.local" time="0.698">
+<testsuite name="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:44" hostname="lichangbaodeMacBook-Pro.local" time="0.244">
   <properties/>
-  <testcase name="testAnnotationOnCglibProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.583"/>
-  <testcase name="testAnnotationOnDynamicProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.006"/>
-  <testcase name="testAnnotationOnMethodWithWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.033"/>
-  <testcase name="testMatchVarargs" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.021"/>
-  <testcase name="testMatchAnnotationOnClassWithAtWithin" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.008"/>
+  <testcase name="testAnnotationOnCglibProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.17"/>
+  <testcase name="testAnnotationOnDynamicProxyMethod" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.005"/>
+  <testcase name="testAnnotationOnMethodWithWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.02"/>
+  <testcase name="testMatchVarargs" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.01"/>
+  <testcase name="testMatchAnnotationOnClassWithAtWithin" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.004"/>
   <testcase name="testMatchAnnotationOnClassWithoutBinding" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.005"/>
-  <testcase name="testAnnotationOnMethodArgumentsWithWildcards" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.007"/>
-  <testcase name="testAnnotationOnMethodArgumentsWithFQN" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.012"/>
-  <testcase name="testMatchGenericArgument" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.008"/>
+  <testcase name="testAnnotationOnMethodArgumentsWithWildcards" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.003"/>
+  <testcase name="testAnnotationOnMethodArgumentsWithFQN" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.007"/>
+  <testcase name="testMatchGenericArgument" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.005"/>
   <testcase name="testMatchAnnotationOnClassWithExactPackageWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.003"/>
   <testcase name="testAnnotationOnMethodWithFQN" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testMatchAnnotationOnClassWithSubpackageWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.007"/>
+  <testcase name="testMatchAnnotationOnClassWithSubpackageWildcard" classname="org.springframework.aop.aspectj.TigerAspectJExpressionPointcutTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

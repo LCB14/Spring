@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.oxm.jibx.JibxUnmarshallerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:54" hostname="Macbook-Air.local" time="0.126">
+<testsuite name="org.springframework.oxm.jibx.JibxUnmarshallerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:27" hostname="lichangbaodeMacBook-Pro.local" time="0.049">
   <properties/>
-  <testcase name="unmarshalPartialStaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalStreamSourceInputStreamUsingNonDefaultEncoding" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.098"/>
-  <testcase name="unmarshalStreamSourceReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalJaxp14StaxSourceXmlEventReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.007"/>
-  <testcase name="unmarshalStaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalSAXSource" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.003"/>
-  <testcase name="unmarshalStreamSourceInputStream" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalJaxp14StaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalStaxSourceXmlEventReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.002"/>
-  <testcase name="unmarshalDomSource" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.003"/>
+  <testcase name="unmarshalPartialStaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.0"/>
+  <testcase name="unmarshalStreamSourceInputStreamUsingNonDefaultEncoding" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.04"/>
+  <testcase name="unmarshalStreamSourceReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
+  <testcase name="unmarshalJaxp14StaxSourceXmlEventReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.003"/>
+  <testcase name="unmarshalStaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
+  <testcase name="unmarshalSAXSource" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
+  <testcase name="unmarshalStreamSourceInputStream" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
+  <testcase name="unmarshalJaxp14StaxSourceXmlStreamReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
+  <testcase name="unmarshalStaxSourceXmlEventReader" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.0"/>
+  <testcase name="unmarshalDomSource" classname="org.springframework.oxm.jibx.JibxUnmarshallerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

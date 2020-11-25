@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:23" hostname="Macbook-Air.local" time="0.094">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:29" hostname="lichangbaodeMacBook-Pro.local" time="0.031">
   <properties/>
-  <testcase name="getMappingOverridesConsumesFromTypeLevelAnnotation" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.017"/>
-  <testcase name="patchMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.004"/>
-  <testcase name="resolveRequestMappingViaComposedAnnotation" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.005"/>
-  <testcase name="consumesWithOptionalRequestBody" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.047"/>
-  <testcase name="deleteMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="pathPrefix" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.007"/>
-  <testcase name="putMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="resolveEmbeddedValuesInPatterns" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.01"/>
-  <testcase name="postMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <testcase name="getMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
-  <system-out><![CDATA[19:47:23.110 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:47:23.155 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 7 mappings in <unknown>
+  <testcase name="getMappingOverridesConsumesFromTypeLevelAnnotation" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.004"/>
+  <testcase name="patchMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.002"/>
+  <testcase name="resolveRequestMappingViaComposedAnnotation" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.001"/>
+  <testcase name="consumesWithOptionalRequestBody" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.016"/>
+  <testcase name="deleteMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="pathPrefix" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.003"/>
+  <testcase name="putMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="resolveEmbeddedValuesInPatterns" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.005"/>
+  <testcase name="postMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <testcase name="getMapping" classname="org.springframework.web.reactive.result.method.annotation.RequestMappingHandlerMappingTests" time="0.0"/>
+  <system-out><![CDATA[22:42:29.980 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:42:29.996 [Test worker] DEBUG o.s.w.r.r.m.a.RequestMappingHandlerMapping - 7 mappings in <unknown>
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

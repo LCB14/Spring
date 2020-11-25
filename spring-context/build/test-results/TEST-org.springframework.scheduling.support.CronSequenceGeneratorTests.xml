@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.support.CronSequenceGeneratorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:39" hostname="Macbook-Air.local" time="0.005">
+<testsuite name="org.springframework.scheduling.support.CronSequenceGeneratorTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:32" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="withSameMinuteRange" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
-  <testcase name="withNegativeIncrement" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
-  <testcase name="with0Increment" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
+  <testcase name="withSameMinuteRange" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
+  <testcase name="withNegativeIncrement" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
+  <testcase name="with0Increment" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="invalidExpressionWithLength" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="invalidExpressionWithMonths" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
-  <testcase name="at0Minutes" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
-  <testcase name="withInvertedHourRange" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
+  <testcase name="at0Minutes" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.001"/>
+  <testcase name="withInvertedHourRange" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="validExpression" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="invalidExpressionWithSeconds" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>
   <testcase name="withInvertedMinuteRange" classname="org.springframework.scheduling.support.CronSequenceGeneratorTests" time="0.0"/>

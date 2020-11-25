@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:14" hostname="Macbook-Air.local" time="0.144">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:11" hostname="lichangbaodeMacBook-Pro.local" time="0.088">
   <properties/>
-  <testcase name="testGlobalExceptionHandlerMethodUsingClassArgument" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.065"/>
-  <testcase name="testExceptionHandlerMethod" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.047"/>
-  <testcase name="testGlobalExceptionHandlerMethod" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.032"/>
+  <testcase name="testGlobalExceptionHandlerMethodUsingClassArgument" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.038"/>
+  <testcase name="testExceptionHandlerMethod" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.026"/>
+  <testcase name="testGlobalExceptionHandlerMethod" classname="org.springframework.test.web.servlet.samples.standalone.ExceptionHandlerTests" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

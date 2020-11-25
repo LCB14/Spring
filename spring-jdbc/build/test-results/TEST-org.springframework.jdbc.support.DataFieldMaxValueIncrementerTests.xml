@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:18" hostname="Macbook-Air.local" time="0.037">
+<testsuite name="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:23" hostname="lichangbaodeMacBook-Pro.local" time="0.008">
   <properties/>
-  <testcase name="testMySQLMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.014"/>
-  <testcase name="testHsqlMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.005"/>
-  <testcase name="testOracleSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.008"/>
-  <testcase name="testHsqlMaxValueIncrementerWithDeleteSpecificValues" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.002"/>
-  <testcase name="testPostgresSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.004"/>
-  <testcase name="testHanaSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.004"/>
+  <testcase name="testMySQLMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.002"/>
+  <testcase name="testHsqlMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.002"/>
+  <testcase name="testOracleSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.001"/>
+  <testcase name="testHsqlMaxValueIncrementerWithDeleteSpecificValues" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.001"/>
+  <testcase name="testPostgresSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.001"/>
+  <testcase name="testHanaSequenceMaxValueIncrementer" classname="org.springframework.jdbc.support.DataFieldMaxValueIncrementerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

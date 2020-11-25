@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:54" hostname="Macbook-Air.local" time="0.033">
+<testsuite name="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:41" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="testRegularlyProxiedLookup" classname="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" time="0.027"/>
-  <testcase name="testAutoProxiedLookup" classname="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" time="0.006"/>
+  <testcase name="testRegularlyProxiedLookup" classname="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" time="0.01"/>
+  <testcase name="testAutoProxiedLookup" classname="org.springframework.beans.factory.xml.LookupMethodWrappedByCglibProxyTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

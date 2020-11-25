@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.ObjenesisProxyTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:49" hostname="Macbook-Air.local" time="0.101">
+<testsuite name="org.springframework.aop.framework.ObjenesisProxyTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:38" hostname="lichangbaodeMacBook-Pro.local" time="0.056">
   <properties/>
-  <testcase name="appliesAspectToClassWithComplexConstructor" classname="org.springframework.aop.framework.ObjenesisProxyTests" time="0.101"/>
+  <testcase name="appliesAspectToClassWithComplexConstructor" classname="org.springframework.aop.framework.ObjenesisProxyTests" time="0.056"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

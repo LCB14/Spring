@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:01" hostname="Macbook-Air.local" time="0.002">
+<testsuite name="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:38" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="resolveExtensionsNoMatch" classname="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" time="0.001"/>
+  <testcase name="resolveExtensionsNoMatch" classname="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" time="0.0"/>
   <testcase name="resolveExtensions" classname="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" time="0.001"/>
   <testcase name="lookupMediaTypeCaseInsensitive" classname="org.springframework.web.accept.MappingMediaTypeFileExtensionResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.support.ManagedSetTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:36" hostname="Macbook-Air.local" time="0.003">
+<testsuite name="org.springframework.beans.factory.support.ManagedSetTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:56" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="mergeEmptyChild" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.001"/>
+  <testcase name="mergeEmptyChild" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.0"/>
   <testcase name="mergeWithNullParent" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.0"/>
-  <testcase name="mergeNotAllowedWhenMergeNotEnabled" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.001"/>
+  <testcase name="mergeNotAllowedWhenMergeNotEnabled" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.0"/>
   <testcase name="mergeChildValuesOverrideTheParents" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.0"/>
   <testcase name="mergeSunnyDay" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.0"/>
   <testcase name="mergeWithNonCompatibleParentType" classname="org.springframework.beans.factory.support.ManagedSetTests" time="0.001"/>

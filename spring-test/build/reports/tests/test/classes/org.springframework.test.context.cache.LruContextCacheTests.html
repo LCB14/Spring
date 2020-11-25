@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.185s</div>
+<div class="counter">0.069s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,32 +79,32 @@
 </thead>
 <tr>
 <td class="success">ensureEvictedContextsAreClosed</td>
-<td class="success">0.023s</td>
+<td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ensureLruOrderingIsUpdated</td>
-<td class="success">0.005s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">maxCacheSizeNegativeOne</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">maxCacheSizeNegativeOne</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">maxCacheSizeOne</td>
-<td class="success">0.148s</td>
+<td class="success">0.055s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">maxCacheSizeThree</td>
-<td class="success">0.006s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">maxCacheSizeZero</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -112,23 +112,23 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:44:49.277 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@2e653ec0 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.279 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@2e653ec0 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.280 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@2e653ec0 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.281 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@2e653ec0 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.286 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@42671a44 size = 1, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.287 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@42671a44 size = 1, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.288 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@42671a44 size = 2, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.289 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@42671a44 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.290 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@42671a44 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.292 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@7f10a19e size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.293 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@7f10a19e size = 3, maxSize = 3, parentContextCount = 0, hitCount = 1, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.294 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@7f10a19e size = 3, maxSize = 3, parentContextCount = 0, hitCount = 2, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.295 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@7f10a19e size = 3, maxSize = 3, parentContextCount = 0, hitCount = 3, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.296 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@7f10a19e size = 3, maxSize = 3, parentContextCount = 0, hitCount = 4, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.297 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@5df2102 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.298 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@5df2102 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
-19:44:49.318 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@5df2102 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+<pre>22:40:53.570 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@764d18e8 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.571 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@764d18e8 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.571 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@764d18e8 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.572 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@764d18e8 size = 1, maxSize = 1, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.573 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@3e8ee649 size = 1, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.573 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@3e8ee649 size = 1, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.573 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@3e8ee649 size = 2, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.573 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@3e8ee649 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.574 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@3e8ee649 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.574 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@6cefdec8 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.574 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@6cefdec8 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 1, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.575 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@6cefdec8 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 2, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.575 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@6cefdec8 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 3, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.575 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@6cefdec8 size = 3, maxSize = 3, parentContextCount = 0, hitCount = 4, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.576 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@251ac1b2 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.576 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@251ac1b2 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
+22:40:53.586 [Test worker] DEBUG o.s.t.u.ReflectionTestUtils - Getting field 'contextMap' from target object [[DefaultContextCache@251ac1b2 size = 2, maxSize = 2, parentContextCount = 0, hitCount = 0, missCount = 0]] or target class [class org.springframework.test.context.cache.DefaultContextCache]
 </pre>
 </span>
 </div>
@@ -140,7 +140,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 20:58:43</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:26</p>
 </div>
 </div>
 </body>

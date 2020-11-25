@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:10" hostname="Macbook-Air.local" time="0.124">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:07" hostname="lichangbaodeMacBook-Pro.local" time="0.087">
   <properties/>
-  <testcase name="fooHeader" classname="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" time="0.076"/>
-  <testcase name="barHeader" classname="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" time="0.048"/>
+  <testcase name="fooHeader" classname="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" time="0.05"/>
+  <testcase name="barHeader" classname="org.springframework.test.web.servlet.samples.standalone.FrameworkExtensionTests" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

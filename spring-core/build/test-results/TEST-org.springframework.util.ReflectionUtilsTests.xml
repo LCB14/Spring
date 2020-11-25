@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.ReflectionUtilsTests" tests="21" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:41:50" hostname="Macbook-Air.local" time="0.043">
+<testsuite name="org.springframework.util.ReflectionUtilsTests" tests="21" skipped="2" failures="0" errors="0" timestamp="2020-11-25T14:39:11" hostname="lichangbaodeMacBook-Pro.local" time="0.008">
   <properties/>
-  <testcase name="declaresException" classname="org.springframework.util.ReflectionUtilsTests" time="0.007"/>
-  <testcase name="getUniqueDeclaredMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.003"/>
+  <testcase name="declaresException" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="getUniqueDeclaredMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="getUniqueDeclaredMethods_isFastEnough" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="validCopy" classname="org.springframework.util.ReflectionUtilsTests" time="0.003"/>
+  <testcase name="validCopy" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="invokeMethod" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="rejectsNullSrc" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="rejectsNullSrc" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="validCopyOnSubTypeWithNewField" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="findMethodWithVarArgs" classname="org.springframework.util.ReflectionUtilsTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="findMethod" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="isCglibRenamedMethod" classname="org.springframework.util.ReflectionUtilsTests" time="0.002"/>
+  <testcase name="isCglibRenamedMethod" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="copySrcToDestinationOfIncorrectClass" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="findField" classname="org.springframework.util.ReflectionUtilsTests" time="0.003"/>
-  <testcase name="getAllDeclaredMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.004"/>
+  <testcase name="findField" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="getAllDeclaredMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="getDecalredMethodsReturnsCopy" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="setField" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="duplicatesFound" classname="org.springframework.util.ReflectionUtilsTests" time="0.007"/>
-  <testcase name="rejectsNullDest" classname="org.springframework.util.ReflectionUtilsTests" time="0.003"/>
+  <testcase name="duplicatesFound" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
+  <testcase name="rejectsNullDest" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
   <testcase name="validCopyToSubType" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="doWithProtectedMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.002"/>
+  <testcase name="doWithProtectedMethods" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <testcase name="validCopyToSubTypeWithFinalField" classname="org.springframework.util.ReflectionUtilsTests" time="0.0"/>
-  <testcase name="getUniqueDeclaredMethods_withCovariantReturnType" classname="org.springframework.util.ReflectionUtilsTests" time="0.004"/>
+  <testcase name="getUniqueDeclaredMethods_withCovariantReturnType" classname="org.springframework.util.ReflectionUtilsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

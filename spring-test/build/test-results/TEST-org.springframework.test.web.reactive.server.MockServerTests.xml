@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.MockServerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:26" hostname="Macbook-Air.local" time="0.675">
+<testsuite name="org.springframework.test.web.reactive.server.MockServerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:18" hostname="lichangbaodeMacBook-Pro.local" time="0.247">
   <properties/>
-  <testcase name="exchangeResultHasCookieHeaders" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.574"/>
-  <testcase name="mutateDoesNotCreateNewSession" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.068"/>
-  <testcase name="responseBodyContentWithFluxExchangeResult" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.026"/>
-  <testcase name="mutateDoesCopy" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.007"/>
+  <testcase name="exchangeResultHasCookieHeaders" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.201"/>
+  <testcase name="mutateDoesNotCreateNewSession" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.032"/>
+  <testcase name="responseBodyContentWithFluxExchangeResult" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.011"/>
+  <testcase name="mutateDoesCopy" classname="org.springframework.test.web.reactive.server.MockServerTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

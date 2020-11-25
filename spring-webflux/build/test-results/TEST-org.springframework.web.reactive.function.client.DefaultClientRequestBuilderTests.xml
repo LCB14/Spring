@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:02" hostname="Macbook-Air.local" time="0.017">
+<testsuite name="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:29" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
   <testcase name="cookie" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.0"/>
   <testcase name="method" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.0"/>
   <testcase name="url" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.0"/>
   <testcase name="from" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.001"/>
-  <testcase name="build" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.011"/>
-  <testcase name="bodyParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.002"/>
-  <testcase name="bodyInserter" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.002"/>
-  <testcase name="bodyClass" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.001"/>
-  <system-out><![CDATA[19:49:02.721 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [6817bd0b] Writing "foo"
-19:49:02.724 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [77ba2895] Writing "foo"
+  <testcase name="build" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.006"/>
+  <testcase name="bodyParameterizedTypeReference" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.001"/>
+  <testcase name="bodyInserter" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.001"/>
+  <testcase name="bodyClass" classname="org.springframework.web.reactive.function.client.DefaultClientRequestBuilderTests" time="0.0"/>
+  <system-out><![CDATA[22:43:29.525 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [fc8ac49] Writing "foo"
+22:43:29.526 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [61e9fd48] Writing "foo"
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

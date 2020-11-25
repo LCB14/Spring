@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.054s</div>
+<div class="counter">0.011s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,57 +79,57 @@
 </thead>
 <tr>
 <td class="success">canEncode</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">canEncodeWithCustomMimeType</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">canNotEncode</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">classLevelJsonView</td>
-<td class="success">0.010s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encodableMimeTypesIsImmutable</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encode</td>
-<td class="success">0.008s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encodeAsStreamWithCustomStreamingType</td>
-<td class="success">0.005s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encodeNonStream</td>
-<td class="success">0.004s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encodeWithFlushAfterWriteOff</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">encodeWithType</td>
-<td class="success">0.018s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fieldLevelJsonView</td>
-<td class="success">0.002s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -137,19 +137,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:25.574 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[org.springframework.http.codec.json.Jackson2JsonEncoderTests$Foo@26d90f1e, org.springframework.http (truncated)...]
-19:46:25.581 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar']]]
-19:46:25.588 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar' (truncated)...]
-19:46:25.592 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [org.springframework.http.codec.json.JacksonViewBean@4429b249]
-19:46:25.604 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
-19:46:25.606 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
-19:46:25.606 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
-19:46:25.608 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [org.springframework.http.codec.json.JacksonViewBean@2c1d0d05]
-19:46:25.611 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
-19:46:25.613 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
-19:46:25.614 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
-19:46:25.615 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
-19:46:25.616 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+<pre>22:41:49.700 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[org.springframework.http.codec.json.Jackson2JsonEncoderTests$Foo@6071857c, org.springframework.http (truncated)...]
+22:41:49.701 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar']]]
+22:41:49.703 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [[Pojo[foo='foo', bar='bar'], Pojo[foo='foofoo', bar='barbar'], Pojo[foo='foofoofoo', bar='barbarbar' (truncated)...]
+22:41:49.704 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [org.springframework.http.codec.json.JacksonViewBean@174d7b46]
+22:41:49.706 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+22:41:49.707 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+22:41:49.707 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+22:41:49.707 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [org.springframework.http.codec.json.JacksonViewBean@de46097]
+22:41:49.708 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+22:41:49.709 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoo', bar='barbar']]
+22:41:49.709 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foofoofoo', bar='barbarbar']]
+22:41:49.709 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
+22:41:49.710 [Test worker] DEBUG o.s.w.HttpLogging - Encoding [Pojo[foo='foo', bar='bar']]
 </pre>
 </span>
 </div>
@@ -161,7 +161,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

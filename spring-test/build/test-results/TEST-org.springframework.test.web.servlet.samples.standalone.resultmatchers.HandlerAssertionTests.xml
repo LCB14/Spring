@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:17" hostname="Macbook-Air.local" time="0.309">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:13" hostname="lichangbaodeMacBook-Pro.local" time="0.165">
   <properties/>
-  <testcase name="methodNameMatchers" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.034"/>
-  <testcase name="method" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.041"/>
-  <testcase name="methodCall" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.066"/>
-  <testcase name="methodName" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.064"/>
-  <testcase name="methodCallOnNonMock" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.05"/>
-  <testcase name="handlerType" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.053"/>
+  <testcase name="methodNameMatchers" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.028"/>
+  <testcase name="method" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.026"/>
+  <testcase name="methodCall" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.034"/>
+  <testcase name="methodName" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.027"/>
+  <testcase name="methodCallOnNonMock" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.025"/>
+  <testcase name="handlerType" classname="org.springframework.test.web.servlet.samples.standalone.resultmatchers.HandlerAssertionTests" time="0.024"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

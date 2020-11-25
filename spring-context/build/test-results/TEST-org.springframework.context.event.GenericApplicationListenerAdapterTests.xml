@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.event.GenericApplicationListenerAdapterTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:18" hostname="Macbook-Air.local" time="0.104">
+<testsuite name="org.springframework.context.event.GenericApplicationListenerAdapterTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:23" hostname="lichangbaodeMacBook-Pro.local" time="0.044">
   <properties/>
-  <testcase name="genericListenerUpperBoundTypeNotMatching" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.035"/>
-  <testcase name="genericListenerStrictTypeAndResolvableType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.024"/>
-  <testcase name="genericListenerRawType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.01"/>
-  <testcase name="genericListenerWildcardType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.01"/>
+  <testcase name="genericListenerUpperBoundTypeNotMatching" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.014"/>
+  <testcase name="genericListenerStrictTypeAndResolvableType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.006"/>
+  <testcase name="genericListenerRawType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.006"/>
+  <testcase name="genericListenerWildcardType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.006"/>
   <testcase name="genericListenerStrictTypeNotMatchTypeErasure" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
-  <testcase name="genericListenerStrictTypeSubClass" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.007"/>
+  <testcase name="genericListenerStrictTypeSubClass" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.004"/>
   <testcase name="genericListenerStrictTypeNotMatching" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
-  <testcase name="genericListenerUpperBoundType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.001"/>
+  <testcase name="genericListenerUpperBoundType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
   <testcase name="genericListenerWildcardTypeTypeErasure" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
-  <testcase name="genericListenerStrictTypeEventSubType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.001"/>
-  <testcase name="supportsEventTypeWithSmartApplicationListener" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.011"/>
+  <testcase name="genericListenerStrictTypeEventSubType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
+  <testcase name="supportsEventTypeWithSmartApplicationListener" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.006"/>
   <testcase name="genericListenerStrictTypeAndResolvableTypeProvider" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
   <testcase name="supportsSourceTypeWithSmartApplicationListener" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.001"/>
   <testcase name="genericListenerStrictType" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
   <testcase name="genericListenerRawTypeTypeErasure" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
-  <testcase name="genericListenerStrictTypeEventSubTypeNotMatching" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.001"/>
-  <testcase name="genericListenerStrictTypeTypeErasure" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.001"/>
+  <testcase name="genericListenerStrictTypeEventSubTypeNotMatching" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
+  <testcase name="genericListenerStrictTypeTypeErasure" classname="org.springframework.context.event.GenericApplicationListenerAdapterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

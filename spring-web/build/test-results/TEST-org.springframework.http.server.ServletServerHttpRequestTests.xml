@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.ServletServerHttpRequestTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:26" hostname="Macbook-Air.local" time="0.003">
+<testsuite name="org.springframework.http.server.ServletServerHttpRequestTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="getHeadersWithEmptyContentTypeAndEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.001"/>
+  <testcase name="getHeadersWithEmptyContentTypeAndEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getFormBody" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.001"/>
   <testcase name="getUriWithMalformedQueryParam" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getUriWithQueryString" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getBody" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getMethod" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
-  <testcase name="getUriWithEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.001"/>
+  <testcase name="getUriWithEncoding" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getUriForSimplePath" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getHeaders" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>
   <testcase name="getUriWithQueryParam" classname="org.springframework.http.server.ServletServerHttpRequestTests" time="0.0"/>

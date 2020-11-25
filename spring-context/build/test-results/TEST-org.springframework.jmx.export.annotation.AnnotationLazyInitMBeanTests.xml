@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:46" hostname="Macbook-Air.local" time="0.599">
+<testsuite name="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:37" hostname="lichangbaodeMacBook-Pro.local" time="0.206">
   <properties/>
-  <testcase name="lazyAssembling" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.498"/>
-  <testcase name="lazyNaming" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.024"/>
-  <testcase name="componentScan" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.077"/>
+  <testcase name="lazyAssembling" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.171"/>
+  <testcase name="lazyNaming" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.007"/>
+  <testcase name="componentScan" classname="org.springframework.jmx.export.annotation.AnnotationLazyInitMBeanTests" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

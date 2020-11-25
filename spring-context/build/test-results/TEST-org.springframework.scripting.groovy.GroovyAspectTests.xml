@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scripting.groovy.GroovyAspectTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:26" hostname="Macbook-Air.local" time="0.117">
+<testsuite name="org.springframework.scripting.groovy.GroovyAspectTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:27" hostname="lichangbaodeMacBook-Pro.local" time="0.051">
   <properties/>
-  <testcase name="manualGroovyBeanWithStaticPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.051"/>
-  <testcase name="manualGroovyBeanWithDynamicPointcutProxyTargetClass" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.031"/>
-  <testcase name="manualGroovyBeanWithUnconditionalPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.015"/>
-  <testcase name="manualGroovyBeanWithDynamicPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.02"/>
+  <testcase name="manualGroovyBeanWithStaticPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.02"/>
+  <testcase name="manualGroovyBeanWithDynamicPointcutProxyTargetClass" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.015"/>
+  <testcase name="manualGroovyBeanWithUnconditionalPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.008"/>
+  <testcase name="manualGroovyBeanWithDynamicPointcut" classname="org.springframework.scripting.groovy.GroovyAspectTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

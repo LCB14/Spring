@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.WebSessionMethodArgumentResolverTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:49" hostname="Macbook-Air.local" time="0.049">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.WebSessionMethodArgumentResolverTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:44" hostname="lichangbaodeMacBook-Pro.local" time="0.022">
   <properties/>
-  <testcase name="resolverArgument" classname="org.springframework.web.reactive.result.method.annotation.WebSessionMethodArgumentResolverTests" time="0.049"/>
+  <testcase name="resolverArgument" classname="org.springframework.web.reactive.result.method.annotation.WebSessionMethodArgumentResolverTests" time="0.022"/>
   <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.WebSessionMethodArgumentResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

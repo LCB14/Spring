@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.adapter.JmsResponseTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:30" hostname="Macbook-Air.local" time="0.025">
+<testsuite name="org.springframework.jms.listener.adapter.JmsResponseTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:30" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="resolveDestinationForQueue" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.019"/>
-  <testcase name="createWithNullQueueName" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.001"/>
-  <testcase name="destinationDoesNotUseDestinationResolver" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.0"/>
+  <testcase name="resolveDestinationForQueue" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.007"/>
+  <testcase name="createWithNullQueueName" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.0"/>
+  <testcase name="destinationDoesNotUseDestinationResolver" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.001"/>
   <testcase name="createWithNulResponse" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.0"/>
   <testcase name="createWithNullTopicName" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.0"/>
   <testcase name="createWithNulDestination" classname="org.springframework.jms.listener.adapter.JmsResponseTests" time="0.001"/>

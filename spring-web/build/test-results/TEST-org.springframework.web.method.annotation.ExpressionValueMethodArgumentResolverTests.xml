@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:19" hostname="Macbook-Air.local" time="0.008">
+<testsuite name="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:47" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="resolveSystemProperty" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.006"/>
-  <testcase name="resolveContextPath" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveSystemProperty" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.001"/>
+  <testcase name="resolveContextPath" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.0"/>
   <testcase name="supportsParameter" classname="org.springframework.web.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.001"/>
-  <system-out><![CDATA[19:46:19.801 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7e2cdfa6
-19:46:19.806 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1aee6c9f
-19:46:19.808 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3cd5d893
+  <system-out><![CDATA[22:41:47.650 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1218d05d
+22:41:47.651 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f5f96ec
+22:41:47.652 [Test worker] DEBUG o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@10c1d695
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

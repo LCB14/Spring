@@ -28,7 +28,7 @@
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">0</div>
+<div class="counter">1</div>
 <p>failures</p>
 </div>
 </td>
@@ -40,7 +40,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">1m43.56s</div>
+<div class="counter">59.157s</div>
 <p>duration</p>
 </div>
 </td>
@@ -49,8 +49,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox skipped" id="successRate">
-<div class="percent">100%</div>
+<div class="infoBox failures" id="successRate">
+<div class="percent">99%</div>
 <p>successful</p>
 </div>
 </td>
@@ -60,74 +60,86 @@
 <div id="tabs">
 <ul class="tabLinks">
 <li>
-<a href="#tab0">Ignored tests</a>
+<a href="#tab0">Failed tests</a>
 </li>
 <li>
-<a href="#tab1">Classes</a>
+<a href="#tab1">Ignored tests</a>
+</li>
+<li>
+<a href="#tab2">Classes</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
-<h2>Ignored tests</h2>
+<h2>Failed tests</h2>
 <ul class="linkList">
 <li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@52c79535] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@6d479921]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@52c79535] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@6d479921]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@f594256] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3cb1e4ef]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@f594256] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3cb1e4ef]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@46e00c5e] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@75450ef1]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@46e00c5e] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@75450ef1]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@52b1a071] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@36ea597]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@52b1a071] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@36ea597]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1ad8a5fe] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@47b702d2]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1ad8a5fe] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@47b702d2]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2aa89a00] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5c1cc0df]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2aa89a00] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5c1cc0df]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@29a1f8be] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@1381cf6d]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@29a1f8be] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@1381cf6d]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c297fb6] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@33f75573]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c297fb6] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@33f75573]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@46e00c5e] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@75450ef1]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@46e00c5e] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@75450ef1]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@52b1a071] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@36ea597]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@52b1a071] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@36ea597]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1ad8a5fe] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@47b702d2]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1ad8a5fe] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@47b702d2]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2aa89a00] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5c1cc0df]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2aa89a00] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5c1cc0df]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@29a1f8be] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@1381cf6d]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@29a1f8be] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@1381cf6d]]</a>
-</li>
-<li>
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
-<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c297fb6] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@33f75573]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4c297fb6] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@33f75573]]</a>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.RequestMappingMessageConversionIntegrationTests.html">RequestMappingMessageConversionIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.RequestMappingMessageConversionIntegrationTests.html#byteBufferResponseBodyWithObservable[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@566c45c5]]">byteBufferResponseBodyWithObservable[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@566c45c5]]</a>
 </li>
 </ul>
 </div>
 <div id="tab1" class="tab">
+<h2>Ignored tests</h2>
+<ul class="linkList">
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@5886520a] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@121101e1]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@5886520a] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@121101e1]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@637b19ea] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@25fe39f4]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@637b19ea] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@25fe39f4]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f823943] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5506375b]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f823943] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5506375b]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6e09c058] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3a6c75f4]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6e09c058] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3a6c75f4]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@20895fac] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@79935d9c]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@20895fac] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@79935d9c]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@64fa0bdb] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@2254f0]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@64fa0bdb] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@2254f0]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@358a3d43] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@5616f9d3]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@358a3d43] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@5616f9d3]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4d8325a6] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5f146d32]]">serverDetectsClientDisconnect[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4d8325a6] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5f146d32]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f823943] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5506375b]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@4f823943] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5506375b]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6e09c058] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3a6c75f4]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6e09c058] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@3a6c75f4]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@20895fac] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@79935d9c]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@20895fac] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@79935d9c]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@64fa0bdb] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@2254f0]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@64fa0bdb] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@2254f0]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@358a3d43] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@5616f9d3]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@358a3d43] webClient [org.springframework.http.client.reactive.JettyClientHttpConnector@5616f9d3]]</a>
+</li>
+<li>
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html">SseIntegrationTests</a>.
+<a href="../classes/org.springframework.web.reactive.result.method.annotation.SseIntegrationTests.html#sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4d8325a6] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5f146d32]]">sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4d8325a6] webClient [org.springframework.http.client.reactive.ReactorClientHttpConnector@5f146d32]]</a>
+</li>
+</ul>
+</div>
+<div id="tab2" class="tab">
 <h2>Classes</h2>
 <table>
 <thread>
@@ -147,7 +159,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.397s</td>
+<td>0.207s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -157,7 +169,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.120s</td>
+<td>0.054s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -167,7 +179,7 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>2.534s</td>
+<td>1.209s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -177,7 +189,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.095s</td>
+<td>0.053s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -187,7 +199,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.033s</td>
+<td>0.019s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -197,7 +209,7 @@
 <td>24</td>
 <td>0</td>
 <td>0</td>
-<td>7.384s</td>
+<td>4.133s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -207,7 +219,7 @@
 <td>48</td>
 <td>0</td>
 <td>0</td>
-<td>6.408s</td>
+<td>3.689s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -217,7 +229,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.016s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -227,7 +239,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.083s</td>
+<td>0.040s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -237,7 +249,7 @@
 <td>36</td>
 <td>0</td>
 <td>0</td>
-<td>5.897s</td>
+<td>3.120s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -247,7 +259,7 @@
 <td>20</td>
 <td>0</td>
 <td>0</td>
-<td>0.077s</td>
+<td>0.031s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -257,7 +269,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.017s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -267,7 +279,7 @@
 <td>36</td>
 <td>0</td>
 <td>0</td>
-<td>5.575s</td>
+<td>2.951s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -277,7 +289,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>3.177s</td>
+<td>2.530s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -287,7 +299,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.011s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -297,7 +309,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.014s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -307,7 +319,7 @@
 <td>19</td>
 <td>0</td>
 <td>0</td>
-<td>0.193s</td>
+<td>0.082s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -317,7 +329,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.267s</td>
+<td>0.103s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -327,7 +339,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>0.278s</td>
+<td>0.144s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -337,7 +349,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.092s</td>
+<td>0.042s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -347,7 +359,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.004s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -357,7 +369,7 @@
 <td>28</td>
 <td>0</td>
 <td>0</td>
-<td>10.383s</td>
+<td>5.101s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -367,7 +379,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.003s</td>
+<td>0.001s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -377,7 +389,7 @@
 <td>7</td>
 <td>0</td>
 <td>0</td>
-<td>0.026s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -387,7 +399,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.006s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -397,7 +409,7 @@
 <td>20</td>
 <td>0</td>
 <td>0</td>
-<td>5.659s</td>
+<td>2.618s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -407,7 +419,7 @@
 <td>6</td>
 <td>0</td>
 <td>0</td>
-<td>0.240s</td>
+<td>0.082s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -417,7 +429,7 @@
 <td>11</td>
 <td>0</td>
 <td>0</td>
-<td>0.132s</td>
+<td>0.045s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -427,7 +439,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.007s</td>
+<td>0.004s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -437,7 +449,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.054s</td>
+<td>0.027s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -447,7 +459,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>1.205s</td>
+<td>0.654s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -457,7 +469,7 @@
 <td>24</td>
 <td>0</td>
 <td>0</td>
-<td>6.424s</td>
+<td>2.980s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -467,7 +479,7 @@
 <td>10</td>
 <td>0</td>
 <td>0</td>
-<td>0.094s</td>
+<td>0.031s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -477,18 +489,18 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>2.380s</td>
+<td>1.954s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
-<td class="success">
+<td class="failures">
 <a href="../classes/org.springframework.web.reactive.result.method.annotation.RequestMappingMessageConversionIntegrationTests.html">RequestMappingMessageConversionIntegrationTests</a>
 </td>
 <td>176</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
-<td>28.138s</td>
-<td class="success">100%</td>
+<td>14.302s</td>
+<td class="failures">99%</td>
 </tr>
 <tr>
 <td class="success">
@@ -497,7 +509,7 @@
 <td>12</td>
 <td>0</td>
 <td>0</td>
-<td>2.465s</td>
+<td>1.018s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -507,7 +519,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.003s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -517,7 +529,7 @@
 <td>8</td>
 <td>0</td>
 <td>0</td>
-<td>0.046s</td>
+<td>0.026s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -527,7 +539,7 @@
 <td>14</td>
 <td>0</td>
 <td>0</td>
-<td>0.074s</td>
+<td>0.027s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -537,7 +549,7 @@
 <td>13</td>
 <td>0</td>
 <td>0</td>
-<td>0.425s</td>
+<td>0.220s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -547,7 +559,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.022s</td>
+<td>0.008s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -557,7 +569,7 @@
 <td>16</td>
 <td>0</td>
 <td>0</td>
-<td>0.110s</td>
+<td>0.055s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -567,7 +579,7 @@
 <td>3</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.007s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -577,7 +589,7 @@
 <td>5</td>
 <td>0</td>
 <td>0</td>
-<td>0.043s</td>
+<td>0.021s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -587,7 +599,7 @@
 <td>4</td>
 <td>0</td>
 <td>0</td>
-<td>0.009s</td>
+<td>0.002s</td>
 <td class="success">100%</td>
 </tr>
 <tr>
@@ -597,7 +609,7 @@
 <td>40</td>
 <td>0</td>
 <td>14</td>
-<td>12.880s</td>
+<td>11.516s</td>
 <td class="skipped">100%</td>
 </tr>
 <tr>
@@ -607,7 +619,7 @@
 <td>2</td>
 <td>0</td>
 <td>0</td>
-<td>0.049s</td>
+<td>0.022s</td>
 <td class="success">100%</td>
 </tr>
 </table>
@@ -620,7 +632,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:49:30</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:43:46</p>
 </div>
 </div>
 </body>

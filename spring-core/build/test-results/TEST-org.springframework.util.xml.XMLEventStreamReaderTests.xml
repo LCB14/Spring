@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.xml.XMLEventStreamReaderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:52" hostname="Macbook-Air.local" time="0.032">
+<testsuite name="org.springframework.util.xml.XMLEventStreamReaderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:11" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="readCorrect" classname="org.springframework.util.xml.XMLEventStreamReaderTests" time="0.031"/>
+  <testcase name="readCorrect" classname="org.springframework.util.xml.XMLEventStreamReaderTests" time="0.009"/>
   <testcase name="readAll" classname="org.springframework.util.xml.XMLEventStreamReaderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

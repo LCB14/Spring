@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:51" hostname="Macbook-Air.local" time="0.036">
+<testsuite name="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:13" hostname="lichangbaodeMacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="defaultValuesForRedirect" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.022"/>
+  <testcase name="defaultValuesForRedirect" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.011"/>
   <testcase name="redirectWithPropagateQuery" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
-  <testcase name="header" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
+  <testcase name="header" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.001"/>
   <testcase name="modelAttributes" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.012"/>
-  <testcase name="modelAttribute" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.001"/>
+  <testcase name="modelAttribute" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
   <testcase name="model" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
-  <testcase name="redirectWithAbsoluteUrl" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
+  <testcase name="redirectWithAbsoluteUrl" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.001"/>
   <testcase name="defaultValues" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
   <testcase name="viewName" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>
   <testcase name="httpHeaders" classname="org.springframework.web.reactive.result.view.DefaultRenderingBuilderTests" time="0.0"/>

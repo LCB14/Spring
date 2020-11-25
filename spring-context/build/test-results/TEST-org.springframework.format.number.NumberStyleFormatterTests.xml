@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.format.number.NumberStyleFormatterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:57" hostname="Macbook-Air.local" time="0.002">
+<testsuite name="org.springframework.format.number.NumberStyleFormatterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:42" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="parseValue" classname="org.springframework.format.number.NumberStyleFormatterTests" time="0.0"/>
-  <testcase name="parsePercentValueNotLenientFailure" classname="org.springframework.format.number.NumberStyleFormatterTests" time="0.001"/>
+  <testcase name="parsePercentValueNotLenientFailure" classname="org.springframework.format.number.NumberStyleFormatterTests" time="0.0"/>
   <testcase name="parseBogusValue" classname="org.springframework.format.number.NumberStyleFormatterTests" time="0.001"/>
   <testcase name="formatValue" classname="org.springframework.format.number.NumberStyleFormatterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

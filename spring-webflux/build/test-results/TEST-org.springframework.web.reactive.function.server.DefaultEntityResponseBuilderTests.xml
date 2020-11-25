@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:00" hostname="Macbook-Air.local" time="0.017">
+<testsuite name="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:28" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
   <testcase name="notModifiedEtag" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="status" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="varyBy" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="status" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
+  <testcase name="varyBy" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
   <testcase name="fromPublisher" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
   <testcase name="contentLength" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
-  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="etag" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="allow" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="cacheControlTag" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
-  <testcase name="notModifiedLastModified" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.002"/>
-  <testcase name="bodyInserter" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.003"/>
-  <testcase name="headers" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
+  <testcase name="etag" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
+  <testcase name="allow" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
+  <testcase name="cacheControlTag" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="notModifiedLastModified" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
+  <testcase name="bodyInserter" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="headers" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
   <testcase name="cookies" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="fromPublisherClass" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="fromPublisherClass" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
   <testcase name="lastModified" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
-  <testcase name="fromObject" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.001"/>
+  <testcase name="fromObject" classname="org.springframework.web.reactive.function.server.DefaultEntityResponseBuilderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

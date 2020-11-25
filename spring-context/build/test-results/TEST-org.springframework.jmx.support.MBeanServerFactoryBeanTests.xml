@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.support.MBeanServerFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:44" hostname="Macbook-Air.local" time="0.013">
+<testsuite name="org.springframework.jmx.support.MBeanServerFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:37" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="newMBeanServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.003"/>
-  <testcase name="withLocateExistingAndExistingServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.001"/>
+  <testcase name="newMBeanServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.001"/>
+  <testcase name="withLocateExistingAndExistingServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.0"/>
   <testcase name="createMBeanServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.0"/>
   <testcase name="withLocateExistingAndFallbackToPlatformServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.004"/>
-  <testcase name="defaultDomain" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.001"/>
+  <testcase name="defaultDomain" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.0"/>
   <testcase name="getObject" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.0"/>
-  <testcase name="withEmptyAgentIdAndFallbackToPlatformServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.004"/>
+  <testcase name="withEmptyAgentIdAndFallbackToPlatformServer" classname="org.springframework.jmx.support.MBeanServerFactoryBeanTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

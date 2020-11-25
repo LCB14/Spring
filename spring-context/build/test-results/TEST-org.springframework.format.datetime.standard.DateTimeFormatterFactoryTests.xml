@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:57" hostname="Macbook-Air.local" time="0.075">
+<testsuite name="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:42" hostname="lichangbaodeMacBook-Pro.local" time="0.022">
   <properties/>
-  <testcase name="createDateTimeFormatterInOrderOfPropertyPriority" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.062"/>
+  <testcase name="createDateTimeFormatterInOrderOfPropertyPriority" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.017"/>
   <testcase name="createDateTimeFormatterWithPattern" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
   <testcase name="createDateTimeFormatter" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
   <testcase name="createDateTimeFormatterWithNullFallback" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
   <testcase name="createDateTimeFormatterWithFallback" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.0"/>
-  <testcase name="createDateTimeFormatterWithTimeZone" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.012"/>
+  <testcase name="createDateTimeFormatterWithTimeZone" classname="org.springframework.format.datetime.standard.DateTimeFormatterFactoryTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

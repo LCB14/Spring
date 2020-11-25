@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:31" hostname="Macbook-Air.local" time="0.032">
+<testsuite name="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:54" hostname="lichangbaodeMacBook-Pro.local" time="0.008">
   <properties/>
-  <testcase name="testGetObjectType" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.023"/>
-  <testcase name="testParameterValidation" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.005"/>
-  <testcase name="testArgumentConversion" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.002"/>
-  <testcase name="testInvokeWithNullArgument" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.001"/>
+  <testcase name="testGetObjectType" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.004"/>
+  <testcase name="testParameterValidation" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.002"/>
+  <testcase name="testArgumentConversion" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.001"/>
+  <testcase name="testInvokeWithNullArgument" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.0"/>
   <testcase name="testInvokeWithIntArgument" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.0"/>
   <testcase name="testInvokeWithIntArguments" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.001"/>
   <testcase name="testGetObject" classname="org.springframework.beans.factory.config.MethodInvokingFactoryBeanTests" time="0.0"/>

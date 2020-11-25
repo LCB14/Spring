@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.atinject.tck.auto.Convertible$Tests" tests="46" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:01" hostname="Macbook-Air.local" time="0.045">
+<testsuite name="org.atinject.tck.auto.Convertible$Tests" tests="46" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:15" hostname="lichangbaodeMacBook-Pro.local" time="0.014">
   <properties/>
-  <testcase name="testOverriddenPublicMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testOverriddenPublicMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testPackagePrivateMethodNotInjectedWhenOverrideLacksAnnotation" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testProviderReturnedValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testQualifiersNotInheritedFromOverriddenMethod" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testQualifiersNotInheritedFromOverriddenMethod" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testPublicNoArgsConstructorInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testCircularlyDependentSingletons" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testPublicMethodNotInjectedWhenOverrideNotAnnotated" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testPackagePrivateMethodInjectedDifferentPackages" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testPackagePrivateMethodInjectedDifferentPackages" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testSupertypeMethodInjectedBeforeSubtypeMethods" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testFieldInjectedProviderYieldsSingleton" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
-  <testcase name="testConstructorInjectedProviderYieldsSingleton" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testFieldInjectedProviderYieldsSingleton" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
+  <testcase name="testConstructorInjectedProviderYieldsSingleton" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testPackagePrivateMethodInjectedEvenWhenSimilarMethodLacksAnnotation" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testOverriddenPackagePrivateMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
+  <testcase name="testOverriddenPackagePrivateMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
   <testcase name="testNonVoidMethodInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testOverriddenPublicMethodNotInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testMethodInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.005"/>
+  <testcase name="testMethodInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.002"/>
   <testcase name="testProtectedMethodNotInjectedWhenOverrideNotAnnotated" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testSimilarPackagePrivateMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testConstructorInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.005"/>
+  <testcase name="testConstructorInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
   <testcase name="testOverriddingMixedWithPackagePrivate2" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testOverriddingMixedWithPackagePrivate3" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testOverriddingMixedWithPackagePrivate4" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testMethodInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.009"/>
+  <testcase name="testMethodInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.004"/>
   <testcase name="testFieldsInjectedBeforeMethods" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testMethodWithZeroParametersInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testOverriddenProtectedMethodInjectedOnlyOnce" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
@@ -31,21 +31,21 @@
   <testcase name="testSupertypeFieldsInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testConstructorInjectionWithValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testSingletonAnnotationNotInheritedFromSupertype" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testConstructorInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.002"/>
-  <testcase name="testFieldInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.003"/>
+  <testcase name="testConstructorInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testFieldInjectedProviderYieldsDistinctValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
   <testcase name="testPackagePrivateMethodNotInjectedWhenSupertypeHasAnnotatedSimilarMethod" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testSubtypeMethodsInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testTwiceOverriddenMethodInjectedWhenMiddleLacksAnnotation" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testPrivateMethodNotInjectedWhenSupertypeHasAnnotatedSimilarMethod" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testTwiceOverriddenMethodNotInjectedWhenOverrideLacksAnnotation" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
+  <testcase name="testTwiceOverriddenMethodNotInjectedWhenOverrideLacksAnnotation" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testFieldInjectionWithValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testMethodInjectedProviderYieldsSingleton" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testOverriddenProtectedMethodInjection" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testMethodInjectionWithValues" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testSupertypeMethodsInjectedBeforeSubtypeFields" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
+  <testcase name="testSupertypeMethodsInjectedBeforeSubtypeFields" classname="org.atinject.tck.auto.Convertible$Tests" time="0.001"/>
   <testcase name="testSupertypeMethodsInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testMethodWithMultipleParametersInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
-  <testcase name="testFieldInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.003"/>
+  <testcase name="testFieldInjectionWithProviders" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <testcase name="testFieldsInjected" classname="org.atinject.tck.auto.Convertible$Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

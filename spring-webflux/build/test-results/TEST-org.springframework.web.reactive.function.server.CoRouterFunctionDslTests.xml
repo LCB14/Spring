@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:24" hostname="Macbook-Air.local" time="0.419">
+<testsuite name="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:43" hostname="lichangbaodeMacBook-Pro.local" time="0.238">
   <properties/>
-  <testcase name="accept" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.12"/>
-  <testcase name="header" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.023"/>
-  <testcase name="method" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.023"/>
-  <testcase name="resourceByPath" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.034"/>
-  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.027"/>
-  <testcase name="resource" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.027"/>
-  <testcase name="path" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.023"/>
-  <testcase name="emptyRouter" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.013"/>
-  <testcase name="rendering" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.061"/>
-  <testcase name="acceptAndPOST" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.029"/>
-  <testcase name="noRoute" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.03"/>
+  <testcase name="accept" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.042"/>
+  <testcase name="header" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.019"/>
+  <testcase name="method" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.018"/>
+  <testcase name="resourceByPath" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.02"/>
+  <testcase name="contentType" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.021"/>
+  <testcase name="resource" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.02"/>
+  <testcase name="path" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.02"/>
+  <testcase name="emptyRouter" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.005"/>
+  <testcase name="rendering" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.034"/>
+  <testcase name="acceptAndPOST" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.019"/>
+  <testcase name="noRoute" classname="org.springframework.web.reactive.function.server.CoRouterFunctionDslTests" time="0.02"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.009s</div>
+<div class="counter">0.003s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">checkFileLocation</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -89,12 +89,12 @@
 </tr>
 <tr>
 <td class="success">checkResource</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">checkResourceWithAllowedLocations</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -104,7 +104,7 @@
 </tr>
 <tr>
 <td class="success">resolveFromClasspathRoot</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -114,7 +114,7 @@
 </tr>
 <tr>
 <td class="success">resolveWithEncodedPath</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -122,19 +122,19 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:49:03.894 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.895 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.895 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.896 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.896 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;//Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.896 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;////../../Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.896 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2E%2E/testsecret/secret.txt
-19:49:03.896 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.897 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2e%2e/testsecret/secret.txt
-19:49:03.897 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.897 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot; /Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.898 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/  /Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
-19:49:03.898 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;url:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/github/spring_study/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+<pre>22:43:30.077 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;test/../../testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;//Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;////../../Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/../../Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2E%2E/testsecret/secret.txt
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/%2E%2E/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2E%2E/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resolved resource path contains encoded &quot;../&quot; or &quot;..\&quot;: file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2e%2e/testsecret/secret.txt
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/%2e%2e/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/%2e%2e/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.078 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot; /Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.079 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;/  /Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
+22:43:30.079 [Test worker] WARN  o.s.w.r.r.PathResourceResolver - Resource path &quot;url:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; was successfully resolved but resource &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/testsecret/secret.txt&quot; is neither under the current location &quot;file:/Users/lichangbao/resources/spring/spring-webflux/build/resources/test/org/springframework/web/reactive/resource/test/&quot; nor under any of the allowed locations []
 </pre>
 </span>
 </div>
@@ -146,7 +146,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:49:30</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:43:46</p>
 </div>
 </div>
 </body>

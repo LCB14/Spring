@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.BootstrapUtilsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:46" hostname="Macbook-Air.local" time="0.051">
+<testsuite name="org.springframework.test.context.BootstrapUtilsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:52" hostname="lichangbaodeMacBook-Pro.local" time="0.115">
   <properties/>
-  <testcase name="resolveTestContextBootstrapperWithDoubleMetaBootstrapWithAnnotations" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.032"/>
-  <testcase name="resolveTestContextBootstrapperForNonAnnotatedClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.008"/>
+  <testcase name="resolveTestContextBootstrapperWithDoubleMetaBootstrapWithAnnotations" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.01"/>
+  <testcase name="resolveTestContextBootstrapperForNonAnnotatedClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.003"/>
   <testcase name="resolveTestContextBootstrapperWithLocalDeclarationThatOverridesMetaBootstrapWithAnnotations" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.002"/>
-  <testcase name="resolveTestContextBootstrapperWithEmptyBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.002"/>
+  <testcase name="resolveTestContextBootstrapperWithEmptyBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
   <testcase name="resolveTestContextBootstrapperWithDirectBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
-  <testcase name="resolveTestContextBootstrapperWithMetaBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
-  <testcase name="resolveTestContextBootstrapperWithInheritedBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
-  <testcase name="resolveTestContextBootstrapperForWebAppConfigurationAnnotatedClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.001"/>
+  <testcase name="resolveTestContextBootstrapperWithMetaBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.0"/>
+  <testcase name="resolveTestContextBootstrapperWithInheritedBootstrapWithAnnotation" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.0"/>
+  <testcase name="resolveTestContextBootstrapperForWebAppConfigurationAnnotatedClass" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.095"/>
   <testcase name="resolveTestContextBootstrapperWithDuplicatingMetaBootstrapWithAnnotations" classname="org.springframework.test.context.BootstrapUtilsTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

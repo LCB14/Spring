@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.samples.standalone.RequestParameterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:15" hostname="Macbook-Air.local" time="0.054">
+<testsuite name="org.springframework.test.web.servlet.samples.standalone.RequestParameterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:11" hostname="lichangbaodeMacBook-Pro.local" time="0.028">
   <properties/>
-  <testcase name="queryParameter" classname="org.springframework.test.web.servlet.samples.standalone.RequestParameterTests" time="0.054"/>
+  <testcase name="queryParameter" classname="org.springframework.test.web.servlet.samples.standalone.RequestParameterTests" time="0.028"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

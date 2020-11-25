@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ImportSelectorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:52" hostname="Macbook-Air.local" time="2.991">
+<testsuite name="org.springframework.context.annotation.ImportSelectorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:11" hostname="lichangbaodeMacBook-Pro.local" time="1.186">
   <properties/>
-  <testcase name="correctMetaDataOnIndirectImports" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.128"/>
-  <testcase name="invokeAwareMethodsInImportGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.021"/>
-  <testcase name="importSelectors" classname="org.springframework.context.annotation.ImportSelectorTests" time="2.008"/>
-  <testcase name="invokeAwareMethodsInImportSelector" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.011"/>
-  <testcase name="importSelectorsWithNestedGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.32"/>
-  <testcase name="importSelectorsWithGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.276"/>
-  <testcase name="importSelectorsSeparateWithGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.108"/>
-  <testcase name="importSelectorsWithNestedGroupSameDeferredImport" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.119"/>
+  <testcase name="correctMetaDataOnIndirectImports" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.037"/>
+  <testcase name="invokeAwareMethodsInImportGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.008"/>
+  <testcase name="importSelectors" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.804"/>
+  <testcase name="invokeAwareMethodsInImportSelector" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.005"/>
+  <testcase name="importSelectorsWithNestedGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.116"/>
+  <testcase name="importSelectorsWithGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.094"/>
+  <testcase name="importSelectorsSeparateWithGroup" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.06"/>
+  <testcase name="importSelectorsWithNestedGroupSameDeferredImport" classname="org.springframework.context.annotation.ImportSelectorTests" time="0.062"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

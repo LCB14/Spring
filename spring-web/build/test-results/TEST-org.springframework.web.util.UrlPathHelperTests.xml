@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.UrlPathHelperTests" tests="39" skipped="3" failures="0" errors="0" timestamp="2019-06-21T11:46:03" hostname="Macbook-Air.local" time="0.011">
+<testsuite name="org.springframework.web.util.UrlPathHelperTests" tests="39" skipped="3" failures="0" errors="0" timestamp="2020-11-25T14:41:39" hostname="lichangbaodeMacBook-Pro.local" time="0.004">
   <properties/>
   <testcase name="wasDefaultServletFileWithCompliantSetting" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
-  <testcase name="getLookupPathWithSemicolonContent" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
+  <testcase name="getLookupPathWithSemicolonContent" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
   <testcase name="getLookupPathWithSemicolonContentAndNullPathInfo" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasCasualServletRootWithMissingSlashWithCompliantSetting" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="wasCasualServletFolder" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="wasCasualServletFolder" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getPathWithinServletWithoutUrlDecoding" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getPathWithinApplication" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getRequestRemoveSemicolonContent" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
@@ -18,13 +18,13 @@
   <testcase name="tomcatCasualServletRootWithMissingSlash" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="wasDefaultServletFile" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="wasDefaultServletFile" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasDefaultServletRoot" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getOriginatingQueryString" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
-  <testcase name="getRequestUri" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="getRequestUri" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getOriginatingQueryStringIsNull" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasCasualServletRootWithCompliantSetting" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
-  <testcase name="tomcatDefaultServletFolder" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="tomcatDefaultServletFolder" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getOriginatingRequestUri" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasCasualServletRootWithMissingSlash" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0">
     <skipped/>
@@ -35,12 +35,12 @@
   <testcase name="tomcatCasualServletRoot" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="alwaysUseFullPath" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getRequestKeepSemicolonContent" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
-  <testcase name="wasCasualServletFile" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="wasCasualServletFile" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasCasualServletRoot" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getPathWithinApplicationForSlashContextPath" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="wasDefaultServletFolder" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getOriginatingRequestUriWebsphere" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
-  <testcase name="removeDuplicateSlashesInPath" classname="org.springframework.web.util.UrlPathHelperTests" time="0.001"/>
+  <testcase name="removeDuplicateSlashesInPath" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="tomcatDefaultServletFile" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="tomcatDefaultServletRoot" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>
   <testcase name="getOriginatingQueryStringNotPresent" classname="org.springframework.web.util.UrlPathHelperTests" time="0.0"/>

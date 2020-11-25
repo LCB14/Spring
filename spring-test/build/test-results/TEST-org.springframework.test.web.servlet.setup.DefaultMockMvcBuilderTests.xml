@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:08" hostname="Macbook-Air.local" time="0.119">
+<testsuite name="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:06" hostname="lichangbaodeMacBook-Pro.local" time="0.045">
   <properties/>
-  <testcase name="rootWacServletContainerAttributePreviouslySet" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.034"/>
-  <testcase name="webAppContextSetupWithNullServletContext" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.001"/>
-  <testcase name="rootWacServletContainerAttributeNotPreviouslySetWithContextHierarchy" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.007"/>
-  <testcase name="dispatcherServletCustomizer" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.059"/>
+  <testcase name="rootWacServletContainerAttributePreviouslySet" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.006"/>
+  <testcase name="webAppContextSetupWithNullServletContext" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.0"/>
+  <testcase name="rootWacServletContainerAttributeNotPreviouslySetWithContextHierarchy" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.005"/>
+  <testcase name="dispatcherServletCustomizer" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.023"/>
   <testcase name="rootWacServletContainerAttributeNotPreviouslySet" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.0"/>
-  <testcase name="webAppContextSetupWithNullWac" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.0"/>
-  <testcase name="rootWacServletContainerAttributePreviouslySetWithContextHierarchy" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.001"/>
-  <testcase name="dispatcherServletCustomizerProcessedInOrder" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.016"/>
+  <testcase name="webAppContextSetupWithNullWac" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.001"/>
+  <testcase name="rootWacServletContainerAttributePreviouslySetWithContextHierarchy" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.0"/>
+  <testcase name="dispatcherServletCustomizerProcessedInOrder" classname="org.springframework.test.web.servlet.setup.DefaultMockMvcBuilderTests" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

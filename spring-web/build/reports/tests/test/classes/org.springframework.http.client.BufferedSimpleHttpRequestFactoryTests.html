@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.022s</div>
+<div class="counter">0.011s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,27 +79,27 @@
 </thead>
 <tr>
 <td class="success">deleteWithoutBodyDoesNotRaiseException</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">echo</td>
-<td class="success">0.005s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">headersAfterExecute</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">httpMethods</td>
-<td class="success">0.001s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">multipleWrites</td>
-<td class="success">0.003s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -109,12 +109,12 @@
 </tr>
 <tr>
 <td class="success">queryParameters</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">status</td>
-<td class="success">0.004s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -122,48 +122,48 @@
 <div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50243] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50243] done accepting connections: Socket is closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50244] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50244] done accepting connections: Socket is closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50245] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50245] done accepting connections: Socket is closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50246] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50246] received request: POST /status/ok HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50246] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50248] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50248] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50248] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50250] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50250] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50250] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50252] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50252] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 execute
-INFO: MockWebServer[50252] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50254] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50254] received request: GET /params?param1=value&amp;param2=value1&amp;param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50254] done accepting connections: Socket closed
+<pre>Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53458] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53458] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53459] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53459] done accepting connections: Socket is closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53460] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53460] done accepting connections: Socket is closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53461] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53461] received request: POST /status/ok HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53461] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53463] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53463] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53463] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53465] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53465] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53465] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53467] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53467] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 execute
+INFO: MockWebServer[53467] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53469] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53469] received request: GET /params?param1=value&amp;param2=value1&amp;param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53469] done accepting connections: Socket closed
 </pre>
 </span>
 </div>
@@ -175,7 +175,7 @@ INFO: MockWebServer[50254] done accepting connections: Socket closed
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

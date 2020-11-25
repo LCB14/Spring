@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.client.ExtractingResponseErrorHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:17" hostname="Macbook-Air.local" time="0.059">
+<testsuite name="org.springframework.web.client.ExtractingResponseErrorHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:47" hostname="lichangbaodeMacBook-Pro.local" time="0.034">
   <properties/>
-  <testcase name="handleNoMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.003"/>
+  <testcase name="handleNoMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.001"/>
   <testcase name="hasError" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleErrorSeriesMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.047"/>
+  <testcase name="handleErrorSeriesMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.029"/>
   <testcase name="hasErrorOverride" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleNoMatchOverride" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.001"/>
-  <testcase name="handleErrorStatusMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.006"/>
-  <system-out><![CDATA[19:46:17.534 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException]
-19:46:17.555 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException]
+  <testcase name="handleNoMatchOverride" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.0"/>
+  <testcase name="handleErrorStatusMatch" classname="org.springframework.web.client.ExtractingResponseErrorHandlerTests" time="0.002"/>
+  <system-out><![CDATA[22:41:47.037 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException]
+22:41:47.049 [Test worker] DEBUG o.s.w.c.HttpMessageConverterExtractor - Reading to [org.springframework.web.client.ExtractingResponseErrorHandlerTests$MyRestClientException]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

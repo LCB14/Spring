@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:32" hostname="Macbook-Air.local" time="0.217">
+<testsuite name="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:31" hostname="lichangbaodeMacBook-Pro.local" time="0.112">
   <properties/>
-  <testcase name="messagingMessageConverterCanBeUsed" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.004"/>
-  <testcase name="parameterAnnotationWithJdkProxy" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.007"/>
-  <testcase name="messageConverterUsedIfSet" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.001"/>
-  <testcase name="parameterAnnotationWithCglibProxy" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.204"/>
+  <testcase name="messagingMessageConverterCanBeUsed" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.002"/>
+  <testcase name="parameterAnnotationWithJdkProxy" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.002"/>
+  <testcase name="messageConverterUsedIfSet" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.002"/>
+  <testcase name="parameterAnnotationWithCglibProxy" classname="org.springframework.jms.config.JmsListenerContainerFactoryIntegrationTests" time="0.106"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

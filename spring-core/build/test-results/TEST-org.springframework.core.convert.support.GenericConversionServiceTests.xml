@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.convert.support.GenericConversionServiceTests" tests="66" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:41:49" hostname="Macbook-Air.local" time="0.131">
+<testsuite name="org.springframework.core.convert.support.GenericConversionServiceTests" tests="66" skipped="2" failures="0" errors="0" timestamp="2020-11-25T14:39:10" hostname="lichangbaodeMacBook-Pro.local" time="0.026">
   <properties/>
   <testcase name="testWildcardMap" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="sourceTypeIsVoid" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="addConverterNoSourceTargetClassInfoAvailable" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
+  <testcase name="sourceTypeIsVoid" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="addConverterNoSourceTargetClassInfoAvailable" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testPerformance2" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testPerformance3" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0">
+  <testcase name="testPerformance3" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001">
     <skipped/>
   </testcase>
-  <testcase name="testInterfaceToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.014"/>
-  <testcase name="convertWrongSourceTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="testInterfaceToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertWrongSourceTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="convertNullSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testMapToObjectConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="multipleCollectionTypesFromSameSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.014"/>
+  <testcase name="multipleCollectionTypesFromSameSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="testListToObjectConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="shouldNotSupportNullConvertibleTypesFromNonConditionalGenericConverter" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.004"/>
+  <testcase name="shouldNotSupportNullConvertibleTypesFromNonConditionalGenericConverter" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="testConvertiblePairsInSet" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testStringArrayToResourceArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.005"/>
-  <testcase name="testInterfaceArrayToStringArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="rawCollectionAsSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="testSubclassOfEnumToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.006"/>
+  <testcase name="testStringArrayToResourceArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.002"/>
+  <testcase name="testInterfaceArrayToStringArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="rawCollectionAsSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="testSubclassOfEnumToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="convertNull" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="convertSuperSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
+  <testcase name="convertSuperSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="adaptedCollectionTypesFromSameSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="convertNullSourcePrimitiveTargetTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertNullSourcePrimitiveTargetTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testObjectArrayToStringArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testConvertiblePairDifferentEqualsAndHash" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testEnumToStringConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.006"/>
+  <testcase name="testEnumToStringConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="canConvertFromClassSourceTypeToNullTargetType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="convertObjectToPrimitiveViaConverterFactory" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertObjectToPrimitiveViaConverterFactory" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="convertNullSourcePrimitiveTarget" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testEnumWithInterfaceToStringConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
-  <testcase name="stringToArrayCanConvert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="testEnumWithInterfaceToStringConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="stringToArrayCanConvert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="canConvert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testStringToIntegerArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.004"/>
-  <testcase name="convertToNullTargetClass" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="conditionalConversionForAllTypes" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
-  <testcase name="testStringToObject" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="testStringToIntegerArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertToNullTargetClass" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="conditionalConversionForAllTypes" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="testStringToObject" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="canConvertFromTypeDescriptorSourceTypeToNullTargetType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testStringToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testStringToEnumWithBaseInterfaceConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.007"/>
+  <testcase name="testStringToEnumWithBaseInterfaceConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="emptyListToArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testConvertiblePairEqualsAndHash" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="conditionalConverterFactory" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.011"/>
-  <testcase name="testStringToEnumWithInterfaceConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.007"/>
+  <testcase name="conditionalConverterFactory" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="testStringToEnumWithInterfaceConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="convertOptimizeArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="genericConverterDelegatingBackToConversionServiceConverterNotFound" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="convertAssignableSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="convertWrongTypeArgument" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="convertSuperTarget" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
-  <testcase name="canConvertIllegalArgumentNullTargetTypeFromClass" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertAssignableSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="convertWrongTypeArgument" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="convertSuperTarget" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="canConvertIllegalArgumentNullTargetTypeFromClass" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="convertToNullTargetTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="emptyListToObject" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="testStringArrayToIntegerArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.003"/>
+  <testcase name="testStringArrayToIntegerArray" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="canConvertNullSourceType" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="conditionalConverter" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="conditionalConverterCachingForDifferentAnnotationAttributes" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.005"/>
+  <testcase name="conditionalConverterCachingForDifferentAnnotationAttributes" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
   <testcase name="removeConvertible" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="convert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="stringToCollectionCanConvert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="canConvertAssignable" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="convertNullAnnotatedStringToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="testIgnoreCopyConstructor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.002"/>
+  <testcase name="stringToCollectionCanConvert" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="canConvertAssignable" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertNullAnnotatedStringToString" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
+  <testcase name="testIgnoreCopyConstructor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="targetTypeIsVoid" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="convertObjectToPrimitive" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="convertObjectToPrimitive" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="testListToIterableConversion" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="genericCollectionAsSource" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
-  <testcase name="canConvertIllegalArgumentNullTargetTypeFromTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="canConvertIllegalArgumentNullTargetTypeFromTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <testcase name="convertNotNullSourceNullSourceTypeDescriptor" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
-  <testcase name="converterNotFound" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.001"/>
+  <testcase name="converterNotFound" classname="org.springframework.core.convert.support.GenericConversionServiceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

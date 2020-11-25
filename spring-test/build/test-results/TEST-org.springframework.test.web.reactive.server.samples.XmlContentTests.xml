@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.reactive.server.samples.XmlContentTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:28" hostname="Macbook-Air.local" time="0.82">
+<testsuite name="org.springframework.test.web.reactive.server.samples.XmlContentTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:18" hostname="lichangbaodeMacBook-Pro.local" time="0.353">
   <properties/>
-  <testcase name="postXmlContent" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.195"/>
-  <testcase name="xpathIsEqualTo" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.163"/>
-  <testcase name="xpathContainsSubstringViaRegex" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.14"/>
-  <testcase name="xmlContent" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.191"/>
-  <testcase name="xpathMatches" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.13"/>
+  <testcase name="postXmlContent" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.083"/>
+  <testcase name="xpathIsEqualTo" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.082"/>
+  <testcase name="xpathContainsSubstringViaRegex" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.062"/>
+  <testcase name="xmlContent" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.078"/>
+  <testcase name="xpathMatches" classname="org.springframework.test.web.reactive.server.samples.XmlContentTests" time="0.048"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="4" skipped="4" failures="0" errors="0" timestamp="2019-06-21T11:46:28" hostname="Macbook-Air.local" time="0.0">
+<testsuite name="org.springframework.http.server.reactive.AsyncIntegrationTests" tests="4" skipped="4" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.0">
   <properties/>
-  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@33980900]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@33bf45f5]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@27560e69]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7ef5dfee]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@2316c6b]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@1f33604f]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@2a6a646b]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
+  <testcase name="basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@4bb71ea1]]" classname="org.springframework.http.server.reactive.AsyncIntegrationTests" time="0.0">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

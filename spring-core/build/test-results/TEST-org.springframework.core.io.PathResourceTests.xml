@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.PathResourceTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:38" hostname="Macbook-Air.local" time="0.173">
+<testsuite name="org.springframework.core.io.PathResourceTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:03" hostname="lichangbaodeMacBook-Pro.local" time="0.081">
   <properties/>
-  <testcase name="nullUri" classname="org.springframework.core.io.PathResourceTests" time="0.008"/>
+  <testcase name="nullUri" classname="org.springframework.core.io.PathResourceTests" time="0.002"/>
   <testcase name="getReadableByteChannelDoesNotExist" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
   <testcase name="nullPath" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="dirExists" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="dirExists" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="getInputStreamForDir" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="getWritableChannel" classname="org.springframework.core.io.PathResourceTests" time="0.004"/>
-  <testcase name="createRelativeFromFile" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="description" classname="org.springframework.core.io.PathResourceTests" time="0.003"/>
+  <testcase name="getWritableChannel" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="createRelativeFromFile" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
+  <testcase name="description" classname="org.springframework.core.io.PathResourceTests" time="0.002"/>
   <testcase name="fileIsWritable" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
   <testcase name="directoryIsNotWritable" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="getUri" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="getUrl" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="directoryOutputStream" classname="org.springframework.core.io.PathResourceTests" time="0.002"/>
-  <testcase name="nullPathString" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="getInputStream" classname="org.springframework.core.io.PathResourceTests" time="0.003"/>
+  <testcase name="directoryOutputStream" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="nullPathString" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
+  <testcase name="getInputStream" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
   <testcase name="filename" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="doesNotExistIsNotReadable" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="doesNotExistIsNotReadable" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="createRelativeFromDir" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="contentLength" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="contentLength" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="fileIsReadable" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="getInputStreamDoesNotExist" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="getInputStreamDoesNotExist" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="directoryIsNotReadable" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="getReadableByteChannel" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="getReadableByteChannel" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="createFromPath" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="createFromString" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="outputStream" classname="org.springframework.core.io.PathResourceTests" time="0.007"/>
-  <testcase name="getFile" classname="org.springframework.core.io.PathResourceTests" time="0.005"/>
-  <testcase name="getPathForDir" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
-  <testcase name="doesNotExistOutputStream" classname="org.springframework.core.io.PathResourceTests" time="0.003"/>
-  <testcase name="fileDoesNotExist" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="createFromString" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
+  <testcase name="outputStream" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="getFile" classname="org.springframework.core.io.PathResourceTests" time="0.003"/>
+  <testcase name="getPathForDir" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
+  <testcase name="doesNotExistOutputStream" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="fileDoesNotExist" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="contentLengthForDirectory" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
-  <testcase name="getPathForFile" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="getPathForFile" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <testcase name="getReadableByteChannelForDir" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
   <testcase name="fileExists" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
-  <testcase name="createFromUri" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
-  <testcase name="getFileUnsupported" classname="org.springframework.core.io.PathResourceTests" time="0.109"/>
-  <testcase name="lastModified" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="createFromUri" classname="org.springframework.core.io.PathResourceTests" time="0.001"/>
+  <testcase name="getFileUnsupported" classname="org.springframework.core.io.PathResourceTests" time="0.056"/>
+  <testcase name="lastModified" classname="org.springframework.core.io.PathResourceTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

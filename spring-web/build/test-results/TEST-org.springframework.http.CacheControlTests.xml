@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.CacheControlTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:29" hostname="Macbook-Air.local" time="0.002">
+<testsuite name="org.springframework.http.CacheControlTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:51" hostname="lichangbaodeMacBook-Pro.local" time="0.0">
   <properties/>
   <testcase name="maxAgeAndSMaxAge_duration" classname="org.springframework.http.CacheControlTests" time="0.0"/>
-  <testcase name="maxAge" classname="org.springframework.http.CacheControlTests" time="0.001"/>
+  <testcase name="maxAge" classname="org.springframework.http.CacheControlTests" time="0.0"/>
   <testcase name="staleIfError" classname="org.springframework.http.CacheControlTests" time="0.0"/>
   <testcase name="staleIfError_duration" classname="org.springframework.http.CacheControlTests" time="0.0"/>
   <testcase name="noCachePrivate" classname="org.springframework.http.CacheControlTests" time="0.0"/>

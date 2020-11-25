@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:13" hostname="Macbook-Air.local" time="0.332">
+<testsuite name="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:45" hostname="lichangbaodeMacBook-Pro.local" time="0.121">
   <properties/>
-  <testcase name="partsBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.299"/>
-  <testcase name="partListBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.033"/>
-  <system-out><![CDATA[19:46:13.957 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:49710/parts
-19:46:13.958 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{firstPart=[class path resource [org/springframework/http/converter/logo.jpg]], secondPart=[secondValue]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
-19:46:14.214 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:14.235 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:49710/partlist
-19:46:14.236 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{partList=[first value, second value, class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
-19:46:14.248 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+  <testcase name="partsBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.108"/>
+  <testcase name="partListBinding" classname="org.springframework.web.bind.support.WebRequestDataBinderIntegrationTests" time="0.013"/>
+  <system-out><![CDATA[22:41:45.431 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:52893/parts
+22:41:45.431 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{firstPart=[class path resource [org/springframework/http/converter/logo.jpg]], secondPart=[secondValue]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+22:41:45.523 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:45.530 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:52893/partlist
+22:41:45.530 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{partList=[first value, second value, class path resource [org/springframework/http/converter/logo.jpg]]}] with org.springframework.http.converter.support.AllEncompassingFormHttpMessageConverter
+22:41:45.537 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

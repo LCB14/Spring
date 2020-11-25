@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.LinkedMultiValueMapTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:50" hostname="Macbook-Air.local" time="0.003">
+<testsuite name="org.springframework.util.LinkedMultiValueMapTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:11" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="addAll" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.001"/>
+  <testcase name="addAll" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="toSingleValueMap" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
-  <testcase name="equals" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.001"/>
+  <testcase name="equals" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="getFirstWithEmptyList" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="addAllWithEmptyList" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="addIfAbsentWhenPresent" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="add" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
-  <testcase name="set" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.001"/>
+  <testcase name="set" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="addIfAbsentWhenAbsent" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="toSingleValueMapWithEmptyList" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>
   <testcase name="getFirst" classname="org.springframework.util.LinkedMultiValueMapTests" time="0.0"/>

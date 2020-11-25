@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.264s</div>
+<div class="counter">0.159s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,63 +81,63 @@
 </tr>
 </thead>
 <tr>
-<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@72eabb7e]]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78b16d0a]]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7541994a]]</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@33b1c695]]</td>
 <td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@72eabb7e]]</td>
 <td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
-<td class="success">0.047s</td>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78b16d0a]]</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">emptyPathSegments[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
-<td class="success">0.012s</td>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7541994a]]</td>
+<td class="success">0.029s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
-<td class="success">0.017s</td>
+<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@33b1c695]]</td>
+<td class="success">0.008s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
-<td class="success">0.014s</td>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@72eabb7e]]</td>
+<td class="success">0.006s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
-<td class="success">0.053s</td>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@78b16d0a]]</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">handlingError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
-<td class="success">0.012s</td>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7541994a]]</td>
+<td class="success">0.032s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2efdc238]]</td>
-<td class="success">0.016s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71e2874]]</td>
-<td class="success">0.012s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@11cd0db1]]</td>
-<td class="success">0.046s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@76013bae]]</td>
-<td class="success">0.013s</td>
+<td class="success">responseBodyError[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@33b1c695]]</td>
+<td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -145,18 +145,18 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:27.895 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50027/handling-error
-19:46:27.895 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.899 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:27.912 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50029/response-body-error
-19:46:27.912 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.915 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:27.925 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50031//
-19:46:27.925 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.928 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.937 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50033/handling-error
-19:46:27.937 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.942 [reactor-http-kqueue-4] ERROR r.n.h.s.HttpServerOperations - [id: 0x4f2f15aa, L:/127.0.0.1:50033 - R:/127.0.0.1:50034] Error starting response. Replying error status
+<pre>22:41:50.775 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53227/handling-error
+22:41:50.775 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.777 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.783 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53229/response-body-error
+22:41:50.783 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.784 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.789 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53231//
+22:41:50.789 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.790 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.795 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53233/handling-error
+22:41:50.795 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.796 [reactor-http-kqueue-4] ERROR r.n.h.s.HttpServerOperations - [id: 0x5193dd4f, L:/127.0.0.1:53233 - R:/127.0.0.1:53234] Error starting response. Replying error status
 java.lang.UnsupportedOperationException: null
 	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:85) ~[test/:?]
 	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[main/:?]
@@ -190,11 +190,11 @@ java.lang.UnsupportedOperationException: null
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) [netty-all-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.36.Final.jar:4.1.36.Final]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-19:46:27.945 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:27.952 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50035/response-body-error
-19:46:27.952 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.954 [reactor-http-kqueue-2] ERROR r.n.h.s.HttpServerOperations - [id: 0xa1aba635, L:/127.0.0.1:50035 - R:/127.0.0.1:50036] Error starting response. Replying error status
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+22:41:50.797 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.801 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53235/response-body-error
+22:41:50.801 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.802 [reactor-http-kqueue-6] ERROR r.n.h.s.HttpServerOperations - [id: 0x05e15183, L:/127.0.0.1:53235 - R:/127.0.0.1:53236] Error starting response. Replying error status
 java.lang.UnsupportedOperationException: null
 	at org.springframework.http.server.reactive.ErrorHandlerIntegrationTests$ErrorHandler.handle(ErrorHandlerIntegrationTests.java:85) ~[test/:?]
 	at org.springframework.http.server.reactive.ReactorHttpHandlerAdapter.apply(ReactorHttpHandlerAdapter.java:65) ~[main/:?]
@@ -228,85 +228,85 @@ java.lang.UnsupportedOperationException: null
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) [netty-all-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-all-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-all-4.1.36.Final.jar:4.1.36.Final]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-19:46:27.956 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:27.963 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50037//
-19:46:27.963 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.966 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.986 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50039/handling-error
-19:46:27.987 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.994 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:28.037 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50042/response-body-error
-19:46:28.037 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:28.049 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:28.089 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50045//
-19:46:28.090 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:28.095 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:28.119 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50048/handling-error
-19:46:28.119 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:28.121 [XNIO-10 I/O-2] DEBUG o.s.w.HttpLogging - [1ad312cd] Setting HttpServerExchange status to 500 Server Error
-19:46:28.122 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:28.132 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50050/response-body-error
-19:46:28.133 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:28.136 [XNIO-11 I/O-2] DEBUG o.s.w.HttpLogging - [32078c81] Setting HttpServerExchange status to 500 Server Error
-19:46:28.137 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
-19:46:28.147 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50052//
-19:46:28.147 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:28.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
+22:41:50.802 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.808 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53237//
+22:41:50.808 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.809 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.817 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53239/handling-error
+22:41:50.817 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.824 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.846 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53242/response-body-error
+22:41:50.846 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.857 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.878 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53245//
+22:41:50.878 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.884 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.906 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53248/handling-error
+22:41:50.906 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.908 [XNIO-10 I/O-2] DEBUG o.s.w.HttpLogging - [55eed8cb] Setting HttpServerExchange status to 500 Server Error
+22:41:50.908 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.915 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53250/response-body-error
+22:41:50.915 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.917 [XNIO-11 I/O-2] DEBUG o.s.w.HttpLogging - [727d4c78] Setting HttpServerExchange status to 500 Server Error
+22:41:50.917 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 500 INTERNAL_SERVER_ERROR
+22:41:50.924 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53252//
+22:41:50.924 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[text/plain, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.926 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+<pre>Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-10&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-10-53239&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-10-53239&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-10-50039&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-10-53239&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-10-53239&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-11&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-11-53242&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-11-53242&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-11-50042&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-11-53242&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-11-53242&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-12&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-12-53245&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-12-53245&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
-Jun 21, 2019 7:46:28 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-12-53245&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-12-53245&quot;]
 </pre>
 </span>
 </div>
@@ -318,7 +318,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-12-50045&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

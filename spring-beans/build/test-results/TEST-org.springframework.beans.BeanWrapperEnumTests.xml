@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.BeanWrapperEnumTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:28" hostname="Macbook-Air.local" time="0.031">
+<testsuite name="org.springframework.beans.BeanWrapperEnumTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:52" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
   <testcase name="testCustomEnumWithNull" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
-  <testcase name="testStandardEnumMapWithAutoGrowing" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.003"/>
+  <testcase name="testStandardEnumMapWithAutoGrowing" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
   <testcase name="testCustomEnumArrayWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
   <testcase name="testCustomEnumSetWithSingleValue" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
-  <testcase name="testNonPublicEnum" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.009"/>
-  <testcase name="testStandardEnumSetWithAutoGrowing" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.008"/>
-  <testcase name="testStandardEnumMapWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.005"/>
-  <testcase name="testCustomEnumWithEmptyString" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
-  <testcase name="testCustomEnumSetWithMultipleValuesAsCsv" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
+  <testcase name="testNonPublicEnum" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.002"/>
+  <testcase name="testStandardEnumSetWithAutoGrowing" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.003"/>
+  <testcase name="testStandardEnumMapWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
+  <testcase name="testCustomEnumWithEmptyString" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
+  <testcase name="testCustomEnumSetWithMultipleValuesAsCsv" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
   <testcase name="testCustomEnumSetWithGetterSetterMismatch" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
-  <testcase name="testStandardEnumSetWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
-  <testcase name="testCustomEnumArrayWithMultipleValuesAsCsv" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
+  <testcase name="testStandardEnumSetWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
+  <testcase name="testCustomEnumArrayWithMultipleValuesAsCsv" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
   <testcase name="testCustomEnumArrayWithSingleValue" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
   <testcase name="testCustomEnumSetWithMultipleValues" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
-  <testcase name="testCustomEnum" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.001"/>
+  <testcase name="testCustomEnum" classname="org.springframework.beans.BeanWrapperEnumTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

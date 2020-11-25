@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.dao.support.DataAccessUtilsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:52" hostname="Macbook-Air.local" time="0.024">
+<testsuite name="org.springframework.dao.support.DataAccessUtilsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:30" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="withString" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.002"/>
-  <testcase name="withInteger" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.003"/>
+  <testcase name="withString" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
+  <testcase name="withInteger" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.001"/>
   <testcase name="exceptionTranslationWithNoTranslation" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
-  <testcase name="withDate" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.01"/>
+  <testcase name="withDate" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.005"/>
   <testcase name="withLong" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
-  <testcase name="withTooLargeCollection" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.004"/>
+  <testcase name="withTooLargeCollection" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.001"/>
   <testcase name="withSameIntegerInstanceTwice" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
-  <testcase name="withEmptyCollection" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.002"/>
-  <testcase name="withEquivalentIntegerInstanceTwice" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.001"/>
-  <testcase name="exceptionTranslationWithTranslation" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.001"/>
+  <testcase name="withEmptyCollection" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.001"/>
+  <testcase name="withEquivalentIntegerInstanceTwice" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
+  <testcase name="exceptionTranslationWithTranslation" classname="org.springframework.dao.support.DataAccessUtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

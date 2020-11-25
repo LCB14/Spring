@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.bind.ServletRequestUtilsTests" tests="17" skipped="6" failures="0" errors="0" timestamp="2019-06-21T11:46:13" hostname="Macbook-Air.local" time="0.064">
+<testsuite name="org.springframework.web.bind.ServletRequestUtilsTests" tests="17" skipped="6" failures="0" errors="0" timestamp="2020-11-25T14:41:45" hostname="lichangbaodeMacBook-Pro.local" time="0.019">
   <properties/>
-  <testcase name="testLongParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.033"/>
+  <testcase name="testLongParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.005"/>
   <testcase name="testIntParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
-  <testcase name="testGetFloatParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.01">
+  <testcase name="testGetFloatParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.003">
     <skipped/>
   </testcase>
-  <testcase name="testFloatParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.002"/>
+  <testcase name="testFloatParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
   <testcase name="testGetLongParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testDoubleParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.006"/>
+  <testcase name="testDoubleParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.003"/>
   <testcase name="testBooleanParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
   <testcase name="testBooleanParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0"/>
-  <testcase name="testIntParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
-  <testcase name="testDoubleParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.002"/>
+  <testcase name="testIntParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0"/>
+  <testcase name="testDoubleParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
   <testcase name="testGetStringParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testLongParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.004"/>
+  <testcase name="testLongParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.002"/>
   <testcase name="testStringParameter" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0"/>
-  <testcase name="testFloatParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.002"/>
+  <testcase name="testFloatParameters" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001"/>
   <testcase name="testGetDoubleParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testGetBooleanParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0">
+  <testcase name="testGetBooleanParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.001">
     <skipped/>
   </testcase>
   <testcase name="testGetIntParameterWithDefaultValueHandlingIsFastEnough" classname="org.springframework.web.bind.ServletRequestUtilsTests" time="0.0">

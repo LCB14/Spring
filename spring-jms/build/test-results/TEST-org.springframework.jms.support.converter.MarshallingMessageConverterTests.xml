@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.support.converter.MarshallingMessageConverterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:35" hostname="Macbook-Air.local" time="0.018">
+<testsuite name="org.springframework.jms.support.converter.MarshallingMessageConverterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:32" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="toBytesMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.016"/>
-  <testcase name="toTextMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.001"/>
+  <testcase name="toBytesMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.008"/>
+  <testcase name="toTextMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.0"/>
   <testcase name="fromBytesMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.001"/>
   <testcase name="fromTextMessage" classname="org.springframework.jms.support.converter.MarshallingMessageConverterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

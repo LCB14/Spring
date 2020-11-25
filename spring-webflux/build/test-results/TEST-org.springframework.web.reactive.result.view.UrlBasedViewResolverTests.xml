@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:11" hostname="Macbook-Air.local" time="0.013">
+<testsuite name="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:24" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="viewNames" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.005"/>
-  <testcase name="urlBasedViewResolverDoesNotOverrideCustomRequestContextAttributeWithNull" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.002"/>
-  <testcase name="redirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.001"/>
-  <testcase name="urlBasedViewResolverOverridesCustomRequestContextAttributeWithNonNullValue" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.002"/>
-  <testcase name="customizedRedirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.002"/>
+  <testcase name="viewNames" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.001"/>
+  <testcase name="urlBasedViewResolverDoesNotOverrideCustomRequestContextAttributeWithNull" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.001"/>
+  <testcase name="redirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.0"/>
+  <testcase name="urlBasedViewResolverOverridesCustomRequestContextAttributeWithNonNullValue" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.001"/>
+  <testcase name="customizedRedirectView" classname="org.springframework.web.reactive.result.view.UrlBasedViewResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

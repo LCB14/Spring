@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:35" hostname="Macbook-Air.local" time="0.234">
+<testsuite name="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:55" hostname="lichangbaodeMacBook-Pro.local" time="0.128">
   <properties/>
-  <testcase name="descriptionButNoProperties" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.026"/>
-  <testcase name="beanCount" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.011"/>
-  <testcase name="beanPostProcessor" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="prototypeReferences" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.007"/>
-  <testcase name="commentsAndCdataInValue" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="factoryNesting" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="factoryReferences" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="protectedLifecycleMethods" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.009"/>
-  <testcase name="count" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="lifecycleMethods" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.015"/>
-  <testcase name="emptyValues" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="autoAliasing" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.007"/>
-  <testcase name="containsBeanDefinition" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="getDefinitionsForNoSuchClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
+  <testcase name="descriptionButNoProperties" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
+  <testcase name="beanCount" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
+  <testcase name="beanPostProcessor" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="prototypeReferences" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="commentsAndCdataInValue" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="factoryNesting" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.002"/>
+  <testcase name="factoryReferences" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="protectedLifecycleMethods" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
+  <testcase name="count" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="lifecycleMethods" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="emptyValues" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="autoAliasing" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
+  <testcase name="containsBeanDefinition" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="getDefinitionsForNoSuchClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
   <testcase name="getCountForFactoryClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="factoryIsInitialized" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
+  <testcase name="factoryIsInitialized" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
   <testcase name="inheritance" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="factorySingleton" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
+  <testcase name="factorySingleton" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
   <testcase name="getSharedInstanceByMatchingClassNoCatch" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="getSharedInstanceByMatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="getSharedInstanceByNonmatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="prototypeInstancesAreIndependent" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="factoryPrototype" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="lifecycleCallbacks" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="grandparentDefinitionFoundInBeanFactory" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="validEmpty" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="findsValidInstance" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="getFactoryItself" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
-  <testcase name="getInstanceByMatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="getInstanceByNonmatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="getBeanWithNullArg" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="rejectsFactoryGetOnNormalBean" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="sharedInstancesAreEqual" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="notThere" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.005"/>
-  <testcase name="aliasing" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.006"/>
-  <testcase name="initializingBeanCallback" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="getSharedInstanceByMatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="getSharedInstanceByNonmatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="prototypeInstancesAreIndependent" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="factoryPrototype" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="lifecycleCallbacks" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="grandparentDefinitionFoundInBeanFactory" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="validEmpty" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.002"/>
+  <testcase name="findsValidInstance" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="getFactoryItself" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="getInstanceByMatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.002"/>
+  <testcase name="getInstanceByNonmatchingClass" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="getBeanWithNullArg" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="rejectsFactoryGetOnNormalBean" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
+  <testcase name="sharedInstancesAreEqual" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.002"/>
+  <testcase name="notThere" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.002"/>
+  <testcase name="aliasing" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.004"/>
+  <testcase name="initializingBeanCallback" classname="org.springframework.beans.factory.xml.XmlListableBeanFactoryTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

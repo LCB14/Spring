@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.config.ContextNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:49" hostname="Macbook-Air.local" time="1.598">
+<testsuite name="org.springframework.context.config.ContextNamespaceHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:10" hostname="lichangbaodeMacBook-Pro.local" time="0.528">
   <properties/>
-  <testcase name="propertyPlaceholderLocationWithSystemPropertyForMultipleLocations" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="1.054"/>
-  <testcase name="propertyPlaceholderLocationWithSystemPropertyMissing" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.083"/>
-  <testcase name="propertyPlaceholderLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.067"/>
-  <testcase name="propertyPlaceholderLocationWithSystemPropertyForOneLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.061"/>
-  <testcase name="propertyPlaceholderIgnored" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.094"/>
-  <testcase name="propertyOverride" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.062"/>
-  <testcase name="propertyPlaceholderEnvironmentProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.06"/>
-  <testcase name="propertyPlaceholderSystemProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.056"/>
-  <testcase name="propertyPlaceholder" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.06"/>
-  <system-out><![CDATA[19:39:50.808 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'foo' defined in class path resource [org/springframework/context/config/contextNamespaceHandlerTests-location-placeholder.xml]: Could not resolve placeholder 'foo' in value "${foo}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'foo' in value "${foo}"
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForMultipleLocations" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.322"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyMissing" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.037"/>
+  <testcase name="propertyPlaceholderLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.029"/>
+  <testcase name="propertyPlaceholderLocationWithSystemPropertyForOneLocation" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.023"/>
+  <testcase name="propertyPlaceholderIgnored" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.036"/>
+  <testcase name="propertyOverride" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.023"/>
+  <testcase name="propertyPlaceholderEnvironmentProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.018"/>
+  <testcase name="propertyPlaceholderSystemProperties" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.021"/>
+  <testcase name="propertyPlaceholder" classname="org.springframework.context.config.ContextNamespaceHandlerTests" time="0.019"/>
+  <system-out><![CDATA[22:38:11.232 [Test worker] WARN  o.s.c.s.ClassPathXmlApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'foo' defined in class path resource [org/springframework/context/config/contextNamespaceHandlerTests-location-placeholder.xml]: Could not resolve placeholder 'foo' in value "${foo}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'foo' in value "${foo}"
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:01" hostname="Macbook-Air.local" time="0.026">
+<testsuite name="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:15" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="autowiringSucceedsWithBFPPAsStaticMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.013"/>
-  <testcase name="autowiringFailsWithBFPPAsInstanceMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.009"/>
-  <testcase name="staticBeanMethodsDoNotRespectScoping" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.004"/>
+  <testcase name="autowiringSucceedsWithBFPPAsStaticMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.005"/>
+  <testcase name="autowiringFailsWithBFPPAsInstanceMethod" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.004"/>
+  <testcase name="staticBeanMethodsDoNotRespectScoping" classname="org.springframework.context.annotation.ConfigurationClassAndBFPPTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.client.MockRestServiceServerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:34" hostname="Macbook-Air.local" time="0.235">
+<testsuite name="org.springframework.test.web.client.MockRestServiceServerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:21" hostname="lichangbaodeMacBook-Pro.local" time="0.088">
   <properties/>
-  <testcase name="verifyShouldFailIfRequestsFailed" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.098"/>
-  <testcase name="buildMultipleTimes" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.044"/>
-  <testcase name="resetAndReuseServer" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.015"/>
-  <testcase name="followUpRequestAfterFailure" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.015"/>
-  <testcase name="exactExpectOrder" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.033"/>
-  <testcase name="resetAndReuseServerWithUnorderedExpectationManager" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.013"/>
-  <testcase name="ignoreExpectOrder" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.017"/>
+  <testcase name="verifyShouldFailIfRequestsFailed" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.029"/>
+  <testcase name="buildMultipleTimes" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.019"/>
+  <testcase name="resetAndReuseServer" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.008"/>
+  <testcase name="followUpRequestAfterFailure" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.009"/>
+  <testcase name="exactExpectOrder" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.007"/>
+  <testcase name="resetAndReuseServerWithUnorderedExpectationManager" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.008"/>
+  <testcase name="ignoreExpectOrder" classname="org.springframework.test.web.client.MockRestServiceServerTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

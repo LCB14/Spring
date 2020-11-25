@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:04" hostname="Macbook-Air.local" time="0.138">
+<testsuite name="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:16" hostname="lichangbaodeMacBook-Pro.local" time="0.059">
   <properties/>
-  <testcase name="testDefaultScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.024"/>
-  <testcase name="testTargetClassScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.047"/>
-  <testcase name="testInterfacesScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.027"/>
-  <testcase name="testNoScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.023"/>
-  <testcase name="testInvalidConfigScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.016"/>
+  <testcase name="testDefaultScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.009"/>
+  <testcase name="testTargetClassScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.022"/>
+  <testcase name="testInterfacesScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.013"/>
+  <testcase name="testNoScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.008"/>
+  <testcase name="testInvalidConfigScopedProxy" classname="org.springframework.context.annotation.ComponentScanParserScopedProxyTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

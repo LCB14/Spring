@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.Base64UtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:50" hostname="Macbook-Air.local" time="0.02">
+<testsuite name="org.springframework.util.Base64UtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:11" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="encodeToStringWithJdk8VsJaxb" classname="org.springframework.util.Base64UtilsTests" time="0.02"/>
+  <testcase name="encodeToStringWithJdk8VsJaxb" classname="org.springframework.util.Base64UtilsTests" time="0.002"/>
   <testcase name="encode" classname="org.springframework.util.Base64UtilsTests" time="0.0"/>
   <testcase name="encodeDecodeUrlSafe" classname="org.springframework.util.Base64UtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

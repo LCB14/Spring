@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.DoubleScanTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:03" hostname="Macbook-Air.local" time="0.047">
+<testsuite name="org.springframework.context.annotation.DoubleScanTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:15" hostname="lichangbaodeMacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="testFooService" classname="org.springframework.context.annotation.DoubleScanTests" time="0.047"/>
+  <testcase name="testFooService" classname="org.springframework.context.annotation.DoubleScanTests" time="0.025"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

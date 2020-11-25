@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:34" hostname="Macbook-Air.local" time="0.018">
+<testsuite name="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:56" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="createWhenUsernameContainsColonShouldThrowException" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.004"/>
+  <testcase name="createWhenUsernameContainsColonShouldThrowException" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.0"/>
   <testcase name="createWhenUsernameIsNullShouldUseEmptyUsername" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.001"/>
   <testcase name="createWhenPasswordIsNullShouldUseEmptyPassword" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.0"/>
-  <testcase name="interceptShouldAddHeader" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.013"/>
+  <testcase name="interceptShouldAddHeader" classname="org.springframework.http.client.support.BasicAuthorizationInterceptorTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

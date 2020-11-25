@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.format.datetime.DateFormatterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:56" hostname="Macbook-Air.local" time="0.017">
+<testsuite name="org.springframework.format.datetime.DateFormatterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:42" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="shouldPrintAndParseShort" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
-  <testcase name="shouldPrintAndParseISODate" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
-  <testcase name="shouldPrintAndParseISOTime" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
-  <testcase name="shouldPrintAndParseMedium" classname="org.springframework.format.datetime.DateFormatterTests" time="0.006"/>
-  <testcase name="shouldPrintAndParseISODateTime" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
+  <testcase name="shouldPrintAndParseShort" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
+  <testcase name="shouldPrintAndParseISODate" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
+  <testcase name="shouldPrintAndParseISOTime" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
+  <testcase name="shouldPrintAndParseMedium" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
+  <testcase name="shouldPrintAndParseISODateTime" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
   <testcase name="shouldPrintAndParseDefault" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
-  <testcase name="shouldPrintAndParseFull" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
+  <testcase name="shouldPrintAndParseFull" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
   <testcase name="shouldPrintAndParseLong" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
   <testcase name="shouldUseCorrectOrder" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
-  <testcase name="shouldSupportJodaStylePatterns" classname="org.springframework.format.datetime.DateFormatterTests" time="0.004"/>
+  <testcase name="shouldSupportJodaStylePatterns" classname="org.springframework.format.datetime.DateFormatterTests" time="0.003"/>
   <testcase name="shouldPrintAndParseFromPattern" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
-  <testcase name="shouldThrowOnUnsupportedStylePattern" classname="org.springframework.format.datetime.DateFormatterTests" time="0.001"/>
+  <testcase name="shouldThrowOnUnsupportedStylePattern" classname="org.springframework.format.datetime.DateFormatterTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

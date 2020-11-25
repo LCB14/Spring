@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:25" hostname="Macbook-Air.local" time="0.04">
+<testsuite name="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:14" hostname="lichangbaodeMacBook-Pro.local" time="0.015">
   <properties/>
-  <testcase name="shouldApplyCustomizationsAtSubscription" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.034"/>
-  <testcase name="shouldApplyCustomizations" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.004"/>
-  <testcase name="dataMimeType" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.002"/>
+  <testcase name="shouldApplyCustomizationsAtSubscription" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.013"/>
+  <testcase name="shouldApplyCustomizations" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.002"/>
+  <testcase name="dataMimeType" classname="org.springframework.messaging.rsocket.DefaultRSocketRequesterBuilderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

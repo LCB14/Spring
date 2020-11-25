@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.json.Jackson2SmileDecoderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:25" hostname="Macbook-Air.local" time="0.034">
+<testsuite name="org.springframework.http.codec.json.Jackson2SmileDecoderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:49" hostname="lichangbaodeMacBook-Pro.local" time="0.012">
   <properties/>
   <testcase name="canDecode" classname="org.springframework.http.codec.json.Jackson2SmileDecoderTests" time="0.001"/>
-  <testcase name="decodeToMono" classname="org.springframework.http.codec.json.Jackson2SmileDecoderTests" time="0.004"/>
-  <testcase name="decode" classname="org.springframework.http.codec.json.Jackson2SmileDecoderTests" time="0.029"/>
-  <system-out><![CDATA[19:46:25.632 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [[Pojo[foo='f1', bar='b1'], Pojo[foo='f2', bar='b2']]]
-19:46:25.656 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
-19:46:25.657 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f2', bar='b2']]
-19:46:25.659 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
-19:46:25.660 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+  <testcase name="decodeToMono" classname="org.springframework.http.codec.json.Jackson2SmileDecoderTests" time="0.001"/>
+  <testcase name="decode" classname="org.springframework.http.codec.json.Jackson2SmileDecoderTests" time="0.01"/>
+  <system-out><![CDATA[22:41:49.713 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [[Pojo[foo='f1', bar='b1'], Pojo[foo='f2', bar='b2']]]
+22:41:49.721 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+22:41:49.721 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f2', bar='b2']]
+22:41:49.722 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
+22:41:49.723 [Test worker] DEBUG o.s.w.HttpLogging - Decoded [Pojo[foo='f1', bar='b1']]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

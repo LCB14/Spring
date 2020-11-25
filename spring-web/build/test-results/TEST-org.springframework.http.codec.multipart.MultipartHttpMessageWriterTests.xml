@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:26" hostname="Macbook-Air.local" time="0.1">
+<testsuite name="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:49" hostname="lichangbaodeMacBook-Pro.local" time="0.05">
   <properties/>
-  <testcase name="singleSubscriberWithStrings" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.014"/>
+  <testcase name="singleSubscriberWithStrings" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.006"/>
   <testcase name="canWrite" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.001"/>
-  <testcase name="customContentDisposition" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.023"/>
-  <testcase name="writeMultipart" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.05"/>
-  <testcase name="singleSubscriberWithResource" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.011"/>
-  <system-out><![CDATA[19:46:26.095 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name] (content masked)
-19:46:26.105 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [resource, buffers] (content masked)
-19:46:26.124 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [buffers, resource] (content masked)
-19:46:26.142 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name 1, name 2, logo, utf8, json, publisher, filePublisher] (content masked)
-19:46:26.173 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [name 2, name 1, utf8, publisher, json, logo, filePublisher] (content masked)
-19:46:26.177 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [logo] (content masked)
-19:46:26.186 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [logo] (content masked)
+  <testcase name="customContentDisposition" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.014"/>
+  <testcase name="writeMultipart" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.023"/>
+  <testcase name="singleSubscriberWithResource" classname="org.springframework.http.codec.multipart.MultipartHttpMessageWriterTests" time="0.006"/>
+  <system-out><![CDATA[22:41:49.860 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name] (content masked)
+22:41:49.864 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [resource, buffers] (content masked)
+22:41:49.876 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [buffers, resource] (content masked)
+22:41:49.882 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [name 1, name 2, logo, utf8, json, publisher, filePublisher] (content masked)
+22:41:49.899 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [name 2, name 1, utf8, publisher, json, logo, filePublisher] (content masked)
+22:41:49.900 [Test worker] DEBUG o.s.w.HttpLogging - Encoding parts [logo] (content masked)
+22:41:49.906 [Test worker] DEBUG o.s.w.HttpLogging - Parsed parts [logo] (content masked)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

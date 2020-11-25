@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:34" hostname="Macbook-Air.local" time="0.027">
+<testsuite name="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:56" hostname="lichangbaodeMacBook-Pro.local" time="0.015">
   <properties/>
-  <testcase name="httpMethods" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.004"/>
-  <testcase name="headersAfterExecute" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="httpMethods" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="headersAfterExecute" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.001"/>
   <testcase name="status" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.003"/>
-  <testcase name="echo" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.005"/>
-  <testcase name="multipleWrites" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.008"/>
-  <testcase name="queryParameters" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="echo" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.002"/>
+  <testcase name="multipleWrites" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.005"/>
+  <testcase name="queryParameters" classname="org.springframework.http.client.StreamingHttpComponentsClientHttpRequestFactoryTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50232] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50232] received request: PATCH /methods/patch HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50232] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50234] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50234] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50235] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50235] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50235] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50237] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50237] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50237] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50239] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50239] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50239] done accepting connections: Socket closed
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 execute
-INFO: MockWebServer[50241] starting to accept connections
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
-INFO: MockWebServer[50241] received request: GET /params?param1=value&param2=value1&param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
-Jun 21, 2019 7:46:34 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
-INFO: MockWebServer[50241] done accepting connections: Socket closed
+  <system-err><![CDATA[Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53447] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53447] received request: PATCH /methods/patch HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53447] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53449] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53449] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53450] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53450] received request: GET /status/notfound HTTP/1.1 and responded: HTTP/1.1 404 Client Error
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53450] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53452] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53452] received request: PUT /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53452] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53454] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53454] received request: POST /echo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53454] done accepting connections: Socket closed
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[53456] starting to accept connections
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[53456] received request: GET /params?param1=value&param2=value1&param2=value2 HTTP/1.1 and responded: HTTP/1.1 200 OK
+Nov 25, 2020 10:41:56 PM okhttp3.mockwebserver.MockWebServer$3 acceptConnections
+INFO: MockWebServer[53456] done accepting connections: Socket closed
 ]]></system-err>
 </testsuite>

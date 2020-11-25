@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.078s</div>
+<div class="counter">0.060s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,23 +81,23 @@
 </tr>
 </thead>
 <tr>
-<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@2e92be03]]</td>
-<td class="success">0.015s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@79ba00]]</td>
+<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1a9d47c4]]</td>
 <td class="success">0.009s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@7edca45f]]</td>
-<td class="success">0.041s</td>
+<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@587e3af2]]</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@5691514e]]</td>
-<td class="success">0.013s</td>
+<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@291e0321]]</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">basicTest[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@16d57865]]</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -105,40 +105,40 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:27.548 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50002
-19:46:27.549 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:27.551 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.561 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50004
-19:46:27.561 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:27.564 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.578 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50006
-19:46:27.578 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:27.584 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.613 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50009
-19:46:27.613 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:27.615 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+<pre>22:41:50.586 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53202
+22:41:50.586 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.587 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.594 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53204
+22:41:50.594 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.597 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.604 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53206
+22:41:50.604 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.610 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.638 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53209
+22:41:50.638 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:50.640 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+<pre>Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-7&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-7-50006&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-7-50006&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-7-53206&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-7-53206&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-7-50006&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-7-50006&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-7-53206&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-7-53206&quot;]
 </pre>
 </span>
 </div>
@@ -150,7 +150,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-7-50006&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

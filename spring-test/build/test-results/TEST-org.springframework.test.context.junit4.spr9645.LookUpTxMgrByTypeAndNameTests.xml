@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.spr9645.LookUpTxMgrByTypeAndNameTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:55" hostname="Macbook-Air.local" time="0.001">
+<testsuite name="org.springframework.test.context.junit4.spr9645.LookUpTxMgrByTypeAndNameTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:56" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="transactionalTest" classname="org.springframework.test.context.junit4.spr9645.LookUpTxMgrByTypeAndNameTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:03" hostname="Macbook-Air.local" time="0.029">
+<testsuite name="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:30" hostname="lichangbaodeMacBook-Pro.local" time="0.012">
   <properties/>
-  <testcase name="noTransformIfExtensionDoesNotMatch" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.002"/>
-  <testcase name="transformManifest" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.022"/>
-  <testcase name="syntaxErrorInManifest" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.004"/>
+  <testcase name="noTransformIfExtensionDoesNotMatch" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.0"/>
+  <testcase name="transformManifest" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.011"/>
+  <testcase name="syntaxErrorInManifest" classname="org.springframework.web.reactive.resource.AppCacheManifestTransformerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

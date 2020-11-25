@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.jcache.config.JCacheJavaConfigTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:20" hostname="Macbook-Air.local" time="1.015">
+<testsuite name="org.springframework.cache.jcache.config.JCacheJavaConfigTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:57" hostname="lichangbaodeMacBook-Pro.local" time="0.428">
   <properties/>
-  <testcase name="bothSetOnlyResolverIsUsed" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.108"/>
-  <testcase name="emptyConfigSupport" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.052"/>
-  <testcase name="fullCachingConfig" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.062"/>
-  <testcase name="exceptionCacheResolverLazilyRequired" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.071"/>
-  <testcase name="earlyPutWithExceptionVetoPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.025"/>
-  <testcase name="removeWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.025"/>
-  <testcase name="cacheExceptionVetoed" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.025"/>
-  <testcase name="cacheWithCustomCacheResolver" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.033"/>
-  <testcase name="earlyRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.026"/>
-  <testcase name="remove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.021"/>
-  <testcase name="earlyPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.028"/>
-  <testcase name="putWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.029"/>
-  <testcase name="removeWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.026"/>
-  <testcase name="cacheWithCustomKeyGenerator" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.019"/>
-  <testcase name="cacheNull" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.028"/>
-  <testcase name="cacheCheckedException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.03"/>
-  <testcase name="earlyRemoveAll" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.024"/>
-  <testcase name="put" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.021"/>
-  <testcase name="earlyRemoveAllWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.029"/>
-  <testcase name="earlyPutWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.027"/>
-  <testcase name="cache" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.033"/>
-  <testcase name="earlyRemoveAllWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.023"/>
-  <testcase name="earlyRemoveWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.026"/>
-  <testcase name="cacheAlwaysInvoke" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.029"/>
-  <testcase name="removeAllWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.024"/>
-  <testcase name="earlyRemoveWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.03"/>
-  <testcase name="removeAll" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.027"/>
-  <testcase name="removeAllWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.023"/>
-  <testcase name="cacheWithPartialKey" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.016"/>
-  <testcase name="putWithExceptionVetoPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.021"/>
-  <testcase name="cacheException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.023"/>
-  <testcase name="cacheExceptionRewriteCallStack" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.025"/>
+  <testcase name="bothSetOnlyResolverIsUsed" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.044"/>
+  <testcase name="emptyConfigSupport" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.024"/>
+  <testcase name="fullCachingConfig" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.029"/>
+  <testcase name="exceptionCacheResolverLazilyRequired" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.034"/>
+  <testcase name="earlyPutWithExceptionVetoPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.013"/>
+  <testcase name="removeWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheExceptionVetoed" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.011"/>
+  <testcase name="cacheWithCustomCacheResolver" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.013"/>
+  <testcase name="earlyRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="remove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="earlyPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="putWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.013"/>
+  <testcase name="removeWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.013"/>
+  <testcase name="cacheWithCustomKeyGenerator" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheNull" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheCheckedException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.011"/>
+  <testcase name="earlyRemoveAll" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.011"/>
+  <testcase name="put" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="earlyRemoveAllWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="earlyPutWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="cache" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="earlyRemoveAllWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.012"/>
+  <testcase name="earlyRemoveWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheAlwaysInvoke" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.011"/>
+  <testcase name="removeAllWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="earlyRemoveWithExceptionVetoRemove" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="removeAll" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.009"/>
+  <testcase name="removeAllWithException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheWithPartialKey" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="putWithExceptionVetoPut" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheException" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.01"/>
+  <testcase name="cacheExceptionRewriteCallStack" classname="org.springframework.cache.jcache.config.JCacheJavaConfigTests" time="0.014"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

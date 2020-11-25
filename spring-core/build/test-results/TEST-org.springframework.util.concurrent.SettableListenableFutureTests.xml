@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.concurrent.SettableListenableFutureTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:53" hostname="Macbook-Air.local" time="0.144">
+<testsuite name="org.springframework.util.concurrent.SettableListenableFutureTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:12" hostname="lichangbaodeMacBook-Pro.local" time="0.09">
   <properties/>
-  <testcase name="throwsSetExceptionWrappedInExecutionExceptionFromCompletable" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.005"/>
-  <testcase name="cancelStateThrowsExceptionWhenCallingGetWithTimeout" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.033"/>
+  <testcase name="throwsSetExceptionWrappedInExecutionExceptionFromCompletable" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.002"/>
+  <testcase name="cancelStateThrowsExceptionWhenCallingGetWithTimeout" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.022"/>
   <testcase name="cancelStateThrowsExceptionWhenCallingGet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
-  <testcase name="setValueTriggersCallback" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.003"/>
-  <testcase name="setExceptionTriggersCallback" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.004"/>
-  <testcase name="cancelWithMayInterruptIfRunningTrueCallsOverriddenMethod" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.004"/>
+  <testcase name="setValueTriggersCallback" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
+  <testcase name="setExceptionTriggersCallback" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelWithMayInterruptIfRunningTrueCallsOverriddenMethod" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="setPreventsCancel" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="cancelWithMayInterruptIfRunningFalseDoesNotCallOverriddenMethod" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="throwsSetErrorWrappedInExecutionExceptionFromCompletable" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="throwsSetErrorWrappedInExecutionExceptionFromCompletable" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="cancelSetsFutureToDone" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="setExceptionPreventsCancel" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelDoesNotNotifyCallbacksOnSetException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.019"/>
-  <testcase name="getWaitsForCompletion" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.033"/>
+  <testcase name="cancelDoesNotNotifyCallbacksOnSetException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.009"/>
+  <testcase name="getWaitsForCompletion" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.021"/>
   <testcase name="throwsSetExceptionWrappedInExecutionException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="returnsSetValue" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="validateInitialValues" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="validateInitialValues" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="cancelPreventsExceptionFromBeingSet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="throwsSetErrorWrappedInExecutionException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
+  <testcase name="throwsSetErrorWrappedInExecutionException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="cancelDoesNotNotifyCallbacksOnSet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="cancelPreventsValueFromBeingSet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
+  <testcase name="cancelPreventsValueFromBeingSet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="getWithTimeoutWaitsForCompletion" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.027"/>
   <testcase name="setValueUpdatesDoneStatus" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <testcase name="getWithTimeoutThrowsTimeoutException" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.002"/>
-  <testcase name="setExceptionTriggersCallbackOnlyOnce" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.003"/>
+  <testcase name="setExceptionTriggersCallbackOnlyOnce" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="returnsSetValueFromCompletable" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
-  <testcase name="setValueTriggersCallbackOnlyOnce" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.003"/>
+  <testcase name="setValueTriggersCallbackOnlyOnce" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.001"/>
   <testcase name="nullIsAcceptedAsValueToSet" classname="org.springframework.util.concurrent.SettableListenableFutureTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

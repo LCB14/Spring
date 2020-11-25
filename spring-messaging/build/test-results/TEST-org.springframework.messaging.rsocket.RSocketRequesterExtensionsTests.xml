@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:29" hostname="Macbook-Air.local" time="2.766">
+<testsuite name="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:16" hostname="lichangbaodeMacBook-Pro.local" time="1.301">
   <properties/>
-  <testcase name="connectAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="1.58"/>
-  <testcase name="connectWebSocketAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.167"/>
-  <testcase name="sendAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.109"/>
-  <testcase name="retrieveFlow" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.674"/>
-  <testcase name="retrieveAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.024"/>
-  <testcase name="connectTcpAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.023"/>
-  <testcase name="dataFlow" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.187"/>
+  <testcase name="connectAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.762"/>
+  <testcase name="connectWebSocketAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.108"/>
+  <testcase name="sendAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.066"/>
+  <testcase name="retrieveFlow" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.252"/>
+  <testcase name="retrieveAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.005"/>
+  <testcase name="connectTcpAndAwait" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.007"/>
+  <testcase name="dataFlow" classname="org.springframework.messaging.rsocket.RSocketRequesterExtensionsTests" time="0.101"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

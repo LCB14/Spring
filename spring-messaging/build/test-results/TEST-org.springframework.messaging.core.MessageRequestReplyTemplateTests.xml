@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.MessageRequestReplyTemplateTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:43" hostname="Macbook-Air.local" time="0.006">
+<testsuite name="org.springframework.messaging.core.MessageRequestReplyTemplateTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:37" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="convertAndSendWithPostProcessor" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
-  <testcase name="convertAndSendToDestinationWithHeadersAndPostProcessor" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendWithPostProcessor" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
+  <testcase name="convertAndSendToDestinationWithHeadersAndPostProcessor" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
   <testcase name="convertAndSendToDestinationWithHeaders" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
-  <testcase name="sendAndReceive" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceive" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
   <testcase name="convertAndSendToDestinationWithPostProcessor" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
-  <testcase name="sendAndReceiveMissingDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
-  <testcase name="sendAndReceiveToDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
+  <testcase name="sendAndReceiveMissingDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
+  <testcase name="sendAndReceiveToDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
   <testcase name="convertAndSend" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
-  <testcase name="convertAndSendToDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.001"/>
+  <testcase name="convertAndSendToDestination" classname="org.springframework.messaging.core.MessageRequestReplyTemplateTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

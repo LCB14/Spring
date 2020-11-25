@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mock.web.MockPageContextTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:36" hostname="Macbook-Air.local" time="0.009">
+<testsuite name="org.springframework.mock.web.MockPageContextTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:22" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="removeAttributeWithNoScopeSpecifiedRemovesValueFromAllScopes" classname="org.springframework.mock.web.MockPageContextTests" time="0.008"/>
-  <testcase name="setAttributeWithNoScopeUsesPageScope" classname="org.springframework.mock.web.MockPageContextTests" time="0.001"/>
+  <testcase name="removeAttributeWithNoScopeSpecifiedRemovesValueFromAllScopes" classname="org.springframework.mock.web.MockPageContextTests" time="0.003"/>
+  <testcase name="setAttributeWithNoScopeUsesPageScope" classname="org.springframework.mock.web.MockPageContextTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

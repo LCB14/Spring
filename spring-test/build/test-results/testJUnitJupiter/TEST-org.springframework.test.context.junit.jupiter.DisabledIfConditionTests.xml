@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:17" hostname="Macbook-Air.local" time="1.122">
+<testsuite name="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:37" hostname="lichangbaodeMacBook-Pro.local" time="0.589">
   <properties/>
-  <testcase name="disabledWithDefaultReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="1.073"/>
-  <testcase name="missingDisabledIf()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.005"/>
-  <testcase name="disabledByEmptyExpression()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.016"/>
-  <testcase name="notDisabledWithDefaultReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.006"/>
-  <testcase name="unsupportedStringEvaluationValue()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.006"/>
-  <testcase name="invalidExpressionEvaluationType()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.007"/>
-  <testcase name="disabledWithCustomReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.006"/>
+  <testcase name="disabledWithDefaultReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.565"/>
+  <testcase name="missingDisabledIf()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.003"/>
+  <testcase name="disabledByEmptyExpression()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.008"/>
+  <testcase name="notDisabledWithDefaultReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.003"/>
+  <testcase name="unsupportedStringEvaluationValue()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.004"/>
+  <testcase name="invalidExpressionEvaluationType()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.003"/>
+  <testcase name="disabledWithCustomReason()" classname="org.springframework.test.context.junit.jupiter.DisabledIfConditionTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

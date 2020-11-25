@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:47" hostname="Macbook-Air.local" time="0.036">
+<testsuite name="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:38" hostname="lichangbaodeMacBook-Pro.local" time="0.019">
   <properties/>
-  <testcase name="testJsonView" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.009"/>
-  <testcase name="testHeadersPassedToMessagingTemplate" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.024"/>
-  <testcase name="testMessageSentToChannel" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.002"/>
-  <testcase name="supportsReturnType" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="testJsonView" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.003"/>
+  <testcase name="testHeadersPassedToMessagingTemplate" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.015"/>
+  <testcase name="testMessageSentToChannel" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.001"/>
+  <testcase name="supportsReturnType" classname="org.springframework.messaging.simp.annotation.support.SubscriptionMethodReturnValueHandlerTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

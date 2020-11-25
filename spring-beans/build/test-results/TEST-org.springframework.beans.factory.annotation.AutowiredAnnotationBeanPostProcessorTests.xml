@@ -1,113 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" tests="105" skipped="1" failures="0" errors="0" timestamp="2019-06-21T11:39:33" hostname="Macbook-Air.local" time="0.607">
+<testsuite name="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" tests="105" skipped="1" failures="0" errors="0" timestamp="2020-11-25T14:37:54" hostname="lichangbaodeMacBook-Pro.local" time="0.261">
   <properties/>
-  <testcase name="testOptionalCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.017"/>
-  <testcase name="testSingleConstructorInjectionWithEmptyCollectionAsNull" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.146"/>
-  <testcase name="testSelfReferenceCollectionWithOther" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testCustomAnnotationRequiredMethodResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testObjectProviderInjectionWithTargetNotUnique" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.011"/>
+  <testcase name="testOptionalCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testSingleConstructorInjectionWithEmptyCollectionAsNull" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.027"/>
+  <testcase name="testSelfReferenceCollectionWithOther" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationRequiredMethodResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectProviderInjectionWithTargetNotUnique" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.083"/>
   <testcase name="testGenericsBasedConstructorInjectionWithMixedTargetsIncludingNonGeneric" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAndFallback" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.018"/>
+  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAndFallback" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
   <testcase name="testSingleConstructorWithProvidedArgument" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testSingleConstructorInjectionWithMissingDependency" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testGenericsBasedFieldInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testExtendedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.033"/>
-  <testcase name="testCustomAnnotationRequiredMethodResourceInjectionFailsWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testMethodInjectionWithMapAndNoMatches" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testCustomAnnotationRequiredFieldResourceInjectionFailsWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testCustomAnnotationOptionalMethodResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.005"/>
-  <testcase name="testConstructorInjectionWithCustomSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatch" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testFactoryBeanSelfInjectionViaFactoryMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testExtendedResourceInjectionWithOverriding" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testObjectFactoryFieldInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testConstructorResourceInjectionWithNullFromFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
+  <testcase name="testSingleConstructorInjectionWithMissingDependency" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedFieldInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testExtendedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
+  <testcase name="testCustomAnnotationRequiredMethodResourceInjectionFailsWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testMethodInjectionWithMapAndNoMatches" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationRequiredFieldResourceInjectionFailsWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationOptionalMethodResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testConstructorInjectionWithCustomSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatch" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testFactoryBeanSelfInjectionViaFactoryMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testExtendedResourceInjectionWithOverriding" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectFactoryFieldInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorResourceInjectionWithNullFromFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
   <testcase name="testMethodInjectionWithMapAndMultipleMatches" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testExtendedResourceInjectionWithDefaultMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.088"/>
-  <testcase name="testConstructorInjectionWithCustomMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testCustomAnnotationRequiredMethodResourceInjectionFailsWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testConstructorResourceInjectionWithMultipleOrderedCandidates" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testGenericsBasedConstructorInjectionWithNonTypedTarget" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testBeanAutowiredWithFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testExtendedResourceInjectionWithAtRequired" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testExtendedResourceInjectionWithSkippedOverriddenMethods" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
-  <testcase name="testSelfReferenceWithOther" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testObjectProviderInjectionWithUnresolvedOrderedStream" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testCircularTypeReference" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testCustomAnnotationOptionalMethodResourceInjectionWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedFactoryBeanInjectionWithSingletonBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorInjectionWithPlainSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatchAndMock" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
-  <testcase name="testGenericsBasedMethodInjectionWithSubstitutedVariables" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.014"/>
-  <testcase name="testObjectFactoryConstructorInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testOrderedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testGenericsBasedInjectionIntoTypeVariableSelectingBestMatch" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testExtendedResourceInjectionWithDefaultMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testConstructorInjectionWithCustomMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationRequiredMethodResourceInjectionFailsWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testConstructorResourceInjectionWithMultipleOrderedCandidates" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testGenericsBasedConstructorInjectionWithNonTypedTarget" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testBeanAutowiredWithFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testExtendedResourceInjectionWithAtRequired" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testExtendedResourceInjectionWithSkippedOverriddenMethods" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testSelfReferenceWithOther" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectProviderInjectionWithUnresolvedOrderedStream" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCircularTypeReference" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationOptionalMethodResourceInjectionWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedFactoryBeanInjectionWithSingletonBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorInjectionWithPlainSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatchAndMock" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testGenericsBasedMethodInjectionWithSubstitutedVariables" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.008"/>
+  <testcase name="testObjectFactoryConstructorInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testOrderedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testGenericsBasedInjectionIntoTypeVariableSelectingBestMatch" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testCustomAnnotationRequiredFieldResourceInjectionFailsWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorResourceInjectionWithMultipleCandidates" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testSingleConstructorInjectionWithMultipleCandidatesAsOrderedCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testGenericsBasedFactoryBeanInjectionWithBeanDefinition" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testGenericsBasedFieldInjectionWithQualifiers" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testObjectProviderInjectionWithTargetNotAvailable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testConstructorResourceInjectionWithMultipleCandidates" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testSingleConstructorInjectionWithMultipleCandidatesAsOrderedCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testGenericsBasedFactoryBeanInjectionWithBeanDefinition" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedFieldInjectionWithQualifiers" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testObjectProviderInjectionWithTargetNotAvailable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testSingleConstructorInjectionWithMultipleCandidatesAsRequiredVararg" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testConstructorInjectionWithPlainMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testCustomAnnotationOptionalMethodResourceInjectionWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testSelfReferenceCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testCustomAnnotationOptionalFieldResourceInjectionWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testSelfReference" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationOptionalFieldResourceInjectionWhenMultipleDependenciesFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testSelfReference" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testCustomAnnotationRequiredFieldResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testOptionalResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testAnnotationOrderedCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testFactoryBeanSelfInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
-  <testcase name="testCustomAnnotationOptionalFieldResourceInjectionWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testObjectFactoryInjectionIntoPrototypeBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testObjectFactorySerialization" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.008"/>
-  <testcase name="testObjectProviderInjectionWithSingletonTarget" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testConstructorInjectionWithTypedSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testBridgeMethodHandling" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.005"/>
-  <testcase name="testObjectFactoryQualifierProviderInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testSingleConstructorInjectionWithEmptyCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testMethodInjectionWithMapAndMultipleMatchesButOnlyOneAutowireCandidate" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedConstructorInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testAnnotationOrderedCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testFactoryBeanSelfInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testCustomAnnotationOptionalFieldResourceInjectionWhenNoDependencyFound" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testObjectFactoryInjectionIntoPrototypeBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testObjectFactorySerialization" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testObjectProviderInjectionWithSingletonTarget" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testConstructorInjectionWithTypedSetAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testBridgeMethodHandling" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="testObjectFactoryQualifierProviderInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testSingleConstructorInjectionWithEmptyCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testMethodInjectionWithMapAndMultipleMatchesButOnlyOneAutowireCandidate" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedConstructorInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testGenericsBasedConstructorInjectionWithNonGenericTarget" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testIncompleteBeanDefinition" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testSingleConstructorInjectionWithEmptyVararg" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testIncompleteBeanDefinition" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testSingleConstructorInjectionWithEmptyVararg" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testConstructorInjectionWithTypedMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testAnnotatedDefaultConstructor" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedInjectionWithBeanDefinitionTargetResolvableType" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testGenericsBasedConstructorInjectionWithMixedTargets" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testObjectFactoryQualifierInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedInjectionIntoUnresolvedTypeVariable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedFieldInjectionWithSubstitutedVariables" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.006"/>
-  <testcase name="testObjectProviderInjectionWithPrototype" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
-  <testcase name="testGenericsBasedFieldInjectionWithMocks" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="testAnnotatedDefaultConstructor" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedInjectionWithBeanDefinitionTargetResolvableType" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testGenericsBasedConstructorInjectionWithMixedTargets" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testObjectFactoryQualifierInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedInjectionIntoUnresolvedTypeVariable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedFieldInjectionWithSubstitutedVariables" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testObjectProviderInjectionWithPrototype" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
+  <testcase name="testGenericsBasedFieldInjectionWithMocks" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
   <testcase name="testConstructorInjectionWithMap" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorResourceInjectionWithNoCandidatesAndNoFallback" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testOrderedCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testOptionalCollectionResourceInjectionWithSingleElement" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testConstructorResourceInjectionWithNoCandidatesAndNoFallback" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testOrderedCollectionResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testOptionalCollectionResourceInjectionWithSingleElement" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testCustomAnnotationOptionalFieldResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testMethodInjectionWithMap" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testMethodInjectionWithMap" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAndDefaultFallback" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testExtendedResourceInjectionWithDestruction" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testConstructorResourceInjectionWithCollectionAndNullFromFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedMethodInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.007"/>
-  <testcase name="testGenericsBasedInjectionIntoMatchingTypeVariable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testObjectProviderInjectionWithTargetPrimary" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAsOrderedCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatchAndMockito" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.024"/>
-  <testcase name="testSingleConstructorInjectionWithMultipleCandidatesAsRequiredCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorInjectionWithPlainHashMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testOptionalResourceInjectionWithIncompleteDependencies" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
-  <testcase name="testFieldInjectionWithMap" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testConstructorResourceInjectionWithNullFromFactoryMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.003"/>
-  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAsCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testExtendedResourceInjectionWithDestruction" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorResourceInjectionWithCollectionAndNullFromFactoryBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedMethodInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.005"/>
+  <testcase name="testGenericsBasedInjectionIntoMatchingTypeVariable" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testObjectProviderInjectionWithTargetPrimary" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAsOrderedCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testGenericsBasedFieldInjectionWithSimpleMatchAndMockito" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.018"/>
+  <testcase name="testSingleConstructorInjectionWithMultipleCandidatesAsRequiredCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorInjectionWithPlainHashMapAsBean" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testOptionalResourceInjectionWithIncompleteDependencies" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testFieldInjectionWithMap" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
+  <testcase name="testConstructorResourceInjectionWithNullFromFactoryMethod" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testConstructorResourceInjectionWithMultipleCandidatesAsCollection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testGenericsBasedInjectionIntoTypeVariableSelectingBestMatchAgainstFactoryMethodSignature" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testAnnotationOrderedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="testAnnotationOrderedResourceInjection" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.0"/>
   <testcase name="testOptionalResourceInjectionWithNoDependencies" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
-  <testcase name="testSingleConstructorInjectionWithNullDependency" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="testSingleConstructorInjectionWithNullDependency" classname="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessorTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

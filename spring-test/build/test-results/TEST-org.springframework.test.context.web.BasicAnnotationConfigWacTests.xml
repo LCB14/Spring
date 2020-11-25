@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.web.BasicAnnotationConfigWacTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:51" hostname="Macbook-Air.local" time="0.003">
+<testsuite name="org.springframework.test.context.web.BasicAnnotationConfigWacTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:54" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="fooEnigmaAutowired" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.001"/>
-  <testcase name="servletContextAwareBeanProcessed" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.001"/>
-  <testcase name="basicWacFeatures" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.001"/>
+  <testcase name="fooEnigmaAutowired" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.0"/>
+  <testcase name="servletContextAwareBeanProcessed" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.0"/>
+  <testcase name="basicWacFeatures" classname="org.springframework.test.context.web.BasicAnnotationConfigWacTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

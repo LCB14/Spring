@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.rsocket.RSocketBufferLeakTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:25" hostname="Macbook-Air.local" time="0.085">
+<testsuite name="org.springframework.messaging.rsocket.RSocketBufferLeakTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:14" hostname="lichangbaodeMacBook-Pro.local" time="0.051">
   <properties/>
-  <testcase name="retrieveMonoFromFluxResponderMethod" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.027"/>
-  <testcase name="assemblyTimeErrorForHandleAndReply" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.009"/>
-  <testcase name="errorSignalWithExceptionHandler" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.009"/>
-  <testcase name="subscriptionTimeErrorForHandleAndReply" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.017"/>
-  <testcase name="ignoreInput" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.023"/>
-  <system-out><![CDATA[19:43:25.522 [reactor-tcp-nio-3] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
-org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@21704138, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@48092ff3, contentType=text/plain;charset=UTF-8}]
+  <testcase name="retrieveMonoFromFluxResponderMethod" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.02"/>
+  <testcase name="assemblyTimeErrorForHandleAndReply" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.005"/>
+  <testcase name="errorSignalWithExceptionHandler" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.003"/>
+  <testcase name="subscriptionTimeErrorForHandleAndReply" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.007"/>
+  <testcase name="ignoreInput" classname="org.springframework.messaging.rsocket.RSocketBufferLeakTests" time="0.016"/>
+  <system-out><![CDATA[22:40:14.729 [reactor-tcp-nio-7] ERROR o.s.m.h.i.r.InvocableHelper - No exception handling method
+org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@69863910, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@44f0096d, contentType=text/plain;charset=UTF-8}]
 	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.decodeContent(PayloadMethodArgumentResolver.java:261) ~[main/:?]
 	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:168) ~[main/:?]
 	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:120) ~[main/:?]
@@ -61,9 +61,9 @@ org.springframework.messaging.handler.invocation.MethodArgumentResolutionExcepti
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:906) [netty-common-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.36.Final.jar:4.1.36.Final]
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.36.Final.jar:4.1.36.Final]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
 ]]></system-out>
-  <system-err><![CDATA[java.lang.IllegalStateException: Ambiguous handler methods mapped for destination 'A.B': {ServerController#ambiguousMatchB[1 args], ServerController#ambiguousMatchA[1 args]}
+  <system-err><![CDATA[java.lang.IllegalStateException: Ambiguous handler methods mapped for destination 'A.B': {ServerController#ambiguousMatchA[1 args], ServerController#ambiguousMatchB[1 args]}
 	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.getHandlerMethod(AbstractMethodMessageHandler.java:460)
 	at org.springframework.messaging.handler.invocation.reactive.AbstractMethodMessageHandler.handleMessage(AbstractMethodMessageHandler.java:416)
 	at org.springframework.messaging.rsocket.annotation.support.MessagingRSocket.lambda$handleAndReply$5(MessagingRSocket.java:179)
@@ -110,7 +110,7 @@ org.springframework.messaging.handler.invocation.MethodArgumentResolutionExcepti
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@21704138, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@48092ff3, contentType=text/plain;charset=UTF-8}], failedMessage=GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@21704138, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@48092ff3, contentType=text/plain;charset=UTF-8}]
+org.springframework.messaging.handler.invocation.MethodArgumentResolutionException: Could not resolve method parameter at index 0 in void org.springframework.messaging.rsocket.RSocketBufferLeakTests$ServerController.notDecodable(org.springframework.core.io.Resource): Cannot decode to [org.springframework.core.io.Resource]GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@69863910, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@44f0096d, contentType=text/plain;charset=UTF-8}], failedMessage=GenericMessage [payload=FluxPeekFuseable, headers={dataBufferFactory=NettyDataBufferFactory (PooledByteBufAllocator(directByDefault: true)), rsocketRequester=org.springframework.messaging.rsocket.DefaultRSocketRequester@69863910, rsocketResponse=MonoProcessor, lookupDestination=org.springframework.util.SimpleRouteMatcher$DefaultRoute@44f0096d, contentType=text/plain;charset=UTF-8}]
 	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.decodeContent(PayloadMethodArgumentResolver.java:261)
 	at org.springframework.messaging.handler.annotation.reactive.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:168)
 	at org.springframework.messaging.handler.invocation.reactive.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:120)

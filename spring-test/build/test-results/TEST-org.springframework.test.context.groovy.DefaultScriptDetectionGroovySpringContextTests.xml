@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.groovy.DefaultScriptDetectionGroovySpringContextTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:05" hostname="Macbook-Air.local" time="0.001">
+<testsuite name="org.springframework.test.context.groovy.DefaultScriptDetectionGroovySpringContextTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:05" hostname="lichangbaodeMacBook-Pro.local" time="0.0">
   <properties/>
-  <testcase name="verifyAnnotationAutowiredFields" classname="org.springframework.test.context.groovy.DefaultScriptDetectionGroovySpringContextTests" time="0.001"/>
+  <testcase name="verifyAnnotationAutowiredFields" classname="org.springframework.test.context.groovy.DefaultScriptDetectionGroovySpringContextTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

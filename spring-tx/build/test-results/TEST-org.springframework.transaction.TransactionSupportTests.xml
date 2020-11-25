@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.TransactionSupportTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:47" hostname="Macbook-Air.local" time="0.073">
+<testsuite name="org.springframework.transaction.TransactionSupportTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:28" hostname="lichangbaodeMacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="existingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.003"/>
-  <testcase name="transactionTemplateEquality" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
-  <testcase name="transactionTemplateWithCallbackPreference" classname="org.springframework.transaction.TransactionSupportTests" time="0.014"/>
-  <testcase name="noExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
-  <testcase name="rollbackWithExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.003"/>
-  <testcase name="transactionTemplateWithRollbackException" classname="org.springframework.transaction.TransactionSupportTests" time="0.034"/>
-  <testcase name="commitWithExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
-  <testcase name="transactionTemplateWithException" classname="org.springframework.transaction.TransactionSupportTests" time="0.004"/>
+  <testcase name="existingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.002"/>
+  <testcase name="transactionTemplateEquality" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
+  <testcase name="transactionTemplateWithCallbackPreference" classname="org.springframework.transaction.TransactionSupportTests" time="0.002"/>
+  <testcase name="noExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
+  <testcase name="rollbackWithExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
+  <testcase name="transactionTemplateWithRollbackException" classname="org.springframework.transaction.TransactionSupportTests" time="0.016"/>
+  <testcase name="commitWithExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
+  <testcase name="transactionTemplateWithException" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
   <testcase name="rollbackWithoutExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
   <testcase name="rollbackOnlyWithExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
-  <testcase name="transactionTemplateInitialization" classname="org.springframework.transaction.TransactionSupportTests" time="0.003"/>
-  <testcase name="transactionTemplate" classname="org.springframework.transaction.TransactionSupportTests" time="0.002"/>
-  <testcase name="commitWithoutExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
-  <testcase name="transactionTemplateWithError" classname="org.springframework.transaction.TransactionSupportTests" time="0.004"/>
+  <testcase name="transactionTemplateInitialization" classname="org.springframework.transaction.TransactionSupportTests" time="0.001"/>
+  <testcase name="transactionTemplate" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
+  <testcase name="commitWithoutExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
+  <testcase name="transactionTemplateWithError" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
   <testcase name="rollbackOnlyWithoutExistingTransaction" classname="org.springframework.transaction.TransactionSupportTests" time="0.0"/>
-  <system-out><![CDATA[19:45:47.899 [Test worker] ERROR o.s.t.s.TransactionTemplate - Application exception overridden by rollback exception
+  <system-out><![CDATA[22:41:28.936 [Test worker] ERROR o.s.t.s.TransactionTemplate - Application exception overridden by rollback exception
 java.lang.RuntimeException: Some application exception
 	at org.springframework.transaction.TransactionSupportTests.transactionTemplateWithRollbackException(TransactionSupportTests.java:211) [test/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13-beta-3.jar:4.13-beta-3]
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13-beta-3.jar:4.13-beta-3]
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13-beta-3.jar:4.13-beta-3]
@@ -40,36 +40,36 @@ java.lang.RuntimeException: Some application exception
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292) [junit-4.13-beta-3.jar:4.13-beta-3]
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305) [junit-4.13-beta-3.jar:4.13-beta-3]
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:412) [junit-4.13-beta-3.jar:4.13-beta-3]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110) [gradle-testing-jvm-5.0.jar:5.0]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-5.0.jar:5.0]
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-5.0.jar:5.0]
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-5.0.jar:5.0]
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-5.0.jar:5.0]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-5.0.jar:5.0]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106) [gradle-testing-jvm-4.10.3.jar:4.10.3]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58) [gradle-testing-jvm-4.10.3.jar:4.10.3]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38) [gradle-testing-jvm-4.10.3.jar:4.10.3]
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66) [gradle-testing-jvm-4.10.3.jar:4.10.3]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51) [gradle-testing-base-4.10.3.jar:4.10.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-4.10.3.jar:4.10.3]
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118) [gradle-testing-base-5.0.jar:5.0]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_144]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_144]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_144]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_144]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-5.0.jar:5.0]
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-5.0.jar:5.0]
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-5.0.jar:5.0]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-5.0.jar:5.0]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117) [gradle-testing-base-4.10.3.jar:4.10.3]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_211]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_211]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_211]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_211]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404) [gradle-messaging-4.10.3.jar:4.10.3]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63) [gradle-base-services-4.10.3.jar:4.10.3]
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46) [gradle-base-services-4.10.3.jar:4.10.3]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_211]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_211]
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55) [gradle-base-services-4.10.3.jar:4.10.3]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_211]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

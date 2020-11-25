@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.configuration.Spr12526Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:57" hostname="Macbook-Air.local" time="0.043">
+<testsuite name="org.springframework.context.annotation.configuration.Spr12526Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:13" hostname="lichangbaodeMacBook-Pro.local" time="0.012">
   <properties/>
-  <testcase name="testInjection" classname="org.springframework.context.annotation.configuration.Spr12526Tests" time="0.043"/>
+  <testcase name="testInjection" classname="org.springframework.context.annotation.configuration.Spr12526Tests" time="0.012"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

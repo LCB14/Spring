@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:24" hostname="Macbook-Air.local" time="0.049">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:42" hostname="lichangbaodeMacBook-Pro.local" time="0.027">
   <properties/>
-  <testcase name="resolveNullableRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.024"/>
-  <testcase name="resolveNonNullableRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.003"/>
-  <testcase name="resolveNonNullableNotRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.004"/>
-  <testcase name="resolveNonNullableNotRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.003"/>
-  <testcase name="resolveNullableNotRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.002"/>
+  <testcase name="resolveNullableRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.013"/>
+  <testcase name="resolveNonNullableRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.001"/>
+  <testcase name="resolveNonNullableNotRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.001"/>
+  <testcase name="resolveNonNullableNotRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.002"/>
+  <testcase name="resolveNullableNotRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.001"/>
   <testcase name="resolveNullableNotRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.002"/>
   <testcase name="resolveNullableRequiredWithParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.002"/>
-  <testcase name="resolveNonNullableRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.006"/>
+  <testcase name="resolveNonNullableRequiredWithoutParameter" classname="org.springframework.web.reactive.result.method.annotation.RequestParamMethodArgumentResolverKotlinTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

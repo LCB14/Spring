@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.ConventionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:35" hostname="Macbook-Air.local" time="0.186">
+<testsuite name="org.springframework.core.ConventionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:03" hostname="lichangbaodeMacBook-Pro.local" time="0.038">
   <properties/>
-  <testcase name="reactiveParameters" classname="org.springframework.core.ConventionsTests" time="0.032"/>
-  <testcase name="simpleObject" classname="org.springframework.core.ConventionsTests" time="0.01"/>
-  <testcase name="emptyList" classname="org.springframework.core.ConventionsTests" time="0.004"/>
+  <testcase name="reactiveParameters" classname="org.springframework.core.ConventionsTests" time="0.008"/>
+  <testcase name="simpleObject" classname="org.springframework.core.ConventionsTests" time="0.004"/>
+  <testcase name="emptyList" classname="org.springframework.core.ConventionsTests" time="0.002"/>
   <testcase name="attributeNameToPropertyName" classname="org.springframework.core.ConventionsTests" time="0.0"/>
-  <testcase name="getQualifiedAttributeName" classname="org.springframework.core.ConventionsTests" time="0.001"/>
-  <testcase name="set" classname="org.springframework.core.ConventionsTests" time="0.134"/>
-  <testcase name="list" classname="org.springframework.core.ConventionsTests" time="0.001"/>
-  <testcase name="array" classname="org.springframework.core.ConventionsTests" time="0.001"/>
+  <testcase name="getQualifiedAttributeName" classname="org.springframework.core.ConventionsTests" time="0.0"/>
+  <testcase name="set" classname="org.springframework.core.ConventionsTests" time="0.022"/>
+  <testcase name="list" classname="org.springframework.core.ConventionsTests" time="0.0"/>
+  <testcase name="array" classname="org.springframework.core.ConventionsTests" time="0.0"/>
   <testcase name="reactiveReturnTypes" classname="org.springframework.core.ConventionsTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

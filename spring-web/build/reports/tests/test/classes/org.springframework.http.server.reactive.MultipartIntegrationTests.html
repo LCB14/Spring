@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.099s</div>
+<div class="counter">0.058s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,23 +81,23 @@
 </tr>
 </thead>
 <tr>
-<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@4d6b9258]]</td>
-<td class="success">0.021s</td>
+<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@63f47678]]</td>
+<td class="success">0.011s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@d0cde74]]</td>
-<td class="success">0.026s</td>
+<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@6aa12f1c]]</td>
+<td class="success">0.007s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@29a6379c]]</td>
-<td class="success">0.037s</td>
+<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@3385e8b4]]</td>
+<td class="success">0.028s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6e77ee67]]</td>
-<td class="success">0.015s</td>
+<td class="success">getFormParts[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@1a943160]]</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -105,52 +105,52 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:29.097 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50074/form-parts
-19:46:29.098 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:29.098 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
-19:46:29.102 [qtp210311568-955] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44c33ad1] HTTP POST &quot;/form-parts&quot;
-19:46:29.105 [qtp210311568-955] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [44c33ad1] Completed 200 OK
-19:46:29.105 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:29.118 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50076/form-parts
-19:46:29.118 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:29.119 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
-19:46:29.124 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [79f2ae63] HTTP POST &quot;/form-parts&quot;
-19:46:29.132 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [79f2ae63] Completed 200 OK
-19:46:29.133 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:29.149 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50078/form-parts
-19:46:29.149 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:29.150 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
-19:46:29.155 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5be9bc45] HTTP POST &quot;/form-parts&quot;
-19:46:29.157 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5be9bc45] Completed 200 OK
-19:46:29.158 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:50081/form-parts
-19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:29.179 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
-19:46:29.183 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [20b5097b] HTTP POST &quot;/form-parts&quot;
-19:46:29.184 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [20b5097b] Completed 200 OK
-19:46:29.185 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+<pre>22:41:51.426 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53277/form-parts
+22:41:51.427 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.427 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
+22:41:51.429 [qtp636830116-1748] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [181cd264] HTTP POST &quot;/form-parts&quot;
+22:41:51.430 [qtp636830116-1748] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [181cd264] Completed 200 OK
+22:41:51.430 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:51.434 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53279/form-parts
+22:41:51.434 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.435 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
+22:41:51.436 [reactor-http-kqueue-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [86e11962] HTTP POST &quot;/form-parts&quot;
+22:41:51.439 [reactor-http-kqueue-16] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [86e11962] Completed 200 OK
+22:41:51.439 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:51.447 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53281/form-parts
+22:41:51.447 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.447 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
+22:41:51.452 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7bbba431] HTTP POST &quot;/form-parts&quot;
+22:41:51.452 [http-nio-auto-15-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7bbba431] Completed 200 OK
+22:41:51.453 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:51.475 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST http://localhost:53284/form-parts
+22:41:51.475 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.475 [Test worker] DEBUG o.s.w.c.RestTemplate - Writing [{fooPart=[&lt;class path resource [org/springframework/http/codec/multipart/foo.txt],[Content-Type:&quot;text/plain&quot;]&gt;], barPart=[&lt;bar,[]&gt;]}] as &quot;multipart/form-data&quot;
+22:41:51.478 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [27bbfcc3] HTTP POST &quot;/form-parts&quot;
+22:41:51.478 [XNIO-15 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [27bbfcc3] Completed 200 OK
+22:41:51.478 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardService startInternal
+<pre>Nov 25, 2020 10:41:51 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:51 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:51 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-15&quot;]
-Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-15-50078&quot;]
-Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-15-50078&quot;]
-Jun 21, 2019 7:46:29 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:51 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-15-53281&quot;]
+Nov 25, 2020 10:41:51 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-15-53281&quot;]
+Nov 25, 2020 10:41:51 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-15-50078&quot;]
-Jun 21, 2019 7:46:29 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-15-50078&quot;]
+Nov 25, 2020 10:41:51 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-15-53281&quot;]
+Nov 25, 2020 10:41:51 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-15-53281&quot;]
 </pre>
 </span>
 </div>
@@ -162,7 +162,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-15-50078&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

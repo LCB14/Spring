@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:19" hostname="Macbook-Air.local" time="0.014">
+<testsuite name="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:47" hostname="lichangbaodeMacBook-Pro.local" time="0.004">
   <properties/>
-  <testcase name="resolveCookieDefaultValue" classname="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" time="0.013"/>
+  <testcase name="resolveCookieDefaultValue" classname="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" time="0.003"/>
   <testcase name="notFound" classname="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" time="0.001"/>
   <testcase name="supportsParameter" classname="org.springframework.web.method.annotation.CookieValueMethodArgumentResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

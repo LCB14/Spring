@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.MethodParameterTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:35" hostname="Macbook-Air.local" time="0.024">
+<testsuite name="org.springframework.core.MethodParameterTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:03" hostname="lichangbaodeMacBook-Pro.local" time="0.005">
   <properties/>
-  <testcase name="annotatedConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.009"/>
-  <testcase name="genericConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.007"/>
-  <testcase name="annotatedConstructorParameterInStaticNestedClass" classname="org.springframework.core.MethodParameterTests" time="0.003"/>
-  <testcase name="testFactoryMethods" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="annotatedConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
+  <testcase name="genericConstructorParameterInInnerClass" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
+  <testcase name="annotatedConstructorParameterInStaticNestedClass" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testFactoryMethods" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
   <testcase name="testHashCode" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
-  <testcase name="testEquals" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
-  <testcase name="testIndexValidation" classname="org.springframework.core.MethodParameterTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.springframework.core.MethodParameterTests" time="0.0"/>
+  <testcase name="testIndexValidation" classname="org.springframework.core.MethodParameterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.client.response.ResponseCreatorsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:34" hostname="Macbook-Air.local" time="0.005">
+<testsuite name="org.springframework.test.web.client.response.ResponseCreatorsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:21" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="withStatus" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.001"/>
+  <testcase name="withStatus" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <testcase name="success" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
-  <testcase name="successWithContent" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.001"/>
+  <testcase name="successWithContent" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <testcase name="serverError" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <testcase name="badRequest" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <testcase name="unauthorized" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <testcase name="successWithContentWithoutContentType" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
-  <testcase name="created" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.003"/>
+  <testcase name="created" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.002"/>
   <testcase name="noContent" classname="org.springframework.test.web.client.response.ResponseCreatorsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

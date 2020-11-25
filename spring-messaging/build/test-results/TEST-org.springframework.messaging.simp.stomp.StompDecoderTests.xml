@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.stomp.StompDecoderTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:51" hostname="Macbook-Air.local" time="0.017">
+<testsuite name="org.springframework.messaging.simp.stomp.StompDecoderTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:41" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="decodeFrameWithIncompleteContentType" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeFrameWithIncompleteContentType" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithContentLengthZero" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithIncompleteCommand" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
-  <testcase name="decodeFrameWithInsufficientContent" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeFrameWithInsufficientContent" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithInvalidContentLength" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithIncompleteHeader" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
-  <testcase name="decodeHeartbeat" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
-  <testcase name="decodeFrameWithHeaderWithEmptyValue" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeHeartbeat" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeFrameWithHeaderWithEmptyValue" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithCrLfEols" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithNoHeadersAndNoBody" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
-  <testcase name="decodeFrameWithNoBody" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
-  <testcase name="decodeFrameWithInvalidContentType" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.009"/>
-  <testcase name="decodeFrameWithContentLength" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
-  <testcase name="decodeFrameWithIncorrectTerminator" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeFrameWithNoBody" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
+  <testcase name="decodeFrameWithInvalidContentType" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.004"/>
+  <testcase name="decodeFrameWithContentLength" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
+  <testcase name="decodeFrameWithIncorrectTerminator" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameBodyNotAllowed" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
   <testcase name="decodeFrameWithoutNullOctetTerminator" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrame" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
-  <testcase name="decodeFrameWithNullOctectsInTheBody" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.001"/>
+  <testcase name="decodeFrameWithNullOctectsInTheBody" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeMultipleFramesFromSameBuffer" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <testcase name="decodeFrameWithEscapedHeaders" classname="org.springframework.messaging.simp.stomp.StompDecoderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

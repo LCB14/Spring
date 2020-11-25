@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.HeadersAdaptersTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:26" hostname="Macbook-Air.local" time="0.01">
+<testsuite name="org.springframework.http.server.reactive.HeadersAdaptersTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:50" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="putShouldOverrideExisting[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="putShouldOverrideExisting[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="containsKeyShouldBeCaseInsensitive[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="sizeWithMultipleValuesForHeaderShouldCountHeaders[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getWithUnknownHeaderShouldReturnNull[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="addShouldKeepOrdering[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
   <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="keySetShouldNotDuplicateHeaderNames[headers [{}]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="containsKeyShouldBeCaseInsensitive[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="sizeWithMultipleValuesForHeaderShouldCountHeaders[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="addShouldKeepOrdering[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="containsKeyShouldBeCaseInsensitive[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
   <testcase name="sizeWithMultipleValuesForHeaderShouldCountHeaders[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="addShouldKeepOrdering[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="containsKeyShouldBeCaseInsensitive[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="sizeWithMultipleValuesForHeaderShouldCountHeaders[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="addShouldKeepOrdering[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
-  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
+  <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
+  <testcase name="putShouldOverrideExisting[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
   <testcase name="containsKeyShouldBeCaseInsensitive[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="sizeWithMultipleValuesForHeaderShouldCountHeaders[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
-  <testcase name="getWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.001"/>
+  <testcase name="getWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="addShouldKeepOrdering[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="getFirstWithUnknownHeaderShouldReturnNull[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>
   <testcase name="keySetShouldNotDuplicateHeaderNames[headers [[]]]" classname="org.springframework.http.server.reactive.HeadersAdaptersTests" time="0.0"/>

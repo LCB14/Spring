@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:44" hostname="Macbook-Air.local" time="0.089">
+<testsuite name="org.springframework.jmx.export.NotificationPublisherTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:37" hostname="lichangbaodeMacBook-Pro.local" time="0.035">
   <properties/>
-  <testcase name="testSimpleBean" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.048"/>
-  <testcase name="testMBean" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.007"/>
-  <testcase name="testLazyInit" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.025"/>
-  <testcase name="testSimpleBeanRegisteredManually" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.009"/>
+  <testcase name="testSimpleBean" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.019"/>
+  <testcase name="testMBean" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.003"/>
+  <testcase name="testLazyInit" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.01"/>
+  <testcase name="testSimpleBeanRegisteredManually" classname="org.springframework.jmx.export.NotificationPublisherTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

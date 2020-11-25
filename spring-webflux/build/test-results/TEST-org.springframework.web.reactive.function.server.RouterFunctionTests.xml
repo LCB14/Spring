@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.RouterFunctionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:55" hostname="Macbook-Air.local" time="0.07">
+<testsuite name="org.springframework.web.reactive.function.server.RouterFunctionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:23" hostname="lichangbaodeMacBook-Pro.local" time="0.043">
   <properties/>
-  <testcase name="filter" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.021"/>
-  <testcase name="andOther" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.015"/>
-  <testcase name="andRoute" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.019"/>
-  <testcase name="and" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.015"/>
+  <testcase name="filter" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.011"/>
+  <testcase name="andOther" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.011"/>
+  <testcase name="andRoute" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.011"/>
+  <testcase name="and" classname="org.springframework.web.reactive.function.server.RouterFunctionTests" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:24" hostname="Macbook-Air.local" time="0.07">
+<testsuite name="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:41" hostname="lichangbaodeMacBook-Pro.local" time="0.026">
   <properties/>
-  <testcase name="modifyTestDataWithinTransaction" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.006"/>
-  <testcase name="verifyAnnotationAutowiredFields" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.009"/>
-  <testcase name="verifyAnnotationAutowiredMethods" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.005"/>
-  <testcase name="verifyApplicationContextSet" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.001"/>
+  <testcase name="modifyTestDataWithinTransaction" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.002"/>
+  <testcase name="verifyAnnotationAutowiredFields" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.004"/>
+  <testcase name="verifyAnnotationAutowiredMethods" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.002"/>
+  <testcase name="verifyApplicationContextSet" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.0"/>
   <testcase name="verifyBeanInitialized" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.0"/>
-  <testcase name="verifyBeanNameSet" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.001"/>
-  <testcase name="verifyResourceAnnotationInjectedFields" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.001"/>
+  <testcase name="verifyBeanNameSet" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.0"/>
+  <testcase name="verifyResourceAnnotationInjectedFields" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.0"/>
   <testcase name="verifyResourceAnnotationInjectedMethods" classname="org.springframework.test.context.testng.ConcreteTransactionalTestNGSpringContextTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

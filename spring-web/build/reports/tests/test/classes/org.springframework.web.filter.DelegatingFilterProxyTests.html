@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.035s</div>
+<div class="counter">0.016s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,52 +79,52 @@
 </thead>
 <tr>
 <td class="success">testDelegatingFilterProxy</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDelegatingFilterProxyAndCustomContextAttribute</td>
-<td class="success">0.005s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDelegatingFilterProxyInjectedPreferred</td>
-<td class="success">0.003s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDelegatingFilterProxyNotInjectedWacServletAttrPreferred</td>
-<td class="success">0.006s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDelegatingFilterProxyNotInjectedWithRootPreferred</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">testDelegatingFilterProxyWithFilterDelegateInstance</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testDelegatingFilterProxyWithFilterName</td>
+<td class="success">testDelegatingFilterProxyAndCustomContextAttribute</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyInjectedPreferred</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyNotInjectedWacServletAttrPreferred</td>
 <td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyNotInjectedWithRootPreferred</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithFilterDelegateInstance</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatingFilterProxyWithFilterName</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithFrameworkServletContext</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithLazyContextStartup</td>
-<td class="success">0.003s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithTargetBeanName</td>
-<td class="success">0.002s</td>
+<td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -139,7 +139,7 @@
 </tr>
 <tr>
 <td class="success">testDelegatingFilterProxyWithTargetFilterLifecycle</td>
-<td class="success">0.004s</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -147,30 +147,30 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:13.241 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.245 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.247 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.251 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.252 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.254 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.254 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.255 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.256 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.256 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.257 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.259 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.260 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.261 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.262 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.264 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter 'targetFilter' configured for use
-19:46:13.265 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.267 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.268 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.270 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.271 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.272 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
-19:46:13.274 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
-19:46:13.275 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+<pre>22:41:45.154 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.155 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.156 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.160 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.160 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.161 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.161 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.161 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.162 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.162 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.162 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.163 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.163 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.164 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.164 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.165 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter 'targetFilter' configured for use
+22:41:45.165 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.166 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.166 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.167 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.167 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.168 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
+22:41:45.169 [Test worker] DEBUG o.s.w.f.DelegatingFilterProxy - Filter '' configured for use
+22:41:45.169 [Test worker] DEBUG o.s.w.c.s.StaticWebApplicationContext - Refreshing Root WebApplicationContext
 </pre>
 </span>
 </div>
@@ -182,7 +182,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

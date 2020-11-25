@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.089s</div>
+<div class="counter">0.036s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,62 +79,62 @@
 </thead>
 <tr>
 <td class="success">fromFormDataMap</td>
-<td class="success">0.011s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fromFormDataWith</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fromMultipartData</td>
-<td class="success">0.021s</td>
+<td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">fromMultipartDataWithMultipleValues</td>
-<td class="success">0.005s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ofDataBuffers</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ofObject</td>
-<td class="success">0.011s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ofObjectWithHints</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ofPublisher</td>
-<td class="success">0.004s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">ofResource</td>
-<td class="success">0.007s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">ofResourceRange</td>
-<td class="success">0.010s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">ofServerSentEventFlux</td>
 <td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">ofResourceRange</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ofServerSentEventFlux</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">ofString</td>
-<td class="success">0.003s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -142,18 +142,18 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:49:00.768 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name 1, name 2, name 3] (content masked)
-19:49:00.786 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@497b2999]
-19:49:00.796 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
-19:49:00.801 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing &quot;foo&quot;
-19:49:00.805 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing &quot;foo&quot;
-19:49:00.809 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@2f173ed]
-19:49:00.813 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
-19:49:00.813 [Test worker] DEBUG o.s.c.c.ResourceEncoder - Writing [class path resource [org/springframework/web/reactive/function/response.txt]]
-19:49:00.820 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
-19:49:00.826 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
-19:49:00.828 [Test worker] DEBUG o.s.c.c.ResourceRegionEncoder - Writing region 10-49 of [class path resource [org/springframework/web/reactive/function/response.txt]]
-19:49:00.834 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
+<pre>22:43:28.268 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name 1, name 2, name 3] (content masked)
+22:43:28.274 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@70e74ba9]
+22:43:28.277 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
+22:43:28.281 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing &quot;foo&quot;
+22:43:28.283 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - Writing &quot;foo&quot;
+22:43:28.285 [Test worker] DEBUG o.s.h.c.j.Jackson2JsonEncoder - Encoding [org.springframework.web.reactive.function.BodyInsertersTests$User@3f6900b7]
+22:43:28.288 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
+22:43:28.288 [Test worker] DEBUG o.s.c.c.ResourceEncoder - Writing [class path resource [org/springframework/web/reactive/function/response.txt]]
+22:43:28.291 [Test worker] DEBUG o.s.h.c.m.MultipartHttpMessageWriter - Encoding parts [name] (content masked)
+22:43:28.294 [Test worker] DEBUG o.s.h.c.ResourceHttpMessageWriter - Resource associated with 'text/plain'
+22:43:28.295 [Test worker] DEBUG o.s.c.c.ResourceRegionEncoder - Writing region 10-49 of [class path resource [org/springframework/web/reactive/function/response.txt]]
+22:43:28.299 [Test worker] DEBUG o.s.h.c.FormHttpMessageWriter - Writing form fields [name 1, name 2, name 3] (content masked)
 </pre>
 </span>
 </div>
@@ -165,7 +165,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:49:30</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:43:46</p>
 </div>
 </div>
 </body>

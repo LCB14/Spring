@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.annotation.AnnotatedElementUtilsTests" tests="78" skipped="1" failures="0" errors="0" timestamp="2019-06-21T11:41:44" hostname="Macbook-Air.local" time="0.821">
+<testsuite name="org.springframework.core.annotation.AnnotatedElementUtilsTests" tests="78" skipped="1" failures="0" errors="0" timestamp="2020-11-25T14:39:09" hostname="lichangbaodeMacBook-Pro.local" time="0.126">
   <properties/>
-  <testcase name="getAllAnnotationAttributesOnClassWithLocalAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.04"/>
-  <testcase name="isAnnotatedOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
-  <testcase name="getMergedAnnotationAttributesWithConventionBasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.134"/>
+  <testcase name="getAllAnnotationAttributesOnClassWithLocalAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.009"/>
+  <testcase name="isAnnotatedOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMergedAnnotationAttributesWithConventionBasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.023"/>
   <testcase name="isAnnotatedWithNameOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getAllAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.02"/>
-  <testcase name="getMergedAnnotationAttributesWithImplicitAliasesInMetaAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.012"/>
-  <testcase name="findAndSynthesizeAnnotationAttributesOnClassWithAttributeAliasesInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.035"/>
-  <testcase name="getMergedAnnotationAttributesOnClassWithLocalAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="getMergedAnnotationAttributesWithAliasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="findMergedAnnotationAttributesInheritedFromBridgedMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.04"/>
-  <testcase name="getAllAnnotationAttributesOnJavaxType" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.006"/>
-  <testcase name="findMergedAnnotationAttributesOnSubInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevel" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.007"/>
-  <testcase name="getMergedAnnotationWithAliasedValueComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="getAllAnnotationAttributesFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.011"/>
-  <testcase name="javaLangAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getAllAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
+  <testcase name="getMergedAnnotationAttributesWithImplicitAliasesInMetaAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="findAndSynthesizeAnnotationAttributesOnClassWithAttributeAliasesInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.009"/>
+  <testcase name="getMergedAnnotationAttributesOnClassWithLocalAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMergedAnnotationAttributesWithAliasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="findMergedAnnotationAttributesInheritedFromBridgedMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
+  <testcase name="getAllAnnotationAttributesOnJavaxType" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="findMergedAnnotationAttributesOnSubInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevel" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getMergedAnnotationWithAliasedValueComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getAllAnnotationAttributesFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="javaLangAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="getMergedAnnotationAttributesWithAliasedValueComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getAllAnnotationAttributesOnLangType" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
-  <testcase name="getMergedAnnotationAttributesOnInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="findMergedAnnotationAttributesOnClassWithAttributeAliasInComposedAnnotationAndNestedAnnotationsInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.018"/>
-  <testcase name="getMergedAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getAllAnnotationAttributesOnLangType" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationAttributesOnInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMergedAnnotationAttributesOnClassWithAttributeAliasInComposedAnnotationAndNestedAnnotationsInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
+  <testcase name="getMergedAnnotationAttributesFavorsInheritedComposedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="getMergedAnnotationAttributesFromInterfaceImplementedBySuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="findMergedAnnotationAttributesInheritedFromAbstractMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="getMergedAnnotationAttributesOnNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
-  <testcase name="getAllAnnotationAttributesOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getAllAnnotationAttributesOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="findMergedAnnotationAttributesFromBridgeMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="findMergedAnnotationAttributesOnSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="findMergedAnnotationAttributesOnInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="getMetaAnnotationTypesOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
-  <testcase name="findMergedAnnotationAttributesOnSubSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="getMergedAnnotationAttributesWithShadowedAliasComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.007"/>
+  <testcase name="findMergedAnnotationAttributesOnInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMetaAnnotationTypesOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMergedAnnotationAttributesOnSubSubNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMergedAnnotationAttributesWithShadowedAliasComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
   <testcase name="hasAnnotationForPlainTypes" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="findMergedAnnotationWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.02"/>
-  <testcase name="findMergedAnnotationForMultipleMetaAnnotationsWithClashingAttributeNames" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.013"/>
-  <testcase name="findMergedAnnotationAttributesInheritedFromInterfaceMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="findMergedAnnotationAttributesOnClassWithMetaAndLocalTxConfig" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.013"/>
-  <testcase name="findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="findMergedAnnotationWithSingleElementOverridingAnArrayViaConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.006"/>
-  <testcase name="getMergedAnnotationWithImplicitAliasesInMetaAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
-  <testcase name="getMergedAnnotationOnThreeDeepMetaWithValue" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="getMergedAnnotationAttributesOnClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
-  <testcase name="findMethodAnnotationFromGenericInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.277"/>
+  <testcase name="findMergedAnnotationWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
+  <testcase name="findMergedAnnotationForMultipleMetaAnnotationsWithClashingAttributeNames" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
+  <testcase name="findMergedAnnotationAttributesInheritedFromInterfaceMethod" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMergedAnnotationAttributesOnClassWithMetaAndLocalTxConfig" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="findMergedAnnotationAttributesWithSingleElementOverridingAnArrayViaConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="findMergedAnnotationWithSingleElementOverridingAnArrayViaConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationWithImplicitAliasesInMetaAnnotationOnComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationOnThreeDeepMetaWithValue" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getMergedAnnotationAttributesOnClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMethodAnnotationFromGenericInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.021"/>
   <testcase name="getAllAnnotationAttributesOnClassWithLocalAnnotationThatShadowsAnnotationFromSuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getMetaAnnotationTypesOnClassWithMetaDepth1" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.01"/>
-  <testcase name="getMetaAnnotationTypesOnClassWithMetaDepth2" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.009"/>
-  <testcase name="getAllAnnotationAttributesOnClassWithMultipleComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.014"/>
-  <testcase name="getMergedAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.008"/>
-  <testcase name="isAnnotatedOnClassWithMetaDepth" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
+  <testcase name="getMetaAnnotationTypesOnClassWithMetaDepth1" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getMetaAnnotationTypesOnClassWithMetaDepth2" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getAllAnnotationAttributesOnClassWithMultipleComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getMergedAnnotationWithTransitiveImplicitAliases" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="isAnnotatedOnClassWithMetaDepth" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="isAnnotatedForPlainTypes" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getMergedAnnotationWithImplicitAliasesForSameAttributeInComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
-  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevelWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.006"/>
-  <testcase name="getMergedAnnotationAttributesWithInvalidConventionBasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="getAllAnnotationAttributesOnClassWithLocalComposedAnnotationAndInheritedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationWithImplicitAliasesForSameAttributeInComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSkippedLevelWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="getMergedAnnotationAttributesWithInvalidConventionBasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getAllAnnotationAttributesOnClassWithLocalComposedAnnotationAndInheritedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="isAnnotatedWithNameOnClassWithMetaDepth" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
   <testcase name="findMergedAnnotationAttributesOnNonInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="getMergedAnnotationAttributesFavorsInheritedAnnotationsOverMoreLocallyDeclaredComposedAnnotations" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="javaxMetaAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.004"/>
-  <testcase name="nullableAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="findMergedAnnotationAttributesOnClassWithBothAttributesOfAnAliasPairDeclared" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="hasMetaAnnotationTypesOnClassWithMetaDepth0" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="javaxMetaAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="nullableAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMergedAnnotationAttributesOnClassWithBothAttributesOfAnAliasPairDeclared" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="hasMetaAnnotationTypesOnClassWithMetaDepth0" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="hasMetaAnnotationTypesOnClassWithMetaDepth1" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="hasMetaAnnotationTypesOnClassWithMetaDepth2" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="hasMetaAnnotationTypesOnClassWithMetaDepth2" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="hasMetaAnnotationTypesOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="hasAnnotationOnNonAnnotatedClass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="findMergedAnnotationAttributesOnSubSubInheritedAnnotationInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="findAllMergedAnnotationsOnClassWithInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="javaxAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
+  <testcase name="findAllMergedAnnotationsOnClassWithInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
+  <testcase name="javaxAnnotationTypeViaFindMergedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
   <testcase name="getAllMergedAnnotationsOnClassWithInterface" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.005"/>
-  <testcase name="findMergedAnnotationWithLocalAliasesThatConflictWithAttributesInMetaAnnotationByConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
-  <testcase name="forAnnotationsCreatesCopyOfArrayOnEachCall" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.003"/>
-  <testcase name="findMethodAnnotationFromGenericSuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="getMergedAnnotationWithTransitiveImplicitAliasesWithSingleElementOverridingAnArrayViaAliasFor" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="findMergedAnnotationWithLocalAliasesThatConflictWithAttributesInMetaAnnotationByConvention" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="forAnnotationsCreatesCopyOfArrayOnEachCall" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
+  <testcase name="findMethodAnnotationFromGenericSuperclass" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
   <testcase name="getMergedAnnotationAttributesWithHalfConventionBasedAndHalfAliasedComposedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="hasAnnotationOnClassWithMetaDepth" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
-  <testcase name="getMergedAnnotationAttributesOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.017"/>
-  <testcase name="findMergedAnnotationWithAttributeAliasesInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.001"/>
+  <testcase name="getMergedAnnotationAttributesOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.002"/>
+  <testcase name="findMergedAnnotationWithAttributeAliasesInTargetAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <testcase name="getMergedAnnotationAttributesFavorsLocalComposedAnnotationOverInheritedAnnotation" classname="org.springframework.core.annotation.AnnotatedElementUtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

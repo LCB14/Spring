@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.remoting.jaxws.JaxWsSupportTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:58" hostname="Macbook-Air.local" time="2.528">
+<testsuite name="org.springframework.remoting.jaxws.JaxWsSupportTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:37" hostname="lichangbaodeMacBook-Pro.local" time="0.804">
   <properties/>
-  <testcase name="testJaxWsPortAccessWithFeature" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="2.346"/>
-  <testcase name="testJaxWsPortAccess" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="0.182"/>
+  <testcase name="testJaxWsPortAccessWithFeature" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="0.721"/>
+  <testcase name="testJaxWsPortAccess" classname="org.springframework.remoting.jaxws.JaxWsSupportTests" time="0.083"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[六月 21, 2019 7:46:00 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+  <system-err><![CDATA[十一月 25, 2020 10:41:38 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
 严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
@@ -28,7 +28,7 @@ com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext impleme
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-六月 21, 2019 7:46:00 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+十一月 25, 2020 10:41:38 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
 严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
@@ -52,7 +52,7 @@ com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext impleme
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-六月 21, 2019 7:46:01 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+十一月 25, 2020 10:41:38 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
 严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)
@@ -76,7 +76,7 @@ com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext impleme
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
 
-六月 21, 2019 7:46:01 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
+十一月 25, 2020 10:41:38 下午 com.sun.xml.internal.ws.transport.http.HttpAdapter$HttpToolkit handle
 严重: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 com.sun.xml.internal.ws.spi.db.DatabindingException: Unknown JAXBContext implementation: class com.sun.xml.bind.v2.runtime.JAXBContextImpl
 	at com.sun.xml.internal.ws.spi.db.BindingContextFactory.getJAXBFactory(BindingContextFactory.java:192)

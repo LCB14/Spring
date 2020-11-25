@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mock.web.MockHttpServletResponseTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:36" hostname="Macbook-Air.local" time="0.013">
+<testsuite name="org.springframework.mock.web.MockHttpServletResponseTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:22" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
   <testcase name="setContentTypeUTF8" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="servletWriterCommittedWhenBufferSizeExceeded" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="servletWriterCommittedWhenBufferSizeExceeded" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="getNonExistentDateHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterAutoFlushedForChar" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="httpHeaderNameCasingIsPreserved" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="getInvalidDateHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
-  <testcase name="servletOutputStreamCommittedOnOutputStreamFlush" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="servletOutputStreamCommittedOnOutputStreamFlush" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLength" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="locationHeaderUpdatesGetRedirectedUrl" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentTypeHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="modifyStatusMessageAfterSendError" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="servletWriterAutoFlushedForCharArray" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="servletWriterAutoFlushedForCharArray" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="sendRedirect" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLengthHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="getDateHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="contentTypeHeaderWithMoreComplexCharsetSyntax" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
-  <testcase name="servletOutputStreamCommittedWhenBufferSizeExceeded" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="contentTypeHeaderWithMoreComplexCharsetSyntax" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="servletOutputStreamCommittedWhenBufferSizeExceeded" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
   <testcase name="servletOutputStreamCommittedOnFlushBuffer" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="addDateHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="addMockCookie" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
-  <testcase name="setCookieHeaderValid" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="addMockCookie" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
+  <testcase name="setCookieHeaderValid" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentTypeHeaderUTF8" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="contentLengthIntHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setDateHeader" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="modifyStatusAfterSendError" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="servletWriterCommittedOnWriterClose" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="servletWriterCommittedOnWriterClose" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterCommittedOnWriterFlush" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setCharacterEncodingThenContentType" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="cookies" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="cookies" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="servletWriterAutoFlushedForString" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <testcase name="setContentType" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
-  <testcase name="setContentTypeThenCharacterEncoding" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.001"/>
+  <testcase name="setContentTypeThenCharacterEncoding" classname="org.springframework.mock.web.MockHttpServletResponseTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

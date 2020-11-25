@@ -1,275 +1,275 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:57" hostname="Macbook-Air.local" time="2.827">
+<testsuite name="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:25" hostname="lichangbaodeMacBook-Pro.local" time="2.664">
   <properties/>
-  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c40f29]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.248"/>
-  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c40f29]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.232"/>
-  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c40f29]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.236"/>
-  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@3e718926]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.229"/>
-  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@3e718926]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.226"/>
-  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@3e718926]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.225"/>
-  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@30bc370c]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.25"/>
-  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@30bc370c]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.246"/>
-  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@30bc370c]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.244"/>
-  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@243374c6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.237"/>
-  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@243374c6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.227"/>
-  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@243374c6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.227"/>
-  <system-out><![CDATA[19:48:57.864 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:57.864 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-19:48:57.865 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@1ae7c4d7{/,null,AVAILABLE}
-19:48:57.865 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-19:48:57.865 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_144-b01
-19:48:57.867 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@5be8b709{HTTP/1.1,[http/1.1]}{0.0.0.0:51511}
-19:48:57.867 [Test worker] INFO  o.e.j.s.Server - Started @138978ms
-19:48:57.867 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 51511(0 millis).
-19:48:57.869 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e281786] HTTP GET http://localhost:51511/event
-19:48:57.873 [qtp1541331702-4040] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [61a7f700] HTTP GET "/event"
-19:48:57.983 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e281786] Response 200 OK
-19:48:57.986 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded "id:0"
-19:48:57.986 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded ":bar"
-19:48:57.986 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded "data:foo"
-19:48:57.986 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded ""
-19:48:58.083 [parallel-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [61a7f700] Completed 200 OK
-19:48:58.084 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded "id:1"
-19:48:58.084 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded ":bar"
-19:48:58.085 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded "data:foo"
-19:48:58.085 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [5e281786] Decoded ""
-19:48:58.085 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-19:48:58.085 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1ae7c4d7{/,null,UNAVAILABLE}
-19:48:58.087 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@5be8b709{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
-19:48:58.088 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-19:48:58.105 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:58.106 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-19:48:58.106 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@47d47580{/,null,AVAILABLE}
-19:48:58.106 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-19:48:58.106 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_144-b01
-19:48:58.107 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@1391b788{HTTP/1.1,[http/1.1]}{0.0.0.0:51513}
-19:48:58.108 [Test worker] INFO  o.e.j.s.Server - Started @139218ms
-19:48:58.108 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 51513(0 millis).
-19:48:58.111 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16935ca2] HTTP GET http://localhost:51513/person
-19:48:58.113 [qtp1247564566-4049] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7eaa0417] HTTP GET "/person"
-19:48:58.220 [parallel-2] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [7eaa0417] Encoding [Person{name='foo 0'}]
-19:48:58.221 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [16935ca2] Response 200 OK
-19:48:58.224 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [16935ca2] Decoded "data:{"name":"foo 0"}"
-19:48:58.224 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [16935ca2] Decoded ""
-19:48:58.224 [reactor-http-nio-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [16935ca2] Decoded [Person{name='foo 0'}]
-19:48:58.316 [parallel-2] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [7eaa0417] Encoding [Person{name='foo 1'}]
-19:48:58.317 [parallel-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7eaa0417] Completed 200 OK
-19:48:58.318 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [16935ca2] Decoded "data:{"name":"foo 1"}"
-19:48:58.318 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [16935ca2] Decoded ""
-19:48:58.318 [reactor-http-nio-4] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [16935ca2] Decoded [Person{name='foo 1'}]
-19:48:58.319 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-19:48:58.319 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@47d47580{/,null,UNAVAILABLE}
-19:48:58.320 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@1391b788{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
-19:48:58.320 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-19:48:58.336 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:58.336 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
-19:48:58.337 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@2d3da748{/,null,AVAILABLE}
-19:48:58.337 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
-19:48:58.337 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_144-b01
-19:48:58.339 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@21479801{HTTP/1.1,[http/1.1]}{0.0.0.0:51515}
-19:48:58.339 [Test worker] INFO  o.e.j.s.Server - Started @139449ms
-19:48:58.339 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 51515(0 millis).
-19:48:58.339 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7fda9aae] HTTP GET http://localhost:51515/string
-19:48:58.342 [qtp239693035-4058] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [34641904] HTTP GET "/string"
-19:48:58.453 [reactor-http-nio-4] DEBUG o.s.w.r.f.c.ExchangeFunctions - [7fda9aae] Response 200 OK
-19:48:58.454 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [7fda9aae] Decoded "data:foo 0"
-19:48:58.455 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [7fda9aae] Decoded ""
-19:48:58.554 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [34641904] Completed 200 OK
-19:48:58.554 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [7fda9aae] Decoded "data:foo 1"
-19:48:58.554 [reactor-http-nio-4] DEBUG o.s.c.c.StringDecoder - [7fda9aae] Decoded ""
-19:48:58.555 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
-19:48:58.555 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2d3da748{/,null,UNAVAILABLE}
-19:48:58.556 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@21479801{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
-19:48:58.556 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
-19:48:58.574 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:58.574 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-19:48:58.574 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 51517(0 millis).
-19:48:58.575 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6eecddac] HTTP GET http://localhost:51517/event
-19:48:58.577 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90067c11] HTTP GET "/event"
-19:48:58.684 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6eecddac] Response 200 OK
-19:48:58.685 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded "id:0"
-19:48:58.685 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded ":bar"
-19:48:58.686 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded "data:foo"
-19:48:58.686 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded ""
-19:48:58.783 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90067c11] Completed 200 OK
-19:48:58.784 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded "id:1"
-19:48:58.785 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded ":bar"
-19:48:58.785 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded "data:foo"
-19:48:58.785 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [6eecddac] Decoded ""
-19:48:58.785 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-19:48:58.786 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-19:48:58.800 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:58.800 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-19:48:58.800 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 51519(0 millis).
-19:48:58.801 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [32df38a1] HTTP GET http://localhost:51519/person
-19:48:58.802 [reactor-http-nio-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [76fcbd15] HTTP GET "/person"
-19:48:58.908 [reactor-http-nio-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [76fcbd15] Encoding [Person{name='foo 0'}]
-19:48:58.908 [reactor-http-nio-3] DEBUG o.s.w.r.f.c.ExchangeFunctions - [32df38a1] Response 200 OK
-19:48:58.911 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [32df38a1] Decoded "data:{"name":"foo 0"}"
-19:48:58.911 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [32df38a1] Decoded ""
-19:48:58.911 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [32df38a1] Decoded [Person{name='foo 0'}]
-19:48:59.008 [parallel-1] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [76fcbd15] Encoding [Person{name='foo 1'}]
-19:48:59.010 [reactor-http-nio-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [76fcbd15] Completed 200 OK
-19:48:59.011 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [32df38a1] Decoded "data:{"name":"foo 1"}"
-19:48:59.011 [reactor-http-nio-3] DEBUG o.s.c.c.StringDecoder - [32df38a1] Decoded ""
-19:48:59.011 [reactor-http-nio-3] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [32df38a1] Decoded [Person{name='foo 1'}]
-19:48:59.011 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-19:48:59.012 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-19:48:59.027 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:59.027 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
-19:48:59.027 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 51521(0 millis).
-19:48:59.028 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78c2f42a] HTTP GET http://localhost:51521/string
-19:48:59.030 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [440c3d8b] HTTP GET "/string"
-19:48:59.133 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [78c2f42a] Response 200 OK
-19:48:59.134 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [78c2f42a] Decoded "data:foo 0"
-19:48:59.134 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [78c2f42a] Decoded ""
-19:48:59.235 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [440c3d8b] Completed 200 OK
-19:48:59.236 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [78c2f42a] Decoded "data:foo 1"
-19:48:59.236 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [78c2f42a] Decoded ""
-19:48:59.236 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
-19:48:59.237 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
-19:48:59.250 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:59.250 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-19:48:59.257 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 51523(0 millis).
-19:48:59.257 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [62f5969e] HTTP GET http://localhost:51523/event
-19:48:59.261 [http-nio-auto-138-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5127514c] HTTP GET "/event"
-19:48:59.365 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [62f5969e] Response 200 OK
-19:48:59.367 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded "id:0"
-19:48:59.368 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded ":bar"
-19:48:59.368 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded "data:foo"
-19:48:59.368 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded ""
-19:48:59.471 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5127514c] Completed 200 OK
-19:48:59.474 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded "id:1"
-19:48:59.474 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded ":bar"
-19:48:59.474 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded "data:foo"
-19:48:59.475 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [62f5969e] Decoded ""
-19:48:59.475 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-19:48:59.486 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-19:48:59.499 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:59.500 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-19:48:59.506 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 51526(0 millis).
-19:48:59.506 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5890e893] HTTP GET http://localhost:51526/person
-19:48:59.508 [http-nio-auto-139-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2cd982b1] HTTP GET "/person"
-19:48:59.616 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [2cd982b1] Encoding [Person{name='foo 0'}]
-19:48:59.617 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5890e893] Response 200 OK
-19:48:59.618 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [5890e893] Decoded "data:{"name":"foo 0"}"
-19:48:59.618 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [5890e893] Decoded ""
-19:48:59.618 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5890e893] Decoded [Person{name='foo 0'}]
-19:48:59.718 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [2cd982b1] Encoding [Person{name='foo 1'}]
-19:48:59.719 [parallel-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2cd982b1] Completed 200 OK
-19:48:59.720 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [5890e893] Decoded "data:{"name":"foo 1"}"
-19:48:59.721 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [5890e893] Decoded ""
-19:48:59.721 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [5890e893] Decoded [Person{name='foo 1'}]
-19:48:59.721 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-19:48:59.733 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-19:48:59.748 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:59.749 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
-19:48:59.758 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 51529(0 millis).
-19:48:59.759 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [133d595] HTTP GET http://localhost:51529/string
-19:48:59.761 [http-nio-auto-140-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b4ac63b] HTTP GET "/string"
-19:48:59.866 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [133d595] Response 200 OK
-19:48:59.867 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [133d595] Decoded "data:foo 0"
-19:48:59.868 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [133d595] Decoded ""
-19:48:59.963 [parallel-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2b4ac63b] Completed 200 OK
-19:48:59.965 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [133d595] Decoded "data:foo 1"
-19:48:59.965 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [133d595] Decoded ""
-19:48:59.965 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
-19:48:59.976 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
-19:48:59.991 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:48:59.991 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-19:48:59.998 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 51532(0 millis).
-19:48:59.999 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [8944a35] HTTP GET http://localhost:51532/event
-19:49:00.000 [XNIO-137 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [515a0317] HTTP GET "/event"
-19:49:00.102 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [8944a35] Response 200 OK
-19:49:00.104 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded "id:0"
-19:49:00.104 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded ":bar"
-19:49:00.104 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded "data:foo"
-19:49:00.104 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded ""
-19:49:00.211 [XNIO-137 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [515a0317] Completed 200 OK
-19:49:00.212 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded "id:1"
-19:49:00.212 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded ":bar"
-19:49:00.212 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded "data:foo"
-19:49:00.212 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [8944a35] Decoded ""
-19:49:00.213 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-19:49:00.213 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-19:49:00.228 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:49:00.229 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-19:49:00.230 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 51534(0 millis).
-19:49:00.231 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [af1f06d] HTTP GET http://localhost:51534/person
-19:49:00.233 [XNIO-138 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1b7cc2ce] HTTP GET "/person"
-19:49:00.336 [parallel-3] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1b7cc2ce] Encoding [Person{name='foo 0'}]
-19:49:00.337 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [af1f06d] Response 200 OK
-19:49:00.338 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [af1f06d] Decoded "data:{"name":"foo 0"}"
-19:49:00.338 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [af1f06d] Decoded ""
-19:49:00.338 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [af1f06d] Decoded [Person{name='foo 0'}]
-19:49:00.438 [parallel-3] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [1b7cc2ce] Encoding [Person{name='foo 1'}]
-19:49:00.438 [XNIO-138 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1b7cc2ce] Completed 200 OK
-19:49:00.439 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [af1f06d] Decoded "data:{"name":"foo 1"}"
-19:49:00.439 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [af1f06d] Decoded ""
-19:49:00.439 [reactor-http-nio-2] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [af1f06d] Decoded [Person{name='foo 1'}]
-19:49:00.439 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-19:49:00.440 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
-19:49:00.454 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:49:00.454 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
-19:49:00.456 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 51536(0 millis).
-19:49:00.457 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6f4b8d2d] HTTP GET http://localhost:51536/string
-19:49:00.459 [XNIO-139 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [223007c6] HTTP GET "/string"
-19:49:00.563 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [6f4b8d2d] Response 200 OK
-19:49:00.563 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6f4b8d2d] Decoded "data:foo 0"
-19:49:00.564 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6f4b8d2d] Decoded ""
-19:49:00.666 [XNIO-139 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [223007c6] Completed 200 OK
-19:49:00.667 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6f4b8d2d] Decoded "data:foo 1"
-19:49:00.667 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [6f4b8d2d] Decoded ""
-19:49:00.667 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
-19:49:00.668 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@660a3001]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.223"/>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@660a3001]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.221"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@660a3001]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.219"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71a310f6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.217"/>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71a310f6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.217"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@71a310f6]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.218"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4c2ffa7]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.231"/>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4c2ffa7]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.234"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4c2ffa7]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.231"/>
+  <testcase name="sseAsEvent[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@286cad49]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.218"/>
+  <testcase name="sseAsPerson[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@286cad49]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.217"/>
+  <testcase name="sseAsString[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@286cad49]]" classname="org.springframework.web.reactive.function.server.SseHandlerFunctionIntegrationTests" time="0.218"/>
+  <system-out><![CDATA[22:43:25.570 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:25.570 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+22:43:25.570 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@73025689{/,null,AVAILABLE}
+22:43:25.570 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+22:43:25.570 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_211-b12
+22:43:25.572 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@2adb4121{HTTP/1.1,[http/1.1]}{0.0.0.0:54994}
+22:43:25.572 [Test worker] INFO  o.e.j.s.Server - Started @77998ms
+22:43:25.572 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 54994(0 millis).
+22:43:25.573 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [160e940a] HTTP GET http://localhost:54994/event
+22:43:25.574 [qtp1258489081-6406] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [590e4b85] HTTP GET "/event"
+22:43:25.679 [reactor-http-nio-8] DEBUG o.s.w.r.f.c.ExchangeFunctions - [160e940a] Response 200 OK
+22:43:25.680 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded "id:0"
+22:43:25.680 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded ":bar"
+22:43:25.680 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded "data:foo"
+22:43:25.680 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded ""
+22:43:25.779 [parallel-13] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [590e4b85] Completed 200 OK
+22:43:25.779 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded "id:1"
+22:43:25.779 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded ":bar"
+22:43:25.779 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded "data:foo"
+22:43:25.779 [reactor-http-nio-8] DEBUG o.s.c.c.StringDecoder - [160e940a] Decoded ""
+22:43:25.780 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+22:43:25.780 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@73025689{/,null,UNAVAILABLE}
+22:43:25.781 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@2adb4121{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+22:43:25.781 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+22:43:25.792 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:25.792 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+22:43:25.792 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@7295a842{/,null,AVAILABLE}
+22:43:25.792 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+22:43:25.792 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_211-b12
+22:43:25.793 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@568515d2{HTTP/1.1,[http/1.1]}{0.0.0.0:54996}
+22:43:25.793 [Test worker] INFO  o.e.j.s.Server - Started @78220ms
+22:43:25.793 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 54996(0 millis).
+22:43:25.794 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [666bc05c] HTTP GET http://localhost:54996/person
+22:43:25.795 [qtp340401934-6418] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [11aee70] HTTP GET "/person"
+22:43:25.901 [parallel-14] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [11aee70] Encoding [Person{name='foo 0'}]
+22:43:25.902 [reactor-http-nio-12] DEBUG o.s.w.r.f.c.ExchangeFunctions - [666bc05c] Response 200 OK
+22:43:25.903 [reactor-http-nio-12] DEBUG o.s.c.c.StringDecoder - [666bc05c] Decoded "data:{"name":"foo 0"}"
+22:43:25.903 [reactor-http-nio-12] DEBUG o.s.c.c.StringDecoder - [666bc05c] Decoded ""
+22:43:25.904 [reactor-http-nio-12] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [666bc05c] Decoded [Person{name='foo 0'}]
+22:43:25.999 [parallel-14] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [11aee70] Encoding [Person{name='foo 1'}]
+22:43:26.000 [parallel-14] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [11aee70] Completed 200 OK
+22:43:26.000 [reactor-http-nio-12] DEBUG o.s.c.c.StringDecoder - [666bc05c] Decoded "data:{"name":"foo 1"}"
+22:43:26.000 [reactor-http-nio-12] DEBUG o.s.c.c.StringDecoder - [666bc05c] Decoded ""
+22:43:26.000 [reactor-http-nio-12] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [666bc05c] Decoded [Person{name='foo 1'}]
+22:43:26.000 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+22:43:26.000 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7295a842{/,null,UNAVAILABLE}
+22:43:26.001 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@568515d2{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+22:43:26.002 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+22:43:26.012 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:26.012 [Test worker] WARN  o.e.j.s.h.ContextHandler - Empty contextPath
+22:43:26.012 [Test worker] INFO  o.e.j.s.h.ContextHandler - Started o.e.j.s.ServletContextHandler@6142e6bb{/,null,AVAILABLE}
+22:43:26.012 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Starting JettyHttpServer...
+22:43:26.012 [Test worker] INFO  o.e.j.s.Server - jetty-9.4.18.v20190429; built: 2019-04-29T20:42:08.989Z; git: e1bc35120a6617ee3df052294e433f3a25ce7097; jvm 1.8.0_211-b12
+22:43:26.014 [Test worker] INFO  o.e.j.s.AbstractConnector - Started ServerConnector@5913a3ef{HTTP/1.1,[http/1.1]}{0.0.0.0:54998}
+22:43:26.014 [Test worker] INFO  o.e.j.s.Server - Started @78441ms
+22:43:26.014 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server started on port 54998(0 millis).
+22:43:26.015 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4eca8ff6] HTTP GET http://localhost:54998/string
+22:43:26.016 [qtp1671187590-6434] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5bce2dea] HTTP GET "/string"
+22:43:26.119 [reactor-http-nio-16] DEBUG o.s.w.r.f.c.ExchangeFunctions - [4eca8ff6] Response 200 OK
+22:43:26.119 [reactor-http-nio-16] DEBUG o.s.c.c.StringDecoder - [4eca8ff6] Decoded "data:foo 0"
+22:43:26.119 [reactor-http-nio-16] DEBUG o.s.c.c.StringDecoder - [4eca8ff6] Decoded ""
+22:43:26.219 [parallel-15] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5bce2dea] Completed 200 OK
+22:43:26.219 [reactor-http-nio-16] DEBUG o.s.c.c.StringDecoder - [4eca8ff6] Decoded "data:foo 1"
+22:43:26.219 [reactor-http-nio-16] DEBUG o.s.c.c.StringDecoder - [4eca8ff6] Decoded ""
+22:43:26.220 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Stopping JettyHttpServer...
+22:43:26.220 [Test worker] INFO  o.e.j.s.h.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6142e6bb{/,null,UNAVAILABLE}
+22:43:26.221 [Test worker] INFO  o.e.j.s.AbstractConnector - Stopped ServerConnector@5913a3ef{HTTP/1.1,[http/1.1]}{0.0.0.0:0}
+22:43:26.221 [Test worker] DEBUG o.s.h.s.r.b.JettyHttpServer - Server stopped (0 millis).
+22:43:26.232 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:26.232 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+22:43:26.232 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 55000(0 millis).
+22:43:26.233 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e861f64] HTTP GET http://localhost:55000/event
+22:43:26.234 [reactor-http-nio-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [69e57819] HTTP GET "/event"
+22:43:26.337 [reactor-http-nio-5] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5e861f64] Response 200 OK
+22:43:26.339 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded "id:0"
+22:43:26.339 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded ":bar"
+22:43:26.339 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded "data:foo"
+22:43:26.339 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded ""
+22:43:26.437 [reactor-http-nio-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [69e57819] Completed 200 OK
+22:43:26.438 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded "id:1"
+22:43:26.438 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded ":bar"
+22:43:26.438 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded "data:foo"
+22:43:26.438 [reactor-http-nio-5] DEBUG o.s.c.c.StringDecoder - [5e861f64] Decoded ""
+22:43:26.438 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+22:43:26.438 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+22:43:26.450 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:26.450 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+22:43:26.450 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 55002(0 millis).
+22:43:26.450 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [71bd327e] HTTP GET http://localhost:55002/person
+22:43:26.451 [reactor-http-nio-12] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9ea3dd8d] HTTP GET "/person"
+22:43:26.553 [reactor-http-nio-12] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [9ea3dd8d] Encoding [Person{name='foo 0'}]
+22:43:26.553 [reactor-http-nio-11] DEBUG o.s.w.r.f.c.ExchangeFunctions - [71bd327e] Response 200 OK
+22:43:26.555 [reactor-http-nio-11] DEBUG o.s.c.c.StringDecoder - [71bd327e] Decoded "data:{"name":"foo 0"}"
+22:43:26.555 [reactor-http-nio-11] DEBUG o.s.c.c.StringDecoder - [71bd327e] Decoded ""
+22:43:26.555 [reactor-http-nio-11] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [71bd327e] Decoded [Person{name='foo 0'}]
+22:43:26.653 [parallel-1] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [9ea3dd8d] Encoding [Person{name='foo 1'}]
+22:43:26.655 [reactor-http-nio-12] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [9ea3dd8d] Completed 200 OK
+22:43:26.655 [reactor-http-nio-11] DEBUG o.s.c.c.StringDecoder - [71bd327e] Decoded "data:{"name":"foo 1"}"
+22:43:26.655 [reactor-http-nio-11] DEBUG o.s.c.c.StringDecoder - [71bd327e] Decoded ""
+22:43:26.655 [reactor-http-nio-11] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [71bd327e] Decoded [Person{name='foo 1'}]
+22:43:26.655 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+22:43:26.656 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+22:43:26.668 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:26.668 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Starting ReactorHttpServer...
+22:43:26.668 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server started on port 55004(0 millis).
+22:43:26.669 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5640b20e] HTTP GET http://localhost:55004/string
+22:43:26.669 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [dc2b5b68] HTTP GET "/string"
+22:43:26.774 [reactor-http-nio-1] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5640b20e] Response 200 OK
+22:43:26.775 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [5640b20e] Decoded "data:foo 0"
+22:43:26.775 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [5640b20e] Decoded ""
+22:43:26.873 [reactor-http-nio-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [dc2b5b68] Completed 200 OK
+22:43:26.873 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [5640b20e] Decoded "data:foo 1"
+22:43:26.873 [reactor-http-nio-1] DEBUG o.s.c.c.StringDecoder - [5640b20e] Decoded ""
+22:43:26.873 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Stopping ReactorHttpServer...
+22:43:26.873 [Test worker] DEBUG o.s.h.s.r.b.ReactorHttpServer - Server stopped (0 millis).
+22:43:26.884 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:26.884 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+22:43:26.888 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 55009(0 millis).
+22:43:26.888 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60bb2efa] HTTP GET http://localhost:55009/event
+22:43:26.889 [http-nio-auto-138-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [42d9efa] HTTP GET "/event"
+22:43:26.991 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [60bb2efa] Response 200 OK
+22:43:26.992 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded "id:0"
+22:43:26.992 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded ":bar"
+22:43:26.992 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded "data:foo"
+22:43:26.992 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded ""
+22:43:27.091 [parallel-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [42d9efa] Completed 200 OK
+22:43:27.093 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded "id:1"
+22:43:27.093 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded ":bar"
+22:43:27.093 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded "data:foo"
+22:43:27.093 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [60bb2efa] Decoded ""
+22:43:27.094 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+22:43:27.104 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+22:43:27.115 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:27.116 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+22:43:27.119 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 55012(0 millis).
+22:43:27.120 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1754e287] HTTP GET http://localhost:55012/person
+22:43:27.121 [http-nio-auto-139-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7b7573d3] HTTP GET "/person"
+22:43:27.224 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [7b7573d3] Encoding [Person{name='foo 0'}]
+22:43:27.224 [reactor-http-nio-10] DEBUG o.s.w.r.f.c.ExchangeFunctions - [1754e287] Response 200 OK
+22:43:27.225 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [1754e287] Decoded "data:{"name":"foo 0"}"
+22:43:27.225 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [1754e287] Decoded ""
+22:43:27.225 [reactor-http-nio-10] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [1754e287] Decoded [Person{name='foo 0'}]
+22:43:27.326 [parallel-4] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [7b7573d3] Encoding [Person{name='foo 1'}]
+22:43:27.326 [parallel-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7b7573d3] Completed 200 OK
+22:43:27.327 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [1754e287] Decoded "data:{"name":"foo 1"}"
+22:43:27.327 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [1754e287] Decoded ""
+22:43:27.327 [reactor-http-nio-10] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [1754e287] Decoded [Person{name='foo 1'}]
+22:43:27.328 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+22:43:27.338 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+22:43:27.349 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:27.349 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Starting TomcatHttpServer...
+22:43:27.354 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server started on port 55015(0 millis).
+22:43:27.354 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3c07def0] HTTP GET http://localhost:55015/string
+22:43:27.356 [http-nio-auto-140-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6c0a6cbc] HTTP GET "/string"
+22:43:27.457 [reactor-http-nio-14] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3c07def0] Response 200 OK
+22:43:27.457 [reactor-http-nio-14] DEBUG o.s.c.c.StringDecoder - [3c07def0] Decoded "data:foo 0"
+22:43:27.458 [reactor-http-nio-14] DEBUG o.s.c.c.StringDecoder - [3c07def0] Decoded ""
+22:43:27.558 [parallel-5] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6c0a6cbc] Completed 200 OK
+22:43:27.559 [reactor-http-nio-14] DEBUG o.s.c.c.StringDecoder - [3c07def0] Decoded "data:foo 1"
+22:43:27.559 [reactor-http-nio-14] DEBUG o.s.c.c.StringDecoder - [3c07def0] Decoded ""
+22:43:27.560 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Stopping TomcatHttpServer...
+22:43:27.569 [Test worker] DEBUG o.s.h.s.r.b.TomcatHttpServer - Server stopped (0 millis).
+22:43:27.580 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:27.580 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+22:43:27.582 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 55018(0 millis).
+22:43:27.583 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3583fe3d] HTTP GET http://localhost:55018/event
+22:43:27.584 [XNIO-137 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [746a0b9] HTTP GET "/event"
+22:43:27.686 [reactor-http-nio-2] DEBUG o.s.w.r.f.c.ExchangeFunctions - [3583fe3d] Response 200 OK
+22:43:27.686 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded "id:0"
+22:43:27.686 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded ":bar"
+22:43:27.686 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded "data:foo"
+22:43:27.686 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded ""
+22:43:27.786 [XNIO-137 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [746a0b9] Completed 200 OK
+22:43:27.786 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded "id:1"
+22:43:27.786 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded ":bar"
+22:43:27.786 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded "data:foo"
+22:43:27.786 [reactor-http-nio-2] DEBUG o.s.c.c.StringDecoder - [3583fe3d] Decoded ""
+22:43:27.787 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+22:43:27.787 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+22:43:27.798 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:27.798 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+22:43:27.800 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 55020(0 millis).
+22:43:27.800 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [43496d2d] HTTP GET http://localhost:55020/person
+22:43:27.801 [XNIO-138 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6fa1946b] HTTP GET "/person"
+22:43:27.903 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [6fa1946b] Encoding [Person{name='foo 0'}]
+22:43:27.904 [reactor-http-nio-6] DEBUG o.s.w.r.f.c.ExchangeFunctions - [43496d2d] Response 200 OK
+22:43:27.904 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [43496d2d] Decoded "data:{"name":"foo 0"}"
+22:43:27.904 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [43496d2d] Decoded ""
+22:43:27.904 [reactor-http-nio-6] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [43496d2d] Decoded [Person{name='foo 0'}]
+22:43:28.003 [parallel-7] DEBUG o.s.h.c.j.Jackson2JsonEncoder - [6fa1946b] Encoding [Person{name='foo 1'}]
+22:43:28.003 [XNIO-138 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6fa1946b] Completed 200 OK
+22:43:28.004 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [43496d2d] Decoded "data:{"name":"foo 1"}"
+22:43:28.004 [reactor-http-nio-6] DEBUG o.s.c.c.StringDecoder - [43496d2d] Decoded ""
+22:43:28.004 [reactor-http-nio-6] DEBUG o.s.h.c.j.Jackson2JsonDecoder - [43496d2d] Decoded [Person{name='foo 1'}]
+22:43:28.004 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+22:43:28.005 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
+22:43:28.016 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:43:28.016 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Starting UndertowHttpServer...
+22:43:28.018 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server started on port 55023(0 millis).
+22:43:28.019 [Test worker] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5b13f10c] HTTP GET http://localhost:55023/string
+22:43:28.020 [XNIO-139 I/O-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7a34bd87] HTTP GET "/string"
+22:43:28.124 [reactor-http-nio-10] DEBUG o.s.w.r.f.c.ExchangeFunctions - [5b13f10c] Response 200 OK
+22:43:28.125 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [5b13f10c] Decoded "data:foo 0"
+22:43:28.125 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [5b13f10c] Decoded ""
+22:43:28.221 [XNIO-139 I/O-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [7a34bd87] Completed 200 OK
+22:43:28.222 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [5b13f10c] Decoded "data:foo 1"
+22:43:28.222 [reactor-http-nio-10] DEBUG o.s.c.c.StringDecoder - [5b13f10c] Decoded ""
+22:43:28.222 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Stopping UndertowHttpServer...
+22:43:28.222 [Test worker] DEBUG o.s.h.s.r.b.UndertowHttpServer - Server stopped (0 millis).
 ]]></system-out>
-  <system-err><![CDATA[六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[十一月 25, 2020 10:43:26 下午 org.apache.catalina.core.StandardService startInternal
 信息: Starting service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardEngine startInternal
+十一月 25, 2020 10:43:26 下午 org.apache.catalina.core.StandardEngine startInternal
 信息: Starting Servlet engine: [Apache Tomcat/9.0.21]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol init
+十一月 25, 2020 10:43:26 下午 org.apache.coyote.AbstractProtocol init
 信息: Initializing ProtocolHandler ["http-nio-auto-138"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol start
-信息: Starting ProtocolHandler ["http-nio-auto-138-51523"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol pause
-信息: Pausing ProtocolHandler ["http-nio-auto-138-51523"]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService stopInternal
+十一月 25, 2020 10:43:26 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-138-55009"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-138-55009"]
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardService stopInternal
 信息: Stopping service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol stop
-信息: Stopping ProtocolHandler ["http-nio-auto-138-51523"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol destroy
-信息: Destroying ProtocolHandler ["http-nio-auto-138-51523"]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService startInternal
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-138-55009"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-138-55009"]
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardService startInternal
 信息: Starting service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardEngine startInternal
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardEngine startInternal
 信息: Starting Servlet engine: [Apache Tomcat/9.0.21]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol init
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol init
 信息: Initializing ProtocolHandler ["http-nio-auto-139"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol start
-信息: Starting ProtocolHandler ["http-nio-auto-139-51526"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol pause
-信息: Pausing ProtocolHandler ["http-nio-auto-139-51526"]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService stopInternal
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-139-55012"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-139-55012"]
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardService stopInternal
 信息: Stopping service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol stop
-信息: Stopping ProtocolHandler ["http-nio-auto-139-51526"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol destroy
-信息: Destroying ProtocolHandler ["http-nio-auto-139-51526"]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService startInternal
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-139-55012"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-139-55012"]
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardService startInternal
 信息: Starting service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardEngine startInternal
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardEngine startInternal
 信息: Starting Servlet engine: [Apache Tomcat/9.0.21]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol init
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol init
 信息: Initializing ProtocolHandler ["http-nio-auto-140"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol start
-信息: Starting ProtocolHandler ["http-nio-auto-140-51529"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol pause
-信息: Pausing ProtocolHandler ["http-nio-auto-140-51529"]
-六月 21, 2019 7:48:59 下午 org.apache.catalina.core.StandardService stopInternal
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-nio-auto-140-55015"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-nio-auto-140-55015"]
+十一月 25, 2020 10:43:27 下午 org.apache.catalina.core.StandardService stopInternal
 信息: Stopping service [Tomcat]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol stop
-信息: Stopping ProtocolHandler ["http-nio-auto-140-51529"]
-六月 21, 2019 7:48:59 下午 org.apache.coyote.AbstractProtocol destroy
-信息: Destroying ProtocolHandler ["http-nio-auto-140-51529"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-nio-auto-140-55015"]
+十一月 25, 2020 10:43:27 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-nio-auto-140-55015"]
 ]]></system-err>
 </testsuite>

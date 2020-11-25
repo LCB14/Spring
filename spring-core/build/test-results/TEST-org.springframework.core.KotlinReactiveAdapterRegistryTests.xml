@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.KotlinReactiveAdapterRegistryTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:56" hostname="Macbook-Air.local" time="0.486">
+<testsuite name="org.springframework.core.KotlinReactiveAdapterRegistryTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:13" hostname="lichangbaodeMacBook-Pro.local" time="0.127">
   <properties/>
-  <testcase name="flowToPublisher" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.332"/>
-  <testcase name="publisherToDeferred" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.042"/>
-  <testcase name="publisherToFlow" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.084"/>
-  <testcase name="deferredToPublisher" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.027"/>
+  <testcase name="flowToPublisher" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.089"/>
+  <testcase name="publisherToDeferred" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.012"/>
+  <testcase name="publisherToFlow" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.017"/>
+  <testcase name="deferredToPublisher" classname="org.springframework.core.KotlinReactiveAdapterRegistryTests" time="0.008"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

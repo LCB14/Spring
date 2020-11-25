@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" tests="7" skipped="2" failures="0" errors="0" timestamp="2019-06-21T11:44:53" hostname="Macbook-Air.local" time="0.017">
+<testsuite name="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" tests="7" skipped="2" failures="0" errors="0" timestamp="2020-11-25T14:40:55" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="noOpShouldNotTimeOut" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.003"/>
+  <testcase name="noOpShouldNotTimeOut" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.001"/>
   <testcase name="alwaysFailsButShouldBeIgnored" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0">
     <skipped/>
   </testcase>
   <testcase name="alwaysSucceeds" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
   <testcase name="verifyBeforeClassAnnotation" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
-  <testcase name="verifyBeforeAnnotation" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.001"/>
+  <testcase name="verifyBeforeAnnotation" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
   <testcase name="expectingAnIndexOutOfBoundsException" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.0"/>
-  <testcase name="failedAssumptionShouldPrecludeImminentFailure" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.013">
+  <testcase name="failedAssumptionShouldPrecludeImminentFailure" classname="org.springframework.test.context.junit4.StandardJUnit4FeaturesTests" time="0.005">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

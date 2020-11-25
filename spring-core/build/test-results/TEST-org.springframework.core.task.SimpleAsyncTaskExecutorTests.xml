@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.task.SimpleAsyncTaskExecutorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:48" hostname="Macbook-Air.local" time="0.031">
+<testsuite name="org.springframework.core.task.SimpleAsyncTaskExecutorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:10" hostname="lichangbaodeMacBook-Pro.local" time="0.004">
   <properties/>
-  <testcase name="threadFactoryOverridesDefaults" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.024"/>
-  <testcase name="threadNameGetsSetCorrectly" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.001"/>
-  <testcase name="cannotExecuteWhenConcurrencyIsSwitchedOff" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.004"/>
+  <testcase name="threadFactoryOverridesDefaults" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.003"/>
+  <testcase name="threadNameGetsSetCorrectly" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.0"/>
+  <testcase name="cannotExecuteWhenConcurrencyIsSwitchedOff" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.001"/>
   <testcase name="throttleIsNotActiveByDefault" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.0"/>
-  <testcase name="throwsExceptionWhenSuppliedWithNullRunnable" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.002"/>
+  <testcase name="throwsExceptionWhenSuppliedWithNullRunnable" classname="org.springframework.core.task.SimpleAsyncTaskExecutorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

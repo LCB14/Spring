@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.validation.DefaultMessageCodesResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:59" hostname="Macbook-Air.local" time="0.005">
+<testsuite name="org.springframework.validation.DefaultMessageCodesResolverTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:43" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="shouldResolveIndexedFieldMessageCode" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
+  <testcase name="shouldResolveIndexedFieldMessageCode" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.001"/>
   <testcase name="shouldSupportMalformedIndexField" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <testcase name="shouldSupportNullFieldType" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <testcase name="shouldResolveFieldMessageCode" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
-  <testcase name="shouldResolveMessageCodeWithPrefix" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
+  <testcase name="shouldResolveMessageCodeWithPrefix" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.001"/>
   <testcase name="shouldResolveMessageCode" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
-  <testcase name="shouldSupportFieldPostfixFormat" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.001"/>
+  <testcase name="shouldSupportFieldPostfixFormat" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <testcase name="shouldSupportPostfixFormat" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
-  <testcase name="shouldSupportCustomFormat" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.003"/>
+  <testcase name="shouldSupportCustomFormat" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <testcase name="shouldResolveFieldMessageCodeWithPrefix" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <testcase name="shouldSupportNullPrefix" classname="org.springframework.validation.DefaultMessageCodesResolverTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

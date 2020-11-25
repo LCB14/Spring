@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.110s</div>
+<div class="counter">0.055s</div>
 <p>duration</p>
 </div>
 </td>
@@ -84,77 +84,77 @@
 </tr>
 <tr>
 <td class="success">doesNotSupport</td>
-<td class="success">0.004s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleMonoWithWildcardBodyType</td>
-<td class="success">0.007s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleMonoWithWildcardBodyTypeAndNullBody</td>
-<td class="success">0.007s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleResponseEntityWithExistingResponseHeaders</td>
-<td class="success">0.004s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleResponseEntityWithNullBody</td>
-<td class="success">0.004s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnTypes</td>
-<td class="success">0.012s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">handleReturnValueChangedETagAndLastModified</td>
-<td class="success">0.015s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">handleReturnValueETagAndLastModified</td>
-<td class="success">0.011s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">handleReturnValueEtag</td>
-<td class="success">0.004s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">handleReturnValueEtagInvalidIfNoneMatch</td>
 <td class="success">0.010s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">handleReturnValueLastModified</td>
+<td class="success">handleReturnValueETagAndLastModified</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueEtag</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">handleReturnValueEtagInvalidIfNoneMatch</td>
 <td class="success">0.004s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
+<td class="success">handleReturnValueLastModified</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
 <td class="success">httpHeaders</td>
-<td class="success">0.008s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">responseEntityHeaders</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">responseEntityStatusCode</td>
-<td class="success">0.007s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">supports</td>
-<td class="success">0.005s</td>
+<td class="success">0.003s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -162,30 +162,30 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:47:46.800 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.800 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [5c3da27f] 0..1 [java.lang.String]
-19:47:46.800 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [5c3da27f] Writing &quot;body&quot;
-19:47:46.819 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.819 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [66821318] 0..1 [java.lang.String]
-19:47:46.819 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [66821318] Writing &quot;abc&quot;
-19:47:46.820 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.820 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [42b10fca] 0..1 [java.lang.String]
-19:47:46.821 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [42b10fca] Writing &quot;abc&quot;
-19:47:46.823 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.823 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [43cef068] 0..1 [java.lang.String]
-19:47:46.823 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [43cef068] Writing &quot;abc&quot;
-19:47:46.824 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.824 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [86ba6a7] 0..1 [java.lang.String]
-19:47:46.825 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [86ba6a7] Writing &quot;abc&quot;
-19:47:46.826 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.826 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [7e876e61] 0..1 [java.lang.String]
-19:47:46.826 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [7e876e61] Writing &quot;abc&quot;
-19:47:46.852 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
-19:47:46.852 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [78a9b4ed] 0..1 [java.lang.String]
-19:47:46.852 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [78a9b4ed] Writing &quot;body&quot;
-19:47:46.894 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'application/json' given [*/*] and supported [application/json]
-19:47:46.894 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [f8b9949] 0..1 [java.lang.String]
-19:47:46.894 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [f8b9949] Writing &quot;body&quot;
+<pre>22:42:42.571 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.571 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [412c992f] 0..1 [java.lang.String]
+22:42:42.571 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [412c992f] Writing &quot;body&quot;
+22:42:42.579 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.579 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [2486437e] 0..1 [java.lang.String]
+22:42:42.579 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [2486437e] Writing &quot;abc&quot;
+22:42:42.580 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.580 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [216916c9] 0..1 [java.lang.String]
+22:42:42.580 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [216916c9] Writing &quot;abc&quot;
+22:42:42.580 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.581 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [30f37f6f] 0..1 [java.lang.String]
+22:42:42.581 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [30f37f6f] Writing &quot;abc&quot;
+22:42:42.581 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.581 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [4db1119] 0..1 [java.lang.String]
+22:42:42.581 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [4db1119] Writing &quot;abc&quot;
+22:42:42.581 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.581 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [12502f4f] 0..1 [java.lang.String]
+22:42:42.582 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [12502f4f] Writing &quot;abc&quot;
+22:42:42.599 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'text/plain;charset=UTF-8' given [*/*] and supported [text/plain;charset=UTF-8, text/plain;charset=UTF-8, */*]
+22:42:42.599 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [681f5744] 0..1 [java.lang.String]
+22:42:42.599 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [681f5744] Writing &quot;body&quot;
+22:42:42.619 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - Using 'application/json' given [*/*] and supported [application/json]
+22:42:42.619 [Test worker] DEBUG o.s.w.r.r.m.a.ResponseEntityResultHandler - [3d690aa] 0..1 [java.lang.String]
+22:42:42.619 [Test worker] DEBUG o.s.c.c.CharSequenceEncoder - [3d690aa] Writing &quot;body&quot;
 </pre>
 </span>
 </div>
@@ -197,7 +197,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:49:30</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:43:46</p>
 </div>
 </div>
 </body>

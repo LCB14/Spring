@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:36" hostname="Macbook-Air.local" time="0.004">
+<testsuite name="org.springframework.beans.factory.wiring.BeanWiringInfoTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:56" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
   <testcase name="ctorWithEmptyBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
   <testcase name="usingAutowireCtorIndicatesAutowiring" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithPositiveOutOfRangeAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="noDependencyCheckValueIsPreserved" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="ctorWithNullBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
   <testcase name="ctorWithWhitespacedBeanName" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
-  <testcase name="ctorWithNegativeIllegalAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.001"/>
+  <testcase name="ctorWithNegativeIllegalAutowiringValue" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="dependencyCheckValueIsPreserved" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <testcase name="usingBeanNameCtorDoesNotIndicateAutowiring" classname="org.springframework.beans.factory.wiring.BeanWiringInfoTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

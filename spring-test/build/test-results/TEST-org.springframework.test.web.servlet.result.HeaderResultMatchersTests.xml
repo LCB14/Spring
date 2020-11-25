@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.result.HeaderResultMatchersTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:07" hostname="Macbook-Air.local" time="0.02">
+<testsuite name="org.springframework.test.web.servlet.result.HeaderResultMatchersTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:06" hostname="lichangbaodeMacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="matchDateFormattedWithHttpHeaders" classname="org.springframework.test.web.servlet.result.HeaderResultMatchersTests" time="0.02"/>
+  <testcase name="matchDateFormattedWithHttpHeaders" classname="org.springframework.test.web.servlet.result.HeaderResultMatchersTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

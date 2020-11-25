@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.AutoProxyLazyInitTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:51" hostname="Macbook-Air.local" time="0.629">
+<testsuite name="org.springframework.context.annotation.AutoProxyLazyInitTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:11" hostname="lichangbaodeMacBook-Pro.local" time="0.187">
   <properties/>
-  <testcase name="withNonStaticBeanMethodAndInterface" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.549"/>
-  <testcase name="withStaticBeanMethodAndInterface" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.029"/>
-  <testcase name="withStaticBeanMethod" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.028"/>
-  <testcase name="withNonStaticBeanMethod" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.023"/>
+  <testcase name="withNonStaticBeanMethodAndInterface" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.144"/>
+  <testcase name="withStaticBeanMethodAndInterface" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.013"/>
+  <testcase name="withStaticBeanMethod" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.015"/>
+  <testcase name="withNonStaticBeanMethod" classname="org.springframework.context.annotation.AutoProxyLazyInitTests" time="0.015"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

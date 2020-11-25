@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.support.Spr8954Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:36" hostname="Macbook-Air.local" time="0.036">
+<testsuite name="org.springframework.beans.factory.support.Spr8954Tests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:56" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="repro" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.032"/>
-  <testcase name="findsFactoryBeanNameByTypeWithoutInstantiation" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.001"/>
-  <testcase name="findsBeansByTypeIfNotInstantiated" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.002"/>
+  <testcase name="repro" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.012"/>
+  <testcase name="findsFactoryBeanNameByTypeWithoutInstantiation" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.0"/>
+  <testcase name="findsBeansByTypeIfNotInstantiated" classname="org.springframework.beans.factory.support.Spr8954Tests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

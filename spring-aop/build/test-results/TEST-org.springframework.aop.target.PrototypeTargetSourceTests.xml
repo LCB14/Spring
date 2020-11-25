@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.target.PrototypeTargetSourceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:04" hostname="Macbook-Air.local" time="0.069">
+<testsuite name="org.springframework.aop.target.PrototypeTargetSourceTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:44" hostname="lichangbaodeMacBook-Pro.local" time="0.029">
   <properties/>
-  <testcase name="testPrototypeAndSingletonBehaveDifferently" classname="org.springframework.aop.target.PrototypeTargetSourceTests" time="0.069"/>
+  <testcase name="testPrototypeAndSingletonBehaveDifferently" classname="org.springframework.aop.target.PrototypeTargetSourceTests" time="0.029"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

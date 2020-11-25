@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.SerializableTypeWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:48" hostname="Macbook-Air.local" time="0.046">
+<testsuite name="org.springframework.core.SerializableTypeWrapperTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:10" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="typeVariableType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.024"/>
-  <testcase name="wildcardType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.005"/>
-  <testcase name="forConstructor" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.006"/>
-  <testcase name="forMethodParameter" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.005"/>
+  <testcase name="typeVariableType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.003"/>
+  <testcase name="wildcardType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.003"/>
+  <testcase name="forConstructor" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.002"/>
+  <testcase name="forMethodParameter" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.002"/>
   <testcase name="classType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.0"/>
   <testcase name="forField" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.001"/>
   <testcase name="parameterizedType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.001"/>
-  <testcase name="genericArrayType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.002"/>
+  <testcase name="genericArrayType" classname="org.springframework.core.SerializableTypeWrapperTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

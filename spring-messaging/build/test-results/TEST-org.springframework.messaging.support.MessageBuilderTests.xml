@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.support.MessageBuilderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:25" hostname="Macbook-Air.local" time="0.009">
+<testsuite name="org.springframework.messaging.support.MessageBuilderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:14" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
   <testcase name="testContainsHeaderNotModifiedSameMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="testBuildMultipleMessages" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
-  <testcase name="testBuildMessageWithoutIdAndTimestamp" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.002"/>
-  <testcase name="testIdHeaderValueReadOnly" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="testBuildMultipleMessages" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
+  <testcase name="testBuildMessageWithoutIdAndTimestamp" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="testIdHeaderValueReadOnly" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testSimpleMessageCreation" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="copyHeadersIfAbsent" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="copyHeadersIfAbsent" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testHeaderValues" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testBuildMessageWithMutableHeaders" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testSameHeaderValueAddedNotModifiedSameMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="testBuildMessageWithDefaultMutability" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="testBuildMessageWithDefaultMutability" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testCopiedHeaderValues" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testCopySameHeaderValuesNotModifiedSameMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="testSettingToNullRemoves" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="testSettingToNullRemoves" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testTimestampValueReadOnly" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="createIdRegenerated" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
-  <testcase name="testRemove" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
-  <testcase name="createFromMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="createIdRegenerated" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
+  <testcase name="testRemove" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.001"/>
+  <testcase name="createFromMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <testcase name="testNotModifiedSameMessage" classname="org.springframework.messaging.support.MessageBuilderTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

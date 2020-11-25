@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.Spr15275Tests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:03" hostname="Macbook-Air.local" time="0.079">
+<testsuite name="org.springframework.context.annotation.Spr15275Tests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:16" hostname="lichangbaodeMacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="testWithAbstractFactoryBeanForInterface" classname="org.springframework.context.annotation.Spr15275Tests" time="0.016"/>
-  <testcase name="testWithFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.017"/>
-  <testcase name="testWithAbstractFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.011"/>
-  <testcase name="testWithFinalFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.011"/>
-  <testcase name="testWithAbstractFactoryBeanAsReturnType" classname="org.springframework.context.annotation.Spr15275Tests" time="0.012"/>
-  <testcase name="testWithFinalFactoryBeanAsReturnType" classname="org.springframework.context.annotation.Spr15275Tests" time="0.011"/>
+  <testcase name="testWithAbstractFactoryBeanForInterface" classname="org.springframework.context.annotation.Spr15275Tests" time="0.006"/>
+  <testcase name="testWithFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.005"/>
+  <testcase name="testWithAbstractFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.004"/>
+  <testcase name="testWithFinalFactoryBean" classname="org.springframework.context.annotation.Spr15275Tests" time="0.003"/>
+  <testcase name="testWithAbstractFactoryBeanAsReturnType" classname="org.springframework.context.annotation.Spr15275Tests" time="0.004"/>
+  <testcase name="testWithFinalFactoryBeanAsReturnType" classname="org.springframework.context.annotation.Spr15275Tests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

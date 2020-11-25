@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.view.RedirectViewTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:48" hostname="Macbook-Air.local" time="0.037">
+<testsuite name="org.springframework.web.reactive.result.view.RedirectViewTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:12" hostname="lichangbaodeMacBook-Pro.local" time="0.012">
   <properties/>
-  <testcase name="expandUriTemplateVariablesFromExchangeAttribute" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.023"/>
-  <testcase name="expandUriTemplateVariablesFromModel" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.004"/>
-  <testcase name="propagateQueryParams" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.002"/>
-  <testcase name="contextRelativeQueryParam" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="expandUriTemplateVariablesFromExchangeAttribute" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.007"/>
+  <testcase name="expandUriTemplateVariablesFromModel" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <testcase name="propagateQueryParams" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="contextRelativeQueryParam" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
   <testcase name="contextRelative" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
-  <testcase name="customStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.002"/>
+  <testcase name="customStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
   <testcase name="defaultStatusCode" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
-  <testcase name="noUrlSet" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.002"/>
-  <testcase name="remoteHost" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
-  <system-out><![CDATA[19:46:49.015 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [278dea88] View [RedirectView], model {}
-19:46:49.023 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [6464c670] View [RedirectView], model {foo=bar}
-19:46:49.026 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [184fbddc] View [RedirectView], model {}
-19:46:49.027 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [1487e6d4] View [RedirectView], model {}
-19:46:49.028 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [5612f572] View [RedirectView], model {}
-19:46:49.029 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [533ce060] View [RedirectView], model {}
-19:46:49.031 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [36780686] View [RedirectView], model {}
+  <testcase name="noUrlSet" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.001"/>
+  <testcase name="remoteHost" classname="org.springframework.web.reactive.result.view.RedirectViewTests" time="0.0"/>
+  <system-out><![CDATA[22:42:12.740 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [3c8fddcb] View [RedirectView], model {}
+22:42:12.744 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [1187d88f] View [RedirectView], model {foo=bar}
+22:42:12.745 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [4558cbca] View [RedirectView], model {}
+22:42:12.746 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [13b8aea7] View [RedirectView], model {}
+22:42:12.746 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [3c545fff] View [RedirectView], model {}
+22:42:12.747 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [4fa2a085] View [RedirectView], model {}
+22:42:12.747 [Test worker] DEBUG o.s.w.r.r.v.RedirectView - [4c273420] View [RedirectView], model {}
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

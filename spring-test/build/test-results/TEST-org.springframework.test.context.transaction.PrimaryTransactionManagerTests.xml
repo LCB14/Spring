@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.context.transaction.PrimaryTransactionManagerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:44:36" hostname="Macbook-Air.local" time="0.277">
+<testsuite name="org.springframework.test.context.transaction.PrimaryTransactionManagerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:47" hostname="lichangbaodeMacBook-Pro.local" time="0.114">
   <properties/>
-  <testcase name="transactionalTest" classname="org.springframework.test.context.transaction.PrimaryTransactionManagerTests" time="0.277"/>
+  <testcase name="transactionalTest" classname="org.springframework.test.context.transaction.PrimaryTransactionManagerTests" time="0.114"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

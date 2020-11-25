@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:08" hostname="Macbook-Air.local" time="0.496">
+<testsuite name="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:18" hostname="lichangbaodeMacBook-Pro.local" time="0.246">
   <properties/>
-  <testcase name="executeSqlScriptContainingSingleQuotesNestedInsideDoubleQuotes" classname="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" time="0.444"/>
-  <testcase name="executeSqlScriptContainingMultiLineComments" classname="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" time="0.052"/>
+  <testcase name="executeSqlScriptContainingSingleQuotesNestedInsideDoubleQuotes" classname="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" time="0.224"/>
+  <testcase name="executeSqlScriptContainingMultiLineComments" classname="org.springframework.jdbc.datasource.init.ScriptUtilsIntegrationTests" time="0.022"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

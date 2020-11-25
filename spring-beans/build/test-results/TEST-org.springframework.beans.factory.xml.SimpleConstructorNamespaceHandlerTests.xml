@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:34" hostname="Macbook-Air.local" time="0.115">
+<testsuite name="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:55" hostname="lichangbaodeMacBook-Pro.local" time="0.066">
   <properties/>
-  <testcase name="simpleRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.028"/>
-  <testcase name="simpleValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.008"/>
-  <testcase name="typeIndexedRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.017"/>
-  <testcase name="constructorWithNameEndingInRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.01"/>
-  <testcase name="ambiguousConstructor" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.02"/>
-  <testcase name="typeIndexedValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.011"/>
-  <testcase name="nameValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.008"/>
-  <testcase name="nameRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.012"/>
+  <testcase name="simpleRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.01"/>
+  <testcase name="simpleValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.006"/>
+  <testcase name="typeIndexedRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.01"/>
+  <testcase name="constructorWithNameEndingInRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.009"/>
+  <testcase name="ambiguousConstructor" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.011"/>
+  <testcase name="typeIndexedValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.008"/>
+  <testcase name="nameValue" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.004"/>
+  <testcase name="nameRef" classname="org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandlerTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

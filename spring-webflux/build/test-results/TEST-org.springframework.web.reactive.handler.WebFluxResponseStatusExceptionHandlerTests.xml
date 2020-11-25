@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:43" hostname="Macbook-Air.local" time="0.115">
+<testsuite name="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:09" hostname="lichangbaodeMacBook-Pro.local" time="0.055">
   <properties/>
-  <testcase name="handleAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.059"/>
-  <testcase name="handleNestedAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.002"/>
-  <testcase name="handleNestedResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.003"/>
-  <testcase name="unresolvedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.039"/>
-  <testcase name="responseCommitted" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.008"/>
-  <testcase name="handleResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.003"/>
-  <system-out><![CDATA[19:46:43.135 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [cbb43b3] Resolved [CustomException: null] for HTTP GET /
-19:46:43.177 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [1be30b8d] Resolved [Exception: org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests$CustomException] for HTTP GET /
-19:46:43.180 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [373f66eb] Resolved [Exception: org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
-19:46:43.230 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [7cd885ca] Resolved [ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
+  <testcase name="handleAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.027"/>
+  <testcase name="handleNestedAnnotatedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="handleNestedResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <testcase name="unresolvedException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.02"/>
+  <testcase name="responseCommitted" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.004"/>
+  <testcase name="handleResponseStatusException" classname="org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests" time="0.001"/>
+  <system-out><![CDATA[22:42:09.669 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [1b50bb72] Resolved [CustomException: null] for HTTP GET /
+22:42:09.691 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [1520d05] Resolved [Exception: org.springframework.web.reactive.handler.WebFluxResponseStatusExceptionHandlerTests$CustomException] for HTTP GET /
+22:42:09.692 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [4aff4668] Resolved [Exception: org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
+22:42:09.718 [Test worker] DEBUG o.s.w.s.h.ResponseStatusExceptionHandler - [4b22c9f1] Resolved [ResponseStatusException: 400 BAD_REQUEST ""] for HTTP GET /
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

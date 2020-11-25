@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:01" hostname="Macbook-Air.local" time="0.027">
+<testsuite name="org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:15" hostname="lichangbaodeMacBook-Pro.local" time="0.011">
   <properties/>
-  <testcase name="testSingletonScopedFactoryMethod" classname="org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests" time="0.027"/>
+  <testcase name="testSingletonScopedFactoryMethod" classname="org.springframework.context.annotation.ClassPathFactoryBeanDefinitionScannerTests" time="0.011"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

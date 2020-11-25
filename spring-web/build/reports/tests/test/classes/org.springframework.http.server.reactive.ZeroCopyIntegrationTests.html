@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.087s</div>
+<div class="counter">0.051s</div>
 <p>duration</p>
 </div>
 </td>
@@ -81,23 +81,23 @@
 </tr>
 </thead>
 <tr>
-<td class="skipped">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@29fcd991]]</td>
+<td class="skipped">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@35a95fb0]]</td>
 <td class="skipped">-</td>
 <td class="skipped">ignored</td>
 </tr>
 <tr>
-<td class="success">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@367b87ae]]</td>
-<td class="success">0.029s</td>
+<td class="success">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@2a310dfe]]</td>
+<td class="success">0.017s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="skipped">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@410df0aa]]</td>
+<td class="skipped">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@6690b35b]]</td>
 <td class="skipped">-</td>
 <td class="skipped">ignored</td>
 </tr>
 <tr>
-<td class="success">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@227f9c8a]]</td>
-<td class="success">0.021s</td>
+<td class="success">zeroCopy[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@75f29ff9]]</td>
+<td class="success">0.012s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -105,36 +105,36 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>19:46:27.648 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50012
-19:46:27.649 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.657 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.670 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;image/png&quot;
-19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:50016
-19:46:27.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
-19:46:27.707 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:27.708 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;image/png&quot;
+<pre>22:41:50.650 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53212
+22:41:50.651 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.657 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.662 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;image/png&quot;
+22:41:50.687 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:53216
+22:41:50.688 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/octet-stream, application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json, */*]
+22:41:50.691 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:50.691 [Test worker] DEBUG o.s.w.c.RestTemplate - Reading to [[B] as &quot;image/png&quot;
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService startInternal
+<pre>Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler [&quot;http-nio-auto-8&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler [&quot;http-nio-auto-8-50014&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler [&quot;http-nio-auto-8-50014&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [&quot;http-nio-auto-8-53214&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler [&quot;http-nio-auto-8-53214&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler [&quot;http-nio-auto-8-50014&quot;]
-Jun 21, 2019 7:46:27 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler [&quot;http-nio-auto-8-50014&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler [&quot;http-nio-auto-8-53214&quot;]
+Nov 25, 2020 10:41:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler [&quot;http-nio-auto-8-53214&quot;]
 </pre>
 </span>
 </div>
@@ -146,7 +146,7 @@ INFO: Destroying ProtocolHandler [&quot;http-nio-auto-8-50014&quot;]
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.0-rc-1</a> at 2019-6-21 19:46:38</p>
+<a href="http://www.gradle.org">Gradle 4.10.3</a> at 2020-11-25 22:41:59</p>
 </div>
 </div>
 </body>

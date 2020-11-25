@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:28" hostname="Macbook-Air.local" time="0.677">
+<testsuite name="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:51" hostname="lichangbaodeMacBook-Pro.local" time="0.333">
   <properties/>
-  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpsServer@1dd4fe13]]" classname="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" time="0.677"/>
-  <system-out><![CDATA[19:46:28.880 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST https://localhost:50072/foo?param=bar
-19:46:28.880 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:29.056 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+  <testcase name="checkUri[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpsServer@293197b9]]" classname="org.springframework.http.server.reactive.ServerHttpsRequestIntegrationTests" time="0.333"/>
+  <system-out><![CDATA[22:41:51.336 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP POST https://localhost:53275/foo?param=bar
+22:41:51.336 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:51.413 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

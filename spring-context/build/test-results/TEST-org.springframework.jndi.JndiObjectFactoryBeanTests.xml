@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jndi.JndiObjectFactoryBeanTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:54" hostname="Macbook-Air.local" time="0.052">
+<testsuite name="org.springframework.jndi.JndiObjectFactoryBeanTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:41" hostname="lichangbaodeMacBook-Pro.local" time="0.018">
   <properties/>
-  <testcase name="testLookupWithSchemeNameAndResourceRefFalse" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.008"/>
-  <testcase name="testNoJndiName" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithSchemeNameAndResourceRefFalse" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testNoJndiName" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
   <testcase name="testLookupWithExpectedTypeAndNoMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithProxyInterfaceAndDefaultObject" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
-  <testcase name="testLookupWithDefaultObject" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithProxyInterfaceAndDefaultObject" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithDefaultObject" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithDefaultObjectAndExpectedTypeConversionViaBeanFactory" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithProxyInterfaceAndExpectedTypeAndNoMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.017"/>
+  <testcase name="testLookupWithProxyInterfaceAndExpectedTypeAndNoMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.003"/>
   <testcase name="testLookupWithShortNameAndResourceRefFalse" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testNotCacheWithoutProxyInterface" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testNotCacheWithoutProxyInterface" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithShortNameAndResourceRefTrue" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithProxyInterfaceAndExpectedTypeAndMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithProxyInterfaceAndLazyLookup" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithProxyInterfaceAndLazyLookup" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithProxyInterfaceWithNotCache" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithSchemeNameAndResourceRefTrue" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithProxyInterfaceWithLazyLookupAndNotCache" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithDefaultObjectAndExpectedTypeConversion" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
-  <testcase name="testLookupWithExposeAccessContext" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.019"/>
+  <testcase name="testLookupWithProxyInterfaceWithLazyLookupAndNotCache" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedTypeConversion" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
+  <testcase name="testLookupWithExposeAccessContext" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.011"/>
   <testcase name="testLookupWithArbitraryNameAndResourceRefFalse" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLookupWithDefaultObjectAndExpectedTypeNoMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLookupWithDefaultObjectAndExpectedTypeNoMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithFullNameAndResourceRefFalse" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
-  <testcase name="testLazyLookupWithoutProxyInterface" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.001"/>
+  <testcase name="testLazyLookupWithoutProxyInterface" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithExpectedTypeAndMatch" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithDefaultObjectAndExpectedType" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>
   <testcase name="testLookupWithProxyInterface" classname="org.springframework.jndi.JndiObjectFactoryBeanTests" time="0.0"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.io.support.SpringFactoriesLoaderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:38" hostname="Macbook-Air.local" time="0.186">
+<testsuite name="org.springframework.core.io.support.SpringFactoriesLoaderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:03" hostname="lichangbaodeMacBook-Pro.local" time="0.027">
   <properties/>
-  <testcase name="loadFactoriesInCorrectOrder" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.181"/>
-  <testcase name="loadPackagePrivateFactory" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.003"/>
+  <testcase name="loadFactoriesInCorrectOrder" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.026"/>
+  <testcase name="loadPackagePrivateFactory" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.0"/>
   <testcase name="attemptToLoadFactoryOfIncompatibleType" classname="org.springframework.core.io.support.SpringFactoriesLoaderTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

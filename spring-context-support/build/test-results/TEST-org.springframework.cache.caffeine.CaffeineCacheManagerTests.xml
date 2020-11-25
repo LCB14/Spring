@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.cache.caffeine.CaffeineCacheManagerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:12" hostname="Macbook-Air.local" time="0.827">
+<testsuite name="org.springframework.cache.caffeine.CaffeineCacheManagerTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:54" hostname="lichangbaodeMacBook-Pro.local" time="0.42">
   <properties/>
-  <testcase name="changeCacheLoaderRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.728"/>
-  <testcase name="changeCacheSpecificationRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.089"/>
+  <testcase name="changeCacheLoaderRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.392"/>
+  <testcase name="changeCacheSpecificationRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.024"/>
   <testcase name="setCacheNameNullRestoreDynamicMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
   <testcase name="testDynamicMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.001"/>
   <testcase name="testStaticMode" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
-  <testcase name="changeCaffeineRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.001"/>
+  <testcase name="changeCaffeineRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
   <testcase name="changeCaffeineSpecRecreateCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.0"/>
-  <testcase name="cacheLoaderUseLoadingCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.007"/>
+  <testcase name="cacheLoaderUseLoadingCache" classname="org.springframework.cache.caffeine.CaffeineCacheManagerTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

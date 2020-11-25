@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.type.AssignableTypeFilterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:48" hostname="Macbook-Air.local" time="0.024">
+<testsuite name="org.springframework.core.type.AssignableTypeFilterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:10" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="directMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.01"/>
-  <testcase name="interfaceThroughSuperClassMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.011"/>
-  <testcase name="superClassMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.001"/>
-  <testcase name="interfaceMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.002"/>
+  <testcase name="directMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.001"/>
+  <testcase name="interfaceThroughSuperClassMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.001"/>
+  <testcase name="superClassMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.0"/>
+  <testcase name="interfaceMatch" classname="org.springframework.core.type.AssignableTypeFilterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:47" hostname="Macbook-Air.local" time="0.117">
+<testsuite name="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:39" hostname="lichangbaodeMacBook-Pro.local" time="0.057">
   <properties/>
-  <testcase name="listenableFutureFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.015"/>
-  <testcase name="exceptionAsCause" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.005"/>
-  <testcase name="optionalHeaderArgumentResolutionWhenPresent" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="messageMappingDestinationVariableResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="errorAsMessageHandlingException" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="exceptionWithHandlerMethodArg" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="validationError" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="monoSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.01"/>
-  <testcase name="subscribeEventDestinationVariableResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
-  <testcase name="completableFutureSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.013"/>
-  <testcase name="placeholder" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="optionalHeaderArgumentResolutionWhenNotPresent" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.005"/>
-  <testcase name="monoFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
-  <testcase name="fluxNotHandled" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.009"/>
-  <testcase name="completableFutureFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
-  <testcase name="headerArgumentResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
-  <testcase name="listenableFutureSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.007"/>
-  <testcase name="dotPathSeparator" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.006"/>
-  <testcase name="simpleBinding" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
-  <testcase name="simpScope" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
+  <testcase name="listenableFutureFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.005"/>
+  <testcase name="exceptionAsCause" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
+  <testcase name="optionalHeaderArgumentResolutionWhenPresent" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="messageMappingDestinationVariableResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="errorAsMessageHandlingException" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="exceptionWithHandlerMethodArg" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
+  <testcase name="validationError" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="monoSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.006"/>
+  <testcase name="subscribeEventDestinationVariableResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="completableFutureSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.008"/>
+  <testcase name="placeholder" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="optionalHeaderArgumentResolutionWhenNotPresent" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="monoFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.001"/>
+  <testcase name="fluxNotHandled" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
+  <testcase name="completableFutureFailure" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.001"/>
+  <testcase name="headerArgumentResolution" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="listenableFutureSuccess" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.004"/>
+  <testcase name="dotPathSeparator" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.002"/>
+  <testcase name="simpleBinding" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.003"/>
+  <testcase name="simpScope" classname="org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandlerTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

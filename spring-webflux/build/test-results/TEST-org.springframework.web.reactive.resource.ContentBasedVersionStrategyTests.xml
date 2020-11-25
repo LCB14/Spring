@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:49:03" hostname="Macbook-Air.local" time="0.002">
+<testsuite name="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:30" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="getResourceVersion" classname="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" time="0.002"/>
+  <testcase name="getResourceVersion" classname="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" time="0.001"/>
   <testcase name="extractVersion" classname="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" time="0.0"/>
   <testcase name="removeVersion" classname="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" time="0.0"/>
   <testcase name="addVersionToUrl" classname="org.springframework.web.reactive.resource.ContentBasedVersionStrategyTests" time="0.0"/>

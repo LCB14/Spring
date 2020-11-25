@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:48" hostname="Macbook-Air.local" time="0.027">
+<testsuite name="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" tests="35" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:10" hostname="lichangbaodeMacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="isAnnotationWhenAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getEnclosingClassNameWhenHasNoEnclosingClassReturnsNull" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.002"/>
+  <testcase name="isAnnotationWhenAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="getEnclosingClassNameWhenHasNoEnclosingClassReturnsNull" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
   <testcase name="hasAnnotatedMethodsWhenMatchesDirectAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="isAnnotatedWhenMatchesDirectAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getAnnotationTypesReturnsDirectAnnotations" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="isFinalWhenFinalReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="isAnnotationWhenNotAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="isIndependentWhenIndependentReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.002"/>
-  <testcase name="hasAnnotationWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="hasAnnotatedMethodsWhenDoesNotMatchAnyAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getAllAnnotationAttributesReturnsAllAttributes" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="isAnnotatedWhenMatchesDirectAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="getAnnotationTypesReturnsDirectAnnotations" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="isFinalWhenFinalReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="isAnnotationWhenNotAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="isIndependentWhenIndependentReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="hasAnnotationWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="hasAnnotatedMethodsWhenDoesNotMatchAnyAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="getAllAnnotationAttributesReturnsAllAttributes" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="getAnnotationsReturnsDirectAnnotations" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="hasAnnotationWhenMatchesMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.003"/>
+  <testcase name="hasAnnotationWhenMatchesMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
   <testcase name="hasMetaAnnotationWhenMatchesDirectReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="getSuperClassNameWhenHasNoSuperClassReturnsNull" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getSuperClassNameWhenHasNoSuperClassReturnsNull" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="getEnclosingClassNameWhenHasEnclosingClassReturnsEnclosingClass" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getMemberClassNamesWhenHasMemberClassesReturnsNames" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getMemberClassNamesWhenHasMemberClassesReturnsNames" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="getClassNameReturnsClassName" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="hasAnnotationWhenMatchesDirectAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
   <testcase name="getAnnotationAttributesReturnsAttributes" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="getSuperClassNameWhenHasSuperClassReturnsName" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getSuperClassNameWhenHasSuperClassReturnsName" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="isAnnotatedWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="isIndependentWhenNotIndependentReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="isIndependentWhenNotIndependentReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="isAnnotatedWhenMatchesMetaAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="hasMetaAnnotationWhenDoesNotMatchDirectOrMetaAnnotationReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="getAnnotatedMethodsReturnsMatchingAnnotatedAndMetaAnnotatedMethods" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getMetaAnnotationTypesReturnsMetaAnnotations" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="isFinalWhenNonFinalReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getAnnotatedMethodsReturnsMatchingAnnotatedAndMetaAnnotatedMethods" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="getMetaAnnotationTypesReturnsMetaAnnotations" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="isFinalWhenNonFinalReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="hasMetaAnnotationWhenMatchesMetaAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
-  <testcase name="getInterfaceNamesWhenHasNoInterfacesReturnsEmptyArray" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getInterfaceNamesWhenHasNoInterfacesReturnsEmptyArray" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="isInterfaceWhenNotInterfaceReturnsFalse" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <testcase name="getMemberClassNamesWhenHasNoMemberClassesReturnsEmptyArray" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="getInterfaceNamesWhenHasInterfacesReturnsNames" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
-  <testcase name="isInterfaceWhenInterfaceReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.002"/>
-  <testcase name="hasAnnotatedMethodsWhenMatchesMetaAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.001"/>
+  <testcase name="getInterfaceNamesWhenHasInterfacesReturnsNames" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="isInterfaceWhenInterfaceReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
+  <testcase name="hasAnnotatedMethodsWhenMatchesMetaAnnotationReturnsTrue" classname="org.springframework.core.type.classreading.SimpleAnnotationMetadataTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.xml.StaxResultTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:52" hostname="Macbook-Air.local" time="0.014">
+<testsuite name="org.springframework.util.xml.StaxResultTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:11" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="eventWriterSource" classname="org.springframework.util.xml.StaxResultTests" time="0.008"/>
-  <testcase name="streamWriterSource" classname="org.springframework.util.xml.StaxResultTests" time="0.006"/>
+  <testcase name="eventWriterSource" classname="org.springframework.util.xml.StaxResultTests" time="0.004"/>
+  <testcase name="streamWriterSource" classname="org.springframework.util.xml.StaxResultTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

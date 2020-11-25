@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.util.HtmlCharacterEntityReferencesTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:03" hostname="Macbook-Air.local" time="0.045">
+<testsuite name="org.springframework.web.util.HtmlCharacterEntityReferencesTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:39" hostname="lichangbaodeMacBook-Pro.local" time="0.02">
   <properties/>
-  <testcase name="testSupportsAllCharacterEntityReferencesDefinedByHtml" classname="org.springframework.web.util.HtmlCharacterEntityReferencesTests" time="0.042"/>
+  <testcase name="testSupportsAllCharacterEntityReferencesDefinedByHtml" classname="org.springframework.web.util.HtmlCharacterEntityReferencesTests" time="0.019"/>
   <testcase name="testConvertToReferenceUTF8" classname="org.springframework.web.util.HtmlCharacterEntityReferencesTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

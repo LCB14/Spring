@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:47:49" hostname="Macbook-Air.local" time="0.084">
+<testsuite name="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:42:44" hostname="lichangbaodeMacBook-Pro.local" time="0.04">
   <properties/>
-  <testcase name="resolveSystemProperty" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.072"/>
-  <testcase name="doesNotSupport" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.005"/>
-  <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.006"/>
+  <testcase name="resolveSystemProperty" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.035"/>
+  <testcase name="doesNotSupport" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.003"/>
+  <testcase name="supportsParameter" classname="org.springframework.web.reactive.result.method.annotation.ExpressionValueMethodArgumentResolverTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

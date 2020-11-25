@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:29" hostname="Macbook-Air.local" time="1.449">
+<testsuite name="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:30" hostname="lichangbaodeMacBook-Pro.local" time="0.513">
   <properties/>
-  <testcase name="replyJacksonMessageAndJsonView" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="1.332"/>
-  <testcase name="replyJackson" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.013"/>
-  <testcase name="buildMessageWithStandardMessage" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.006"/>
-  <testcase name="replyPayloadNoDestination" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.006"/>
-  <testcase name="exceptionInListener" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.007"/>
-  <testcase name="payloadConversionLazilyInvoked" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.016"/>
-  <testcase name="replyUsesMessageConverterForPayload" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.003"/>
-  <testcase name="replyJacksonPojoAndJsonView" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.007"/>
-  <testcase name="replyPayloadToQueue" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.008"/>
-  <testcase name="replyPayloadToTopic" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.016"/>
-  <testcase name="incomingMessageUsesMessageConverter" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.003"/>
-  <testcase name="headerConversionLazilyInvoked" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.007"/>
-  <testcase name="replyWithCustomTimeToLive" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.006"/>
-  <testcase name="replyWithFullQoS" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.005"/>
-  <testcase name="replyPayloadToDestination" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.004"/>
-  <testcase name="exceptionInInvocation" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.009"/>
+  <testcase name="replyJacksonMessageAndJsonView" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.471"/>
+  <testcase name="replyJackson" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.006"/>
+  <testcase name="buildMessageWithStandardMessage" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="replyPayloadNoDestination" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="exceptionInListener" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="payloadConversionLazilyInvoked" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.006"/>
+  <testcase name="replyUsesMessageConverterForPayload" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.001"/>
+  <testcase name="replyJacksonPojoAndJsonView" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="replyPayloadToQueue" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.003"/>
+  <testcase name="replyPayloadToTopic" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.005"/>
+  <testcase name="incomingMessageUsesMessageConverter" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.0"/>
+  <testcase name="headerConversionLazilyInvoked" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="replyWithCustomTimeToLive" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.003"/>
+  <testcase name="replyWithFullQoS" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.001"/>
+  <testcase name="replyPayloadToDestination" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.002"/>
+  <testcase name="exceptionInInvocation" classname="org.springframework.jms.listener.adapter.MessagingMessageListenerAdapterTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

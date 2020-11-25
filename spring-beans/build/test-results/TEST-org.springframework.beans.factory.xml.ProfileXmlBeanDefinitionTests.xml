@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:35" hostname="Macbook-Air.local" time="0.293">
+<testsuite name="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:56" hostname="lichangbaodeMacBook-Pro.local" time="0.185">
   <properties/>
-  <testcase name="testDefaultAndNonDefaultProfile" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.043"/>
-  <testcase name="testDefaultProfile" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.016"/>
-  <testcase name="testProfilePermutations" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.233"/>
-  <testcase name="testProfileValidation" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.0"/>
+  <testcase name="testDefaultAndNonDefaultProfile" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.02"/>
+  <testcase name="testDefaultProfile" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.008"/>
+  <testcase name="testProfilePermutations" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.156"/>
+  <testcase name="testProfileValidation" classname="org.springframework.beans.factory.xml.ProfileXmlBeanDefinitionTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.core.OrderComparatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:44" hostname="Macbook-Air.local" time="0.01">
+<testsuite name="org.springframework.core.OrderComparatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:09" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="compareOrderedInstancesBefore" classname="org.springframework.core.OrderComparatorTests" time="0.003"/>
+  <testcase name="compareOrderedInstancesBefore" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareOrderedInstancesNullLast" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
-  <testcase name="compareOrderedInstancesNullFirst" classname="org.springframework.core.OrderComparatorTests" time="0.001"/>
+  <testcase name="compareOrderedInstancesNullFirst" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareOrderedInstancesAfter" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareTwoNonOrderedInstancesEndsUpAsSame" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
-  <testcase name="compareOrderedInstancesSame" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
-  <testcase name="compareWithSourceProviderArray" classname="org.springframework.core.OrderComparatorTests" time="0.005"/>
+  <testcase name="compareOrderedInstancesSame" classname="org.springframework.core.OrderComparatorTests" time="0.001"/>
+  <testcase name="compareWithSourceProviderArray" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareWithSourceProviderEmpty" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareWithSourceProviderArrayNoMatch" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <testcase name="compareOrderedInstancesDoubleNull" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
-  <testcase name="compareWithSimpleSourceProvider" classname="org.springframework.core.OrderComparatorTests" time="0.001"/>
+  <testcase name="compareWithSimpleSourceProvider" classname="org.springframework.core.OrderComparatorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -7,6 +7,7 @@
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="ajc" />
     <bytecodeTargetLevel>
+      <module name="spring.lcb-spring.test" target="1.8" />
       <module name="spring.spring-aspects.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:48:55" hostname="Macbook-Air.local" time="0.007">
+<testsuite name="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:43:23" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="orLeftSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.003"/>
+  <testcase name="orLeftSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
   <testcase name="andBothSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
   <testcase name="andLeftSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
-  <testcase name="andBothFail" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.001"/>
-  <testcase name="negateFail" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
+  <testcase name="andBothFail" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
+  <testcase name="negateFail" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.001"/>
   <testcase name="negateSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
-  <testcase name="orRightSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.001"/>
+  <testcase name="orRightSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
   <testcase name="andRightSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
   <testcase name="orBothFail" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
-  <testcase name="orBothSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.001"/>
+  <testcase name="orBothSucceed" classname="org.springframework.web.reactive.function.server.RequestPredicateAttributesTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

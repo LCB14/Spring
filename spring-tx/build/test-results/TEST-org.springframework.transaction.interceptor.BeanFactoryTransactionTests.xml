@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:51" hostname="Macbook-Air.local" time="0.542">
+<testsuite name="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:30" hostname="lichangbaodeMacBook-Pro.local" time="0.272">
   <properties/>
-  <testcase name="testGetsAreNotTransactionalWithProxyFactory2Cglib" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.169"/>
-  <testcase name="testGetsAreNotTransactionalWithProxyFactory1" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.042"/>
-  <testcase name="testGetsAreNotTransactionalWithProxyFactory3" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.059"/>
-  <testcase name="testGetBeansOfTypeWithAbstract" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.122"/>
-  <testcase name="testGetsAreNotTransactionalWithProxyFactory2DynamicProxy" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.047"/>
-  <testcase name="testDynamicTargetSource" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.034"/>
-  <testcase name="testNoTransactionAttributeSource" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.024"/>
-  <testcase name="testCglibTransactionProxyImplementsNoInterfaces" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.031"/>
-  <testcase name="testProxyFactory2Lazy" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.013"/>
+  <testcase name="testGetsAreNotTransactionalWithProxyFactory2Cglib" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.083"/>
+  <testcase name="testGetsAreNotTransactionalWithProxyFactory1" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.027"/>
+  <testcase name="testGetsAreNotTransactionalWithProxyFactory3" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.033"/>
+  <testcase name="testGetBeansOfTypeWithAbstract" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.06"/>
+  <testcase name="testGetsAreNotTransactionalWithProxyFactory2DynamicProxy" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.024"/>
+  <testcase name="testDynamicTargetSource" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.015"/>
+  <testcase name="testNoTransactionAttributeSource" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.012"/>
+  <testcase name="testCglibTransactionProxyImplementsNoInterfaces" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.01"/>
+  <testcase name="testProxyFactory2Lazy" classname="org.springframework.transaction.interceptor.BeanFactoryTransactionTests" time="0.007"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

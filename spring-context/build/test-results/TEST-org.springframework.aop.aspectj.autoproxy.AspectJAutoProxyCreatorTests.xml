@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" tests="19" skipped="3" failures="0" errors="0" timestamp="2019-06-21T11:40:51" hostname="Macbook-Air.local" time="0.346">
+<testsuite name="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" tests="19" skipped="3" failures="0" errors="0" timestamp="2020-11-25T14:38:39" hostname="lichangbaodeMacBook-Pro.local" time="0.205">
   <properties/>
-  <testcase name="testTwoAdviceAspectPrototype" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.02"/>
+  <testcase name="testTwoAdviceAspectPrototype" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.01"/>
   <testcase name="testAspectsAndAdvisorNotAppliedToPrototypeIsFastEnough" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testAspectsAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.027"/>
-  <testcase name="testIncludeMechanism" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.014"/>
-  <testcase name="testForceProxyTargetClass" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.011"/>
-  <testcase name="testAspectsAndAdvisorNotAppliedToManySingletonsIsFastEnough" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.001">
+  <testcase name="testAspectsAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.015"/>
+  <testcase name="testIncludeMechanism" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.01"/>
+  <testcase name="testForceProxyTargetClass" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.006"/>
+  <testcase name="testAspectsAndAdvisorNotAppliedToManySingletonsIsFastEnough" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testAspectsAreAppliedInDefinedOrder" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.016"/>
-  <testcase name="testAspectsAndAdvisorAppliedToPrototypeIsFastEnough" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.001">
+  <testcase name="testAspectsAreAppliedInDefinedOrder" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.008"/>
+  <testcase name="testAspectsAndAdvisorAppliedToPrototypeIsFastEnough" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testMultipleAspectsWithParameterApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.017"/>
-  <testcase name="testAspectsAndAdvisorAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.013"/>
-  <testcase name="testAdviceUsingJoinPoint" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.01"/>
-  <testcase name="testTwoAdviceAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.01"/>
-  <testcase name="testTwoAdviceAspectSingleton" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.009"/>
-  <testcase name="testPerThisAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.024"/>
-  <testcase name="testAspectsAndAdvisorAreAppliedEvenIfComingFromParentFactory" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.008"/>
-  <testcase name="testPerTargetAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.026"/>
-  <testcase name="testRetryAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.035"/>
-  <testcase name="testWithAbstractFactoryBeanAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.014"/>
-  <testcase name="testWithBeanNameAutoProxyCreator" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.088"/>
+  <testcase name="testMultipleAspectsWithParameterApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.012"/>
+  <testcase name="testAspectsAndAdvisorAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.004"/>
+  <testcase name="testAdviceUsingJoinPoint" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.006"/>
+  <testcase name="testTwoAdviceAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.007"/>
+  <testcase name="testTwoAdviceAspectSingleton" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.005"/>
+  <testcase name="testPerThisAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.012"/>
+  <testcase name="testAspectsAndAdvisorAreAppliedEvenIfComingFromParentFactory" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.006"/>
+  <testcase name="testPerTargetAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.013"/>
+  <testcase name="testRetryAspect" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.021"/>
+  <testcase name="testWithAbstractFactoryBeanAreApplied" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.009"/>
+  <testcase name="testWithBeanNameAutoProxyCreator" classname="org.springframework.aop.aspectj.autoproxy.AspectJAutoProxyCreatorTests" time="0.061"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

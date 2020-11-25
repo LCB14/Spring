@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.util.MetaAnnotationUtilsTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:06" hostname="Macbook-Air.local" time="0.035">
+<testsuite name="org.springframework.test.util.MetaAnnotationUtilsTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:05" hostname="lichangbaodeMacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="findAnnotationDescriptorForTypesWithLocalAndMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.004"/>
-  <testcase name="findAnnotationDescriptorOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.005"/>
-  <testcase name="findAnnotationDescriptorForClassWithLocalMetaAnnotationAndAnnotatedSuperclass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.003"/>
-  <testcase name="findAnnotationDescriptorForTypesOnMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.002"/>
-  <testcase name="findAnnotationDescriptorForTypesForInterfaceWithMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
-  <testcase name="findAnnotationDescriptorOnMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForTypesWithLocalAndMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.002"/>
+  <testcase name="findAnnotationDescriptorOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForClassWithLocalMetaAnnotationAndAnnotatedSuperclass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForTypesOnMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForTypesForInterfaceWithMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorOnMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesWithMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesOnMetaCycleAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
-  <testcase name="findAnnotationDescriptorForTypesWithMetaAnnotationWithDefaultAttributes" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorOnAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
-  <testcase name="findAnnotationDescriptorForTypesForNonInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.002"/>
+  <testcase name="findAnnotationDescriptorForTypesWithMetaAnnotationWithDefaultAttributes" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorOnAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForTypesForNonInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorOnMetaMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorForTypesOnMetaMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForTypesOnMetaMetaMetaAnnotatedClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesForNonInheritedAnnotationOnInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
   <testcase name="findAnnotationDescriptorForNonInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorWithNoAnnotationPresent" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorWithMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorWithInheritedAnnotationOnInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.004"/>
-  <testcase name="findAnnotationDescriptorWithInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorWithLocalAndMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorForTypesForSubClassWithLocalMetaAnnotationAndMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
-  <testcase name="findAnnotationDescriptorForClassWithMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.002"/>
+  <testcase name="findAnnotationDescriptorWithMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorWithInheritedAnnotationOnInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorWithInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorWithLocalAndMetaComponentAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorForTypesForSubClassWithLocalMetaAnnotationAndMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
+  <testcase name="findAnnotationDescriptorForClassWithMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
   <testcase name="findAnnotationDescriptorForTypesWithInheritedAnnotationOnClass" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesWithInheritedAnnotationOnInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesOnAnnotatedClassWithMissingTargetMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
@@ -31,7 +31,7 @@
   <testcase name="findAnnotationDescriptorForTypesWithNoAnnotationPresent" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesForClassWithMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesForClassWithLocalMetaAnnotationAndMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
-  <testcase name="findAnnotationDescriptorForInterfaceWithMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.001"/>
+  <testcase name="findAnnotationDescriptorForInterfaceWithMetaAnnotation" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForSubClassWithLocalMetaAnnotationAndMetaAnnotatedInterface" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <testcase name="findAnnotationDescriptorForTypesWithMetaAnnotationWithOverriddenAttributes" classname="org.springframework.test.util.MetaAnnotationUtilsTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

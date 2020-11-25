@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:40" hostname="Macbook-Air.local" time="0.025">
+<testsuite name="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:35" hostname="lichangbaodeMacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="resolveMethodFromAnnotation" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.006"/>
-  <testcase name="resolveMethodFromArgumentWithErrorType" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
-  <testcase name="resolveMethodInherited" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.002"/>
-  <testcase name="resolveMethodFromArgument" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
-  <testcase name="ambiguousExceptionMapping" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.004"/>
-  <testcase name="resolveMethodExceptionSubType" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.002"/>
-  <testcase name="resolveMethodBestMatch" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
-  <testcase name="noExceptionMapping" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.004"/>
-  <testcase name="resolveMethodAgainstCause" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
+  <testcase name="resolveMethodFromAnnotation" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
+  <testcase name="resolveMethodFromArgumentWithErrorType" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.0"/>
+  <testcase name="resolveMethodInherited" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
+  <testcase name="resolveMethodFromArgument" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.0"/>
+  <testcase name="ambiguousExceptionMapping" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
+  <testcase name="resolveMethodExceptionSubType" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.0"/>
+  <testcase name="resolveMethodBestMatch" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.0"/>
+  <testcase name="noExceptionMapping" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
+  <testcase name="resolveMethodAgainstCause" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.0"/>
   <testcase name="resolveMethodNoMatch" classname="org.springframework.messaging.handler.annotation.support.AnnotationExceptionHandlerMethodResolverTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

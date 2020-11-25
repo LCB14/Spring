@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.test.web.servlet.result.ContentResultMatchersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:08" hostname="Macbook-Air.local" time="0.055">
+<testsuite name="org.springframework.test.web.servlet.result.ContentResultMatchersTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:06" hostname="lichangbaodeMacBook-Pro.local" time="0.021">
   <properties/>
-  <testcase name="stringNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.009"/>
-  <testcase name="jsonLenientNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.038"/>
-  <testcase name="typeNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.002"/>
+  <testcase name="stringNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.002"/>
+  <testcase name="jsonLenientNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.016"/>
+  <testcase name="typeNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <testcase name="string" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <testcase name="encodingNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
   <testcase name="bytes" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
-  <testcase name="bytesNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
+  <testcase name="bytesNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <testcase name="stringMatcherNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
   <testcase name="stringMatcher" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
-  <testcase name="jsonStrictMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
-  <testcase name="jsonStrictNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
-  <testcase name="typeMatches" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.001"/>
+  <testcase name="jsonStrictMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="jsonStrictNoMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
+  <testcase name="typeMatches" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <testcase name="encoding" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <testcase name="jsonLenientMatch" classname="org.springframework.test.web.servlet.result.ContentResultMatchersTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

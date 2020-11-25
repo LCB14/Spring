@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:29" hostname="Macbook-Air.local" time="0.013">
+<testsuite name="org.springframework.http.server.reactive.ServerHttpRequestTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:51" hostname="lichangbaodeMacBook-Pro.local" time="0.005">
   <properties/>
-  <testcase name="queryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.003"/>
-  <testcase name="mutatePathWithEncodedQueryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
-  <testcase name="mutateRequest" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.007"/>
-  <testcase name="mutateWithInvalidPath" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="queryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
+  <testcase name="mutatePathWithEncodedQueryParams" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.001"/>
+  <testcase name="mutateRequest" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.003"/>
+  <testcase name="mutateWithInvalidPath" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
   <testcase name="queryParamsWithEncodedValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
   <testcase name="queryParamsWithEmptyValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>
   <testcase name="queryParamsWithNoValue" classname="org.springframework.http.server.reactive.ServerHttpRequestTests" time="0.0"/>

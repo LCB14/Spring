@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.framework.ProxyFactoryTests" tests="14" skipped="1" failures="0" errors="0" timestamp="2019-06-21T11:35:59" hostname="Macbook-Air.local" time="2.17">
+<testsuite name="org.springframework.aop.framework.ProxyFactoryTests" tests="14" skipped="1" failures="0" errors="0" timestamp="2020-11-25T14:37:42" hostname="lichangbaodeMacBook-Pro.local" time="0.821">
   <properties/>
-  <testcase name="testReplaceAdvisor" classname="org.springframework.aop.framework.ProxyFactoryTests" time="1.835"/>
-  <testcase name="testProxyTargetClassWithInterfaceAsTarget" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.015"/>
-  <testcase name="testExclusionOfNonPublicInterfaces" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001">
+  <testcase name="testReplaceAdvisor" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.56"/>
+  <testcase name="testProxyTargetClassWithInterfaceAsTarget" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.008"/>
+  <testcase name="testExclusionOfNonPublicInterfaces" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.0">
     <skipped/>
   </testcase>
-  <testcase name="testInterceptorInclusionMethods" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.002"/>
-  <testcase name="testCanAddAndRemoveAspectInterfacesOnSingleton" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.023"/>
+  <testcase name="testInterceptorInclusionMethods" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
+  <testcase name="testCanAddAndRemoveAspectInterfacesOnSingleton" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.012"/>
   <testcase name="testRemoveAdvisorByReference" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
-  <testcase name="testInterceptorWithoutJoinpoint" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.009"/>
-  <testcase name="testGetsAllInterfaces" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.012"/>
-  <testcase name="testIndexOfMethods" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
+  <testcase name="testInterceptorWithoutJoinpoint" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.002"/>
+  <testcase name="testGetsAllInterfaces" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.006"/>
+  <testcase name="testIndexOfMethods" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.0"/>
   <testcase name="testRemoveAdvisorByIndex" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.001"/>
-  <testcase name="testProxyTargetClassWithConcreteClassAsTarget" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.205"/>
-  <testcase name="testInterfaceProxiesCanBeOrderedThroughAnnotations" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.04"/>
-  <testcase name="testTargetClassProxiesCanBeOrderedThroughAnnotations" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.019"/>
-  <testcase name="testAddRepeatedInterface" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.004"/>
+  <testcase name="testProxyTargetClassWithConcreteClassAsTarget" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.133"/>
+  <testcase name="testInterfaceProxiesCanBeOrderedThroughAnnotations" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.059"/>
+  <testcase name="testTargetClassProxiesCanBeOrderedThroughAnnotations" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.034"/>
+  <testcase name="testAddRepeatedInterface" classname="org.springframework.aop.framework.ProxyFactoryTests" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

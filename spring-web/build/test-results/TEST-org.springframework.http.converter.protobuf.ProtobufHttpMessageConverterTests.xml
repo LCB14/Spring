@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:24" hostname="Macbook-Air.local" time="0.286">
+<testsuite name="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:49" hostname="lichangbaodeMacBook-Pro.local" time="0.082">
   <properties/>
-  <testcase name="getContentLength" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.062"/>
-  <testcase name="writeJsonWithGoogleProtobuf" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.211"/>
-  <testcase name="writeJsonWithJavaFormat" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.005"/>
-  <testcase name="canWrite" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
+  <testcase name="getContentLength" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.022"/>
+  <testcase name="writeJsonWithGoogleProtobuf" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.054"/>
+  <testcase name="writeJsonWithJavaFormat" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.002"/>
+  <testcase name="canWrite" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
   <testcase name="read" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
-  <testcase name="canRead" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
+  <testcase name="canRead" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
   <testcase name="defaultContentType" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
-  <testcase name="extensionRegistryInitialized" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
-  <testcase name="extensionRegistryNull" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
+  <testcase name="extensionRegistryInitialized" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
+  <testcase name="extensionRegistryNull" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
   <testcase name="extensionRegistryInitializerNull" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.0"/>
-  <testcase name="writeProtobuf" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.003"/>
+  <testcase name="writeProtobuf" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
   <testcase name="readNoContentType" classname="org.springframework.http.converter.protobuf.ProtobufHttpMessageConverterTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

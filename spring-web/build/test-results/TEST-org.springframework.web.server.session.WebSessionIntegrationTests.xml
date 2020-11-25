@@ -1,346 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.server.session.WebSessionIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:05" hostname="Macbook-Air.local" time="6.955">
+<testsuite name="org.springframework.web.server.session.WebSessionIntegrationTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:40" hostname="lichangbaodeMacBook-Pro.local" time="4.647">
   <properties/>
-  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@6be65351]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="2.78"/>
-  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@6be65351]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.027"/>
-  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@6be65351]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.022"/>
-  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@6be65351]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.024"/>
-  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@6be65351]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.026"/>
-  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@572f09a2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="1.523"/>
-  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@572f09a2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.031"/>
-  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@572f09a2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.029"/>
-  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@572f09a2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.023"/>
-  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@572f09a2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.019"/>
-  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4f84b42c]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="1.341"/>
-  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4f84b42c]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.053"/>
-  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4f84b42c]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.053"/>
-  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4f84b42c]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.052"/>
-  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@4f84b42c]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.045"/>
-  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6cbf7a4b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.831"/>
-  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6cbf7a4b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.017"/>
-  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6cbf7a4b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.017"/>
-  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6cbf7a4b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.018"/>
-  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6cbf7a4b]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.02"/>
-  <system-out><![CDATA[19:46:07.048 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:07.721 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49664/
-19:46:07.751 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.053 [qtp1475221455-31] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3ec20142] HTTP GET "/"
-19:46:08.076 [qtp1475221455-31] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3ec20142] Completed 200 OK
-19:46:08.112 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.128 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49664/?invalidate
-19:46:08.129 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.134 [qtp1475221455-27] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [240e831c] HTTP GET "/?invalidate"
-19:46:08.142 [qtp1475221455-27] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [240e831c] Completed 200 OK
-19:46:08.142 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.170 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:08.174 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49666/
-19:46:08.174 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.177 [qtp1348831710-40] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d0458ef] HTTP GET "/"
-19:46:08.177 [qtp1348831710-40] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2d0458ef] Completed 200 OK
-19:46:08.178 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.178 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49666/
-19:46:08.179 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.181 [qtp1348831710-36] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [53fd4fe9] HTTP GET "/"
-19:46:08.182 [qtp1348831710-36] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [53fd4fe9] Completed 200 OK
-19:46:08.182 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.183 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49666/
-19:46:08.184 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.185 [qtp1348831710-39] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [43478ef2] HTTP GET "/"
-19:46:08.186 [qtp1348831710-39] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [43478ef2] Completed 200 OK
-19:46:08.186 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.195 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:08.199 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49668/
-19:46:08.200 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.202 [qtp235299948-50] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [784e0462] HTTP GET "/"
-19:46:08.202 [qtp235299948-50] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [784e0462] Completed 200 OK
-19:46:08.203 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.203 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49668/?expire
-19:46:08.204 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.206 [qtp235299948-46] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [40f72578] HTTP GET "/?expire"
-19:46:08.207 [qtp235299948-46] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [40f72578] Completed 200 OK
-19:46:08.208 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.218 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:08.223 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49670/
-19:46:08.224 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.226 [qtp2097802675-59] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [39feba34] HTTP GET "/"
-19:46:08.227 [qtp2097802675-59] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [39feba34] Completed 200 OK
-19:46:08.227 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.228 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49670/
-19:46:08.228 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.230 [qtp2097802675-55] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1353bf44] HTTP GET "/"
-19:46:08.231 [qtp2097802675-55] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1353bf44] Completed 200 OK
-19:46:08.232 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.240 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:08.249 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49672/
-19:46:08.250 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.252 [qtp790305617-68] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74a5e67c] HTTP GET "/"
-19:46:08.253 [qtp790305617-68] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [74a5e67c] Completed 200 OK
-19:46:08.253 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.254 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49672/?changeId
-19:46:08.254 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:08.256 [qtp790305617-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [35367219] HTTP GET "/?changeId"
-19:46:08.258 [qtp790305617-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [35367219] Completed 200 OK
-19:46:08.259 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:08.266 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:09.347 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49675/
-19:46:09.347 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.748 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [bfeb2e0e] HTTP GET "/"
-19:46:09.752 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [bfeb2e0e] Completed 200 OK
-19:46:09.767 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.767 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49675/?invalidate
-19:46:09.768 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.770 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [bfeb2e0e] HTTP GET "/?invalidate"
-19:46:09.772 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [bfeb2e0e] Completed 200 OK
-19:46:09.781 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.791 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:09.794 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49677/
-19:46:09.795 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.801 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] HTTP GET "/"
-19:46:09.801 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] Completed 200 OK
-19:46:09.803 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.803 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49677/
-19:46:09.804 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.806 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] HTTP GET "/"
-19:46:09.807 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] Completed 200 OK
-19:46:09.809 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.810 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49677/
-19:46:09.811 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.812 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] HTTP GET "/"
-19:46:09.813 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [0eeb325c] Completed 200 OK
-19:46:09.815 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.824 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:09.827 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49679/
-19:46:09.828 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.832 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f8fd12ba] HTTP GET "/"
-19:46:09.832 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f8fd12ba] Completed 200 OK
-19:46:09.834 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.835 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49679/?expire
-19:46:09.836 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.839 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f8fd12ba] HTTP GET "/?expire"
-19:46:09.841 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f8fd12ba] Completed 200 OK
-19:46:09.843 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.851 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:09.854 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49681/
-19:46:09.855 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.859 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22fc1479] HTTP GET "/"
-19:46:09.859 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22fc1479] Completed 200 OK
-19:46:09.861 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.861 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49681/
-19:46:09.863 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.864 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22fc1479] HTTP GET "/"
-19:46:09.865 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [22fc1479] Completed 200 OK
-19:46:09.866 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.875 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:09.877 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49683/
-19:46:09.878 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.880 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [afb4aac6] HTTP GET "/"
-19:46:09.880 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [afb4aac6] Completed 200 OK
-19:46:09.881 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.882 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49683/?changeId
-19:46:09.883 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:09.884 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [afb4aac6] HTTP GET "/?changeId"
-19:46:09.885 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [afb4aac6] Completed 200 OK
-19:46:09.886 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:09.893 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:10.982 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49685/
-19:46:10.983 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.176 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f06e38f] HTTP GET "/"
-19:46:11.177 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f06e38f] Completed 200 OK
-19:46:11.180 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.180 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49685/?invalidate
-19:46:11.181 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.189 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4c4c329d] HTTP GET "/?invalidate"
-19:46:11.190 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4c4c329d] Completed 200 OK
-19:46:11.191 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.232 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:11.248 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49688/
-19:46:11.248 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.251 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5a2cd4f7] HTTP GET "/"
-19:46:11.251 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5a2cd4f7] Completed 200 OK
-19:46:11.252 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.253 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49688/
-19:46:11.254 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.256 [http-nio-auto-2-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5273070d] HTTP GET "/"
-19:46:11.256 [http-nio-auto-2-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5273070d] Completed 200 OK
-19:46:11.258 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.258 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49688/
-19:46:11.259 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.261 [http-nio-auto-2-exec-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d1819b0] HTTP GET "/"
-19:46:11.261 [http-nio-auto-2-exec-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3d1819b0] Completed 200 OK
-19:46:11.262 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.287 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:11.303 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49691/
-19:46:11.304 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.307 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3c3d1b8c] HTTP GET "/"
-19:46:11.308 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3c3d1b8c] Completed 200 OK
-19:46:11.309 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.309 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49691/?expire
-19:46:11.310 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.312 [http-nio-auto-3-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [47f535c3] HTTP GET "/?expire"
-19:46:11.313 [http-nio-auto-3-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [47f535c3] Completed 200 OK
-19:46:11.314 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.342 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:11.358 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49694/
-19:46:11.359 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.362 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [95ece26] HTTP GET "/"
-19:46:11.362 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [95ece26] Completed 200 OK
-19:46:11.363 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.364 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49694/
-19:46:11.365 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.366 [http-nio-auto-4-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4b4b023] HTTP GET "/"
-19:46:11.367 [http-nio-auto-4-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4b4b023] Completed 200 OK
-19:46:11.368 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.391 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:11.402 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49697/
-19:46:11.403 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.406 [http-nio-auto-5-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5155e499] HTTP GET "/"
-19:46:11.407 [http-nio-auto-5-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [5155e499] Completed 200 OK
-19:46:11.408 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.409 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49697/?changeId
-19:46:11.409 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:11.411 [http-nio-auto-5-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [127c33c5] HTTP GET "/?changeId"
-19:46:11.412 [http-nio-auto-5-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [127c33c5] Completed 200 OK
-19:46:11.413 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:11.437 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:11.997 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49700/
-19:46:11.998 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.220 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d4208f7] HTTP GET "/"
-19:46:12.230 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d4208f7] Completed 200 OK
-19:46:12.255 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.256 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49700/?invalidate
-19:46:12.257 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.258 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d4208f7] HTTP GET "/?invalidate"
-19:46:12.259 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d4208f7] Completed 200 OK
-19:46:12.260 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.267 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:12.270 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49702/
-19:46:12.271 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.272 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] HTTP GET "/"
-19:46:12.273 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] Completed 200 OK
-19:46:12.273 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.274 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49702/
-19:46:12.274 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.275 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] HTTP GET "/"
-19:46:12.275 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] Completed 200 OK
-19:46:12.276 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.276 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49702/
-19:46:12.277 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.278 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] HTTP GET "/"
-19:46:12.278 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3128ab48] Completed 200 OK
-19:46:12.278 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.286 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:12.289 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49704/
-19:46:12.290 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.291 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [501b644b] HTTP GET "/"
-19:46:12.292 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [501b644b] Completed 200 OK
-19:46:12.293 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.293 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49704/?expire
-19:46:12.294 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.295 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [501b644b] HTTP GET "/?expire"
-19:46:12.295 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [501b644b] Completed 200 OK
-19:46:12.296 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.303 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:12.306 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49706/
-19:46:12.307 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.309 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [654f7b5c] HTTP GET "/"
-19:46:12.309 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [654f7b5c] Completed 200 OK
-19:46:12.310 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.311 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49706/
-19:46:12.312 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.313 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [654f7b5c] HTTP GET "/"
-19:46:12.313 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [654f7b5c] Completed 200 OK
-19:46:12.314 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.321 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-19:46:12.326 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49708/
-19:46:12.327 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.330 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1561acb] HTTP GET "/"
-19:46:12.330 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1561acb] Completed 200 OK
-19:46:12.331 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
-19:46:12.332 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:49708/?changeId
-19:46:12.332 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
-19:46:12.333 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1561acb] HTTP GET "/?changeId"
-19:46:12.334 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1561acb] Completed 200 OK
-19:46:12.334 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c1d103d]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="1.09"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c1d103d]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.015"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c1d103d]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.013"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c1d103d]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.012"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.JettyHttpServer@1c1d103d]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.011"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e14baa2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="2.576"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e14baa2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.013"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e14baa2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.01"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e14baa2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.009"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.ReactorHttpServer@7e14baa2]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.009"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@e4a4d30]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.477"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@e4a4d30]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.029"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@e4a4d30]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.039"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@e4a4d30]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.025"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.TomcatHttpServer@e4a4d30]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.027"/>
+  <testcase name="invalidate[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6fd50cb1]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.249"/>
+  <testcase name="expiredSessionIsRecreated[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6fd50cb1]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.013"/>
+  <testcase name="expiredSessionEnds[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6fd50cb1]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.009"/>
+  <testcase name="createSession[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6fd50cb1]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.01"/>
+  <testcase name="changeSessionId[server [org.springframework.http.server.reactive.bootstrap.UndertowHttpServer@6fd50cb1]]" classname="org.springframework.web.server.session.WebSessionIntegrationTests" time="0.009"/>
+  <system-out><![CDATA[22:41:40.919 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:41.099 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52834/
+22:41:41.117 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.211 [qtp1056070829-45] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [15fd8c93] HTTP GET "/"
+22:41:41.221 [qtp1056070829-45] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [15fd8c93] Completed 200 OK
+22:41:41.231 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.233 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52834/?invalidate
+22:41:41.234 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.235 [qtp1056070829-36] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6a1222ce] HTTP GET "/?invalidate"
+22:41:41.239 [qtp1056070829-36] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6a1222ce] Completed 200 OK
+22:41:41.240 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.250 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:41.253 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52839/
+22:41:41.253 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.255 [qtp422710569-59] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [eb90b18] HTTP GET "/"
+22:41:41.255 [qtp422710569-59] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [eb90b18] Completed 200 OK
+22:41:41.255 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.255 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52839/
+22:41:41.256 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.257 [qtp422710569-50] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1198cbc0] HTTP GET "/"
+22:41:41.257 [qtp422710569-50] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [1198cbc0] Completed 200 OK
+22:41:41.257 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.258 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52839/
+22:41:41.258 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.258 [qtp422710569-60] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [14df2b68] HTTP GET "/"
+22:41:41.259 [qtp422710569-60] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [14df2b68] Completed 200 OK
+22:41:41.259 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.265 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:41.268 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52841/
+22:41:41.268 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.269 [qtp1624474097-75] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4b5c3d32] HTTP GET "/"
+22:41:41.270 [qtp1624474097-75] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4b5c3d32] Completed 200 OK
+22:41:41.270 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.270 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52841/?expire
+22:41:41.271 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.271 [qtp1624474097-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [acc047d] HTTP GET "/?expire"
+22:41:41.272 [qtp1624474097-64] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [acc047d] Completed 200 OK
+22:41:41.272 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.277 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:41.280 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52843/
+22:41:41.281 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.282 [qtp1657100164-89] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [af0a110] HTTP GET "/"
+22:41:41.282 [qtp1657100164-89] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [af0a110] Completed 200 OK
+22:41:41.282 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.282 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52843/
+22:41:41.283 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.284 [qtp1657100164-78] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [689b027c] HTTP GET "/"
+22:41:41.284 [qtp1657100164-78] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [689b027c] Completed 200 OK
+22:41:41.284 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.289 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:41.291 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52845/
+22:41:41.292 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.293 [qtp1856915338-103] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [21f6dece] HTTP GET "/"
+22:41:41.293 [qtp1856915338-103] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [21f6dece] Completed 200 OK
+22:41:41.294 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.294 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52845/?changeId
+22:41:41.294 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:41.295 [qtp1856915338-92] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6f0751a3] HTTP GET "/?changeId"
+22:41:41.296 [qtp1856915338-92] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6f0751a3] Completed 200 OK
+22:41:41.296 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:41.301 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:43.737 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52853/
+22:41:43.737 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.858 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8380fde3] HTTP GET "/"
+22:41:43.860 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8380fde3] Completed 200 OK
+22:41:43.867 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.867 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52853/?invalidate
+22:41:43.867 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.869 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8380fde3] HTTP GET "/?invalidate"
+22:41:43.870 [reactor-http-kqueue-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [8380fde3] Completed 200 OK
+22:41:43.872 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.877 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:43.878 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52857/
+22:41:43.878 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.881 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] HTTP GET "/"
+22:41:43.881 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] Completed 200 OK
+22:41:43.882 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.882 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52857/
+22:41:43.883 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.883 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] HTTP GET "/"
+22:41:43.884 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] Completed 200 OK
+22:41:43.884 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.884 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52857/
+22:41:43.885 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.885 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] HTTP GET "/"
+22:41:43.885 [reactor-http-kqueue-4] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [90bc315d] Completed 200 OK
+22:41:43.886 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.891 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:43.892 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52859/
+22:41:43.892 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.894 [reactor-http-kqueue-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c46ac545] HTTP GET "/"
+22:41:43.894 [reactor-http-kqueue-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c46ac545] Completed 200 OK
+22:41:43.895 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.895 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52859/?expire
+22:41:43.895 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.896 [reactor-http-kqueue-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c46ac545] HTTP GET "/?expire"
+22:41:43.896 [reactor-http-kqueue-6] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [c46ac545] Completed 200 OK
+22:41:43.897 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.900 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:43.901 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52861/
+22:41:43.901 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.903 [reactor-http-kqueue-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f078441a] HTTP GET "/"
+22:41:43.903 [reactor-http-kqueue-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f078441a] Completed 200 OK
+22:41:43.904 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.904 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52861/
+22:41:43.904 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.905 [reactor-http-kqueue-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f078441a] HTTP GET "/"
+22:41:43.905 [reactor-http-kqueue-8] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [f078441a] Completed 200 OK
+22:41:43.906 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.909 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:43.910 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52863/
+22:41:43.910 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.912 [reactor-http-kqueue-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e0c1da21] HTTP GET "/"
+22:41:43.912 [reactor-http-kqueue-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e0c1da21] Completed 200 OK
+22:41:43.913 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.913 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52863/?changeId
+22:41:43.913 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:43.914 [reactor-http-kqueue-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e0c1da21] HTTP GET "/?changeId"
+22:41:43.914 [reactor-http-kqueue-10] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [e0c1da21] Completed 200 OK
+22:41:43.915 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:43.918 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.290 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52865/
+22:41:44.290 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.364 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3ef3ef89] HTTP GET "/"
+22:41:44.364 [http-nio-auto-1-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [3ef3ef89] Completed 200 OK
+22:41:44.367 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.367 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52865/?invalidate
+22:41:44.367 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.371 [http-nio-auto-1-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2159b860] HTTP GET "/?invalidate"
+22:41:44.371 [http-nio-auto-1-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2159b860] Completed 200 OK
+22:41:44.372 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.395 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.401 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52868/
+22:41:44.402 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.404 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [25a2c80a] HTTP GET "/"
+22:41:44.404 [http-nio-auto-2-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [25a2c80a] Completed 200 OK
+22:41:44.404 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.405 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52868/
+22:41:44.405 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.406 [http-nio-auto-2-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72374496] HTTP GET "/"
+22:41:44.406 [http-nio-auto-2-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [72374496] Completed 200 OK
+22:41:44.406 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.407 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52868/
+22:41:44.407 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.407 [http-nio-auto-2-exec-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [746c213f] HTTP GET "/"
+22:41:44.408 [http-nio-auto-2-exec-3] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [746c213f] Completed 200 OK
+22:41:44.408 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.425 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.442 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52871/
+22:41:44.443 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.445 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [269f2ab3] HTTP GET "/"
+22:41:44.445 [http-nio-auto-3-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [269f2ab3] Completed 200 OK
+22:41:44.446 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.446 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52871/?expire
+22:41:44.446 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.447 [http-nio-auto-3-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b15506] HTTP GET "/?expire"
+22:41:44.448 [http-nio-auto-3-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b15506] Completed 200 OK
+22:41:44.448 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.463 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.468 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52874/
+22:41:44.469 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.470 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4fecc2e1] HTTP GET "/"
+22:41:44.470 [http-nio-auto-4-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4fecc2e1] Completed 200 OK
+22:41:44.471 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.471 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52874/
+22:41:44.472 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.472 [http-nio-auto-4-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [331c23d7] HTTP GET "/"
+22:41:44.473 [http-nio-auto-4-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [331c23d7] Completed 200 OK
+22:41:44.473 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.489 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.494 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52877/
+22:41:44.496 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.497 [http-nio-auto-5-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d2a5b8f] HTTP GET "/"
+22:41:44.498 [http-nio-auto-5-exec-1] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [4d2a5b8f] Completed 200 OK
+22:41:44.498 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.498 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52877/?changeId
+22:41:44.499 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.500 [http-nio-auto-5-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [68bcbe45] HTTP GET "/?changeId"
+22:41:44.500 [http-nio-auto-5-exec-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [68bcbe45] Completed 200 OK
+22:41:44.500 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.515 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.699 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52880/
+22:41:44.699 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.748 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ad4b859] HTTP GET "/"
+22:41:44.750 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ad4b859] Completed 200 OK
+22:41:44.756 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.756 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52880/?invalidate
+22:41:44.757 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.757 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ad4b859] HTTP GET "/?invalidate"
+22:41:44.758 [XNIO-1 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [2ad4b859] Completed 200 OK
+22:41:44.758 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.763 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.766 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52882/
+22:41:44.766 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.767 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] HTTP GET "/"
+22:41:44.767 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] Completed 200 OK
+22:41:44.768 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.768 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52882/
+22:41:44.768 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.769 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] HTTP GET "/"
+22:41:44.769 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] Completed 200 OK
+22:41:44.769 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.770 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52882/
+22:41:44.770 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.770 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] HTTP GET "/"
+22:41:44.771 [XNIO-2 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [63973975] Completed 200 OK
+22:41:44.771 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.777 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.780 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52884/
+22:41:44.780 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.781 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60690b68] HTTP GET "/"
+22:41:44.781 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60690b68] Completed 200 OK
+22:41:44.782 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.782 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52884/?expire
+22:41:44.782 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.782 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60690b68] HTTP GET "/?expire"
+22:41:44.783 [XNIO-3 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [60690b68] Completed 200 OK
+22:41:44.783 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.788 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.790 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52886/
+22:41:44.791 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.791 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b8c1d45] HTTP GET "/"
+22:41:44.791 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b8c1d45] Completed 200 OK
+22:41:44.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.792 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52886/
+22:41:44.792 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.792 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b8c1d45] HTTP GET "/"
+22:41:44.792 [XNIO-4 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6b8c1d45] Completed 200 OK
+22:41:44.793 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.796 [Test worker] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+22:41:44.799 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52888/
+22:41:44.799 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.800 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6dca3fd4] HTTP GET "/"
+22:41:44.800 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6dca3fd4] Completed 200 OK
+22:41:44.800 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
+22:41:44.800 [Test worker] DEBUG o.s.w.c.RestTemplate - HTTP GET http://localhost:52888/?changeId
+22:41:44.801 [Test worker] DEBUG o.s.w.c.RestTemplate - Accept=[application/xml, text/xml, application/json, application/x-jackson-smile, application/cbor, application/*+xml, application/*+json]
+22:41:44.801 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6dca3fd4] HTTP GET "/?changeId"
+22:41:44.801 [XNIO-5 I/O-2] DEBUG o.s.w.s.a.HttpWebHandlerAdapter - [6dca3fd4] Completed 200 OK
+22:41:44.801 [Test worker] DEBUG o.s.w.c.RestTemplate - Response 200 OK
 ]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:46:10 PM org.apache.catalina.core.StandardService startInternal
+  <system-err><![CDATA[Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:10 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:10 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-1"]
-Jun 21, 2019 7:46:10 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-1-49685"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-1-49685"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-1-52865"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-1-52865"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-1-49685"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-1-49685"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-1-52865"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-1-52865"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-2"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-2-49688"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-2-49688"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-2-52868"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-2-52868"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-2-49688"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-2-49688"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-2-52868"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-2-52868"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-3"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-3-49691"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-3-49691"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-3-52871"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-3-52871"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-3-49691"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-3-49691"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-3-52871"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-3-52871"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-4"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-4-49694"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-4-49694"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-4-52874"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-4-52874"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-4-49694"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-4-49694"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService startInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-4-52874"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-4-52874"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService startInternal
 INFO: Starting service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardEngine startInternal
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardEngine startInternal
 INFO: Starting Servlet engine: [Apache Tomcat/9.0.21]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol init
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol init
 INFO: Initializing ProtocolHandler ["http-nio-auto-5"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol start
-INFO: Starting ProtocolHandler ["http-nio-auto-5-49697"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol pause
-INFO: Pausing ProtocolHandler ["http-nio-auto-5-49697"]
-Jun 21, 2019 7:46:11 PM org.apache.catalina.core.StandardService stopInternal
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-auto-5-52877"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-auto-5-52877"]
+Nov 25, 2020 10:41:44 PM org.apache.catalina.core.StandardService stopInternal
 INFO: Stopping service [Tomcat]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol stop
-INFO: Stopping ProtocolHandler ["http-nio-auto-5-49697"]
-Jun 21, 2019 7:46:11 PM org.apache.coyote.AbstractProtocol destroy
-INFO: Destroying ProtocolHandler ["http-nio-auto-5-49697"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-auto-5-52877"]
+Nov 25, 2020 10:41:44 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-auto-5-52877"]
 ]]></system-err>
 </testsuite>

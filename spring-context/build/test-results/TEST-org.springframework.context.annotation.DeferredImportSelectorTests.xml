@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.annotation.DeferredImportSelectorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:39:58" hostname="Macbook-Air.local" time="0.051">
+<testsuite name="org.springframework.context.annotation.DeferredImportSelectorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:14" hostname="lichangbaodeMacBook-Pro.local" time="0.017">
   <properties/>
-  <testcase name="entryEqualSameMetadataAnDifferentClassName" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.05"/>
+  <testcase name="entryEqualSameMetadataAnDifferentClassName" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.017"/>
   <testcase name="entryEqualsSameInstance" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.0"/>
-  <testcase name="entryEqualsSameMetadataAndClassName" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.001"/>
+  <testcase name="entryEqualsSameMetadataAndClassName" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.0"/>
   <testcase name="entryEqualDifferentMetadataAndSameClassName" classname="org.springframework.context.annotation.DeferredImportSelectorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

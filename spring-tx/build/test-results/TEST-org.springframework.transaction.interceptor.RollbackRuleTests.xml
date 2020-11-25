@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.transaction.interceptor.RollbackRuleTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:45:50" hostname="Macbook-Air.local" time="0.004">
+<testsuite name="org.springframework.transaction.interceptor.RollbackRuleTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:30" hostname="lichangbaodeMacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="ctorArgMustBeAThrowableClassWithNonThrowableType" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.001"/>
+  <testcase name="ctorArgMustBeAThrowableClassWithNonThrowableType" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <testcase name="ancestry" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
-  <testcase name="alwaysTrueForThrowable" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.001"/>
+  <testcase name="alwaysTrueForThrowable" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <testcase name="foundImmediatelyWithString" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <testcase name="ctorArgExceptionStringNameVersionWithNull" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.001"/>
-  <testcase name="ctorArgMustBeAThrowableClassWithNullThrowableType" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.001"/>
+  <testcase name="ctorArgMustBeAThrowableClassWithNullThrowableType" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <testcase name="foundImmediatelyWithClass" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <testcase name="notFound" classname="org.springframework.transaction.interceptor.RollbackRuleTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

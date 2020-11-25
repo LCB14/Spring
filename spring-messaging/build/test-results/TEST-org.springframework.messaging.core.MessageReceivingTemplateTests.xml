@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.messaging.core.MessageReceivingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:43" hostname="Macbook-Air.local" time="0.007">
+<testsuite name="org.springframework.messaging.core.MessageReceivingTemplateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:37" hostname="lichangbaodeMacBook-Pro.local" time="0.002">
   <properties/>
-  <testcase name="receiveAndConvertNoConverter" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.002"/>
+  <testcase name="receiveAndConvertNoConverter" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
   <testcase name="receiveAndConvertFromDestination" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
-  <testcase name="receiveAndConvert" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
-  <testcase name="receiveAndConvertFailed" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.002"/>
-  <testcase name="receiveMissingDefaultDestination" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
+  <testcase name="receiveAndConvert" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
+  <testcase name="receiveAndConvertFailed" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
+  <testcase name="receiveMissingDefaultDestination" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
   <testcase name="receive" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
-  <testcase name="receiveFromDestination" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.001"/>
+  <testcase name="receiveFromDestination" classname="org.springframework.messaging.core.MessageReceivingTemplateTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

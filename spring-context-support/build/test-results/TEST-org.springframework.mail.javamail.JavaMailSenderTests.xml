@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:27" hostname="Macbook-Air.local" time="0.415">
+<testsuite name="org.springframework.mail.javamail.JavaMailSenderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:00" hostname="lichangbaodeMacBook-Pro.local" time="0.107">
   <properties/>
-  <testcase name="javaMailProperties" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.238"/>
-  <testcase name="failedMimeMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.016"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparator" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.007"/>
-  <testcase name="testConnectionWithFailure" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="testConnection" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithCustomSession" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.007"/>
-  <testcase name="javaMailSenderWithSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.058"/>
-  <testcase name="javaMailSenderWithMimeMessageHelperAndDefaultEncoding" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.008"/>
-  <testcase name="failedMailServerConnect" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.019"/>
-  <testcase name="javaMailSenderWithMimeMessagePreparators" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.01"/>
-  <testcase name="javaMailSenderWithMimeMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
-  <testcase name="failedMailServerClose" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.005"/>
-  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="javaMailSenderWithSimpleMessages" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithMimeMessageHelperAndSpecificEncoding" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
-  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.006"/>
-  <testcase name="failedSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.01"/>
-  <testcase name="javaMailSenderWithMimeMessageHelper" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
-  <testcase name="javaMailSenderWithMimeMessages" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="javaMailProperties" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.042"/>
+  <testcase name="failedMimeMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.006"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparator" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="testConnectionWithFailure" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="testConnection" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithCustomSession" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.013"/>
+  <testcase name="javaMailSenderWithMimeMessageHelperAndDefaultEncoding" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="failedMailServerConnect" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.009"/>
+  <testcase name="javaMailSenderWithMimeMessagePreparators" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="javaMailSenderWithMimeMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="failedMailServerClose" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithParseExceptionOnSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithSimpleMessages" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithMimeMessageHelperAndSpecificEncoding" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithParseExceptionOnMimeMessagePreparator" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.003"/>
+  <testcase name="failedSimpleMessage" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.004"/>
+  <testcase name="javaMailSenderWithMimeMessageHelper" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
+  <testcase name="javaMailSenderWithMimeMessages" classname="org.springframework.mail.javamail.JavaMailSenderTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[org.springframework.mail.MailSendException: Failed messages: javax.mail.MessagingException: failed; message exception details (1) are:
 Failed message 1:
@@ -48,7 +48,7 @@ javax.mail.MessagingException: failed
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:412)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
@@ -61,14 +61,14 @@ javax.mail.MessagingException: failed
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
 	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
@@ -103,7 +103,7 @@ javax.mail.MessagingException: failed
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:412)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
@@ -116,14 +116,14 @@ javax.mail.MessagingException: failed
 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
 	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)

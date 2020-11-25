@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.util.FastByteArrayOutputStreamTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:41:53" hostname="Macbook-Air.local" time="0.009">
+<testsuite name="org.springframework.util.FastByteArrayOutputStreamTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:12" hostname="lichangbaodeMacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="updateMessageDigest" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.004"/>
+  <testcase name="updateMessageDigest" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
   <testcase name="getInputStreamAvailable" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStream" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
   <testcase name="resize" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="updateMessageDigestManyBuffers" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="toByteArrayUnsafe" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="size" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
-  <testcase name="failResize" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
+  <testcase name="failResize" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStreamReadAll" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
-  <testcase name="close" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
-  <testcase name="reset" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
+  <testcase name="close" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
+  <testcase name="reset" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
   <testcase name="write" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStreamReadBytePromotion" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStreamSkipAll" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
-  <testcase name="getInputStreamReadBeyondEndOfStream" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.001"/>
+  <testcase name="getInputStreamReadBeyondEndOfStream" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStreamRead" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="getInputStreamSkip" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>
   <testcase name="autoGrow" classname="org.springframework.util.FastByteArrayOutputStreamTests" time="0.0"/>

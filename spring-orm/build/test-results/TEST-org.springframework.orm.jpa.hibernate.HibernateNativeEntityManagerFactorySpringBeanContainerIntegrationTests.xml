@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:46" hostname="Macbook-Air.local" time="0.466">
+<testsuite name="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:23" hostname="lichangbaodeMacBook-Pro.local" time="0.175">
   <properties/>
-  <testcase name="testCanRetrieveBeanByTypeWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.415"/>
-  <testcase name="testCanRetrieveFallbackBeanByTypeWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.007"/>
-  <testcase name="testCanRetrieveFallbackBeanByNameWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.008"/>
-  <testcase name="testCanRetrieveFallbackBeanByTypeWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.003"/>
-  <testcase name="testCanRetrieveBeanByNameWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.009"/>
-  <testcase name="testOriginalExceptionInCaseOfFallbackProducerFailure" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.003"/>
-  <testcase name="testFallbackExceptionInCaseOfNoSpringBeanFound" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.003"/>
-  <testcase name="testCanRetrieveFallbackBeanByNameWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
-  <testcase name="testOriginalExceptionInCaseOfFallbackProducerFailureByName" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.003"/>
-  <testcase name="testCanRetrieveBeanByTypeWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.006"/>
-  <testcase name="testCanRetrieveBeanByNameWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.004"/>
-  <testcase name="testFallbackExceptionInCaseOfNoSpringBeanFoundByName" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
+  <testcase name="testCanRetrieveBeanByTypeWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.155"/>
+  <testcase name="testCanRetrieveFallbackBeanByTypeWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
+  <testcase name="testCanRetrieveFallbackBeanByNameWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.004"/>
+  <testcase name="testCanRetrieveFallbackBeanByTypeWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.001"/>
+  <testcase name="testCanRetrieveBeanByNameWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.004"/>
+  <testcase name="testOriginalExceptionInCaseOfFallbackProducerFailure" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.001"/>
+  <testcase name="testFallbackExceptionInCaseOfNoSpringBeanFound" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.001"/>
+  <testcase name="testCanRetrieveFallbackBeanByNameWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.001"/>
+  <testcase name="testOriginalExceptionInCaseOfFallbackProducerFailureByName" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
+  <testcase name="testCanRetrieveBeanByTypeWithNativeOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
+  <testcase name="testCanRetrieveBeanByNameWithJpaCompliantOptions" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.002"/>
+  <testcase name="testFallbackExceptionInCaseOfNoSpringBeanFoundByName" classname="org.springframework.orm.jpa.hibernate.HibernateNativeEntityManagerFactorySpringBeanContainerIntegrationTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

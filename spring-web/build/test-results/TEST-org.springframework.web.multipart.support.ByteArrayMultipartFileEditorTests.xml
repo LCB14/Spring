@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:46:12" hostname="Macbook-Air.local" time="0.021">
+<testsuite name="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:41:45" hostname="lichangbaodeMacBook-Pro.local" time="0.014">
   <properties/>
-  <testcase name="setValueAsCustomObjectInvokesToString" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.003"/>
-  <testcase name="setValueAsMultipartFile" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.016"/>
+  <testcase name="setValueAsCustomObjectInvokesToString" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.0"/>
+  <testcase name="setValueAsMultipartFile" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.013"/>
   <testcase name="setValueAsString" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.0"/>
   <testcase name="setValueAsByteArray" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.0"/>
-  <testcase name="setValueAsMultipartFileWithBadBytes" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.002"/>
+  <testcase name="setValueAsMultipartFileWithBadBytes" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.001"/>
   <testcase name="setValueAsNullGetsBackEmptyString" classname="org.springframework.web.multipart.support.ByteArrayMultipartFileEditorTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

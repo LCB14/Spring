@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:36:07" hostname="Macbook-Air.local" time="0.105">
+<testsuite name="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:37:45" hostname="lichangbaodeMacBook-Pro.local" time="0.059">
   <properties/>
-  <testcase name="testMultipleAndSubstitutions" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.002"/>
-  <testcase name="testMatchExplicit" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.002"/>
+  <testcase name="testMultipleAndSubstitutions" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
+  <testcase name="testMatchExplicit" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.0"/>
   <testcase name="testFriendlyErrorOnNoLocationClassMatching" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testThis" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.003"/>
-  <testcase name="testSimpleAdvice" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.035"/>
-  <testcase name="testWithUnsupportedPointcutPrimitive" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.012"/>
+  <testcase name="testThis" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
+  <testcase name="testSimpleAdvice" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.022"/>
+  <testcase name="testWithUnsupportedPointcutPrimitive" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.006"/>
   <testcase name="testFriendlyErrorOnNoLocation2ArgMatching" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
   <testcase name="testMatchWithTypePattern" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testFriendlyErrorOnNoLocation3ArgMatching" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testMatchWithArgs" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.003"/>
-  <testcase name="testWithinRootAndSubpackages" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.003"/>
-  <testcase name="testWithinRootPackage" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testTarget" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.002"/>
+  <testcase name="testFriendlyErrorOnNoLocation3ArgMatching" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.0"/>
+  <testcase name="testMatchWithArgs" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.002"/>
+  <testcase name="testWithinRootAndSubpackages" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
+  <testcase name="testWithinRootPackage" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.0"/>
+  <testcase name="testTarget" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
   <testcase name="testAndSubstitution" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testInvalidExpression" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.001"/>
-  <testcase name="testDynamicMatchingProxy" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.033"/>
+  <testcase name="testInvalidExpression" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.0"/>
+  <testcase name="testDynamicMatchingProxy" classname="org.springframework.aop.aspectj.AspectJExpressionPointcutTests" time="0.021"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:42:31" hostname="Macbook-Air.local" time="0.091">
+<testsuite name="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:39:30" hostname="lichangbaodeMacBook-Pro.local" time="0.055">
   <properties/>
-  <testcase name="webSphereResourceAdapterSetup" classname="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" time="0.086"/>
-  <testcase name="activeMQResourceAdapterSetup" classname="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" time="0.005"/>
+  <testcase name="webSphereResourceAdapterSetup" classname="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" time="0.051"/>
+  <testcase name="activeMQResourceAdapterSetup" classname="org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

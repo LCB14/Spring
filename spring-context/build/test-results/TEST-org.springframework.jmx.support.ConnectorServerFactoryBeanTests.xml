@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:44" hostname="Macbook-Air.local" time="0.033">
+<testsuite name="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:36" hostname="lichangbaodeMacBook-Pro.local" time="0.02">
   <properties/>
-  <testcase name="startupWithSuppliedServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.02"/>
-  <testcase name="noRegisterWithMBeanServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.002"/>
-  <testcase name="registerWithMBeanServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.004"/>
-  <testcase name="startupWithLocatedServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.007"/>
+  <testcase name="startupWithSuppliedServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.011"/>
+  <testcase name="noRegisterWithMBeanServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.001"/>
+  <testcase name="registerWithMBeanServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.003"/>
+  <testcase name="startupWithLocatedServer" classname="org.springframework.jmx.support.ConnectorServerFactoryBeanTests" time="0.005"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jun 21, 2019 7:40:44 PM ClientCommunicatorAdmin restart
+  <system-err><![CDATA[Nov 25, 2020 10:38:36 PM ClientCommunicatorAdmin restart
 WARNUNG: Failed to restart: java.net.ConnectException: Connection refused (Connection refused)
+Nov 25, 2020 10:38:36 PM ClientCommunicatorAdmin restart
 ]]></system-err>
 </testsuite>

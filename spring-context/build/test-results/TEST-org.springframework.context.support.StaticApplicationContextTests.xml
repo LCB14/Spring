@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.context.support.StaticApplicationContextTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:08" hostname="Macbook-Air.local" time="0.272">
+<testsuite name="org.springframework.context.support.StaticApplicationContextTests" tests="37" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:18" hostname="lichangbaodeMacBook-Pro.local" time="0.075">
   <properties/>
-  <testcase name="count" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.063"/>
-  <testcase name="closeTriggersDestroy" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="grandparentNull" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="eventsWithNoSource" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.009"/>
-  <testcase name="parentNonNull" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.006"/>
-  <testcase name="grandparentDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.008"/>
-  <testcase name="messageSource" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.008"/>
-  <testcase name="events" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.007"/>
-  <testcase name="contextAwareSingletonWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="contextAwarePrototypeWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="overrideWorked" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="beanAutomaticallyHearsEvents" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="grandparentTypedDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.006"/>
-  <testcase name="containsBeanDefinition" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="getDefinitionsForNoSuchClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="getCountForFactoryClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.007"/>
-  <testcase name="factoryIsInitialized" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.018"/>
-  <testcase name="inheritance" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="factorySingleton" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="getSharedInstanceByMatchingClassNoCatch" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="getSharedInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.006"/>
-  <testcase name="getSharedInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.006"/>
-  <testcase name="prototypeInstancesAreIndependent" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="factoryPrototype" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="lifecycleCallbacks" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="grandparentDefinitionFoundInBeanFactory" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="validEmpty" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="findsValidInstance" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="getFactoryItself" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="getInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
-  <testcase name="getInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="getBeanWithNullArg" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="rejectsFactoryGetOnNormalBean" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="sharedInstancesAreEqual" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="notThere" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.005"/>
-  <testcase name="aliasing" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.004"/>
-  <testcase name="initializingBeanCallback" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="count" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.013"/>
+  <testcase name="closeTriggersDestroy" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="grandparentNull" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="eventsWithNoSource" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="parentNonNull" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="grandparentDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="messageSource" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="events" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="contextAwareSingletonWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="contextAwarePrototypeWasCalledBack" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="overrideWorked" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="beanAutomaticallyHearsEvents" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="grandparentTypedDefinitionFound" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="containsBeanDefinition" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="getDefinitionsForNoSuchClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getCountForFactoryClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="factoryIsInitialized" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="inheritance" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="factorySingleton" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getSharedInstanceByMatchingClassNoCatch" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getSharedInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="getSharedInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.003"/>
+  <testcase name="prototypeInstancesAreIndependent" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="factoryPrototype" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="lifecycleCallbacks" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="grandparentDefinitionFoundInBeanFactory" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="validEmpty" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="findsValidInstance" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="getFactoryItself" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getInstanceByMatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getInstanceByNonmatchingClass" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="getBeanWithNullArg" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="rejectsFactoryGetOnNormalBean" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="sharedInstancesAreEqual" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="notThere" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
+  <testcase name="aliasing" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.002"/>
+  <testcase name="initializingBeanCallback" classname="org.springframework.context.support.StaticApplicationContextTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

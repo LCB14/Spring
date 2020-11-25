@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:43:48" hostname="Macbook-Air.local" time="0.229">
+<testsuite name="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:40:24" hostname="lichangbaodeMacBook-Pro.local" time="0.086">
   <properties/>
-  <testcase name="testOpenEntityManagerInViewInterceptorAsyncScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.088"/>
+  <testcase name="testOpenEntityManagerInViewInterceptorAsyncScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.031"/>
   <testcase name="testOpenEntityManagerInViewInterceptor" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.001"/>
-  <testcase name="testOpenEntityManagerInViewFilter" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.085"/>
-  <testcase name="testOpenEntityManagerInViewInterceptorAsyncTimeoutScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.004"/>
-  <testcase name="testOpenEntityManagerInViewFilterAsyncScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.048"/>
-  <testcase name="testOpenEntityManagerInViewInterceptorAsyncErrorScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.002"/>
+  <testcase name="testOpenEntityManagerInViewFilter" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.033"/>
+  <testcase name="testOpenEntityManagerInViewInterceptorAsyncTimeoutScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.001"/>
+  <testcase name="testOpenEntityManagerInViewFilterAsyncScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.018"/>
+  <testcase name="testOpenEntityManagerInViewInterceptorAsyncErrorScenario" classname="org.springframework.orm.jpa.support.OpenEntityManagerInViewTests" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

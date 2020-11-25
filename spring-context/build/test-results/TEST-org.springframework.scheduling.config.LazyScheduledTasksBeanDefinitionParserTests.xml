@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-21T11:40:37" hostname="Macbook-Air.local" time="0.11">
+<testsuite name="org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-11-25T14:38:32" hostname="lichangbaodeMacBook-Pro.local" time="0.037">
   <properties/>
-  <testcase name="checkTarget" classname="org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests" time="0.11"/>
+  <testcase name="checkTarget" classname="org.springframework.scheduling.config.LazyScheduledTasksBeanDefinitionParserTests" time="0.037"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
